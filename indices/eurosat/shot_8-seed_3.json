@@ -1,0 +1,734 @@
+{
+    "train": {
+        "data": [
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/AnnualCrop/AnnualCrop_2418.jpg",
+                "label": 0,
+                "classname": "Annual Crop Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/AnnualCrop/AnnualCrop_655.jpg",
+                "label": 0,
+                "classname": "Annual Crop Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/AnnualCrop/AnnualCrop_1515.jpg",
+                "label": 0,
+                "classname": "Annual Crop Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/AnnualCrop/AnnualCrop_2103.jpg",
+                "label": 0,
+                "classname": "Annual Crop Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/AnnualCrop/AnnualCrop_616.jpg",
+                "label": 0,
+                "classname": "Annual Crop Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/AnnualCrop/AnnualCrop_91.jpg",
+                "label": 0,
+                "classname": "Annual Crop Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/AnnualCrop/AnnualCrop_2463.jpg",
+                "label": 0,
+                "classname": "Annual Crop Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/AnnualCrop/AnnualCrop_1175.jpg",
+                "label": 0,
+                "classname": "Annual Crop Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Forest/Forest_1345.jpg",
+                "label": 1,
+                "classname": "Forest"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Forest/Forest_2705.jpg",
+                "label": 1,
+                "classname": "Forest"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Forest/Forest_1553.jpg",
+                "label": 1,
+                "classname": "Forest"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Forest/Forest_1046.jpg",
+                "label": 1,
+                "classname": "Forest"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Forest/Forest_2588.jpg",
+                "label": 1,
+                "classname": "Forest"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Forest/Forest_1483.jpg",
+                "label": 1,
+                "classname": "Forest"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Forest/Forest_1722.jpg",
+                "label": 1,
+                "classname": "Forest"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Forest/Forest_148.jpg",
+                "label": 1,
+                "classname": "Forest"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/HerbaceousVegetation/HerbaceousVegetation_2914.jpg",
+                "label": 2,
+                "classname": "Herbaceous Vegetation Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/HerbaceousVegetation/HerbaceousVegetation_1769.jpg",
+                "label": 2,
+                "classname": "Herbaceous Vegetation Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/HerbaceousVegetation/HerbaceousVegetation_275.jpg",
+                "label": 2,
+                "classname": "Herbaceous Vegetation Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/HerbaceousVegetation/HerbaceousVegetation_500.jpg",
+                "label": 2,
+                "classname": "Herbaceous Vegetation Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/HerbaceousVegetation/HerbaceousVegetation_2713.jpg",
+                "label": 2,
+                "classname": "Herbaceous Vegetation Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/HerbaceousVegetation/HerbaceousVegetation_963.jpg",
+                "label": 2,
+                "classname": "Herbaceous Vegetation Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/HerbaceousVegetation/HerbaceousVegetation_1633.jpg",
+                "label": 2,
+                "classname": "Herbaceous Vegetation Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/HerbaceousVegetation/HerbaceousVegetation_2256.jpg",
+                "label": 2,
+                "classname": "Herbaceous Vegetation Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Highway/Highway_1489.jpg",
+                "label": 3,
+                "classname": "Highway or Road"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Highway/Highway_2327.jpg",
+                "label": 3,
+                "classname": "Highway or Road"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Highway/Highway_310.jpg",
+                "label": 3,
+                "classname": "Highway or Road"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Highway/Highway_1604.jpg",
+                "label": 3,
+                "classname": "Highway or Road"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Highway/Highway_1545.jpg",
+                "label": 3,
+                "classname": "Highway or Road"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Highway/Highway_1712.jpg",
+                "label": 3,
+                "classname": "Highway or Road"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Highway/Highway_1876.jpg",
+                "label": 3,
+                "classname": "Highway or Road"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Highway/Highway_1990.jpg",
+                "label": 3,
+                "classname": "Highway or Road"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Industrial/Industrial_529.jpg",
+                "label": 4,
+                "classname": "Industrial Buildings"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Industrial/Industrial_237.jpg",
+                "label": 4,
+                "classname": "Industrial Buildings"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Industrial/Industrial_2405.jpg",
+                "label": 4,
+                "classname": "Industrial Buildings"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Industrial/Industrial_1708.jpg",
+                "label": 4,
+                "classname": "Industrial Buildings"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Industrial/Industrial_1848.jpg",
+                "label": 4,
+                "classname": "Industrial Buildings"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Industrial/Industrial_385.jpg",
+                "label": 4,
+                "classname": "Industrial Buildings"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Industrial/Industrial_1069.jpg",
+                "label": 4,
+                "classname": "Industrial Buildings"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Industrial/Industrial_1330.jpg",
+                "label": 4,
+                "classname": "Industrial Buildings"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Pasture/Pasture_126.jpg",
+                "label": 5,
+                "classname": "Pasture Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Pasture/Pasture_1310.jpg",
+                "label": 5,
+                "classname": "Pasture Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Pasture/Pasture_679.jpg",
+                "label": 5,
+                "classname": "Pasture Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Pasture/Pasture_414.jpg",
+                "label": 5,
+                "classname": "Pasture Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Pasture/Pasture_371.jpg",
+                "label": 5,
+                "classname": "Pasture Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Pasture/Pasture_908.jpg",
+                "label": 5,
+                "classname": "Pasture Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Pasture/Pasture_979.jpg",
+                "label": 5,
+                "classname": "Pasture Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Pasture/Pasture_1834.jpg",
+                "label": 5,
+                "classname": "Pasture Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/PermanentCrop/PermanentCrop_1318.jpg",
+                "label": 6,
+                "classname": "Permanent Crop Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/PermanentCrop/PermanentCrop_1522.jpg",
+                "label": 6,
+                "classname": "Permanent Crop Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/PermanentCrop/PermanentCrop_68.jpg",
+                "label": 6,
+                "classname": "Permanent Crop Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/PermanentCrop/PermanentCrop_1242.jpg",
+                "label": 6,
+                "classname": "Permanent Crop Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/PermanentCrop/PermanentCrop_433.jpg",
+                "label": 6,
+                "classname": "Permanent Crop Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/PermanentCrop/PermanentCrop_1303.jpg",
+                "label": 6,
+                "classname": "Permanent Crop Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/PermanentCrop/PermanentCrop_65.jpg",
+                "label": 6,
+                "classname": "Permanent Crop Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/PermanentCrop/PermanentCrop_165.jpg",
+                "label": 6,
+                "classname": "Permanent Crop Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Residential/Residential_14.jpg",
+                "label": 7,
+                "classname": "Residential Buildings"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Residential/Residential_115.jpg",
+                "label": 7,
+                "classname": "Residential Buildings"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Residential/Residential_1278.jpg",
+                "label": 7,
+                "classname": "Residential Buildings"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Residential/Residential_1111.jpg",
+                "label": 7,
+                "classname": "Residential Buildings"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Residential/Residential_873.jpg",
+                "label": 7,
+                "classname": "Residential Buildings"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Residential/Residential_2354.jpg",
+                "label": 7,
+                "classname": "Residential Buildings"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Residential/Residential_171.jpg",
+                "label": 7,
+                "classname": "Residential Buildings"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Residential/Residential_200.jpg",
+                "label": 7,
+                "classname": "Residential Buildings"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/River/River_1504.jpg",
+                "label": 8,
+                "classname": "River"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/River/River_767.jpg",
+                "label": 8,
+                "classname": "River"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/River/River_537.jpg",
+                "label": 8,
+                "classname": "River"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/River/River_1323.jpg",
+                "label": 8,
+                "classname": "River"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/River/River_616.jpg",
+                "label": 8,
+                "classname": "River"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/River/River_1214.jpg",
+                "label": 8,
+                "classname": "River"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/River/River_659.jpg",
+                "label": 8,
+                "classname": "River"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/River/River_2381.jpg",
+                "label": 8,
+                "classname": "River"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/SeaLake/SeaLake_2012.jpg",
+                "label": 9,
+                "classname": "Sea or Lake"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/SeaLake/SeaLake_167.jpg",
+                "label": 9,
+                "classname": "Sea or Lake"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/SeaLake/SeaLake_778.jpg",
+                "label": 9,
+                "classname": "Sea or Lake"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/SeaLake/SeaLake_207.jpg",
+                "label": 9,
+                "classname": "Sea or Lake"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/SeaLake/SeaLake_2427.jpg",
+                "label": 9,
+                "classname": "Sea or Lake"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/SeaLake/SeaLake_827.jpg",
+                "label": 9,
+                "classname": "Sea or Lake"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/SeaLake/SeaLake_1575.jpg",
+                "label": 9,
+                "classname": "Sea or Lake"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/SeaLake/SeaLake_1672.jpg",
+                "label": 9,
+                "classname": "Sea or Lake"
+            }
+        ],
+        "indices": [
+            487,
+            1213,
+            1114,
+            267,
+            757,
+            1236,
+            970,
+            1281,
+            2689,
+            1634,
+            2740,
+            1526,
+            2460,
+            2031,
+            2628,
+            1979,
+            3392,
+            4468,
+            3963,
+            4107,
+            4125,
+            3975,
+            3813,
+            4308,
+            4808,
+            4974,
+            4810,
+            5571,
+            5298,
+            4531,
+            4631,
+            4826,
+            6960,
+            5837,
+            6366,
+            5813,
+            6301,
+            6718,
+            6968,
+            6543,
+            7731,
+            7807,
+            7943,
+            7437,
+            7404,
+            7745,
+            7820,
+            7590,
+            8910,
+            8274,
+            8748,
+            8199,
+            8073,
+            8278,
+            9013,
+            8444,
+            9778,
+            10626,
+            10143,
+            10533,
+            9866,
+            10112,
+            10288,
+            10040,
+            11925,
+            11468,
+            11843,
+            11948,
+            11584,
+            11946,
+            11225,
+            11439,
+            13396,
+            12058,
+            12572,
+            13240,
+            13374,
+            13424,
+            12334,
+            13430
+        ]
+    },
+    "val": {
+        "data": [
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/AnnualCrop/AnnualCrop_2359.jpg",
+                "label": 0,
+                "classname": "Annual Crop Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/AnnualCrop/AnnualCrop_554.jpg",
+                "label": 0,
+                "classname": "Annual Crop Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/AnnualCrop/AnnualCrop_188.jpg",
+                "label": 0,
+                "classname": "Annual Crop Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/AnnualCrop/AnnualCrop_106.jpg",
+                "label": 0,
+                "classname": "Annual Crop Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Forest/Forest_2592.jpg",
+                "label": 1,
+                "classname": "Forest"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Forest/Forest_988.jpg",
+                "label": 1,
+                "classname": "Forest"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Forest/Forest_1097.jpg",
+                "label": 1,
+                "classname": "Forest"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Forest/Forest_2074.jpg",
+                "label": 1,
+                "classname": "Forest"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/HerbaceousVegetation/HerbaceousVegetation_657.jpg",
+                "label": 2,
+                "classname": "Herbaceous Vegetation Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/HerbaceousVegetation/HerbaceousVegetation_2424.jpg",
+                "label": 2,
+                "classname": "Herbaceous Vegetation Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/HerbaceousVegetation/HerbaceousVegetation_2230.jpg",
+                "label": 2,
+                "classname": "Herbaceous Vegetation Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/HerbaceousVegetation/HerbaceousVegetation_542.jpg",
+                "label": 2,
+                "classname": "Herbaceous Vegetation Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Highway/Highway_1948.jpg",
+                "label": 3,
+                "classname": "Highway or Road"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Highway/Highway_886.jpg",
+                "label": 3,
+                "classname": "Highway or Road"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Highway/Highway_2276.jpg",
+                "label": 3,
+                "classname": "Highway or Road"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Highway/Highway_1253.jpg",
+                "label": 3,
+                "classname": "Highway or Road"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Industrial/Industrial_1941.jpg",
+                "label": 4,
+                "classname": "Industrial Buildings"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Industrial/Industrial_377.jpg",
+                "label": 4,
+                "classname": "Industrial Buildings"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Industrial/Industrial_606.jpg",
+                "label": 4,
+                "classname": "Industrial Buildings"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Industrial/Industrial_1785.jpg",
+                "label": 4,
+                "classname": "Industrial Buildings"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Pasture/Pasture_395.jpg",
+                "label": 5,
+                "classname": "Pasture Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Pasture/Pasture_1489.jpg",
+                "label": 5,
+                "classname": "Pasture Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Pasture/Pasture_816.jpg",
+                "label": 5,
+                "classname": "Pasture Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Pasture/Pasture_363.jpg",
+                "label": 5,
+                "classname": "Pasture Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/PermanentCrop/PermanentCrop_1906.jpg",
+                "label": 6,
+                "classname": "Permanent Crop Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/PermanentCrop/PermanentCrop_1247.jpg",
+                "label": 6,
+                "classname": "Permanent Crop Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/PermanentCrop/PermanentCrop_1597.jpg",
+                "label": 6,
+                "classname": "Permanent Crop Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/PermanentCrop/PermanentCrop_1841.jpg",
+                "label": 6,
+                "classname": "Permanent Crop Land"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Residential/Residential_84.jpg",
+                "label": 7,
+                "classname": "Residential Buildings"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Residential/Residential_1522.jpg",
+                "label": 7,
+                "classname": "Residential Buildings"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Residential/Residential_1865.jpg",
+                "label": 7,
+                "classname": "Residential Buildings"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Residential/Residential_2260.jpg",
+                "label": 7,
+                "classname": "Residential Buildings"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/River/River_1705.jpg",
+                "label": 8,
+                "classname": "River"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/River/River_1423.jpg",
+                "label": 8,
+                "classname": "River"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/River/River_46.jpg",
+                "label": 8,
+                "classname": "River"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/River/River_756.jpg",
+                "label": 8,
+                "classname": "River"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/SeaLake/SeaLake_1383.jpg",
+                "label": 9,
+                "classname": "Sea or Lake"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/SeaLake/SeaLake_1292.jpg",
+                "label": 9,
+                "classname": "Sea or Lake"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/SeaLake/SeaLake_895.jpg",
+                "label": 9,
+                "classname": "Sea or Lake"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/SeaLake/SeaLake_1368.jpg",
+                "label": 9,
+                "classname": "Sea or Lake"
+            }
+        ],
+        "indices": [
+            334,
+            554,
+            585,
+            582,
+            706,
+            816,
+            1187,
+            873,
+            1491,
+            1327,
+            1264,
+            1693,
+            2237,
+            2127,
+            2047,
+            1845,
+            2476,
+            2709,
+            2334,
+            2510,
+            2877,
+            2810,
+            2950,
+            3018,
+            3593,
+            3412,
+            3646,
+            3260,
+            3745,
+            3746,
+            4086,
+            4038,
+            4582,
+            4751,
+            4772,
+            4442,
+            5317,
+            5041,
+            4836,
+            5117
+        ]
+    }
+}

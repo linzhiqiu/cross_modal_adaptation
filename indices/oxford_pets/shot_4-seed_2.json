@@ -1,0 +1,1790 @@
+{
+    "train": {
+        "data": [
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Abyssinian_173.jpg",
+                "label": 0,
+                "classname": "abyssinian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Abyssinian_193.jpg",
+                "label": 0,
+                "classname": "abyssinian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Abyssinian_121.jpg",
+                "label": 0,
+                "classname": "abyssinian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Abyssinian_19.jpg",
+                "label": 0,
+                "classname": "abyssinian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/american_bulldog_104.jpg",
+                "label": 1,
+                "classname": "american_bulldog"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/american_bulldog_136.jpg",
+                "label": 1,
+                "classname": "american_bulldog"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/american_bulldog_194.jpg",
+                "label": 1,
+                "classname": "american_bulldog"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/american_bulldog_127.jpg",
+                "label": 1,
+                "classname": "american_bulldog"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/american_pit_bull_terrier_176.jpg",
+                "label": 2,
+                "classname": "american_pit_bull_terrier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/american_pit_bull_terrier_190.jpg",
+                "label": 2,
+                "classname": "american_pit_bull_terrier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/american_pit_bull_terrier_128.jpg",
+                "label": 2,
+                "classname": "american_pit_bull_terrier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/american_pit_bull_terrier_104.jpg",
+                "label": 2,
+                "classname": "american_pit_bull_terrier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/basset_hound_18.jpg",
+                "label": 3,
+                "classname": "basset_hound"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/basset_hound_144.jpg",
+                "label": 3,
+                "classname": "basset_hound"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/basset_hound_169.jpg",
+                "label": 3,
+                "classname": "basset_hound"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/basset_hound_170.jpg",
+                "label": 3,
+                "classname": "basset_hound"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/beagle_10.jpg",
+                "label": 4,
+                "classname": "beagle"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/beagle_170.jpg",
+                "label": 4,
+                "classname": "beagle"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/beagle_141.jpg",
+                "label": 4,
+                "classname": "beagle"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/beagle_194.jpg",
+                "label": 4,
+                "classname": "beagle"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Bengal_155.jpg",
+                "label": 5,
+                "classname": "bengal"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Bengal_108.jpg",
+                "label": 5,
+                "classname": "bengal"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Bengal_173.jpg",
+                "label": 5,
+                "classname": "bengal"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Bengal_15.jpg",
+                "label": 5,
+                "classname": "bengal"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Birman_163.jpg",
+                "label": 6,
+                "classname": "birman"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Birman_167.jpg",
+                "label": 6,
+                "classname": "birman"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Birman_149.jpg",
+                "label": 6,
+                "classname": "birman"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Birman_12.jpg",
+                "label": 6,
+                "classname": "birman"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Bombay_178.jpg",
+                "label": 7,
+                "classname": "bombay"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Bombay_166.jpg",
+                "label": 7,
+                "classname": "bombay"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Bombay_173.jpg",
+                "label": 7,
+                "classname": "bombay"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Bombay_139.jpg",
+                "label": 7,
+                "classname": "bombay"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/boxer_171.jpg",
+                "label": 8,
+                "classname": "boxer"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/boxer_166.jpg",
+                "label": 8,
+                "classname": "boxer"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/boxer_165.jpg",
+                "label": 8,
+                "classname": "boxer"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/boxer_110.jpg",
+                "label": 8,
+                "classname": "boxer"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/British_Shorthair_198.jpg",
+                "label": 9,
+                "classname": "british_shorthair"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/British_Shorthair_209.jpg",
+                "label": 9,
+                "classname": "british_shorthair"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/British_Shorthair_17.jpg",
+                "label": 9,
+                "classname": "british_shorthair"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/British_Shorthair_175.jpg",
+                "label": 9,
+                "classname": "british_shorthair"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/chihuahua_129.jpg",
+                "label": 10,
+                "classname": "chihuahua"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/chihuahua_119.jpg",
+                "label": 10,
+                "classname": "chihuahua"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/chihuahua_144.jpg",
+                "label": 10,
+                "classname": "chihuahua"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/chihuahua_116.jpg",
+                "label": 10,
+                "classname": "chihuahua"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Egyptian_Mau_176.jpg",
+                "label": 11,
+                "classname": "egyptian_mau"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Egyptian_Mau_125.jpg",
+                "label": 11,
+                "classname": "egyptian_mau"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Egyptian_Mau_152.jpg",
+                "label": 11,
+                "classname": "egyptian_mau"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Egyptian_Mau_134.jpg",
+                "label": 11,
+                "classname": "egyptian_mau"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/english_cocker_spaniel_119.jpg",
+                "label": 12,
+                "classname": "english_cocker_spaniel"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/english_cocker_spaniel_160.jpg",
+                "label": 12,
+                "classname": "english_cocker_spaniel"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/english_cocker_spaniel_181.jpg",
+                "label": 12,
+                "classname": "english_cocker_spaniel"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/english_cocker_spaniel_154.jpg",
+                "label": 12,
+                "classname": "english_cocker_spaniel"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/english_setter_135.jpg",
+                "label": 13,
+                "classname": "english_setter"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/english_setter_163.jpg",
+                "label": 13,
+                "classname": "english_setter"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/english_setter_123.jpg",
+                "label": 13,
+                "classname": "english_setter"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/english_setter_146.jpg",
+                "label": 13,
+                "classname": "english_setter"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/german_shorthaired_118.jpg",
+                "label": 14,
+                "classname": "german_shorthaired"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/german_shorthaired_14.jpg",
+                "label": 14,
+                "classname": "german_shorthaired"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/german_shorthaired_104.jpg",
+                "label": 14,
+                "classname": "german_shorthaired"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/german_shorthaired_136.jpg",
+                "label": 14,
+                "classname": "german_shorthaired"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/great_pyrenees_179.jpg",
+                "label": 15,
+                "classname": "great_pyrenees"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/great_pyrenees_142.jpg",
+                "label": 15,
+                "classname": "great_pyrenees"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/great_pyrenees_144.jpg",
+                "label": 15,
+                "classname": "great_pyrenees"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/great_pyrenees_136.jpg",
+                "label": 15,
+                "classname": "great_pyrenees"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/havanese_18.jpg",
+                "label": 16,
+                "classname": "havanese"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/havanese_127.jpg",
+                "label": 16,
+                "classname": "havanese"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/havanese_171.jpg",
+                "label": 16,
+                "classname": "havanese"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/havanese_150.jpg",
+                "label": 16,
+                "classname": "havanese"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/japanese_chin_188.jpg",
+                "label": 17,
+                "classname": "japanese_chin"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/japanese_chin_122.jpg",
+                "label": 17,
+                "classname": "japanese_chin"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/japanese_chin_131.jpg",
+                "label": 17,
+                "classname": "japanese_chin"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/japanese_chin_179.jpg",
+                "label": 17,
+                "classname": "japanese_chin"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/keeshond_14.jpg",
+                "label": 18,
+                "classname": "keeshond"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/keeshond_183.jpg",
+                "label": 18,
+                "classname": "keeshond"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/keeshond_106.jpg",
+                "label": 18,
+                "classname": "keeshond"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/keeshond_163.jpg",
+                "label": 18,
+                "classname": "keeshond"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/leonberger_152.jpg",
+                "label": 19,
+                "classname": "leonberger"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/leonberger_176.jpg",
+                "label": 19,
+                "classname": "leonberger"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/leonberger_18.jpg",
+                "label": 19,
+                "classname": "leonberger"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/leonberger_105.jpg",
+                "label": 19,
+                "classname": "leonberger"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Maine_Coon_214.jpg",
+                "label": 20,
+                "classname": "maine_coon"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Maine_Coon_139.jpg",
+                "label": 20,
+                "classname": "maine_coon"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Maine_Coon_146.jpg",
+                "label": 20,
+                "classname": "maine_coon"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Maine_Coon_121.jpg",
+                "label": 20,
+                "classname": "maine_coon"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/miniature_pinscher_102.jpg",
+                "label": 21,
+                "classname": "miniature_pinscher"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/miniature_pinscher_181.jpg",
+                "label": 21,
+                "classname": "miniature_pinscher"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/miniature_pinscher_126.jpg",
+                "label": 21,
+                "classname": "miniature_pinscher"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/miniature_pinscher_109.jpg",
+                "label": 21,
+                "classname": "miniature_pinscher"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/newfoundland_174.jpg",
+                "label": 22,
+                "classname": "newfoundland"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/newfoundland_128.jpg",
+                "label": 22,
+                "classname": "newfoundland"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/newfoundland_190.jpg",
+                "label": 22,
+                "classname": "newfoundland"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/newfoundland_141.jpg",
+                "label": 22,
+                "classname": "newfoundland"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Persian_197.jpg",
+                "label": 23,
+                "classname": "persian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Persian_132.jpg",
+                "label": 23,
+                "classname": "persian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Persian_174.jpg",
+                "label": 23,
+                "classname": "persian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Persian_187.jpg",
+                "label": 23,
+                "classname": "persian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/pomeranian_132.jpg",
+                "label": 24,
+                "classname": "pomeranian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/pomeranian_134.jpg",
+                "label": 24,
+                "classname": "pomeranian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/pomeranian_104.jpg",
+                "label": 24,
+                "classname": "pomeranian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/pomeranian_109.jpg",
+                "label": 24,
+                "classname": "pomeranian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/pug_158.jpg",
+                "label": 25,
+                "classname": "pug"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/pug_104.jpg",
+                "label": 25,
+                "classname": "pug"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/pug_16.jpg",
+                "label": 25,
+                "classname": "pug"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/pug_145.jpg",
+                "label": 25,
+                "classname": "pug"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Ragdoll_166.jpg",
+                "label": 26,
+                "classname": "ragdoll"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Ragdoll_129.jpg",
+                "label": 26,
+                "classname": "ragdoll"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Ragdoll_151.jpg",
+                "label": 26,
+                "classname": "ragdoll"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Ragdoll_201.jpg",
+                "label": 26,
+                "classname": "ragdoll"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Russian_Blue_115.jpg",
+                "label": 27,
+                "classname": "russian_blue"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Russian_Blue_14.jpg",
+                "label": 27,
+                "classname": "russian_blue"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Russian_Blue_1.jpg",
+                "label": 27,
+                "classname": "russian_blue"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Russian_Blue_149.jpg",
+                "label": 27,
+                "classname": "russian_blue"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/saint_bernard_114.jpg",
+                "label": 28,
+                "classname": "saint_bernard"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/saint_bernard_160.jpg",
+                "label": 28,
+                "classname": "saint_bernard"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/saint_bernard_147.jpg",
+                "label": 28,
+                "classname": "saint_bernard"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/saint_bernard_109.jpg",
+                "label": 28,
+                "classname": "saint_bernard"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/samoyed_175.jpg",
+                "label": 29,
+                "classname": "samoyed"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/samoyed_100.jpg",
+                "label": 29,
+                "classname": "samoyed"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/samoyed_106.jpg",
+                "label": 29,
+                "classname": "samoyed"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/samoyed_168.jpg",
+                "label": 29,
+                "classname": "samoyed"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/scottish_terrier_189.jpg",
+                "label": 30,
+                "classname": "scottish_terrier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/scottish_terrier_118.jpg",
+                "label": 30,
+                "classname": "scottish_terrier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/scottish_terrier_140.jpg",
+                "label": 30,
+                "classname": "scottish_terrier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/scottish_terrier_137.jpg",
+                "label": 30,
+                "classname": "scottish_terrier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/shiba_inu_142.jpg",
+                "label": 31,
+                "classname": "shiba_inu"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/shiba_inu_133.jpg",
+                "label": 31,
+                "classname": "shiba_inu"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/shiba_inu_162.jpg",
+                "label": 31,
+                "classname": "shiba_inu"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/shiba_inu_131.jpg",
+                "label": 31,
+                "classname": "shiba_inu"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Siamese_117.jpg",
+                "label": 32,
+                "classname": "siamese"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Siamese_188.jpg",
+                "label": 32,
+                "classname": "siamese"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Siamese_131.jpg",
+                "label": 32,
+                "classname": "siamese"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Siamese_196.jpg",
+                "label": 32,
+                "classname": "siamese"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Sphynx_194.jpg",
+                "label": 33,
+                "classname": "sphynx"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Sphynx_104.jpg",
+                "label": 33,
+                "classname": "sphynx"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Sphynx_178.jpg",
+                "label": 33,
+                "classname": "sphynx"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Sphynx_183.jpg",
+                "label": 33,
+                "classname": "sphynx"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/staffordshire_bull_terrier_197.jpg",
+                "label": 34,
+                "classname": "staffordshire_bull_terrier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/staffordshire_bull_terrier_160.jpg",
+                "label": 34,
+                "classname": "staffordshire_bull_terrier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/staffordshire_bull_terrier_145.jpg",
+                "label": 34,
+                "classname": "staffordshire_bull_terrier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/staffordshire_bull_terrier_100.jpg",
+                "label": 34,
+                "classname": "staffordshire_bull_terrier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/wheaten_terrier_155.jpg",
+                "label": 35,
+                "classname": "wheaten_terrier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/wheaten_terrier_184.jpg",
+                "label": 35,
+                "classname": "wheaten_terrier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/wheaten_terrier_100.jpg",
+                "label": 35,
+                "classname": "wheaten_terrier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/wheaten_terrier_171.jpg",
+                "label": 35,
+                "classname": "wheaten_terrier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/yorkshire_terrier_107.jpg",
+                "label": 36,
+                "classname": "yorkshire_terrier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/yorkshire_terrier_127.jpg",
+                "label": 36,
+                "classname": "yorkshire_terrier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/yorkshire_terrier_129.jpg",
+                "label": 36,
+                "classname": "yorkshire_terrier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/yorkshire_terrier_171.jpg",
+                "label": 36,
+                "classname": "yorkshire_terrier"
+            }
+        ],
+        "indices": [
+            7,
+            11,
+            10,
+            46,
+            101,
+            119,
+            112,
+            157,
+            187,
+            237,
+            164,
+            234,
+            260,
+            295,
+            290,
+            305,
+            367,
+            389,
+            376,
+            384,
+            434,
+            404,
+            403,
+            446,
+            539,
+            520,
+            528,
+            534,
+            627,
+            581,
+            631,
+            582,
+            667,
+            666,
+            640,
+            659,
+            758,
+            739,
+            734,
+            782,
+            862,
+            843,
+            868,
+            820,
+            934,
+            930,
+            944,
+            923,
+            1026,
+            996,
+            997,
+            1008,
+            1048,
+            1079,
+            1087,
+            1095,
+            1139,
+            1170,
+            1143,
+            1171,
+            1252,
+            1253,
+            1233,
+            1246,
+            1327,
+            1312,
+            1340,
+            1339,
+            1406,
+            1410,
+            1376,
+            1389,
+            1449,
+            1506,
+            1462,
+            1489,
+            1547,
+            1546,
+            1572,
+            1579,
+            1654,
+            1652,
+            1666,
+            1663,
+            1720,
+            1707,
+            1694,
+            1730,
+            1813,
+            1794,
+            1757,
+            1791,
+            1826,
+            1849,
+            1838,
+            1832,
+            1978,
+            1911,
+            1939,
+            1980,
+            2014,
+            1998,
+            2051,
+            2002,
+            2099,
+            2096,
+            2091,
+            2072,
+            2199,
+            2149,
+            2152,
+            2191,
+            2271,
+            2247,
+            2256,
+            2228,
+            2315,
+            2319,
+            2313,
+            2308,
+            2390,
+            2387,
+            2432,
+            2417,
+            2481,
+            2485,
+            2488,
+            2531,
+            2545,
+            2594,
+            2620,
+            2550,
+            2655,
+            2643,
+            2628,
+            2624,
+            2748,
+            2782,
+            2718,
+            2740,
+            2827,
+            2846,
+            2787,
+            2823,
+            2921,
+            2934,
+            2941,
+            2869
+        ]
+    },
+    "val": {
+        "data": [
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Abyssinian_10.jpg",
+                "label": 0,
+                "classname": "abyssinian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Abyssinian_180.jpg",
+                "label": 0,
+                "classname": "abyssinian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Abyssinian_104.jpg",
+                "label": 0,
+                "classname": "abyssinian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Abyssinian_18.jpg",
+                "label": 0,
+                "classname": "abyssinian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/american_bulldog_153.jpg",
+                "label": 1,
+                "classname": "american_bulldog"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/american_bulldog_117.jpg",
+                "label": 1,
+                "classname": "american_bulldog"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/american_bulldog_111.jpg",
+                "label": 1,
+                "classname": "american_bulldog"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/american_bulldog_130.jpg",
+                "label": 1,
+                "classname": "american_bulldog"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/american_pit_bull_terrier_116.jpg",
+                "label": 2,
+                "classname": "american_pit_bull_terrier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/american_pit_bull_terrier_181.jpg",
+                "label": 2,
+                "classname": "american_pit_bull_terrier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/american_pit_bull_terrier_124.jpg",
+                "label": 2,
+                "classname": "american_pit_bull_terrier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/american_pit_bull_terrier_139.jpg",
+                "label": 2,
+                "classname": "american_pit_bull_terrier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/basset_hound_15.jpg",
+                "label": 3,
+                "classname": "basset_hound"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/basset_hound_120.jpg",
+                "label": 3,
+                "classname": "basset_hound"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/basset_hound_183.jpg",
+                "label": 3,
+                "classname": "basset_hound"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/basset_hound_130.jpg",
+                "label": 3,
+                "classname": "basset_hound"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/beagle_180.jpg",
+                "label": 4,
+                "classname": "beagle"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/beagle_190.jpg",
+                "label": 4,
+                "classname": "beagle"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/beagle_114.jpg",
+                "label": 4,
+                "classname": "beagle"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/beagle_175.jpg",
+                "label": 4,
+                "classname": "beagle"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Bengal_165.jpg",
+                "label": 5,
+                "classname": "bengal"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Bengal_162.jpg",
+                "label": 5,
+                "classname": "bengal"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Bengal_11.jpg",
+                "label": 5,
+                "classname": "bengal"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Bengal_131.jpg",
+                "label": 5,
+                "classname": "bengal"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Birman_115.jpg",
+                "label": 6,
+                "classname": "birman"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Birman_190.jpg",
+                "label": 6,
+                "classname": "birman"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Birman_146.jpg",
+                "label": 6,
+                "classname": "birman"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Birman_181.jpg",
+                "label": 6,
+                "classname": "birman"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Bombay_138.jpg",
+                "label": 7,
+                "classname": "bombay"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Bombay_163.jpg",
+                "label": 7,
+                "classname": "bombay"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Bombay_198.jpg",
+                "label": 7,
+                "classname": "bombay"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Bombay_157.jpg",
+                "label": 7,
+                "classname": "bombay"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/boxer_118.jpg",
+                "label": 8,
+                "classname": "boxer"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/boxer_154.jpg",
+                "label": 8,
+                "classname": "boxer"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/boxer_159.jpg",
+                "label": 8,
+                "classname": "boxer"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/boxer_157.jpg",
+                "label": 8,
+                "classname": "boxer"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/British_Shorthair_210.jpg",
+                "label": 9,
+                "classname": "british_shorthair"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/British_Shorthair_129.jpg",
+                "label": 9,
+                "classname": "british_shorthair"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/British_Shorthair_122.jpg",
+                "label": 9,
+                "classname": "british_shorthair"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/British_Shorthair_108.jpg",
+                "label": 9,
+                "classname": "british_shorthair"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/chihuahua_163.jpg",
+                "label": 10,
+                "classname": "chihuahua"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/chihuahua_127.jpg",
+                "label": 10,
+                "classname": "chihuahua"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/chihuahua_125.jpg",
+                "label": 10,
+                "classname": "chihuahua"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/chihuahua_178.jpg",
+                "label": 10,
+                "classname": "chihuahua"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Egyptian_Mau_13.jpg",
+                "label": 11,
+                "classname": "egyptian_mau"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Egyptian_Mau_15.jpg",
+                "label": 11,
+                "classname": "egyptian_mau"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Egyptian_Mau_117.jpg",
+                "label": 11,
+                "classname": "egyptian_mau"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Egyptian_Mau_105.jpg",
+                "label": 11,
+                "classname": "egyptian_mau"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/english_cocker_spaniel_137.jpg",
+                "label": 12,
+                "classname": "english_cocker_spaniel"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/english_cocker_spaniel_126.jpg",
+                "label": 12,
+                "classname": "english_cocker_spaniel"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/english_cocker_spaniel_10.jpg",
+                "label": 12,
+                "classname": "english_cocker_spaniel"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/english_cocker_spaniel_168.jpg",
+                "label": 12,
+                "classname": "english_cocker_spaniel"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/english_setter_120.jpg",
+                "label": 13,
+                "classname": "english_setter"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/english_setter_122.jpg",
+                "label": 13,
+                "classname": "english_setter"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/english_setter_104.jpg",
+                "label": 13,
+                "classname": "english_setter"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/english_setter_182.jpg",
+                "label": 13,
+                "classname": "english_setter"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/german_shorthaired_165.jpg",
+                "label": 14,
+                "classname": "german_shorthaired"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/german_shorthaired_125.jpg",
+                "label": 14,
+                "classname": "german_shorthaired"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/german_shorthaired_115.jpg",
+                "label": 14,
+                "classname": "german_shorthaired"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/german_shorthaired_155.jpg",
+                "label": 14,
+                "classname": "german_shorthaired"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/great_pyrenees_113.jpg",
+                "label": 15,
+                "classname": "great_pyrenees"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/great_pyrenees_105.jpg",
+                "label": 15,
+                "classname": "great_pyrenees"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/great_pyrenees_126.jpg",
+                "label": 15,
+                "classname": "great_pyrenees"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/great_pyrenees_187.jpg",
+                "label": 15,
+                "classname": "great_pyrenees"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/havanese_176.jpg",
+                "label": 16,
+                "classname": "havanese"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/havanese_132.jpg",
+                "label": 16,
+                "classname": "havanese"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/havanese_188.jpg",
+                "label": 16,
+                "classname": "havanese"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/havanese_17.jpg",
+                "label": 16,
+                "classname": "havanese"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/japanese_chin_180.jpg",
+                "label": 17,
+                "classname": "japanese_chin"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/japanese_chin_17.jpg",
+                "label": 17,
+                "classname": "japanese_chin"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/japanese_chin_174.jpg",
+                "label": 17,
+                "classname": "japanese_chin"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/japanese_chin_157.jpg",
+                "label": 17,
+                "classname": "japanese_chin"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/keeshond_161.jpg",
+                "label": 18,
+                "classname": "keeshond"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/keeshond_175.jpg",
+                "label": 18,
+                "classname": "keeshond"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/keeshond_156.jpg",
+                "label": 18,
+                "classname": "keeshond"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/keeshond_131.jpg",
+                "label": 18,
+                "classname": "keeshond"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/leonberger_139.jpg",
+                "label": 19,
+                "classname": "leonberger"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/leonberger_163.jpg",
+                "label": 19,
+                "classname": "leonberger"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/leonberger_147.jpg",
+                "label": 19,
+                "classname": "leonberger"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/leonberger_144.jpg",
+                "label": 19,
+                "classname": "leonberger"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Maine_Coon_143.jpg",
+                "label": 20,
+                "classname": "maine_coon"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Maine_Coon_144.jpg",
+                "label": 20,
+                "classname": "maine_coon"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Maine_Coon_129.jpg",
+                "label": 20,
+                "classname": "maine_coon"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Maine_Coon_160.jpg",
+                "label": 20,
+                "classname": "maine_coon"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/miniature_pinscher_103.jpg",
+                "label": 21,
+                "classname": "miniature_pinscher"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/miniature_pinscher_178.jpg",
+                "label": 21,
+                "classname": "miniature_pinscher"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/miniature_pinscher_158.jpg",
+                "label": 21,
+                "classname": "miniature_pinscher"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/miniature_pinscher_101.jpg",
+                "label": 21,
+                "classname": "miniature_pinscher"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/newfoundland_173.jpg",
+                "label": 22,
+                "classname": "newfoundland"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/newfoundland_133.jpg",
+                "label": 22,
+                "classname": "newfoundland"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/newfoundland_140.jpg",
+                "label": 22,
+                "classname": "newfoundland"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/newfoundland_163.jpg",
+                "label": 22,
+                "classname": "newfoundland"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Persian_11.jpg",
+                "label": 23,
+                "classname": "persian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Persian_128.jpg",
+                "label": 23,
+                "classname": "persian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Persian_18.jpg",
+                "label": 23,
+                "classname": "persian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Persian_111.jpg",
+                "label": 23,
+                "classname": "persian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/pomeranian_169.jpg",
+                "label": 24,
+                "classname": "pomeranian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/pomeranian_117.jpg",
+                "label": 24,
+                "classname": "pomeranian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/pomeranian_122.jpg",
+                "label": 24,
+                "classname": "pomeranian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/pomeranian_168.jpg",
+                "label": 24,
+                "classname": "pomeranian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/pug_100.jpg",
+                "label": 25,
+                "classname": "pug"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/pug_177.jpg",
+                "label": 25,
+                "classname": "pug"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/pug_116.jpg",
+                "label": 25,
+                "classname": "pug"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/pug_132.jpg",
+                "label": 25,
+                "classname": "pug"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Ragdoll_118.jpg",
+                "label": 26,
+                "classname": "ragdoll"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Ragdoll_184.jpg",
+                "label": 26,
+                "classname": "ragdoll"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Ragdoll_115.jpg",
+                "label": 26,
+                "classname": "ragdoll"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Ragdoll_125.jpg",
+                "label": 26,
+                "classname": "ragdoll"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Russian_Blue_120.jpg",
+                "label": 27,
+                "classname": "russian_blue"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Russian_Blue_183.jpg",
+                "label": 27,
+                "classname": "russian_blue"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Russian_Blue_10.jpg",
+                "label": 27,
+                "classname": "russian_blue"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Russian_Blue_144.jpg",
+                "label": 27,
+                "classname": "russian_blue"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/saint_bernard_144.jpg",
+                "label": 28,
+                "classname": "saint_bernard"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/saint_bernard_117.jpg",
+                "label": 28,
+                "classname": "saint_bernard"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/saint_bernard_178.jpg",
+                "label": 28,
+                "classname": "saint_bernard"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/saint_bernard_136.jpg",
+                "label": 28,
+                "classname": "saint_bernard"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/samoyed_18.jpg",
+                "label": 29,
+                "classname": "samoyed"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/samoyed_16.jpg",
+                "label": 29,
+                "classname": "samoyed"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/samoyed_172.jpg",
+                "label": 29,
+                "classname": "samoyed"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/samoyed_165.jpg",
+                "label": 29,
+                "classname": "samoyed"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/scottish_terrier_127.jpg",
+                "label": 30,
+                "classname": "scottish_terrier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/scottish_terrier_162.jpg",
+                "label": 30,
+                "classname": "scottish_terrier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/scottish_terrier_157.jpg",
+                "label": 30,
+                "classname": "scottish_terrier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/scottish_terrier_183.jpg",
+                "label": 30,
+                "classname": "scottish_terrier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/shiba_inu_122.jpg",
+                "label": 31,
+                "classname": "shiba_inu"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/shiba_inu_11.jpg",
+                "label": 31,
+                "classname": "shiba_inu"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/shiba_inu_130.jpg",
+                "label": 31,
+                "classname": "shiba_inu"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/shiba_inu_124.jpg",
+                "label": 31,
+                "classname": "shiba_inu"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Siamese_154.jpg",
+                "label": 32,
+                "classname": "siamese"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Siamese_193.jpg",
+                "label": 32,
+                "classname": "siamese"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Siamese_174.jpg",
+                "label": 32,
+                "classname": "siamese"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Siamese_167.jpg",
+                "label": 32,
+                "classname": "siamese"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Sphynx_158.jpg",
+                "label": 33,
+                "classname": "sphynx"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Sphynx_151.jpg",
+                "label": 33,
+                "classname": "sphynx"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Sphynx_1.jpg",
+                "label": 33,
+                "classname": "sphynx"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/Sphynx_102.jpg",
+                "label": 33,
+                "classname": "sphynx"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/staffordshire_bull_terrier_169.jpg",
+                "label": 34,
+                "classname": "staffordshire_bull_terrier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/staffordshire_bull_terrier_144.jpg",
+                "label": 34,
+                "classname": "staffordshire_bull_terrier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/staffordshire_bull_terrier_195.jpg",
+                "label": 34,
+                "classname": "staffordshire_bull_terrier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/staffordshire_bull_terrier_167.jpg",
+                "label": 34,
+                "classname": "staffordshire_bull_terrier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/wheaten_terrier_120.jpg",
+                "label": 35,
+                "classname": "wheaten_terrier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/wheaten_terrier_157.jpg",
+                "label": 35,
+                "classname": "wheaten_terrier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/wheaten_terrier_159.jpg",
+                "label": 35,
+                "classname": "wheaten_terrier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/wheaten_terrier_128.jpg",
+                "label": 35,
+                "classname": "wheaten_terrier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/yorkshire_terrier_167.jpg",
+                "label": 36,
+                "classname": "yorkshire_terrier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/yorkshire_terrier_134.jpg",
+                "label": 36,
+                "classname": "yorkshire_terrier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/yorkshire_terrier_146.jpg",
+                "label": 36,
+                "classname": "yorkshire_terrier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_pets/images/yorkshire_terrier_135.jpg",
+                "label": 36,
+                "classname": "yorkshire_terrier"
+            }
+        ],
+        "indices": [
+            8,
+            12,
+            4,
+            15,
+            27,
+            22,
+            30,
+            23,
+            40,
+            54,
+            44,
+            56,
+            78,
+            72,
+            75,
+            76,
+            90,
+            84,
+            99,
+            88,
+            108,
+            113,
+            100,
+            104,
+            121,
+            128,
+            139,
+            124,
+            145,
+            158,
+            143,
+            154,
+            166,
+            175,
+            160,
+            178,
+            186,
+            193,
+            181,
+            187,
+            201,
+            217,
+            206,
+            210,
+            227,
+            232,
+            237,
+            219,
+            242,
+            239,
+            250,
+            251,
+            262,
+            260,
+            273,
+            259,
+            284,
+            280,
+            295,
+            277,
+            302,
+            304,
+            300,
+            303,
+            317,
+            333,
+            331,
+            334,
+            346,
+            354,
+            349,
+            343,
+            363,
+            370,
+            375,
+            373,
+            377,
+            395,
+            378,
+            390,
+            413,
+            415,
+            402,
+            400,
+            432,
+            428,
+            417,
+            433,
+            440,
+            448,
+            446,
+            454,
+            465,
+            456,
+            469,
+            459,
+            479,
+            485,
+            482,
+            476,
+            510,
+            497,
+            509,
+            511,
+            530,
+            522,
+            518,
+            516,
+            545,
+            536,
+            547,
+            555,
+            558,
+            563,
+            571,
+            562,
+            579,
+            594,
+            587,
+            588,
+            610,
+            600,
+            607,
+            608,
+            619,
+            624,
+            635,
+            633,
+            638,
+            646,
+            648,
+            642,
+            659,
+            656,
+            671,
+            657,
+            691,
+            685,
+            687,
+            690,
+            700,
+            707,
+            704,
+            711,
+            732,
+            731,
+            729,
+            734
+        ]
+    }
+}

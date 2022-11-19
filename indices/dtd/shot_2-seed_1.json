@@ -1,0 +1,1142 @@
+{
+    "train": {
+        "data": [
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/banded/banded_0117.jpg",
+                "label": 0,
+                "classname": "banded"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/banded/banded_0142.jpg",
+                "label": 0,
+                "classname": "banded"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/blotchy/blotchy_0110.jpg",
+                "label": 1,
+                "classname": "blotchy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/blotchy/blotchy_0097.jpg",
+                "label": 1,
+                "classname": "blotchy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/braided/braided_0115.jpg",
+                "label": 2,
+                "classname": "braided"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/braided/braided_0137.jpg",
+                "label": 2,
+                "classname": "braided"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/bubbly/bubbly_0165.jpg",
+                "label": 3,
+                "classname": "bubbly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/bubbly/bubbly_0125.jpg",
+                "label": 3,
+                "classname": "bubbly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/bumpy/bumpy_0190.jpg",
+                "label": 4,
+                "classname": "bumpy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/bumpy/bumpy_0142.jpg",
+                "label": 4,
+                "classname": "bumpy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/chequered/chequered_0050.jpg",
+                "label": 5,
+                "classname": "chequered"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/chequered/chequered_0172.jpg",
+                "label": 5,
+                "classname": "chequered"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/cobwebbed/cobwebbed_0105.jpg",
+                "label": 6,
+                "classname": "cobwebbed"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/cobwebbed/cobwebbed_0112.jpg",
+                "label": 6,
+                "classname": "cobwebbed"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/cracked/cracked_0150.jpg",
+                "label": 7,
+                "classname": "cracked"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/cracked/cracked_0109.jpg",
+                "label": 7,
+                "classname": "cracked"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/crosshatched/crosshatched_0131.jpg",
+                "label": 8,
+                "classname": "crosshatched"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/crosshatched/crosshatched_0083.jpg",
+                "label": 8,
+                "classname": "crosshatched"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/crystalline/crystalline_0134.jpg",
+                "label": 9,
+                "classname": "crystalline"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/crystalline/crystalline_0150.jpg",
+                "label": 9,
+                "classname": "crystalline"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/dotted/dotted_0119.jpg",
+                "label": 10,
+                "classname": "dotted"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/dotted/dotted_0001.jpg",
+                "label": 10,
+                "classname": "dotted"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/fibrous/fibrous_0163.jpg",
+                "label": 11,
+                "classname": "fibrous"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/fibrous/fibrous_0197.jpg",
+                "label": 11,
+                "classname": "fibrous"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/flecked/flecked_0098.jpg",
+                "label": 12,
+                "classname": "flecked"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/flecked/flecked_0110.jpg",
+                "label": 12,
+                "classname": "flecked"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/freckled/freckled_0119.jpg",
+                "label": 13,
+                "classname": "freckled"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/freckled/freckled_0096.jpg",
+                "label": 13,
+                "classname": "freckled"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/frilly/frilly_0006.jpg",
+                "label": 14,
+                "classname": "frilly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/frilly/frilly_0035.jpg",
+                "label": 14,
+                "classname": "frilly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/gauzy/gauzy_0166.jpg",
+                "label": 15,
+                "classname": "gauzy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/gauzy/gauzy_0082.jpg",
+                "label": 15,
+                "classname": "gauzy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/grid/grid_0007.jpg",
+                "label": 16,
+                "classname": "grid"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/grid/grid_0023.jpg",
+                "label": 16,
+                "classname": "grid"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/grooved/grooved_0048.jpg",
+                "label": 17,
+                "classname": "grooved"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/grooved/grooved_0055.jpg",
+                "label": 17,
+                "classname": "grooved"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/honeycombed/honeycombed_0160.jpg",
+                "label": 18,
+                "classname": "honeycombed"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/honeycombed/honeycombed_0115.jpg",
+                "label": 18,
+                "classname": "honeycombed"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/interlaced/interlaced_0130.jpg",
+                "label": 19,
+                "classname": "interlaced"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/interlaced/interlaced_0188.jpg",
+                "label": 19,
+                "classname": "interlaced"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/knitted/knitted_0156.jpg",
+                "label": 20,
+                "classname": "knitted"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/knitted/knitted_0180.jpg",
+                "label": 20,
+                "classname": "knitted"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/lacelike/lacelike_0002.jpg",
+                "label": 21,
+                "classname": "lacelike"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/lacelike/lacelike_0028.jpg",
+                "label": 21,
+                "classname": "lacelike"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/lined/lined_0024.jpg",
+                "label": 22,
+                "classname": "lined"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/lined/lined_0135.jpg",
+                "label": 22,
+                "classname": "lined"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/marbled/marbled_0186.jpg",
+                "label": 23,
+                "classname": "marbled"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/marbled/marbled_0125.jpg",
+                "label": 23,
+                "classname": "marbled"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/matted/matted_0085.jpg",
+                "label": 24,
+                "classname": "matted"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/matted/matted_0144.jpg",
+                "label": 24,
+                "classname": "matted"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/meshed/meshed_0107.jpg",
+                "label": 25,
+                "classname": "meshed"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/meshed/meshed_0115.jpg",
+                "label": 25,
+                "classname": "meshed"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/paisley/paisley_0033.jpg",
+                "label": 26,
+                "classname": "paisley"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/paisley/paisley_0074.jpg",
+                "label": 26,
+                "classname": "paisley"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/perforated/perforated_0082.jpg",
+                "label": 27,
+                "classname": "perforated"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/perforated/perforated_0106.jpg",
+                "label": 27,
+                "classname": "perforated"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/pitted/pitted_0065.jpg",
+                "label": 28,
+                "classname": "pitted"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/pitted/pitted_0040.jpg",
+                "label": 28,
+                "classname": "pitted"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/pleated/pleated_0118.jpg",
+                "label": 29,
+                "classname": "pleated"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/pleated/pleated_0104.jpg",
+                "label": 29,
+                "classname": "pleated"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/polka-dotted/polka-dotted_0125.jpg",
+                "label": 30,
+                "classname": "polka-dotted"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/polka-dotted/polka-dotted_0140.jpg",
+                "label": 30,
+                "classname": "polka-dotted"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/porous/porous_0089.jpg",
+                "label": 31,
+                "classname": "porous"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/porous/porous_0126.jpg",
+                "label": 31,
+                "classname": "porous"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/potholed/potholed_0149.jpg",
+                "label": 32,
+                "classname": "potholed"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/potholed/potholed_0145.jpg",
+                "label": 32,
+                "classname": "potholed"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/scaly/scaly_0211.jpg",
+                "label": 33,
+                "classname": "scaly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/scaly/scaly_0111.jpg",
+                "label": 33,
+                "classname": "scaly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/smeared/smeared_0053.jpg",
+                "label": 34,
+                "classname": "smeared"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/smeared/smeared_0134.jpg",
+                "label": 34,
+                "classname": "smeared"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/spiralled/spiralled_0070.jpg",
+                "label": 35,
+                "classname": "spiralled"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/spiralled/spiralled_0039.jpg",
+                "label": 35,
+                "classname": "spiralled"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/sprinkled/sprinkled_0084.jpg",
+                "label": 36,
+                "classname": "sprinkled"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/sprinkled/sprinkled_0065.jpg",
+                "label": 36,
+                "classname": "sprinkled"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/stained/stained_0036.jpg",
+                "label": 37,
+                "classname": "stained"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/stained/stained_0085.jpg",
+                "label": 37,
+                "classname": "stained"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/stratified/stratified_0074.jpg",
+                "label": 38,
+                "classname": "stratified"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/stratified/stratified_0091.jpg",
+                "label": 38,
+                "classname": "stratified"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/striped/striped_0079.jpg",
+                "label": 39,
+                "classname": "striped"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/striped/striped_0086.jpg",
+                "label": 39,
+                "classname": "striped"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/studded/studded_0211.jpg",
+                "label": 40,
+                "classname": "studded"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/studded/studded_0001.jpg",
+                "label": 40,
+                "classname": "studded"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/swirly/swirly_0168.jpg",
+                "label": 41,
+                "classname": "swirly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/swirly/swirly_0130.jpg",
+                "label": 41,
+                "classname": "swirly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/veined/veined_0182.jpg",
+                "label": 42,
+                "classname": "veined"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/veined/veined_0095.jpg",
+                "label": 42,
+                "classname": "veined"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/waffled/waffled_0167.jpg",
+                "label": 43,
+                "classname": "waffled"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/waffled/waffled_0177.jpg",
+                "label": 43,
+                "classname": "waffled"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/woven/woven_0031.jpg",
+                "label": 44,
+                "classname": "woven"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/woven/woven_0065.jpg",
+                "label": 44,
+                "classname": "woven"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/wrinkled/wrinkled_0079.jpg",
+                "label": 45,
+                "classname": "wrinkled"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/wrinkled/wrinkled_0012.jpg",
+                "label": 45,
+                "classname": "wrinkled"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/zigzagged/zigzagged_0093.jpg",
+                "label": 46,
+                "classname": "zigzagged"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/zigzagged/zigzagged_0113.jpg",
+                "label": 46,
+                "classname": "zigzagged"
+            }
+        ],
+        "indices": [
+            8,
+            36,
+            114,
+            111,
+            168,
+            124,
+            196,
+            187,
+            271,
+            288,
+            328,
+            330,
+            401,
+            384,
+            470,
+            433,
+            486,
+            511,
+            541,
+            597,
+            653,
+            624,
+            687,
+            698,
+            768,
+            769,
+            780,
+            824,
+            868,
+            857,
+            946,
+            951,
+            974,
+            997,
+            1026,
+            1077,
+            1100,
+            1081,
+            1141,
+            1181,
+            1234,
+            1200,
+            1316,
+            1284,
+            1363,
+            1333,
+            1407,
+            1426,
+            1441,
+            1473,
+            1514,
+            1548,
+            1588,
+            1591,
+            1655,
+            1634,
+            1702,
+            1694,
+            1783,
+            1754,
+            1848,
+            1829,
+            1878,
+            1919,
+            1921,
+            1946,
+            2033,
+            2038,
+            2075,
+            2099,
+            2141,
+            2106,
+            2171,
+            2200,
+            2266,
+            2275,
+            2298,
+            2287,
+            2387,
+            2361,
+            2457,
+            2446,
+            2505,
+            2492,
+            2579,
+            2547,
+            2612,
+            2633,
+            2698,
+            2682,
+            2712,
+            2719,
+            2778,
+            2797
+        ]
+    },
+    "val": {
+        "data": [
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/banded/banded_0008.jpg",
+                "label": 0,
+                "classname": "banded"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/banded/banded_0053.jpg",
+                "label": 0,
+                "classname": "banded"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/blotchy/blotchy_0118.jpg",
+                "label": 1,
+                "classname": "blotchy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/blotchy/blotchy_0049.jpg",
+                "label": 1,
+                "classname": "blotchy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/braided/braided_0186.jpg",
+                "label": 2,
+                "classname": "braided"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/braided/braided_0099.jpg",
+                "label": 2,
+                "classname": "braided"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/bubbly/bubbly_0137.jpg",
+                "label": 3,
+                "classname": "bubbly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/bubbly/bubbly_0156.jpg",
+                "label": 3,
+                "classname": "bubbly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/bumpy/bumpy_0203.jpg",
+                "label": 4,
+                "classname": "bumpy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/bumpy/bumpy_0094.jpg",
+                "label": 4,
+                "classname": "bumpy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/chequered/chequered_0200.jpg",
+                "label": 5,
+                "classname": "chequered"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/chequered/chequered_0201.jpg",
+                "label": 5,
+                "classname": "chequered"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/cobwebbed/cobwebbed_0155.jpg",
+                "label": 6,
+                "classname": "cobwebbed"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/cobwebbed/cobwebbed_0066.jpg",
+                "label": 6,
+                "classname": "cobwebbed"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/cracked/cracked_0080.jpg",
+                "label": 7,
+                "classname": "cracked"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/cracked/cracked_0094.jpg",
+                "label": 7,
+                "classname": "cracked"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/crosshatched/crosshatched_0166.jpg",
+                "label": 8,
+                "classname": "crosshatched"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/crosshatched/crosshatched_0165.jpg",
+                "label": 8,
+                "classname": "crosshatched"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/crystalline/crystalline_0182.jpg",
+                "label": 9,
+                "classname": "crystalline"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/crystalline/crystalline_0123.jpg",
+                "label": 9,
+                "classname": "crystalline"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/dotted/dotted_0194.jpg",
+                "label": 10,
+                "classname": "dotted"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/dotted/dotted_0163.jpg",
+                "label": 10,
+                "classname": "dotted"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/fibrous/fibrous_0158.jpg",
+                "label": 11,
+                "classname": "fibrous"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/fibrous/fibrous_0105.jpg",
+                "label": 11,
+                "classname": "fibrous"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/flecked/flecked_0107.jpg",
+                "label": 12,
+                "classname": "flecked"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/flecked/flecked_0165.jpg",
+                "label": 12,
+                "classname": "flecked"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/freckled/freckled_0105.jpg",
+                "label": 13,
+                "classname": "freckled"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/freckled/freckled_0052.jpg",
+                "label": 13,
+                "classname": "freckled"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/frilly/frilly_0120.jpg",
+                "label": 14,
+                "classname": "frilly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/frilly/frilly_0009.jpg",
+                "label": 14,
+                "classname": "frilly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/gauzy/gauzy_0090.jpg",
+                "label": 15,
+                "classname": "gauzy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/gauzy/gauzy_0161.jpg",
+                "label": 15,
+                "classname": "gauzy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/grid/grid_0016.jpg",
+                "label": 16,
+                "classname": "grid"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/grid/grid_0092.jpg",
+                "label": 16,
+                "classname": "grid"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/grooved/grooved_0074.jpg",
+                "label": 17,
+                "classname": "grooved"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/grooved/grooved_0149.jpg",
+                "label": 17,
+                "classname": "grooved"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/honeycombed/honeycombed_0164.jpg",
+                "label": 18,
+                "classname": "honeycombed"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/honeycombed/honeycombed_0127.jpg",
+                "label": 18,
+                "classname": "honeycombed"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/interlaced/interlaced_0153.jpg",
+                "label": 19,
+                "classname": "interlaced"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/interlaced/interlaced_0171.jpg",
+                "label": 19,
+                "classname": "interlaced"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/knitted/knitted_0089.jpg",
+                "label": 20,
+                "classname": "knitted"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/knitted/knitted_0103.jpg",
+                "label": 20,
+                "classname": "knitted"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/lacelike/lacelike_0037.jpg",
+                "label": 21,
+                "classname": "lacelike"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/lacelike/lacelike_0097.jpg",
+                "label": 21,
+                "classname": "lacelike"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/lined/lined_0077.jpg",
+                "label": 22,
+                "classname": "lined"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/lined/lined_0130.jpg",
+                "label": 22,
+                "classname": "lined"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/marbled/marbled_0102.jpg",
+                "label": 23,
+                "classname": "marbled"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/marbled/marbled_0075.jpg",
+                "label": 23,
+                "classname": "marbled"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/matted/matted_0145.jpg",
+                "label": 24,
+                "classname": "matted"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/matted/matted_0054.jpg",
+                "label": 24,
+                "classname": "matted"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/meshed/meshed_0130.jpg",
+                "label": 25,
+                "classname": "meshed"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/meshed/meshed_0110.jpg",
+                "label": 25,
+                "classname": "meshed"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/paisley/paisley_0098.jpg",
+                "label": 26,
+                "classname": "paisley"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/paisley/paisley_0120.jpg",
+                "label": 26,
+                "classname": "paisley"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/perforated/perforated_0149.jpg",
+                "label": 27,
+                "classname": "perforated"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/perforated/perforated_0131.jpg",
+                "label": 27,
+                "classname": "perforated"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/pitted/pitted_0136.jpg",
+                "label": 28,
+                "classname": "pitted"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/pitted/pitted_0125.jpg",
+                "label": 28,
+                "classname": "pitted"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/pleated/pleated_0099.jpg",
+                "label": 29,
+                "classname": "pleated"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/pleated/pleated_0111.jpg",
+                "label": 29,
+                "classname": "pleated"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/polka-dotted/polka-dotted_0137.jpg",
+                "label": 30,
+                "classname": "polka-dotted"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/polka-dotted/polka-dotted_0215.jpg",
+                "label": 30,
+                "classname": "polka-dotted"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/porous/porous_0157.jpg",
+                "label": 31,
+                "classname": "porous"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/porous/porous_0131.jpg",
+                "label": 31,
+                "classname": "porous"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/potholed/potholed_0057.jpg",
+                "label": 32,
+                "classname": "potholed"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/potholed/potholed_0125.jpg",
+                "label": 32,
+                "classname": "potholed"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/scaly/scaly_0224.jpg",
+                "label": 33,
+                "classname": "scaly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/scaly/scaly_0215.jpg",
+                "label": 33,
+                "classname": "scaly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/smeared/smeared_0147.jpg",
+                "label": 34,
+                "classname": "smeared"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/smeared/smeared_0123.jpg",
+                "label": 34,
+                "classname": "smeared"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/spiralled/spiralled_0027.jpg",
+                "label": 35,
+                "classname": "spiralled"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/spiralled/spiralled_0013.jpg",
+                "label": 35,
+                "classname": "spiralled"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/sprinkled/sprinkled_0108.jpg",
+                "label": 36,
+                "classname": "sprinkled"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/sprinkled/sprinkled_0033.jpg",
+                "label": 36,
+                "classname": "sprinkled"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/stained/stained_0044.jpg",
+                "label": 37,
+                "classname": "stained"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/stained/stained_0015.jpg",
+                "label": 37,
+                "classname": "stained"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/stratified/stratified_0164.jpg",
+                "label": 38,
+                "classname": "stratified"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/stratified/stratified_0171.jpg",
+                "label": 38,
+                "classname": "stratified"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/striped/striped_0004.jpg",
+                "label": 39,
+                "classname": "striped"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/striped/striped_0084.jpg",
+                "label": 39,
+                "classname": "striped"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/studded/studded_0135.jpg",
+                "label": 40,
+                "classname": "studded"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/studded/studded_0162.jpg",
+                "label": 40,
+                "classname": "studded"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/swirly/swirly_0132.jpg",
+                "label": 41,
+                "classname": "swirly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/swirly/swirly_0075.jpg",
+                "label": 41,
+                "classname": "swirly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/veined/veined_0152.jpg",
+                "label": 42,
+                "classname": "veined"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/veined/veined_0148.jpg",
+                "label": 42,
+                "classname": "veined"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/waffled/waffled_0151.jpg",
+                "label": 43,
+                "classname": "waffled"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/waffled/waffled_0188.jpg",
+                "label": 43,
+                "classname": "waffled"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/woven/woven_0078.jpg",
+                "label": 44,
+                "classname": "woven"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/woven/woven_0002.jpg",
+                "label": 44,
+                "classname": "woven"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/wrinkled/wrinkled_0031.jpg",
+                "label": 45,
+                "classname": "wrinkled"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/wrinkled/wrinkled_0142.jpg",
+                "label": 45,
+                "classname": "wrinkled"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/zigzagged/zigzagged_0031.jpg",
+                "label": 46,
+                "classname": "zigzagged"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/dtd/images/zigzagged/zigzagged_0032.jpg",
+                "label": 46,
+                "classname": "zigzagged"
+            }
+        ],
+        "indices": [
+            15,
+            16,
+            36,
+            42,
+            49,
+            63,
+            79,
+            95,
+            108,
+            109,
+            141,
+            125,
+            155,
+            161,
+            190,
+            189,
+            215,
+            203,
+            218,
+            230,
+            261,
+            256,
+            267,
+            269,
+            304,
+            300,
+            323,
+            327,
+            359,
+            336,
+            375,
+            361,
+            393,
+            406,
+            427,
+            426,
+            450,
+            444,
+            476,
+            461,
+            485,
+            496,
+            511,
+            504,
+            534,
+            545,
+            569,
+            559,
+            588,
+            592,
+            611,
+            618,
+            635,
+            638,
+            656,
+            669,
+            689,
+            691,
+            719,
+            696,
+            732,
+            743,
+            760,
+            748,
+            784,
+            785,
+            798,
+            805,
+            817,
+            831,
+            851,
+            858,
+            881,
+            870,
+            904,
+            901,
+            927,
+            923,
+            949,
+            947,
+            960,
+            977,
+            1001,
+            1003,
+            1027,
+            1018,
+            1046,
+            1051,
+            1056,
+            1063,
+            1100,
+            1085,
+            1121,
+            1122
+        ]
+    }
+}

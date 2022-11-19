@@ -1,3 +1,18 @@
+# Pre-defined checkpoint dir
+## Dataset folder
+/data
+/data/
+
+## Output folders
+/features/
+/experiments/
+/results/
+/average_results/
+/audio_results/
+
+# Imagenet Split is too large
+splits/split_ImageNet.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

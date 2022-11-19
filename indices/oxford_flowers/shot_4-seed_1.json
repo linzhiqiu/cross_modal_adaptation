@@ -1,0 +1,4910 @@
+{
+    "train": {
+        "data": [
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00144.jpg",
+                "label": 76,
+                "classname": "passion flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00068.jpg",
+                "label": 76,
+                "classname": "passion flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00070.jpg",
+                "label": 76,
+                "classname": "passion flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00077.jpg",
+                "label": 76,
+                "classname": "passion flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00269.jpg",
+                "label": 72,
+                "classname": "water lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00275.jpg",
+                "label": 72,
+                "classname": "water lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00283.jpg",
+                "label": 72,
+                "classname": "water lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00255.jpg",
+                "label": 72,
+                "classname": "water lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00474.jpg",
+                "label": 87,
+                "classname": "cyclamen"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00540.jpg",
+                "label": 87,
+                "classname": "cyclamen"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00476.jpg",
+                "label": 87,
+                "classname": "cyclamen"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00542.jpg",
+                "label": 87,
+                "classname": "cyclamen"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00627.jpg",
+                "label": 88,
+                "classname": "watercress"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00631.jpg",
+                "label": 88,
+                "classname": "watercress"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00716.jpg",
+                "label": 88,
+                "classname": "watercress"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00602.jpg",
+                "label": 88,
+                "classname": "watercress"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00938.jpg",
+                "label": 80,
+                "classname": "frangipani"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00816.jpg",
+                "label": 80,
+                "classname": "frangipani"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00873.jpg",
+                "label": 80,
+                "classname": "frangipani"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00826.jpg",
+                "label": 80,
+                "classname": "frangipani"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01123.jpg",
+                "label": 45,
+                "classname": "wallflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01099.jpg",
+                "label": 45,
+                "classname": "wallflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01130.jpg",
+                "label": 45,
+                "classname": "wallflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01025.jpg",
+                "label": 45,
+                "classname": "wallflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01167.jpg",
+                "label": 73,
+                "classname": "rose"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01232.jpg",
+                "label": 73,
+                "classname": "rose"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01287.jpg",
+                "label": 73,
+                "classname": "rose"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01210.jpg",
+                "label": 73,
+                "classname": "rose"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01399.jpg",
+                "label": 50,
+                "classname": "petunia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03968.jpg",
+                "label": 50,
+                "classname": "petunia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01330.jpg",
+                "label": 50,
+                "classname": "petunia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01380.jpg",
+                "label": 50,
+                "classname": "petunia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01560.jpg",
+                "label": 43,
+                "classname": "poinsettia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01507.jpg",
+                "label": 43,
+                "classname": "poinsettia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01538.jpg",
+                "label": 43,
+                "classname": "poinsettia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01516.jpg",
+                "label": 43,
+                "classname": "poinsettia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01689.jpg",
+                "label": 81,
+                "classname": "clematis"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01624.jpg",
+                "label": 81,
+                "classname": "clematis"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01592.jpg",
+                "label": 81,
+                "classname": "clematis"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01636.jpg",
+                "label": 81,
+                "classname": "clematis"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01708.jpg",
+                "label": 82,
+                "classname": "hibiscus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01793.jpg",
+                "label": 82,
+                "classname": "hibiscus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01717.jpg",
+                "label": 82,
+                "classname": "hibiscus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01786.jpg",
+                "label": 82,
+                "classname": "hibiscus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01904.jpg",
+                "label": 77,
+                "classname": "lotus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01916.jpg",
+                "label": 77,
+                "classname": "lotus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01961.jpg",
+                "label": 77,
+                "classname": "lotus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01944.jpg",
+                "label": 77,
+                "classname": "lotus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01977.jpg",
+                "label": 79,
+                "classname": "anthurium"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01995.jpg",
+                "label": 79,
+                "classname": "anthurium"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02038.jpg",
+                "label": 79,
+                "classname": "anthurium"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02061.jpg",
+                "label": 79,
+                "classname": "anthurium"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02079.jpg",
+                "label": 74,
+                "classname": "thorn apple"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02106.jpg",
+                "label": 74,
+                "classname": "thorn apple"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02172.jpg",
+                "label": 74,
+                "classname": "thorn apple"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02117.jpg",
+                "label": 74,
+                "classname": "thorn apple"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02293.jpg",
+                "label": 40,
+                "classname": "barbeton daisy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02223.jpg",
+                "label": 40,
+                "classname": "barbeton daisy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02221.jpg",
+                "label": 40,
+                "classname": "barbeton daisy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02295.jpg",
+                "label": 40,
+                "classname": "barbeton daisy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02443.jpg",
+                "label": 42,
+                "classname": "sword lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02430.jpg",
+                "label": 42,
+                "classname": "sword lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02344.jpg",
+                "label": 42,
+                "classname": "sword lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02355.jpg",
+                "label": 42,
+                "classname": "sword lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02550.jpg",
+                "label": 75,
+                "classname": "morning glory"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02504.jpg",
+                "label": 75,
+                "classname": "morning glory"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02525.jpg",
+                "label": 75,
+                "classname": "morning glory"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02454.jpg",
+                "label": 75,
+                "classname": "morning glory"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02597.jpg",
+                "label": 83,
+                "classname": "columbine"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02583.jpg",
+                "label": 83,
+                "classname": "columbine"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02595.jpg",
+                "label": 83,
+                "classname": "columbine"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02570.jpg",
+                "label": 83,
+                "classname": "columbine"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02733.jpg",
+                "label": 57,
+                "classname": "geranium"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02720.jpg",
+                "label": 57,
+                "classname": "geranium"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02692.jpg",
+                "label": 57,
+                "classname": "geranium"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02667.jpg",
+                "label": 57,
+                "classname": "geranium"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02823.jpg",
+                "label": 55,
+                "classname": "bishop of llandaff"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02814.jpg",
+                "label": 55,
+                "classname": "bishop of llandaff"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02808.jpg",
+                "label": 55,
+                "classname": "bishop of llandaff"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02755.jpg",
+                "label": 55,
+                "classname": "bishop of llandaff"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02909.jpg",
+                "label": 85,
+                "classname": "tree mallow"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02886.jpg",
+                "label": 85,
+                "classname": "tree mallow"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02901.jpg",
+                "label": 85,
+                "classname": "tree mallow"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02869.jpg",
+                "label": 85,
+                "classname": "tree mallow"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03009.jpg",
+                "label": 59,
+                "classname": "pink-yellow dahlia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02935.jpg",
+                "label": 59,
+                "classname": "pink-yellow dahlia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02934.jpg",
+                "label": 59,
+                "classname": "pink-yellow dahlia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02965.jpg",
+                "label": 59,
+                "classname": "pink-yellow dahlia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03078.jpg",
+                "label": 91,
+                "classname": "bee balm"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03038.jpg",
+                "label": 91,
+                "classname": "bee balm"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03079.jpg",
+                "label": 91,
+                "classname": "bee balm"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03035.jpg",
+                "label": 91,
+                "classname": "bee balm"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03178.jpg",
+                "label": 10,
+                "classname": "snapdragon"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03160.jpg",
+                "label": 10,
+                "classname": "snapdragon"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03171.jpg",
+                "label": 10,
+                "classname": "snapdragon"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03098.jpg",
+                "label": 10,
+                "classname": "snapdragon"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03217.jpg",
+                "label": 64,
+                "classname": "californian poppy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03202.jpg",
+                "label": 64,
+                "classname": "californian poppy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03222.jpg",
+                "label": 64,
+                "classname": "californian poppy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03271.jpg",
+                "label": 64,
+                "classname": "californian poppy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03285.jpg",
+                "label": 7,
+                "classname": "bird of paradise"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03329.jpg",
+                "label": 7,
+                "classname": "bird of paradise"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03312.jpg",
+                "label": 7,
+                "classname": "bird of paradise"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03331.jpg",
+                "label": 7,
+                "classname": "bird of paradise"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03413.jpg",
+                "label": 22,
+                "classname": "fritillary"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03449.jpg",
+                "label": 22,
+                "classname": "fritillary"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03455.jpg",
+                "label": 22,
+                "classname": "fritillary"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03422.jpg",
+                "label": 22,
+                "classname": "fritillary"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03506.jpg",
+                "label": 29,
+                "classname": "sweet william"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03485.jpg",
+                "label": 29,
+                "classname": "sweet william"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03529.jpg",
+                "label": 29,
+                "classname": "sweet william"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03513.jpg",
+                "label": 29,
+                "classname": "sweet william"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03547.jpg",
+                "label": 71,
+                "classname": "azalea"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03600.jpg",
+                "label": 71,
+                "classname": "azalea"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03553.jpg",
+                "label": 71,
+                "classname": "azalea"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03585.jpg",
+                "label": 71,
+                "classname": "azalea"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03676.jpg",
+                "label": 52,
+                "classname": "primula"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03722.jpg",
+                "label": 52,
+                "classname": "primula"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03686.jpg",
+                "label": 52,
+                "classname": "primula"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03648.jpg",
+                "label": 52,
+                "classname": "primula"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03795.jpg",
+                "label": 36,
+                "classname": "cape flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03820.jpg",
+                "label": 36,
+                "classname": "cape flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03781.jpg",
+                "label": 36,
+                "classname": "cape flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03813.jpg",
+                "label": 36,
+                "classname": "cape flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03856.jpg",
+                "label": 16,
+                "classname": "purple coneflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03844.jpg",
+                "label": 16,
+                "classname": "purple coneflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03907.jpg",
+                "label": 16,
+                "classname": "purple coneflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03873.jpg",
+                "label": 16,
+                "classname": "purple coneflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04041.jpg",
+                "label": 11,
+                "classname": "colt's foot"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04057.jpg",
+                "label": 11,
+                "classname": "colt's foot"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04071.jpg",
+                "label": 11,
+                "classname": "colt's foot"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04015.jpg",
+                "label": 11,
+                "classname": "colt's foot"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04109.jpg",
+                "label": 28,
+                "classname": "artichoke"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04156.jpg",
+                "label": 28,
+                "classname": "artichoke"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04093.jpg",
+                "label": 28,
+                "classname": "artichoke"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04115.jpg",
+                "label": 28,
+                "classname": "artichoke"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04179.jpg",
+                "label": 51,
+                "classname": "wild pansy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04230.jpg",
+                "label": 51,
+                "classname": "wild pansy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04188.jpg",
+                "label": 51,
+                "classname": "wild pansy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04242.jpg",
+                "label": 51,
+                "classname": "wild pansy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04278.jpg",
+                "label": 17,
+                "classname": "peruvian lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04291.jpg",
+                "label": 17,
+                "classname": "peruvian lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04263.jpg",
+                "label": 17,
+                "classname": "peruvian lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04273.jpg",
+                "label": 17,
+                "classname": "peruvian lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04376.jpg",
+                "label": 35,
+                "classname": "ruby-lipped cattleya"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04335.jpg",
+                "label": 35,
+                "classname": "ruby-lipped cattleya"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04356.jpg",
+                "label": 35,
+                "classname": "ruby-lipped cattleya"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04399.jpg",
+                "label": 35,
+                "classname": "ruby-lipped cattleya"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04431.jpg",
+                "label": 89,
+                "classname": "canna lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04412.jpg",
+                "label": 89,
+                "classname": "canna lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04476.jpg",
+                "label": 89,
+                "classname": "canna lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04444.jpg",
+                "label": 89,
+                "classname": "canna lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04550.jpg",
+                "label": 70,
+                "classname": "gazania"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04538.jpg",
+                "label": 70,
+                "classname": "gazania"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04557.jpg",
+                "label": 70,
+                "classname": "gazania"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04497.jpg",
+                "label": 70,
+                "classname": "gazania"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04558.jpg",
+                "label": 39,
+                "classname": "lenten rose"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04590.jpg",
+                "label": 39,
+                "classname": "lenten rose"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04613.jpg",
+                "label": 39,
+                "classname": "lenten rose"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04567.jpg",
+                "label": 39,
+                "classname": "lenten rose"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04678.jpg",
+                "label": 47,
+                "classname": "buttercup"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04671.jpg",
+                "label": 47,
+                "classname": "buttercup"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04643.jpg",
+                "label": 47,
+                "classname": "buttercup"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04632.jpg",
+                "label": 47,
+                "classname": "buttercup"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04710.jpg",
+                "label": 54,
+                "classname": "pelargonium"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04740.jpg",
+                "label": 54,
+                "classname": "pelargonium"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04711.jpg",
+                "label": 54,
+                "classname": "pelargonium"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04765.jpg",
+                "label": 54,
+                "classname": "pelargonium"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04809.jpg",
+                "label": 84,
+                "classname": "desert-rose"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04785.jpg",
+                "label": 84,
+                "classname": "desert-rose"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04770.jpg",
+                "label": 84,
+                "classname": "desert-rose"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04810.jpg",
+                "label": 84,
+                "classname": "desert-rose"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04871.jpg",
+                "label": 90,
+                "classname": "hippeastrum"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04870.jpg",
+                "label": 90,
+                "classname": "hippeastrum"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_08057.jpg",
+                "label": 90,
+                "classname": "hippeastrum"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04878.jpg",
+                "label": 90,
+                "classname": "hippeastrum"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04926.jpg",
+                "label": 19,
+                "classname": "giant white arum lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04907.jpg",
+                "label": 19,
+                "classname": "giant white arum lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04920.jpg",
+                "label": 19,
+                "classname": "giant white arum lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04940.jpg",
+                "label": 19,
+                "classname": "giant white arum lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04992.jpg",
+                "label": 46,
+                "classname": "marigold"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04991.jpg",
+                "label": 46,
+                "classname": "marigold"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04969.jpg",
+                "label": 46,
+                "classname": "marigold"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04982.jpg",
+                "label": 46,
+                "classname": "marigold"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05063.jpg",
+                "label": 58,
+                "classname": "orange dahlia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05037.jpg",
+                "label": 58,
+                "classname": "orange dahlia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05045.jpg",
+                "label": 58,
+                "classname": "orange dahlia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05066.jpg",
+                "label": 58,
+                "classname": "orange dahlia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05103.jpg",
+                "label": 1,
+                "classname": "hard-leaved pocket orchid"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05125.jpg",
+                "label": 1,
+                "classname": "hard-leaved pocket orchid"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05146.jpg",
+                "label": 1,
+                "classname": "hard-leaved pocket orchid"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05099.jpg",
+                "label": 1,
+                "classname": "hard-leaved pocket orchid"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05210.jpg",
+                "label": 4,
+                "classname": "english marigold"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05162.jpg",
+                "label": 4,
+                "classname": "english marigold"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05176.jpg",
+                "label": 4,
+                "classname": "english marigold"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05149.jpg",
+                "label": 4,
+                "classname": "english marigold"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05253.jpg",
+                "label": 27,
+                "classname": "stemless gentian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05233.jpg",
+                "label": 27,
+                "classname": "stemless gentian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05260.jpg",
+                "label": 27,
+                "classname": "stemless gentian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05250.jpg",
+                "label": 27,
+                "classname": "stemless gentian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05300.jpg",
+                "label": 69,
+                "classname": "tree poppy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05285.jpg",
+                "label": 69,
+                "classname": "tree poppy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05324.jpg",
+                "label": 69,
+                "classname": "tree poppy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05280.jpg",
+                "label": 69,
+                "classname": "tree poppy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05370.jpg",
+                "label": 21,
+                "classname": "pincushion flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05367.jpg",
+                "label": 21,
+                "classname": "pincushion flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05350.jpg",
+                "label": 21,
+                "classname": "pincushion flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05398.jpg",
+                "label": 21,
+                "classname": "pincushion flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05426.jpg",
+                "label": 53,
+                "classname": "sunflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05459.jpg",
+                "label": 53,
+                "classname": "sunflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05407.jpg",
+                "label": 53,
+                "classname": "sunflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05444.jpg",
+                "label": 53,
+                "classname": "sunflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05515.jpg",
+                "label": 86,
+                "classname": "magnolia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05489.jpg",
+                "label": 86,
+                "classname": "magnolia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05504.jpg",
+                "label": 86,
+                "classname": "magnolia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05497.jpg",
+                "label": 86,
+                "classname": "magnolia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05531.jpg",
+                "label": 65,
+                "classname": "osteospermum"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05544.jpg",
+                "label": 65,
+                "classname": "osteospermum"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05533.jpg",
+                "label": 65,
+                "classname": "osteospermum"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05551.jpg",
+                "label": 65,
+                "classname": "osteospermum"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05613.jpg",
+                "label": 31,
+                "classname": "garden phlox"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05619.jpg",
+                "label": 31,
+                "classname": "garden phlox"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05620.jpg",
+                "label": 31,
+                "classname": "garden phlox"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05624.jpg",
+                "label": 31,
+                "classname": "garden phlox"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05654.jpg",
+                "label": 3,
+                "classname": "sweet pea"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05641.jpg",
+                "label": 3,
+                "classname": "sweet pea"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05663.jpg",
+                "label": 3,
+                "classname": "sweet pea"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05676.jpg",
+                "label": 3,
+                "classname": "sweet pea"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05701.jpg",
+                "label": 41,
+                "classname": "daffodil"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05726.jpg",
+                "label": 41,
+                "classname": "daffodil"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05742.jpg",
+                "label": 41,
+                "classname": "daffodil"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05704.jpg",
+                "label": 41,
+                "classname": "daffodil"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05768.jpg",
+                "label": 12,
+                "classname": "king protea"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05779.jpg",
+                "label": 12,
+                "classname": "king protea"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05756.jpg",
+                "label": 12,
+                "classname": "king protea"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05760.jpg",
+                "label": 12,
+                "classname": "king protea"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05822.jpg",
+                "label": 37,
+                "classname": "great masterwort"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05804.jpg",
+                "label": 37,
+                "classname": "great masterwort"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05831.jpg",
+                "label": 37,
+                "classname": "great masterwort"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05793.jpg",
+                "label": 37,
+                "classname": "great masterwort"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05882.jpg",
+                "label": 62,
+                "classname": "black-eyed susan"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05860.jpg",
+                "label": 62,
+                "classname": "black-eyed susan"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05891.jpg",
+                "label": 62,
+                "classname": "black-eyed susan"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05870.jpg",
+                "label": 62,
+                "classname": "black-eyed susan"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05922.jpg",
+                "label": 67,
+                "classname": "bearded iris"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05939.jpg",
+                "label": 67,
+                "classname": "bearded iris"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05952.jpg",
+                "label": 67,
+                "classname": "bearded iris"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05904.jpg",
+                "label": 67,
+                "classname": "bearded iris"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05973.jpg",
+                "label": 68,
+                "classname": "windflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06002.jpg",
+                "label": 68,
+                "classname": "windflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05970.jpg",
+                "label": 68,
+                "classname": "windflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05991.jpg",
+                "label": 68,
+                "classname": "windflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06028.jpg",
+                "label": 92,
+                "classname": "ball moss"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_08116.jpg",
+                "label": 92,
+                "classname": "ball moss"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06048.jpg",
+                "label": 92,
+                "classname": "ball moss"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_08112.jpg",
+                "label": 92,
+                "classname": "ball moss"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06095.jpg",
+                "label": 13,
+                "classname": "spear thistle"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06066.jpg",
+                "label": 13,
+                "classname": "spear thistle"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06085.jpg",
+                "label": 13,
+                "classname": "spear thistle"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06052.jpg",
+                "label": 13,
+                "classname": "spear thistle"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06105.jpg",
+                "label": 63,
+                "classname": "silverbush"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06117.jpg",
+                "label": 63,
+                "classname": "silverbush"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06120.jpg",
+                "label": 63,
+                "classname": "silverbush"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06136.jpg",
+                "label": 63,
+                "classname": "silverbush"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06170.jpg",
+                "label": 18,
+                "classname": "balloon flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06178.jpg",
+                "label": 18,
+                "classname": "balloon flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06175.jpg",
+                "label": 18,
+                "classname": "balloon flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06158.jpg",
+                "label": 18,
+                "classname": "balloon flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06220.jpg",
+                "label": 48,
+                "classname": "oxeye daisy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06226.jpg",
+                "label": 48,
+                "classname": "oxeye daisy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06212.jpg",
+                "label": 48,
+                "classname": "oxeye daisy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06209.jpg",
+                "label": 48,
+                "classname": "oxeye daisy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06254.jpg",
+                "label": 60,
+                "classname": "cautleya spicata"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06278.jpg",
+                "label": 60,
+                "classname": "cautleya spicata"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06261.jpg",
+                "label": 60,
+                "classname": "cautleya spicata"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06248.jpg",
+                "label": 60,
+                "classname": "cautleya spicata"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06316.jpg",
+                "label": 49,
+                "classname": "common dandelion"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06317.jpg",
+                "label": 49,
+                "classname": "common dandelion"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06313.jpg",
+                "label": 49,
+                "classname": "common dandelion"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06301.jpg",
+                "label": 49,
+                "classname": "common dandelion"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06372.jpg",
+                "label": 14,
+                "classname": "yellow iris"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06383.jpg",
+                "label": 14,
+                "classname": "yellow iris"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06378.jpg",
+                "label": 14,
+                "classname": "yellow iris"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06360.jpg",
+                "label": 14,
+                "classname": "yellow iris"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06433.jpg",
+                "label": 8,
+                "classname": "monkshood"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06396.jpg",
+                "label": 8,
+                "classname": "monkshood"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06440.jpg",
+                "label": 8,
+                "classname": "monkshood"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06399.jpg",
+                "label": 8,
+                "classname": "monkshood"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06485.jpg",
+                "label": 32,
+                "classname": "love in the mist"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06454.jpg",
+                "label": 32,
+                "classname": "love in the mist"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06452.jpg",
+                "label": 32,
+                "classname": "love in the mist"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06456.jpg",
+                "label": 32,
+                "classname": "love in the mist"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06500.jpg",
+                "label": 25,
+                "classname": "corn poppy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06509.jpg",
+                "label": 25,
+                "classname": "corn poppy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06510.jpg",
+                "label": 25,
+                "classname": "corn poppy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06497.jpg",
+                "label": 25,
+                "classname": "corn poppy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06580.jpg",
+                "label": 24,
+                "classname": "grape hyacinth"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06609.jpg",
+                "label": 24,
+                "classname": "grape hyacinth"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06583.jpg",
+                "label": 24,
+                "classname": "grape hyacinth"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06600.jpg",
+                "label": 24,
+                "classname": "grape hyacinth"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06621.jpg",
+                "label": 2,
+                "classname": "canterbury bells"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06646.jpg",
+                "label": 2,
+                "classname": "canterbury bells"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06647.jpg",
+                "label": 2,
+                "classname": "canterbury bells"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06632.jpg",
+                "label": 2,
+                "classname": "canterbury bells"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06685.jpg",
+                "label": 15,
+                "classname": "globe-flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06684.jpg",
+                "label": 15,
+                "classname": "globe-flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06656.jpg",
+                "label": 15,
+                "classname": "globe-flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06671.jpg",
+                "label": 15,
+                "classname": "globe-flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06703.jpg",
+                "label": 78,
+                "classname": "toad lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06707.jpg",
+                "label": 78,
+                "classname": "toad lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06723.jpg",
+                "label": 78,
+                "classname": "toad lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06700.jpg",
+                "label": 78,
+                "classname": "toad lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06768.jpg",
+                "label": 0,
+                "classname": "pink primrose"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06766.jpg",
+                "label": 0,
+                "classname": "pink primrose"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06752.jpg",
+                "label": 0,
+                "classname": "pink primrose"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06737.jpg",
+                "label": 0,
+                "classname": "pink primrose"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06810.jpg",
+                "label": 20,
+                "classname": "fire lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06805.jpg",
+                "label": 20,
+                "classname": "fire lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06794.jpg",
+                "label": 20,
+                "classname": "fire lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06779.jpg",
+                "label": 20,
+                "classname": "fire lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06844.jpg",
+                "label": 23,
+                "classname": "red ginger"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06814.jpg",
+                "label": 23,
+                "classname": "red ginger"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06847.jpg",
+                "label": 23,
+                "classname": "red ginger"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06846.jpg",
+                "label": 23,
+                "classname": "red ginger"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06860.jpg",
+                "label": 26,
+                "classname": "prince of wales feathers"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06877.jpg",
+                "label": 26,
+                "classname": "prince of wales feathers"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06858.jpg",
+                "label": 26,
+                "classname": "prince of wales feathers"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06889.jpg",
+                "label": 26,
+                "classname": "prince of wales feathers"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06893.jpg",
+                "label": 30,
+                "classname": "carnation"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06923.jpg",
+                "label": 30,
+                "classname": "carnation"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06907.jpg",
+                "label": 30,
+                "classname": "carnation"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06904.jpg",
+                "label": 30,
+                "classname": "carnation"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06962.jpg",
+                "label": 33,
+                "classname": "mexican aster"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06945.jpg",
+                "label": 33,
+                "classname": "mexican aster"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06934.jpg",
+                "label": 33,
+                "classname": "mexican aster"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06955.jpg",
+                "label": 33,
+                "classname": "mexican aster"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06993.jpg",
+                "label": 34,
+                "classname": "alpine sea holly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06979.jpg",
+                "label": 34,
+                "classname": "alpine sea holly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06996.jpg",
+                "label": 34,
+                "classname": "alpine sea holly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07005.jpg",
+                "label": 34,
+                "classname": "alpine sea holly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07007.jpg",
+                "label": 38,
+                "classname": "siam tulip"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07010.jpg",
+                "label": 38,
+                "classname": "siam tulip"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07039.jpg",
+                "label": 38,
+                "classname": "siam tulip"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07021.jpg",
+                "label": 38,
+                "classname": "siam tulip"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07082.jpg",
+                "label": 66,
+                "classname": "spring crocus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07064.jpg",
+                "label": 66,
+                "classname": "spring crocus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_08078.jpg",
+                "label": 66,
+                "classname": "spring crocus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07063.jpg",
+                "label": 66,
+                "classname": "spring crocus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07089.jpg",
+                "label": 9,
+                "classname": "globe thistle"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_08092.jpg",
+                "label": 9,
+                "classname": "globe thistle"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07103.jpg",
+                "label": 9,
+                "classname": "globe thistle"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07106.jpg",
+                "label": 9,
+                "classname": "globe thistle"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07123.jpg",
+                "label": 44,
+                "classname": "bolero deep blue"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07145.jpg",
+                "label": 44,
+                "classname": "bolero deep blue"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07150.jpg",
+                "label": 44,
+                "classname": "bolero deep blue"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07156.jpg",
+                "label": 44,
+                "classname": "bolero deep blue"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_08106.jpg",
+                "label": 5,
+                "classname": "tiger lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07184.jpg",
+                "label": 5,
+                "classname": "tiger lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07171.jpg",
+                "label": 5,
+                "classname": "tiger lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07178.jpg",
+                "label": 5,
+                "classname": "tiger lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07218.jpg",
+                "label": 6,
+                "classname": "moon orchid"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07215.jpg",
+                "label": 6,
+                "classname": "moon orchid"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07214.jpg",
+                "label": 6,
+                "classname": "moon orchid"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_08103.jpg",
+                "label": 6,
+                "classname": "moon orchid"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_08147.jpg",
+                "label": 56,
+                "classname": "gaura"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07263.jpg",
+                "label": 56,
+                "classname": "gaura"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07258.jpg",
+                "label": 56,
+                "classname": "gaura"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_08140.jpg",
+                "label": 56,
+                "classname": "gaura"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_08165.jpg",
+                "label": 61,
+                "classname": "japanese anemone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_08163.jpg",
+                "label": 61,
+                "classname": "japanese anemone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_08185.jpg",
+                "label": 61,
+                "classname": "japanese anemone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_08154.jpg",
+                "label": 61,
+                "classname": "japanese anemone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07406.jpg",
+                "label": 93,
+                "classname": "foxglove"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07310.jpg",
+                "label": 93,
+                "classname": "foxglove"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07347.jpg",
+                "label": 93,
+                "classname": "foxglove"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07396.jpg",
+                "label": 93,
+                "classname": "foxglove"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07505.jpg",
+                "label": 94,
+                "classname": "bougainvillea"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07574.jpg",
+                "label": 94,
+                "classname": "bougainvillea"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07503.jpg",
+                "label": 94,
+                "classname": "bougainvillea"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07582.jpg",
+                "label": 94,
+                "classname": "bougainvillea"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07629.jpg",
+                "label": 95,
+                "classname": "camellia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07619.jpg",
+                "label": 95,
+                "classname": "camellia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07683.jpg",
+                "label": 95,
+                "classname": "camellia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07668.jpg",
+                "label": 95,
+                "classname": "camellia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07735.jpg",
+                "label": 96,
+                "classname": "mallow"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07709.jpg",
+                "label": 96,
+                "classname": "mallow"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07690.jpg",
+                "label": 96,
+                "classname": "mallow"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07712.jpg",
+                "label": 96,
+                "classname": "mallow"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07767.jpg",
+                "label": 97,
+                "classname": "mexican petunia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07770.jpg",
+                "label": 97,
+                "classname": "mexican petunia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07817.jpg",
+                "label": 97,
+                "classname": "mexican petunia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07752.jpg",
+                "label": 97,
+                "classname": "mexican petunia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07884.jpg",
+                "label": 98,
+                "classname": "bromelia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07858.jpg",
+                "label": 98,
+                "classname": "bromelia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07839.jpg",
+                "label": 98,
+                "classname": "bromelia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07836.jpg",
+                "label": 98,
+                "classname": "bromelia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07903.jpg",
+                "label": 99,
+                "classname": "blanket flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07911.jpg",
+                "label": 99,
+                "classname": "blanket flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07917.jpg",
+                "label": 99,
+                "classname": "blanket flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07907.jpg",
+                "label": 99,
+                "classname": "blanket flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07968.jpg",
+                "label": 100,
+                "classname": "trumpet creeper"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07991.jpg",
+                "label": 100,
+                "classname": "trumpet creeper"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07965.jpg",
+                "label": 100,
+                "classname": "trumpet creeper"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07976.jpg",
+                "label": 100,
+                "classname": "trumpet creeper"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_08034.jpg",
+                "label": 101,
+                "classname": "blackberry lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_08028.jpg",
+                "label": 101,
+                "classname": "blackberry lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_08036.jpg",
+                "label": 101,
+                "classname": "blackberry lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_08047.jpg",
+                "label": 101,
+                "classname": "blackberry lily"
+            }
+        ],
+        "indices": [
+            17,
+            72,
+            108,
+            102,
+            134,
+            158,
+            141,
+            189,
+            280,
+            283,
+            271,
+            249,
+            312,
+            362,
+            303,
+            349,
+            447,
+            469,
+            392,
+            449,
+            509,
+            567,
+            504,
+            550,
+            586,
+            613,
+            576,
+            575,
+            665,
+            661,
+            756,
+            714,
+            815,
+            789,
+            821,
+            802,
+            882,
+            862,
+            865,
+            869,
+            919,
+            934,
+            918,
+            948,
+            993,
+            958,
+            1009,
+            968,
+            1035,
+            1064,
+            1070,
+            1042,
+            1083,
+            1123,
+            1097,
+            1133,
+            1190,
+            1160,
+            1174,
+            1172,
+            1263,
+            1264,
+            1250,
+            1204,
+            1295,
+            1280,
+            1312,
+            1316,
+            1344,
+            1345,
+            1361,
+            1330,
+            1385,
+            1397,
+            1418,
+            1406,
+            1468,
+            1462,
+            1466,
+            1442,
+            1475,
+            1487,
+            1494,
+            1489,
+            1508,
+            1551,
+            1512,
+            1535,
+            1581,
+            1579,
+            1587,
+            1557,
+            1619,
+            1591,
+            1608,
+            1628,
+            1670,
+            1658,
+            1674,
+            1643,
+            1694,
+            1716,
+            1698,
+            1684,
+            1738,
+            1760,
+            1761,
+            1740,
+            1797,
+            1804,
+            1794,
+            1808,
+            1836,
+            1843,
+            1831,
+            1856,
+            1897,
+            1900,
+            1862,
+            1886,
+            1958,
+            1960,
+            1955,
+            1940,
+            1970,
+            1995,
+            1997,
+            1975,
+            2031,
+            2007,
+            2034,
+            2027,
+            2084,
+            2083,
+            2060,
+            2080,
+            2113,
+            2118,
+            2109,
+            2087,
+            2163,
+            2168,
+            2150,
+            2158,
+            2171,
+            2184,
+            2181,
+            2205,
+            2245,
+            2219,
+            2213,
+            2243,
+            2265,
+            2251,
+            2253,
+            2254,
+            2289,
+            2316,
+            2288,
+            2305,
+            2337,
+            2339,
+            2329,
+            2333,
+            2380,
+            2376,
+            2362,
+            2368,
+            2404,
+            2410,
+            2411,
+            2412,
+            2455,
+            2446,
+            2457,
+            2456,
+            2467,
+            2464,
+            2473,
+            2476,
+            2513,
+            2518,
+            2504,
+            2508,
+            2532,
+            2542,
+            2558,
+            2539,
+            2579,
+            2573,
+            2586,
+            2560,
+            2604,
+            2591,
+            2615,
+            2599,
+            2624,
+            2632,
+            2650,
+            2654,
+            2676,
+            2668,
+            2672,
+            2681,
+            2693,
+            2706,
+            2711,
+            2708,
+            2732,
+            2730,
+            2723,
+            2736,
+            2747,
+            2771,
+            2766,
+            2773,
+            2779,
+            2801,
+            2787,
+            2782,
+            2814,
+            2809,
+            2817,
+            2810,
+            2857,
+            2832,
+            2839,
+            2853,
+            2863,
+            2871,
+            2876,
+            2866,
+            2892,
+            2888,
+            2905,
+            2889,
+            2930,
+            2938,
+            2918,
+            2926,
+            2945,
+            2966,
+            2964,
+            2962,
+            2986,
+            2983,
+            2968,
+            2979,
+            3000,
+            3005,
+            2997,
+            3012,
+            3042,
+            3034,
+            3039,
+            3027,
+            3059,
+            3047,
+            3065,
+            3056,
+            3077,
+            3084,
+            3083,
+            3068,
+            3104,
+            3113,
+            3106,
+            3103,
+            3118,
+            3123,
+            3124,
+            3128,
+            3160,
+            3146,
+            3152,
+            3155,
+            3180,
+            3184,
+            3210,
+            3173,
+            3225,
+            3230,
+            3224,
+            3234,
+            3254,
+            3252,
+            3244,
+            3239,
+            3261,
+            3262,
+            3264,
+            3265,
+            3288,
+            3300,
+            3289,
+            3291,
+            3313,
+            3319,
+            3311,
+            3314,
+            3333,
+            3342,
+            3326,
+            3332,
+            3350,
+            3358,
+            3347,
+            3346,
+            3373,
+            3364,
+            3376,
+            3365,
+            3395,
+            3387,
+            3401,
+            3393,
+            3406,
+            3421,
+            3415,
+            3405,
+            3441,
+            3440,
+            3430,
+            3425,
+            3452,
+            3455,
+            3453,
+            3447,
+            3478,
+            3472,
+            3467,
+            3489,
+            3491,
+            3499,
+            3490,
+            3507,
+            3512,
+            3523,
+            3513,
+            3511,
+            3538,
+            3539,
+            3545,
+            3537,
+            3555,
+            3566,
+            3557,
+            3559,
+            3578,
+            3576,
+            3586,
+            3585,
+            3612,
+            3604,
+            3614,
+            3603,
+            3630,
+            3625,
+            3618,
+            3621,
+            3647,
+            3638,
+            3637,
+            3654,
+            3675,
+            3677,
+            3685,
+            3682,
+            3701,
+            3703,
+            3693,
+            3710,
+            3777,
+            3733,
+            3751,
+            3746,
+            3860,
+            3845,
+            3833,
+            3823,
+            3898,
+            3877,
+            3883,
+            3876,
+            3925,
+            3933,
+            3915,
+            3927,
+            3948,
+            3971,
+            3979,
+            3964,
+            3998,
+            4008,
+            4003,
+            3986,
+            4026,
+            4021,
+            4034,
+            4025,
+            4047,
+            4050,
+            4043,
+            4057,
+            4088,
+            4087,
+            4071,
+            4076
+        ]
+    },
+    "val": {
+        "data": [
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00004.jpg",
+                "label": 76,
+                "classname": "passion flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00053.jpg",
+                "label": 76,
+                "classname": "passion flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00219.jpg",
+                "label": 76,
+                "classname": "passion flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00095.jpg",
+                "label": 76,
+                "classname": "passion flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00406.jpg",
+                "label": 72,
+                "classname": "water lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00426.jpg",
+                "label": 72,
+                "classname": "water lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00326.jpg",
+                "label": 72,
+                "classname": "water lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00287.jpg",
+                "label": 72,
+                "classname": "water lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00503.jpg",
+                "label": 87,
+                "classname": "cyclamen"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00582.jpg",
+                "label": 87,
+                "classname": "cyclamen"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00467.jpg",
+                "label": 87,
+                "classname": "cyclamen"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00575.jpg",
+                "label": 87,
+                "classname": "cyclamen"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00715.jpg",
+                "label": 88,
+                "classname": "watercress"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00624.jpg",
+                "label": 88,
+                "classname": "watercress"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00671.jpg",
+                "label": 88,
+                "classname": "watercress"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00607.jpg",
+                "label": 88,
+                "classname": "watercress"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00804.jpg",
+                "label": 80,
+                "classname": "frangipani"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00839.jpg",
+                "label": 80,
+                "classname": "frangipani"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00811.jpg",
+                "label": 80,
+                "classname": "frangipani"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00945.jpg",
+                "label": 80,
+                "classname": "frangipani"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01135.jpg",
+                "label": 45,
+                "classname": "wallflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01021.jpg",
+                "label": 45,
+                "classname": "wallflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01105.jpg",
+                "label": 45,
+                "classname": "wallflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_00978.jpg",
+                "label": 45,
+                "classname": "wallflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01228.jpg",
+                "label": 73,
+                "classname": "rose"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01243.jpg",
+                "label": 73,
+                "classname": "rose"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01224.jpg",
+                "label": 73,
+                "classname": "rose"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01309.jpg",
+                "label": 73,
+                "classname": "rose"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01345.jpg",
+                "label": 50,
+                "classname": "petunia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01401.jpg",
+                "label": 50,
+                "classname": "petunia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03923.jpg",
+                "label": 50,
+                "classname": "petunia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03990.jpg",
+                "label": 50,
+                "classname": "petunia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01555.jpg",
+                "label": 43,
+                "classname": "poinsettia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01530.jpg",
+                "label": 43,
+                "classname": "poinsettia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01513.jpg",
+                "label": 43,
+                "classname": "poinsettia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01509.jpg",
+                "label": 43,
+                "classname": "poinsettia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01660.jpg",
+                "label": 81,
+                "classname": "clematis"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01674.jpg",
+                "label": 81,
+                "classname": "clematis"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01655.jpg",
+                "label": 81,
+                "classname": "clematis"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01675.jpg",
+                "label": 81,
+                "classname": "clematis"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01758.jpg",
+                "label": 82,
+                "classname": "hibiscus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01749.jpg",
+                "label": 82,
+                "classname": "hibiscus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01783.jpg",
+                "label": 82,
+                "classname": "hibiscus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01741.jpg",
+                "label": 82,
+                "classname": "hibiscus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01900.jpg",
+                "label": 77,
+                "classname": "lotus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01885.jpg",
+                "label": 77,
+                "classname": "lotus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01956.jpg",
+                "label": 77,
+                "classname": "lotus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01940.jpg",
+                "label": 77,
+                "classname": "lotus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02018.jpg",
+                "label": 79,
+                "classname": "anthurium"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01987.jpg",
+                "label": 79,
+                "classname": "anthurium"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02017.jpg",
+                "label": 79,
+                "classname": "anthurium"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_01972.jpg",
+                "label": 79,
+                "classname": "anthurium"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02127.jpg",
+                "label": 74,
+                "classname": "thorn apple"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02098.jpg",
+                "label": 74,
+                "classname": "thorn apple"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02168.jpg",
+                "label": 74,
+                "classname": "thorn apple"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02125.jpg",
+                "label": 74,
+                "classname": "thorn apple"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02269.jpg",
+                "label": 40,
+                "classname": "barbeton daisy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02313.jpg",
+                "label": 40,
+                "classname": "barbeton daisy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02297.jpg",
+                "label": 40,
+                "classname": "barbeton daisy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02216.jpg",
+                "label": 40,
+                "classname": "barbeton daisy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02437.jpg",
+                "label": 42,
+                "classname": "sword lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02363.jpg",
+                "label": 42,
+                "classname": "sword lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02356.jpg",
+                "label": 42,
+                "classname": "sword lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02438.jpg",
+                "label": 42,
+                "classname": "sword lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02476.jpg",
+                "label": 75,
+                "classname": "morning glory"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02477.jpg",
+                "label": 75,
+                "classname": "morning glory"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02545.jpg",
+                "label": 75,
+                "classname": "morning glory"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02526.jpg",
+                "label": 75,
+                "classname": "morning glory"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02632.jpg",
+                "label": 83,
+                "classname": "columbine"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02588.jpg",
+                "label": 83,
+                "classname": "columbine"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02607.jpg",
+                "label": 83,
+                "classname": "columbine"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02599.jpg",
+                "label": 83,
+                "classname": "columbine"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02708.jpg",
+                "label": 57,
+                "classname": "geranium"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02724.jpg",
+                "label": 57,
+                "classname": "geranium"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02688.jpg",
+                "label": 57,
+                "classname": "geranium"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02657.jpg",
+                "label": 57,
+                "classname": "geranium"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02812.jpg",
+                "label": 55,
+                "classname": "bishop of llandaff"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02820.jpg",
+                "label": 55,
+                "classname": "bishop of llandaff"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02773.jpg",
+                "label": 55,
+                "classname": "bishop of llandaff"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02850.jpg",
+                "label": 55,
+                "classname": "bishop of llandaff"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02903.jpg",
+                "label": 85,
+                "classname": "tree mallow"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02871.jpg",
+                "label": 85,
+                "classname": "tree mallow"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02918.jpg",
+                "label": 85,
+                "classname": "tree mallow"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02867.jpg",
+                "label": 85,
+                "classname": "tree mallow"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03012.jpg",
+                "label": 59,
+                "classname": "pink-yellow dahlia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02942.jpg",
+                "label": 59,
+                "classname": "pink-yellow dahlia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02973.jpg",
+                "label": 59,
+                "classname": "pink-yellow dahlia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_02926.jpg",
+                "label": 59,
+                "classname": "pink-yellow dahlia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03031.jpg",
+                "label": 91,
+                "classname": "bee balm"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03069.jpg",
+                "label": 91,
+                "classname": "bee balm"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03092.jpg",
+                "label": 91,
+                "classname": "bee balm"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03093.jpg",
+                "label": 91,
+                "classname": "bee balm"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03135.jpg",
+                "label": 10,
+                "classname": "snapdragon"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03101.jpg",
+                "label": 10,
+                "classname": "snapdragon"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03102.jpg",
+                "label": 10,
+                "classname": "snapdragon"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03157.jpg",
+                "label": 10,
+                "classname": "snapdragon"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03226.jpg",
+                "label": 64,
+                "classname": "californian poppy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03273.jpg",
+                "label": 64,
+                "classname": "californian poppy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03188.jpg",
+                "label": 64,
+                "classname": "californian poppy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03276.jpg",
+                "label": 64,
+                "classname": "californian poppy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03335.jpg",
+                "label": 7,
+                "classname": "bird of paradise"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03304.jpg",
+                "label": 7,
+                "classname": "bird of paradise"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03288.jpg",
+                "label": 7,
+                "classname": "bird of paradise"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03344.jpg",
+                "label": 7,
+                "classname": "bird of paradise"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03402.jpg",
+                "label": 22,
+                "classname": "fritillary"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03385.jpg",
+                "label": 22,
+                "classname": "fritillary"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03369.jpg",
+                "label": 22,
+                "classname": "fritillary"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03429.jpg",
+                "label": 22,
+                "classname": "fritillary"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03511.jpg",
+                "label": 29,
+                "classname": "sweet william"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03479.jpg",
+                "label": 29,
+                "classname": "sweet william"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03461.jpg",
+                "label": 29,
+                "classname": "sweet william"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03473.jpg",
+                "label": 29,
+                "classname": "sweet william"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03591.jpg",
+                "label": 71,
+                "classname": "azalea"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03613.jpg",
+                "label": 71,
+                "classname": "azalea"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03637.jpg",
+                "label": 71,
+                "classname": "azalea"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03569.jpg",
+                "label": 71,
+                "classname": "azalea"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03662.jpg",
+                "label": 52,
+                "classname": "primula"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03675.jpg",
+                "label": 52,
+                "classname": "primula"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03705.jpg",
+                "label": 52,
+                "classname": "primula"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03642.jpg",
+                "label": 52,
+                "classname": "primula"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03803.jpg",
+                "label": 36,
+                "classname": "cape flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03797.jpg",
+                "label": 36,
+                "classname": "cape flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03808.jpg",
+                "label": 36,
+                "classname": "cape flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03742.jpg",
+                "label": 36,
+                "classname": "cape flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03866.jpg",
+                "label": 16,
+                "classname": "purple coneflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03898.jpg",
+                "label": 16,
+                "classname": "purple coneflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03863.jpg",
+                "label": 16,
+                "classname": "purple coneflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_03895.jpg",
+                "label": 16,
+                "classname": "purple coneflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04032.jpg",
+                "label": 11,
+                "classname": "colt's foot"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04019.jpg",
+                "label": 11,
+                "classname": "colt's foot"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04030.jpg",
+                "label": 11,
+                "classname": "colt's foot"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04044.jpg",
+                "label": 11,
+                "classname": "colt's foot"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04098.jpg",
+                "label": 28,
+                "classname": "artichoke"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04111.jpg",
+                "label": 28,
+                "classname": "artichoke"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04149.jpg",
+                "label": 28,
+                "classname": "artichoke"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04144.jpg",
+                "label": 28,
+                "classname": "artichoke"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04215.jpg",
+                "label": 51,
+                "classname": "wild pansy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04224.jpg",
+                "label": 51,
+                "classname": "wild pansy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04177.jpg",
+                "label": 51,
+                "classname": "wild pansy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04205.jpg",
+                "label": 51,
+                "classname": "wild pansy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04305.jpg",
+                "label": 17,
+                "classname": "peruvian lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04286.jpg",
+                "label": 17,
+                "classname": "peruvian lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04323.jpg",
+                "label": 17,
+                "classname": "peruvian lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04302.jpg",
+                "label": 17,
+                "classname": "peruvian lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04392.jpg",
+                "label": 35,
+                "classname": "ruby-lipped cattleya"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04396.jpg",
+                "label": 35,
+                "classname": "ruby-lipped cattleya"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04372.jpg",
+                "label": 35,
+                "classname": "ruby-lipped cattleya"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04389.jpg",
+                "label": 35,
+                "classname": "ruby-lipped cattleya"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04423.jpg",
+                "label": 89,
+                "classname": "canna lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04432.jpg",
+                "label": 89,
+                "classname": "canna lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04461.jpg",
+                "label": 89,
+                "classname": "canna lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04426.jpg",
+                "label": 89,
+                "classname": "canna lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04505.jpg",
+                "label": 70,
+                "classname": "gazania"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04532.jpg",
+                "label": 70,
+                "classname": "gazania"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04537.jpg",
+                "label": 70,
+                "classname": "gazania"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04491.jpg",
+                "label": 70,
+                "classname": "gazania"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04579.jpg",
+                "label": 39,
+                "classname": "lenten rose"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04586.jpg",
+                "label": 39,
+                "classname": "lenten rose"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04581.jpg",
+                "label": 39,
+                "classname": "lenten rose"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04607.jpg",
+                "label": 39,
+                "classname": "lenten rose"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04648.jpg",
+                "label": 47,
+                "classname": "buttercup"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04652.jpg",
+                "label": 47,
+                "classname": "buttercup"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04668.jpg",
+                "label": 47,
+                "classname": "buttercup"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04683.jpg",
+                "label": 47,
+                "classname": "buttercup"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04741.jpg",
+                "label": 54,
+                "classname": "pelargonium"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04704.jpg",
+                "label": 54,
+                "classname": "pelargonium"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04754.jpg",
+                "label": 54,
+                "classname": "pelargonium"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04725.jpg",
+                "label": 54,
+                "classname": "pelargonium"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04827.jpg",
+                "label": 84,
+                "classname": "desert-rose"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04804.jpg",
+                "label": 84,
+                "classname": "desert-rose"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04776.jpg",
+                "label": 84,
+                "classname": "desert-rose"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04800.jpg",
+                "label": 84,
+                "classname": "desert-rose"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04840.jpg",
+                "label": 90,
+                "classname": "hippeastrum"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_08056.jpg",
+                "label": 90,
+                "classname": "hippeastrum"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04854.jpg",
+                "label": 90,
+                "classname": "hippeastrum"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04853.jpg",
+                "label": 90,
+                "classname": "hippeastrum"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04915.jpg",
+                "label": 19,
+                "classname": "giant white arum lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04899.jpg",
+                "label": 19,
+                "classname": "giant white arum lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04916.jpg",
+                "label": 19,
+                "classname": "giant white arum lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04943.jpg",
+                "label": 19,
+                "classname": "giant white arum lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05005.jpg",
+                "label": 46,
+                "classname": "marigold"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05008.jpg",
+                "label": 46,
+                "classname": "marigold"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05000.jpg",
+                "label": 46,
+                "classname": "marigold"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_04988.jpg",
+                "label": 46,
+                "classname": "marigold"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05048.jpg",
+                "label": 58,
+                "classname": "orange dahlia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05039.jpg",
+                "label": 58,
+                "classname": "orange dahlia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05065.jpg",
+                "label": 58,
+                "classname": "orange dahlia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05069.jpg",
+                "label": 58,
+                "classname": "orange dahlia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05138.jpg",
+                "label": 1,
+                "classname": "hard-leaved pocket orchid"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05123.jpg",
+                "label": 1,
+                "classname": "hard-leaved pocket orchid"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05110.jpg",
+                "label": 1,
+                "classname": "hard-leaved pocket orchid"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05134.jpg",
+                "label": 1,
+                "classname": "hard-leaved pocket orchid"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05178.jpg",
+                "label": 4,
+                "classname": "english marigold"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05191.jpg",
+                "label": 4,
+                "classname": "english marigold"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05150.jpg",
+                "label": 4,
+                "classname": "english marigold"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05173.jpg",
+                "label": 4,
+                "classname": "english marigold"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05225.jpg",
+                "label": 27,
+                "classname": "stemless gentian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05275.jpg",
+                "label": 27,
+                "classname": "stemless gentian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05224.jpg",
+                "label": 27,
+                "classname": "stemless gentian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05249.jpg",
+                "label": 27,
+                "classname": "stemless gentian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05297.jpg",
+                "label": 69,
+                "classname": "tree poppy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05278.jpg",
+                "label": 69,
+                "classname": "tree poppy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05321.jpg",
+                "label": 69,
+                "classname": "tree poppy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05286.jpg",
+                "label": 69,
+                "classname": "tree poppy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05384.jpg",
+                "label": 21,
+                "classname": "pincushion flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05344.jpg",
+                "label": 21,
+                "classname": "pincushion flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05386.jpg",
+                "label": 21,
+                "classname": "pincushion flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05388.jpg",
+                "label": 21,
+                "classname": "pincushion flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05430.jpg",
+                "label": 53,
+                "classname": "sunflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05403.jpg",
+                "label": 53,
+                "classname": "sunflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05432.jpg",
+                "label": 53,
+                "classname": "sunflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05442.jpg",
+                "label": 53,
+                "classname": "sunflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05460.jpg",
+                "label": 86,
+                "classname": "magnolia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05490.jpg",
+                "label": 86,
+                "classname": "magnolia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05474.jpg",
+                "label": 86,
+                "classname": "magnolia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05478.jpg",
+                "label": 86,
+                "classname": "magnolia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05530.jpg",
+                "label": 65,
+                "classname": "osteospermum"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05572.jpg",
+                "label": 65,
+                "classname": "osteospermum"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05545.jpg",
+                "label": 65,
+                "classname": "osteospermum"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05532.jpg",
+                "label": 65,
+                "classname": "osteospermum"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05610.jpg",
+                "label": 31,
+                "classname": "garden phlox"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05627.jpg",
+                "label": 31,
+                "classname": "garden phlox"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05598.jpg",
+                "label": 31,
+                "classname": "garden phlox"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05618.jpg",
+                "label": 31,
+                "classname": "garden phlox"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05647.jpg",
+                "label": 3,
+                "classname": "sweet pea"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05653.jpg",
+                "label": 3,
+                "classname": "sweet pea"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05672.jpg",
+                "label": 3,
+                "classname": "sweet pea"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05671.jpg",
+                "label": 3,
+                "classname": "sweet pea"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05709.jpg",
+                "label": 41,
+                "classname": "daffodil"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05712.jpg",
+                "label": 41,
+                "classname": "daffodil"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05708.jpg",
+                "label": 41,
+                "classname": "daffodil"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05723.jpg",
+                "label": 41,
+                "classname": "daffodil"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05757.jpg",
+                "label": 12,
+                "classname": "king protea"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05781.jpg",
+                "label": 12,
+                "classname": "king protea"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05764.jpg",
+                "label": 12,
+                "classname": "king protea"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05751.jpg",
+                "label": 12,
+                "classname": "king protea"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05795.jpg",
+                "label": 37,
+                "classname": "great masterwort"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05820.jpg",
+                "label": 37,
+                "classname": "great masterwort"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05806.jpg",
+                "label": 37,
+                "classname": "great masterwort"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05840.jpg",
+                "label": 37,
+                "classname": "great masterwort"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05852.jpg",
+                "label": 62,
+                "classname": "black-eyed susan"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05883.jpg",
+                "label": 62,
+                "classname": "black-eyed susan"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05899.jpg",
+                "label": 62,
+                "classname": "black-eyed susan"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05887.jpg",
+                "label": 62,
+                "classname": "black-eyed susan"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05943.jpg",
+                "label": 67,
+                "classname": "bearded iris"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05932.jpg",
+                "label": 67,
+                "classname": "bearded iris"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05907.jpg",
+                "label": 67,
+                "classname": "bearded iris"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05947.jpg",
+                "label": 67,
+                "classname": "bearded iris"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05977.jpg",
+                "label": 68,
+                "classname": "windflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05988.jpg",
+                "label": 68,
+                "classname": "windflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_05981.jpg",
+                "label": 68,
+                "classname": "windflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06006.jpg",
+                "label": 68,
+                "classname": "windflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06024.jpg",
+                "label": 92,
+                "classname": "ball moss"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06045.jpg",
+                "label": 92,
+                "classname": "ball moss"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06032.jpg",
+                "label": 92,
+                "classname": "ball moss"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06033.jpg",
+                "label": 92,
+                "classname": "ball moss"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06096.jpg",
+                "label": 13,
+                "classname": "spear thistle"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06080.jpg",
+                "label": 13,
+                "classname": "spear thistle"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06081.jpg",
+                "label": 13,
+                "classname": "spear thistle"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06054.jpg",
+                "label": 13,
+                "classname": "spear thistle"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06124.jpg",
+                "label": 63,
+                "classname": "silverbush"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06144.jpg",
+                "label": 63,
+                "classname": "silverbush"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06101.jpg",
+                "label": 63,
+                "classname": "silverbush"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06140.jpg",
+                "label": 63,
+                "classname": "silverbush"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06180.jpg",
+                "label": 18,
+                "classname": "balloon flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06188.jpg",
+                "label": 18,
+                "classname": "balloon flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06179.jpg",
+                "label": 18,
+                "classname": "balloon flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06185.jpg",
+                "label": 18,
+                "classname": "balloon flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06246.jpg",
+                "label": 48,
+                "classname": "oxeye daisy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06232.jpg",
+                "label": 48,
+                "classname": "oxeye daisy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06237.jpg",
+                "label": 48,
+                "classname": "oxeye daisy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06227.jpg",
+                "label": 48,
+                "classname": "oxeye daisy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06290.jpg",
+                "label": 60,
+                "classname": "cautleya spicata"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06280.jpg",
+                "label": 60,
+                "classname": "cautleya spicata"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06263.jpg",
+                "label": 60,
+                "classname": "cautleya spicata"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06276.jpg",
+                "label": 60,
+                "classname": "cautleya spicata"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06548.jpg",
+                "label": 49,
+                "classname": "common dandelion"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06340.jpg",
+                "label": 49,
+                "classname": "common dandelion"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06530.jpg",
+                "label": 49,
+                "classname": "common dandelion"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06531.jpg",
+                "label": 49,
+                "classname": "common dandelion"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06349.jpg",
+                "label": 14,
+                "classname": "yellow iris"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06371.jpg",
+                "label": 14,
+                "classname": "yellow iris"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06389.jpg",
+                "label": 14,
+                "classname": "yellow iris"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06357.jpg",
+                "label": 14,
+                "classname": "yellow iris"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06425.jpg",
+                "label": 8,
+                "classname": "monkshood"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06397.jpg",
+                "label": 8,
+                "classname": "monkshood"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06439.jpg",
+                "label": 8,
+                "classname": "monkshood"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06417.jpg",
+                "label": 8,
+                "classname": "monkshood"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06482.jpg",
+                "label": 32,
+                "classname": "love in the mist"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06453.jpg",
+                "label": 32,
+                "classname": "love in the mist"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06480.jpg",
+                "label": 32,
+                "classname": "love in the mist"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06470.jpg",
+                "label": 32,
+                "classname": "love in the mist"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06520.jpg",
+                "label": 25,
+                "classname": "corn poppy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06496.jpg",
+                "label": 25,
+                "classname": "corn poppy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06515.jpg",
+                "label": 25,
+                "classname": "corn poppy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06488.jpg",
+                "label": 25,
+                "classname": "corn poppy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06581.jpg",
+                "label": 24,
+                "classname": "grape hyacinth"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06591.jpg",
+                "label": 24,
+                "classname": "grape hyacinth"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06610.jpg",
+                "label": 24,
+                "classname": "grape hyacinth"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06578.jpg",
+                "label": 24,
+                "classname": "grape hyacinth"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06617.jpg",
+                "label": 2,
+                "classname": "canterbury bells"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06648.jpg",
+                "label": 2,
+                "classname": "canterbury bells"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06640.jpg",
+                "label": 2,
+                "classname": "canterbury bells"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06630.jpg",
+                "label": 2,
+                "classname": "canterbury bells"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06678.jpg",
+                "label": 15,
+                "classname": "globe-flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06688.jpg",
+                "label": 15,
+                "classname": "globe-flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06659.jpg",
+                "label": 15,
+                "classname": "globe-flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06683.jpg",
+                "label": 15,
+                "classname": "globe-flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06712.jpg",
+                "label": 78,
+                "classname": "toad lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06708.jpg",
+                "label": 78,
+                "classname": "toad lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06716.jpg",
+                "label": 78,
+                "classname": "toad lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06730.jpg",
+                "label": 78,
+                "classname": "toad lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06755.jpg",
+                "label": 0,
+                "classname": "pink primrose"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06757.jpg",
+                "label": 0,
+                "classname": "pink primrose"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06738.jpg",
+                "label": 0,
+                "classname": "pink primrose"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06762.jpg",
+                "label": 0,
+                "classname": "pink primrose"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06793.jpg",
+                "label": 20,
+                "classname": "fire lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06780.jpg",
+                "label": 20,
+                "classname": "fire lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06786.jpg",
+                "label": 20,
+                "classname": "fire lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06798.jpg",
+                "label": 20,
+                "classname": "fire lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_08049.jpg",
+                "label": 23,
+                "classname": "red ginger"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06831.jpg",
+                "label": 23,
+                "classname": "red ginger"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06837.jpg",
+                "label": 23,
+                "classname": "red ginger"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06827.jpg",
+                "label": 23,
+                "classname": "red ginger"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06855.jpg",
+                "label": 26,
+                "classname": "prince of wales feathers"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06886.jpg",
+                "label": 26,
+                "classname": "prince of wales feathers"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06879.jpg",
+                "label": 26,
+                "classname": "prince of wales feathers"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06888.jpg",
+                "label": 26,
+                "classname": "prince of wales feathers"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06897.jpg",
+                "label": 30,
+                "classname": "carnation"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_08065.jpg",
+                "label": 30,
+                "classname": "carnation"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06910.jpg",
+                "label": 30,
+                "classname": "carnation"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06902.jpg",
+                "label": 30,
+                "classname": "carnation"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06953.jpg",
+                "label": 33,
+                "classname": "mexican aster"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06964.jpg",
+                "label": 33,
+                "classname": "mexican aster"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06932.jpg",
+                "label": 33,
+                "classname": "mexican aster"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06949.jpg",
+                "label": 33,
+                "classname": "mexican aster"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06995.jpg",
+                "label": 34,
+                "classname": "alpine sea holly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06999.jpg",
+                "label": 34,
+                "classname": "alpine sea holly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_08085.jpg",
+                "label": 34,
+                "classname": "alpine sea holly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_06984.jpg",
+                "label": 34,
+                "classname": "alpine sea holly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07040.jpg",
+                "label": 38,
+                "classname": "siam tulip"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07045.jpg",
+                "label": 38,
+                "classname": "siam tulip"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07027.jpg",
+                "label": 38,
+                "classname": "siam tulip"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07038.jpg",
+                "label": 38,
+                "classname": "siam tulip"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07052.jpg",
+                "label": 66,
+                "classname": "spring crocus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07079.jpg",
+                "label": 66,
+                "classname": "spring crocus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07048.jpg",
+                "label": 66,
+                "classname": "spring crocus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07077.jpg",
+                "label": 66,
+                "classname": "spring crocus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_08094.jpg",
+                "label": 9,
+                "classname": "globe thistle"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07112.jpg",
+                "label": 9,
+                "classname": "globe thistle"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07122.jpg",
+                "label": 9,
+                "classname": "globe thistle"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07097.jpg",
+                "label": 9,
+                "classname": "globe thistle"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07127.jpg",
+                "label": 44,
+                "classname": "bolero deep blue"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07137.jpg",
+                "label": 44,
+                "classname": "bolero deep blue"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07136.jpg",
+                "label": 44,
+                "classname": "bolero deep blue"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07134.jpg",
+                "label": 44,
+                "classname": "bolero deep blue"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07188.jpg",
+                "label": 5,
+                "classname": "tiger lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07186.jpg",
+                "label": 5,
+                "classname": "tiger lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07174.jpg",
+                "label": 5,
+                "classname": "tiger lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_08109.jpg",
+                "label": 5,
+                "classname": "tiger lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07222.jpg",
+                "label": 6,
+                "classname": "moon orchid"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07224.jpg",
+                "label": 6,
+                "classname": "moon orchid"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07210.jpg",
+                "label": 6,
+                "classname": "moon orchid"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07233.jpg",
+                "label": 6,
+                "classname": "moon orchid"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07266.jpg",
+                "label": 56,
+                "classname": "gaura"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07253.jpg",
+                "label": 56,
+                "classname": "gaura"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_08145.jpg",
+                "label": 56,
+                "classname": "gaura"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_08130.jpg",
+                "label": 56,
+                "classname": "gaura"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_08153.jpg",
+                "label": 61,
+                "classname": "japanese anemone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_08176.jpg",
+                "label": 61,
+                "classname": "japanese anemone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_08161.jpg",
+                "label": 61,
+                "classname": "japanese anemone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07274.jpg",
+                "label": 61,
+                "classname": "japanese anemone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07313.jpg",
+                "label": 93,
+                "classname": "foxglove"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07418.jpg",
+                "label": 93,
+                "classname": "foxglove"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07364.jpg",
+                "label": 93,
+                "classname": "foxglove"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07373.jpg",
+                "label": 93,
+                "classname": "foxglove"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07590.jpg",
+                "label": 94,
+                "classname": "bougainvillea"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07558.jpg",
+                "label": 94,
+                "classname": "bougainvillea"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07568.jpg",
+                "label": 94,
+                "classname": "bougainvillea"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07525.jpg",
+                "label": 94,
+                "classname": "bougainvillea"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07640.jpg",
+                "label": 95,
+                "classname": "camellia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07646.jpg",
+                "label": 95,
+                "classname": "camellia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07682.jpg",
+                "label": 95,
+                "classname": "camellia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07661.jpg",
+                "label": 95,
+                "classname": "camellia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07721.jpg",
+                "label": 96,
+                "classname": "mallow"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07729.jpg",
+                "label": 96,
+                "classname": "mallow"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07725.jpg",
+                "label": 96,
+                "classname": "mallow"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07713.jpg",
+                "label": 96,
+                "classname": "mallow"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07757.jpg",
+                "label": 97,
+                "classname": "mexican petunia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07756.jpg",
+                "label": 97,
+                "classname": "mexican petunia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07810.jpg",
+                "label": 97,
+                "classname": "mexican petunia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07832.jpg",
+                "label": 97,
+                "classname": "mexican petunia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07890.jpg",
+                "label": 98,
+                "classname": "bromelia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_08064.jpg",
+                "label": 98,
+                "classname": "bromelia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07879.jpg",
+                "label": 98,
+                "classname": "bromelia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07885.jpg",
+                "label": 98,
+                "classname": "bromelia"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07894.jpg",
+                "label": 99,
+                "classname": "blanket flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07941.jpg",
+                "label": 99,
+                "classname": "blanket flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07896.jpg",
+                "label": 99,
+                "classname": "blanket flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07933.jpg",
+                "label": 99,
+                "classname": "blanket flower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07995.jpg",
+                "label": 100,
+                "classname": "trumpet creeper"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07945.jpg",
+                "label": 100,
+                "classname": "trumpet creeper"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07977.jpg",
+                "label": 100,
+                "classname": "trumpet creeper"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_07958.jpg",
+                "label": 100,
+                "classname": "trumpet creeper"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_08016.jpg",
+                "label": 101,
+                "classname": "blackberry lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_08039.jpg",
+                "label": 101,
+                "classname": "blackberry lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_08019.jpg",
+                "label": 101,
+                "classname": "blackberry lily"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/oxford_flowers/jpg/image_08027.jpg",
+                "label": 101,
+                "classname": "blackberry lily"
+            }
+        ],
+        "indices": [
+            14,
+            1,
+            15,
+            25,
+            54,
+            67,
+            85,
+            51,
+            109,
+            89,
+            98,
+            113,
+            142,
+            151,
+            150,
+            129,
+            163,
+            189,
+            177,
+            161,
+            222,
+            201,
+            199,
+            210,
+            248,
+            235,
+            261,
+            247,
+            271,
+            276,
+            272,
+            297,
+            316,
+            325,
+            321,
+            320,
+            343,
+            347,
+            351,
+            339,
+            357,
+            378,
+            377,
+            363,
+            390,
+            406,
+            384,
+            403,
+            423,
+            422,
+            426,
+            417,
+            447,
+            444,
+            430,
+            442,
+            464,
+            459,
+            462,
+            469,
+            479,
+            504,
+            499,
+            492,
+            523,
+            505,
+            506,
+            516,
+            530,
+            542,
+            528,
+            541,
+            551,
+            555,
+            561,
+            548,
+            585,
+            568,
+            573,
+            581,
+            588,
+            590,
+            596,
+            593,
+            616,
+            620,
+            614,
+            621,
+            632,
+            633,
+            625,
+            634,
+            645,
+            650,
+            651,
+            642,
+            659,
+            665,
+            662,
+            660,
+            679,
+            673,
+            686,
+            687,
+            705,
+            700,
+            694,
+            697,
+            713,
+            716,
+            711,
+            718,
+            733,
+            741,
+            735,
+            729,
+            757,
+            745,
+            746,
+            755,
+            767,
+            766,
+            770,
+            775,
+            790,
+            785,
+            791,
+            794,
+            813,
+            812,
+            807,
+            809,
+            823,
+            826,
+            829,
+            818,
+            850,
+            836,
+            846,
+            838,
+            854,
+            855,
+            862,
+            852,
+            869,
+            879,
+            876,
+            877,
+            884,
+            889,
+            895,
+            885,
+            910,
+            913,
+            904,
+            911,
+            916,
+            919,
+            921,
+            926,
+            936,
+            934,
+            930,
+            928,
+            947,
+            950,
+            949,
+            954,
+            956,
+            965,
+            959,
+            966,
+            971,
+            974,
+            979,
+            976,
+            983,
+            986,
+            991,
+            990,
+            1003,
+            994,
+            1005,
+            1006,
+            1010,
+            1011,
+            1019,
+            1009,
+            1024,
+            1022,
+            1028,
+            1023,
+            1036,
+            1044,
+            1041,
+            1043,
+            1055,
+            1052,
+            1047,
+            1053,
+            1063,
+            1065,
+            1064,
+            1059,
+            1073,
+            1079,
+            1076,
+            1081,
+            1086,
+            1083,
+            1082,
+            1092,
+            1103,
+            1105,
+            1094,
+            1102,
+            1111,
+            1117,
+            1109,
+            1108,
+            1127,
+            1124,
+            1123,
+            1121,
+            1134,
+            1136,
+            1133,
+            1137,
+            1139,
+            1140,
+            1146,
+            1148,
+            1156,
+            1155,
+            1157,
+            1153,
+            1171,
+            1170,
+            1168,
+            1162,
+            1182,
+            1178,
+            1181,
+            1175,
+            1191,
+            1183,
+            1187,
+            1186,
+            1201,
+            1203,
+            1202,
+            1200,
+            1209,
+            1207,
+            1208,
+            1213,
+            1222,
+            1217,
+            1219,
+            1218,
+            1224,
+            1230,
+            1232,
+            1227,
+            1239,
+            1235,
+            1241,
+            1243,
+            1247,
+            1248,
+            1244,
+            1253,
+            1256,
+            1260,
+            1258,
+            1262,
+            1269,
+            1266,
+            1264,
+            1281,
+            1286,
+            1288,
+            1291,
+            1283,
+            1299,
+            1296,
+            1295,
+            1293,
+            1308,
+            1301,
+            1303,
+            1305,
+            1311,
+            1315,
+            1314,
+            1313,
+            1319,
+            1320,
+            1318,
+            1321,
+            1326,
+            1327,
+            1330,
+            1332,
+            1335,
+            1337,
+            1339,
+            1336,
+            1346,
+            1343,
+            1349,
+            1348,
+            1353,
+            1352,
+            1356,
+            1350,
+            1359,
+            1363,
+            1362,
+            1360,
+            1373,
+            1370,
+            1372,
+            1366,
+            1376,
+            1381,
+            1379,
+            1378,
+            1386,
+            1387,
+            1385,
+            1389,
+            1398,
+            1393,
+            1395,
+            1394,
+            1405,
+            1403,
+            1402,
+            1404,
+            1412,
+            1415,
+            1414,
+            1409,
+            1423,
+            1419,
+            1420,
+            1418,
+            1429,
+            1428,
+            1425,
+            1430,
+            1436,
+            1440,
+            1438,
+            1437,
+            1444,
+            1446,
+            1445,
+            1449,
+            1453,
+            1452,
+            1457,
+            1454,
+            1464,
+            1463,
+            1465,
+            1462,
+            1473,
+            1475,
+            1476,
+            1482,
+            1489,
+            1497,
+            1508,
+            1503,
+            1530,
+            1518,
+            1520,
+            1516,
+            1542,
+            1541,
+            1547,
+            1551,
+            1559,
+            1566,
+            1567,
+            1568,
+            1586,
+            1577,
+            1582,
+            1576,
+            1589,
+            1597,
+            1590,
+            1600,
+            1604,
+            1607,
+            1610,
+            1608,
+            1618,
+            1617,
+            1613,
+            1614,
+            1626,
+            1627,
+            1630,
+            1631
+        ]
+    }
+}

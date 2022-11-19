@@ -1,0 +1,4814 @@
+{
+    "train": {
+        "data": [
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/Faces/image_0102.jpg",
+                "label": 0,
+                "classname": "face"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/Faces/image_0046.jpg",
+                "label": 0,
+                "classname": "face"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/Faces/image_0177.jpg",
+                "label": 0,
+                "classname": "face"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/Faces/image_0037.jpg",
+                "label": 0,
+                "classname": "face"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/Leopards/image_0154.jpg",
+                "label": 1,
+                "classname": "leopard"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/Leopards/image_0134.jpg",
+                "label": 1,
+                "classname": "leopard"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/Leopards/image_0030.jpg",
+                "label": 1,
+                "classname": "leopard"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/Leopards/image_0149.jpg",
+                "label": 1,
+                "classname": "leopard"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/Motorbikes/image_0646.jpg",
+                "label": 2,
+                "classname": "motorbike"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/Motorbikes/image_0569.jpg",
+                "label": 2,
+                "classname": "motorbike"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/Motorbikes/image_0171.jpg",
+                "label": 2,
+                "classname": "motorbike"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/Motorbikes/image_0285.jpg",
+                "label": 2,
+                "classname": "motorbike"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/accordion/image_0008.jpg",
+                "label": 3,
+                "classname": "accordion"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/accordion/image_0018.jpg",
+                "label": 3,
+                "classname": "accordion"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/accordion/image_0044.jpg",
+                "label": 3,
+                "classname": "accordion"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/accordion/image_0052.jpg",
+                "label": 3,
+                "classname": "accordion"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/airplanes/image_0038.jpg",
+                "label": 4,
+                "classname": "airplane"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/airplanes/image_0136.jpg",
+                "label": 4,
+                "classname": "airplane"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/airplanes/image_0040.jpg",
+                "label": 4,
+                "classname": "airplane"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/airplanes/image_0545.jpg",
+                "label": 4,
+                "classname": "airplane"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/anchor/image_0019.jpg",
+                "label": 5,
+                "classname": "anchor"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/anchor/image_0035.jpg",
+                "label": 5,
+                "classname": "anchor"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/anchor/image_0012.jpg",
+                "label": 5,
+                "classname": "anchor"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/anchor/image_0018.jpg",
+                "label": 5,
+                "classname": "anchor"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ant/image_0021.jpg",
+                "label": 6,
+                "classname": "ant"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ant/image_0012.jpg",
+                "label": 6,
+                "classname": "ant"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ant/image_0042.jpg",
+                "label": 6,
+                "classname": "ant"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ant/image_0041.jpg",
+                "label": 6,
+                "classname": "ant"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/barrel/image_0024.jpg",
+                "label": 7,
+                "classname": "barrel"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/barrel/image_0022.jpg",
+                "label": 7,
+                "classname": "barrel"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/barrel/image_0042.jpg",
+                "label": 7,
+                "classname": "barrel"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/barrel/image_0018.jpg",
+                "label": 7,
+                "classname": "barrel"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/bass/image_0001.jpg",
+                "label": 8,
+                "classname": "bass"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/bass/image_0030.jpg",
+                "label": 8,
+                "classname": "bass"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/bass/image_0043.jpg",
+                "label": 8,
+                "classname": "bass"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/bass/image_0020.jpg",
+                "label": 8,
+                "classname": "bass"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/beaver/image_0014.jpg",
+                "label": 9,
+                "classname": "beaver"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/beaver/image_0026.jpg",
+                "label": 9,
+                "classname": "beaver"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/beaver/image_0001.jpg",
+                "label": 9,
+                "classname": "beaver"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/beaver/image_0042.jpg",
+                "label": 9,
+                "classname": "beaver"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/binocular/image_0019.jpg",
+                "label": 10,
+                "classname": "binocular"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/binocular/image_0005.jpg",
+                "label": 10,
+                "classname": "binocular"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/binocular/image_0013.jpg",
+                "label": 10,
+                "classname": "binocular"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/binocular/image_0026.jpg",
+                "label": 10,
+                "classname": "binocular"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/bonsai/image_0034.jpg",
+                "label": 11,
+                "classname": "bonsai"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/bonsai/image_0107.jpg",
+                "label": 11,
+                "classname": "bonsai"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/bonsai/image_0127.jpg",
+                "label": 11,
+                "classname": "bonsai"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/bonsai/image_0029.jpg",
+                "label": 11,
+                "classname": "bonsai"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/brain/image_0097.jpg",
+                "label": 12,
+                "classname": "brain"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/brain/image_0089.jpg",
+                "label": 12,
+                "classname": "brain"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/brain/image_0003.jpg",
+                "label": 12,
+                "classname": "brain"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/brain/image_0039.jpg",
+                "label": 12,
+                "classname": "brain"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/brontosaurus/image_0029.jpg",
+                "label": 13,
+                "classname": "brontosaurus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/brontosaurus/image_0041.jpg",
+                "label": 13,
+                "classname": "brontosaurus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/brontosaurus/image_0020.jpg",
+                "label": 13,
+                "classname": "brontosaurus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/brontosaurus/image_0009.jpg",
+                "label": 13,
+                "classname": "brontosaurus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/buddha/image_0019.jpg",
+                "label": 14,
+                "classname": "buddha"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/buddha/image_0037.jpg",
+                "label": 14,
+                "classname": "buddha"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/buddha/image_0052.jpg",
+                "label": 14,
+                "classname": "buddha"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/buddha/image_0049.jpg",
+                "label": 14,
+                "classname": "buddha"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/butterfly/image_0055.jpg",
+                "label": 15,
+                "classname": "butterfly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/butterfly/image_0088.jpg",
+                "label": 15,
+                "classname": "butterfly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/butterfly/image_0008.jpg",
+                "label": 15,
+                "classname": "butterfly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/butterfly/image_0023.jpg",
+                "label": 15,
+                "classname": "butterfly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/camera/image_0012.jpg",
+                "label": 16,
+                "classname": "camera"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/camera/image_0013.jpg",
+                "label": 16,
+                "classname": "camera"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/camera/image_0043.jpg",
+                "label": 16,
+                "classname": "camera"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/camera/image_0007.jpg",
+                "label": 16,
+                "classname": "camera"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cannon/image_0043.jpg",
+                "label": 17,
+                "classname": "cannon"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cannon/image_0018.jpg",
+                "label": 17,
+                "classname": "cannon"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cannon/image_0020.jpg",
+                "label": 17,
+                "classname": "cannon"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cannon/image_0014.jpg",
+                "label": 17,
+                "classname": "cannon"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/car_side/image_0094.jpg",
+                "label": 18,
+                "classname": "car_side"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/car_side/image_0015.jpg",
+                "label": 18,
+                "classname": "car_side"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/car_side/image_0031.jpg",
+                "label": 18,
+                "classname": "car_side"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/car_side/image_0052.jpg",
+                "label": 18,
+                "classname": "car_side"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ceiling_fan/image_0024.jpg",
+                "label": 19,
+                "classname": "ceiling_fan"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ceiling_fan/image_0007.jpg",
+                "label": 19,
+                "classname": "ceiling_fan"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ceiling_fan/image_0011.jpg",
+                "label": 19,
+                "classname": "ceiling_fan"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ceiling_fan/image_0028.jpg",
+                "label": 19,
+                "classname": "ceiling_fan"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cellphone/image_0023.jpg",
+                "label": 20,
+                "classname": "cellphone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cellphone/image_0005.jpg",
+                "label": 20,
+                "classname": "cellphone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cellphone/image_0011.jpg",
+                "label": 20,
+                "classname": "cellphone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cellphone/image_0006.jpg",
+                "label": 20,
+                "classname": "cellphone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/chair/image_0018.jpg",
+                "label": 21,
+                "classname": "chair"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/chair/image_0040.jpg",
+                "label": 21,
+                "classname": "chair"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/chair/image_0037.jpg",
+                "label": 21,
+                "classname": "chair"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/chair/image_0021.jpg",
+                "label": 21,
+                "classname": "chair"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/chandelier/image_0040.jpg",
+                "label": 22,
+                "classname": "chandelier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/chandelier/image_0054.jpg",
+                "label": 22,
+                "classname": "chandelier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/chandelier/image_0080.jpg",
+                "label": 22,
+                "classname": "chandelier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/chandelier/image_0102.jpg",
+                "label": 22,
+                "classname": "chandelier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cougar_body/image_0030.jpg",
+                "label": 23,
+                "classname": "cougar_body"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cougar_body/image_0035.jpg",
+                "label": 23,
+                "classname": "cougar_body"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cougar_body/image_0033.jpg",
+                "label": 23,
+                "classname": "cougar_body"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cougar_body/image_0020.jpg",
+                "label": 23,
+                "classname": "cougar_body"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cougar_face/image_0047.jpg",
+                "label": 24,
+                "classname": "cougar_face"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cougar_face/image_0064.jpg",
+                "label": 24,
+                "classname": "cougar_face"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cougar_face/image_0065.jpg",
+                "label": 24,
+                "classname": "cougar_face"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cougar_face/image_0068.jpg",
+                "label": 24,
+                "classname": "cougar_face"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/crab/image_0016.jpg",
+                "label": 25,
+                "classname": "crab"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/crab/image_0057.jpg",
+                "label": 25,
+                "classname": "crab"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/crab/image_0034.jpg",
+                "label": 25,
+                "classname": "crab"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/crab/image_0026.jpg",
+                "label": 25,
+                "classname": "crab"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/crayfish/image_0053.jpg",
+                "label": 26,
+                "classname": "crayfish"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/crayfish/image_0059.jpg",
+                "label": 26,
+                "classname": "crayfish"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/crayfish/image_0058.jpg",
+                "label": 26,
+                "classname": "crayfish"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/crayfish/image_0065.jpg",
+                "label": 26,
+                "classname": "crayfish"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/crocodile/image_0027.jpg",
+                "label": 27,
+                "classname": "crocodile"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/crocodile/image_0042.jpg",
+                "label": 27,
+                "classname": "crocodile"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/crocodile/image_0001.jpg",
+                "label": 27,
+                "classname": "crocodile"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/crocodile/image_0047.jpg",
+                "label": 27,
+                "classname": "crocodile"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/crocodile_head/image_0051.jpg",
+                "label": 28,
+                "classname": "crocodile_head"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/crocodile_head/image_0025.jpg",
+                "label": 28,
+                "classname": "crocodile_head"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/crocodile_head/image_0031.jpg",
+                "label": 28,
+                "classname": "crocodile_head"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/crocodile_head/image_0015.jpg",
+                "label": 28,
+                "classname": "crocodile_head"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cup/image_0014.jpg",
+                "label": 29,
+                "classname": "cup"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cup/image_0041.jpg",
+                "label": 29,
+                "classname": "cup"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cup/image_0004.jpg",
+                "label": 29,
+                "classname": "cup"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cup/image_0032.jpg",
+                "label": 29,
+                "classname": "cup"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/dalmatian/image_0050.jpg",
+                "label": 30,
+                "classname": "dalmatian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/dalmatian/image_0044.jpg",
+                "label": 30,
+                "classname": "dalmatian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/dalmatian/image_0066.jpg",
+                "label": 30,
+                "classname": "dalmatian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/dalmatian/image_0023.jpg",
+                "label": 30,
+                "classname": "dalmatian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/dollar_bill/image_0038.jpg",
+                "label": 31,
+                "classname": "dollar_bill"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/dollar_bill/image_0004.jpg",
+                "label": 31,
+                "classname": "dollar_bill"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/dollar_bill/image_0016.jpg",
+                "label": 31,
+                "classname": "dollar_bill"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/dollar_bill/image_0008.jpg",
+                "label": 31,
+                "classname": "dollar_bill"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/dolphin/image_0046.jpg",
+                "label": 32,
+                "classname": "dolphin"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/dolphin/image_0002.jpg",
+                "label": 32,
+                "classname": "dolphin"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/dolphin/image_0039.jpg",
+                "label": 32,
+                "classname": "dolphin"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/dolphin/image_0023.jpg",
+                "label": 32,
+                "classname": "dolphin"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/dragonfly/image_0007.jpg",
+                "label": 33,
+                "classname": "dragonfly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/dragonfly/image_0044.jpg",
+                "label": 33,
+                "classname": "dragonfly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/dragonfly/image_0020.jpg",
+                "label": 33,
+                "classname": "dragonfly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/dragonfly/image_0025.jpg",
+                "label": 33,
+                "classname": "dragonfly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/electric_guitar/image_0010.jpg",
+                "label": 34,
+                "classname": "electric_guitar"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/electric_guitar/image_0024.jpg",
+                "label": 34,
+                "classname": "electric_guitar"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/electric_guitar/image_0033.jpg",
+                "label": 34,
+                "classname": "electric_guitar"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/electric_guitar/image_0018.jpg",
+                "label": 34,
+                "classname": "electric_guitar"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/elephant/image_0042.jpg",
+                "label": 35,
+                "classname": "elephant"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/elephant/image_0051.jpg",
+                "label": 35,
+                "classname": "elephant"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/elephant/image_0063.jpg",
+                "label": 35,
+                "classname": "elephant"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/elephant/image_0034.jpg",
+                "label": 35,
+                "classname": "elephant"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/emu/image_0037.jpg",
+                "label": 36,
+                "classname": "emu"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/emu/image_0006.jpg",
+                "label": 36,
+                "classname": "emu"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/emu/image_0001.jpg",
+                "label": 36,
+                "classname": "emu"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/emu/image_0049.jpg",
+                "label": 36,
+                "classname": "emu"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/euphonium/image_0004.jpg",
+                "label": 37,
+                "classname": "euphonium"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/euphonium/image_0061.jpg",
+                "label": 37,
+                "classname": "euphonium"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/euphonium/image_0025.jpg",
+                "label": 37,
+                "classname": "euphonium"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/euphonium/image_0042.jpg",
+                "label": 37,
+                "classname": "euphonium"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ewer/image_0040.jpg",
+                "label": 38,
+                "classname": "ewer"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ewer/image_0016.jpg",
+                "label": 38,
+                "classname": "ewer"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ewer/image_0007.jpg",
+                "label": 38,
+                "classname": "ewer"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ewer/image_0009.jpg",
+                "label": 38,
+                "classname": "ewer"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ferry/image_0032.jpg",
+                "label": 39,
+                "classname": "ferry"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ferry/image_0009.jpg",
+                "label": 39,
+                "classname": "ferry"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ferry/image_0003.jpg",
+                "label": 39,
+                "classname": "ferry"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ferry/image_0043.jpg",
+                "label": 39,
+                "classname": "ferry"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/flamingo/image_0044.jpg",
+                "label": 40,
+                "classname": "flamingo"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/flamingo/image_0039.jpg",
+                "label": 40,
+                "classname": "flamingo"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/flamingo/image_0064.jpg",
+                "label": 40,
+                "classname": "flamingo"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/flamingo/image_0012.jpg",
+                "label": 40,
+                "classname": "flamingo"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/flamingo_head/image_0018.jpg",
+                "label": 41,
+                "classname": "flamingo_head"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/flamingo_head/image_0033.jpg",
+                "label": 41,
+                "classname": "flamingo_head"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/flamingo_head/image_0005.jpg",
+                "label": 41,
+                "classname": "flamingo_head"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/flamingo_head/image_0019.jpg",
+                "label": 41,
+                "classname": "flamingo_head"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/garfield/image_0007.jpg",
+                "label": 42,
+                "classname": "garfield"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/garfield/image_0001.jpg",
+                "label": 42,
+                "classname": "garfield"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/garfield/image_0002.jpg",
+                "label": 42,
+                "classname": "garfield"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/garfield/image_0034.jpg",
+                "label": 42,
+                "classname": "garfield"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/gerenuk/image_0020.jpg",
+                "label": 43,
+                "classname": "gerenuk"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/gerenuk/image_0014.jpg",
+                "label": 43,
+                "classname": "gerenuk"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/gerenuk/image_0033.jpg",
+                "label": 43,
+                "classname": "gerenuk"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/gerenuk/image_0023.jpg",
+                "label": 43,
+                "classname": "gerenuk"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/gramophone/image_0021.jpg",
+                "label": 44,
+                "classname": "gramophone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/gramophone/image_0040.jpg",
+                "label": 44,
+                "classname": "gramophone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/gramophone/image_0020.jpg",
+                "label": 44,
+                "classname": "gramophone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/gramophone/image_0025.jpg",
+                "label": 44,
+                "classname": "gramophone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/grand_piano/image_0062.jpg",
+                "label": 45,
+                "classname": "grand_piano"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/grand_piano/image_0067.jpg",
+                "label": 45,
+                "classname": "grand_piano"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/grand_piano/image_0008.jpg",
+                "label": 45,
+                "classname": "grand_piano"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/grand_piano/image_0005.jpg",
+                "label": 45,
+                "classname": "grand_piano"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/hawksbill/image_0091.jpg",
+                "label": 46,
+                "classname": "hawksbill"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/hawksbill/image_0057.jpg",
+                "label": 46,
+                "classname": "hawksbill"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/hawksbill/image_0076.jpg",
+                "label": 46,
+                "classname": "hawksbill"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/hawksbill/image_0095.jpg",
+                "label": 46,
+                "classname": "hawksbill"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/headphone/image_0001.jpg",
+                "label": 47,
+                "classname": "headphone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/headphone/image_0039.jpg",
+                "label": 47,
+                "classname": "headphone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/headphone/image_0030.jpg",
+                "label": 47,
+                "classname": "headphone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/headphone/image_0003.jpg",
+                "label": 47,
+                "classname": "headphone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/hedgehog/image_0002.jpg",
+                "label": 48,
+                "classname": "hedgehog"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/hedgehog/image_0022.jpg",
+                "label": 48,
+                "classname": "hedgehog"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/hedgehog/image_0021.jpg",
+                "label": 48,
+                "classname": "hedgehog"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/hedgehog/image_0039.jpg",
+                "label": 48,
+                "classname": "hedgehog"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/helicopter/image_0028.jpg",
+                "label": 49,
+                "classname": "helicopter"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/helicopter/image_0037.jpg",
+                "label": 49,
+                "classname": "helicopter"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/helicopter/image_0056.jpg",
+                "label": 49,
+                "classname": "helicopter"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/helicopter/image_0003.jpg",
+                "label": 49,
+                "classname": "helicopter"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ibis/image_0024.jpg",
+                "label": 50,
+                "classname": "ibis"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ibis/image_0067.jpg",
+                "label": 50,
+                "classname": "ibis"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ibis/image_0026.jpg",
+                "label": 50,
+                "classname": "ibis"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ibis/image_0017.jpg",
+                "label": 50,
+                "classname": "ibis"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/inline_skate/image_0004.jpg",
+                "label": 51,
+                "classname": "inline_skate"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/inline_skate/image_0005.jpg",
+                "label": 51,
+                "classname": "inline_skate"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/inline_skate/image_0029.jpg",
+                "label": 51,
+                "classname": "inline_skate"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/inline_skate/image_0014.jpg",
+                "label": 51,
+                "classname": "inline_skate"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/joshua_tree/image_0026.jpg",
+                "label": 52,
+                "classname": "joshua_tree"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/joshua_tree/image_0040.jpg",
+                "label": 52,
+                "classname": "joshua_tree"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/joshua_tree/image_0064.jpg",
+                "label": 52,
+                "classname": "joshua_tree"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/joshua_tree/image_0022.jpg",
+                "label": 52,
+                "classname": "joshua_tree"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/kangaroo/image_0014.jpg",
+                "label": 53,
+                "classname": "kangaroo"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/kangaroo/image_0024.jpg",
+                "label": 53,
+                "classname": "kangaroo"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/kangaroo/image_0084.jpg",
+                "label": 53,
+                "classname": "kangaroo"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/kangaroo/image_0020.jpg",
+                "label": 53,
+                "classname": "kangaroo"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ketch/image_0008.jpg",
+                "label": 54,
+                "classname": "ketch"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ketch/image_0001.jpg",
+                "label": 54,
+                "classname": "ketch"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ketch/image_0055.jpg",
+                "label": 54,
+                "classname": "ketch"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ketch/image_0100.jpg",
+                "label": 54,
+                "classname": "ketch"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/lamp/image_0034.jpg",
+                "label": 55,
+                "classname": "lamp"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/lamp/image_0011.jpg",
+                "label": 55,
+                "classname": "lamp"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/lamp/image_0030.jpg",
+                "label": 55,
+                "classname": "lamp"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/lamp/image_0035.jpg",
+                "label": 55,
+                "classname": "lamp"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/laptop/image_0067.jpg",
+                "label": 56,
+                "classname": "laptop"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/laptop/image_0002.jpg",
+                "label": 56,
+                "classname": "laptop"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/laptop/image_0077.jpg",
+                "label": 56,
+                "classname": "laptop"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/laptop/image_0044.jpg",
+                "label": 56,
+                "classname": "laptop"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/llama/image_0022.jpg",
+                "label": 57,
+                "classname": "llama"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/llama/image_0062.jpg",
+                "label": 57,
+                "classname": "llama"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/llama/image_0070.jpg",
+                "label": 57,
+                "classname": "llama"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/llama/image_0014.jpg",
+                "label": 57,
+                "classname": "llama"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/lobster/image_0037.jpg",
+                "label": 58,
+                "classname": "lobster"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/lobster/image_0019.jpg",
+                "label": 58,
+                "classname": "lobster"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/lobster/image_0001.jpg",
+                "label": 58,
+                "classname": "lobster"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/lobster/image_0008.jpg",
+                "label": 58,
+                "classname": "lobster"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/lotus/image_0029.jpg",
+                "label": 59,
+                "classname": "lotus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/lotus/image_0059.jpg",
+                "label": 59,
+                "classname": "lotus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/lotus/image_0046.jpg",
+                "label": 59,
+                "classname": "lotus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/lotus/image_0013.jpg",
+                "label": 59,
+                "classname": "lotus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/mandolin/image_0035.jpg",
+                "label": 60,
+                "classname": "mandolin"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/mandolin/image_0030.jpg",
+                "label": 60,
+                "classname": "mandolin"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/mandolin/image_0036.jpg",
+                "label": 60,
+                "classname": "mandolin"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/mandolin/image_0037.jpg",
+                "label": 60,
+                "classname": "mandolin"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/mayfly/image_0028.jpg",
+                "label": 61,
+                "classname": "mayfly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/mayfly/image_0035.jpg",
+                "label": 61,
+                "classname": "mayfly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/mayfly/image_0010.jpg",
+                "label": 61,
+                "classname": "mayfly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/mayfly/image_0023.jpg",
+                "label": 61,
+                "classname": "mayfly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/menorah/image_0077.jpg",
+                "label": 62,
+                "classname": "menorah"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/menorah/image_0032.jpg",
+                "label": 62,
+                "classname": "menorah"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/menorah/image_0081.jpg",
+                "label": 62,
+                "classname": "menorah"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/menorah/image_0052.jpg",
+                "label": 62,
+                "classname": "menorah"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/metronome/image_0001.jpg",
+                "label": 63,
+                "classname": "metronome"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/metronome/image_0027.jpg",
+                "label": 63,
+                "classname": "metronome"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/metronome/image_0011.jpg",
+                "label": 63,
+                "classname": "metronome"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/metronome/image_0010.jpg",
+                "label": 63,
+                "classname": "metronome"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/minaret/image_0038.jpg",
+                "label": 64,
+                "classname": "minaret"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/minaret/image_0020.jpg",
+                "label": 64,
+                "classname": "minaret"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/minaret/image_0031.jpg",
+                "label": 64,
+                "classname": "minaret"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/minaret/image_0050.jpg",
+                "label": 64,
+                "classname": "minaret"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/nautilus/image_0023.jpg",
+                "label": 65,
+                "classname": "nautilus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/nautilus/image_0005.jpg",
+                "label": 65,
+                "classname": "nautilus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/nautilus/image_0049.jpg",
+                "label": 65,
+                "classname": "nautilus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/nautilus/image_0050.jpg",
+                "label": 65,
+                "classname": "nautilus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/octopus/image_0010.jpg",
+                "label": 66,
+                "classname": "octopus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/octopus/image_0001.jpg",
+                "label": 66,
+                "classname": "octopus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/octopus/image_0007.jpg",
+                "label": 66,
+                "classname": "octopus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/octopus/image_0004.jpg",
+                "label": 66,
+                "classname": "octopus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/okapi/image_0004.jpg",
+                "label": 67,
+                "classname": "okapi"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/okapi/image_0035.jpg",
+                "label": 67,
+                "classname": "okapi"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/okapi/image_0020.jpg",
+                "label": 67,
+                "classname": "okapi"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/okapi/image_0030.jpg",
+                "label": 67,
+                "classname": "okapi"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/pagoda/image_0012.jpg",
+                "label": 68,
+                "classname": "pagoda"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/pagoda/image_0025.jpg",
+                "label": 68,
+                "classname": "pagoda"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/pagoda/image_0024.jpg",
+                "label": 68,
+                "classname": "pagoda"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/pagoda/image_0003.jpg",
+                "label": 68,
+                "classname": "pagoda"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/panda/image_0032.jpg",
+                "label": 69,
+                "classname": "panda"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/panda/image_0002.jpg",
+                "label": 69,
+                "classname": "panda"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/panda/image_0016.jpg",
+                "label": 69,
+                "classname": "panda"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/panda/image_0022.jpg",
+                "label": 69,
+                "classname": "panda"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/pigeon/image_0011.jpg",
+                "label": 70,
+                "classname": "pigeon"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/pigeon/image_0005.jpg",
+                "label": 70,
+                "classname": "pigeon"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/pigeon/image_0015.jpg",
+                "label": 70,
+                "classname": "pigeon"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/pigeon/image_0030.jpg",
+                "label": 70,
+                "classname": "pigeon"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/pizza/image_0040.jpg",
+                "label": 71,
+                "classname": "pizza"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/pizza/image_0012.jpg",
+                "label": 71,
+                "classname": "pizza"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/pizza/image_0050.jpg",
+                "label": 71,
+                "classname": "pizza"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/pizza/image_0051.jpg",
+                "label": 71,
+                "classname": "pizza"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/platypus/image_0006.jpg",
+                "label": 72,
+                "classname": "platypus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/platypus/image_0010.jpg",
+                "label": 72,
+                "classname": "platypus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/platypus/image_0009.jpg",
+                "label": 72,
+                "classname": "platypus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/platypus/image_0002.jpg",
+                "label": 72,
+                "classname": "platypus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/pyramid/image_0056.jpg",
+                "label": 73,
+                "classname": "pyramid"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/pyramid/image_0029.jpg",
+                "label": 73,
+                "classname": "pyramid"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/pyramid/image_0033.jpg",
+                "label": 73,
+                "classname": "pyramid"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/pyramid/image_0018.jpg",
+                "label": 73,
+                "classname": "pyramid"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/revolver/image_0024.jpg",
+                "label": 74,
+                "classname": "revolver"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/revolver/image_0054.jpg",
+                "label": 74,
+                "classname": "revolver"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/revolver/image_0032.jpg",
+                "label": 74,
+                "classname": "revolver"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/revolver/image_0004.jpg",
+                "label": 74,
+                "classname": "revolver"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/rhino/image_0008.jpg",
+                "label": 75,
+                "classname": "rhino"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/rhino/image_0007.jpg",
+                "label": 75,
+                "classname": "rhino"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/rhino/image_0057.jpg",
+                "label": 75,
+                "classname": "rhino"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/rhino/image_0041.jpg",
+                "label": 75,
+                "classname": "rhino"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/rooster/image_0007.jpg",
+                "label": 76,
+                "classname": "rooster"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/rooster/image_0030.jpg",
+                "label": 76,
+                "classname": "rooster"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/rooster/image_0005.jpg",
+                "label": 76,
+                "classname": "rooster"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/rooster/image_0031.jpg",
+                "label": 76,
+                "classname": "rooster"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/saxophone/image_0035.jpg",
+                "label": 77,
+                "classname": "saxophone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/saxophone/image_0022.jpg",
+                "label": 77,
+                "classname": "saxophone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/saxophone/image_0001.jpg",
+                "label": 77,
+                "classname": "saxophone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/saxophone/image_0032.jpg",
+                "label": 77,
+                "classname": "saxophone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/schooner/image_0037.jpg",
+                "label": 78,
+                "classname": "schooner"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/schooner/image_0035.jpg",
+                "label": 78,
+                "classname": "schooner"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/schooner/image_0062.jpg",
+                "label": 78,
+                "classname": "schooner"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/schooner/image_0055.jpg",
+                "label": 78,
+                "classname": "schooner"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/scissors/image_0019.jpg",
+                "label": 79,
+                "classname": "scissors"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/scissors/image_0028.jpg",
+                "label": 79,
+                "classname": "scissors"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/scissors/image_0009.jpg",
+                "label": 79,
+                "classname": "scissors"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/scissors/image_0017.jpg",
+                "label": 79,
+                "classname": "scissors"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/scorpion/image_0051.jpg",
+                "label": 80,
+                "classname": "scorpion"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/scorpion/image_0050.jpg",
+                "label": 80,
+                "classname": "scorpion"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/scorpion/image_0080.jpg",
+                "label": 80,
+                "classname": "scorpion"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/scorpion/image_0011.jpg",
+                "label": 80,
+                "classname": "scorpion"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/sea_horse/image_0001.jpg",
+                "label": 81,
+                "classname": "sea_horse"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/sea_horse/image_0006.jpg",
+                "label": 81,
+                "classname": "sea_horse"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/sea_horse/image_0009.jpg",
+                "label": 81,
+                "classname": "sea_horse"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/sea_horse/image_0049.jpg",
+                "label": 81,
+                "classname": "sea_horse"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/snoopy/image_0030.jpg",
+                "label": 82,
+                "classname": "snoopy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/snoopy/image_0009.jpg",
+                "label": 82,
+                "classname": "snoopy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/snoopy/image_0020.jpg",
+                "label": 82,
+                "classname": "snoopy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/snoopy/image_0010.jpg",
+                "label": 82,
+                "classname": "snoopy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/soccer_ball/image_0055.jpg",
+                "label": 83,
+                "classname": "soccer_ball"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/soccer_ball/image_0021.jpg",
+                "label": 83,
+                "classname": "soccer_ball"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/soccer_ball/image_0031.jpg",
+                "label": 83,
+                "classname": "soccer_ball"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/soccer_ball/image_0054.jpg",
+                "label": 83,
+                "classname": "soccer_ball"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/stapler/image_0026.jpg",
+                "label": 84,
+                "classname": "stapler"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/stapler/image_0036.jpg",
+                "label": 84,
+                "classname": "stapler"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/stapler/image_0001.jpg",
+                "label": 84,
+                "classname": "stapler"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/stapler/image_0016.jpg",
+                "label": 84,
+                "classname": "stapler"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/starfish/image_0013.jpg",
+                "label": 85,
+                "classname": "starfish"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/starfish/image_0056.jpg",
+                "label": 85,
+                "classname": "starfish"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/starfish/image_0023.jpg",
+                "label": 85,
+                "classname": "starfish"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/starfish/image_0046.jpg",
+                "label": 85,
+                "classname": "starfish"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/stegosaurus/image_0004.jpg",
+                "label": 86,
+                "classname": "stegosaurus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/stegosaurus/image_0054.jpg",
+                "label": 86,
+                "classname": "stegosaurus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/stegosaurus/image_0005.jpg",
+                "label": 86,
+                "classname": "stegosaurus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/stegosaurus/image_0019.jpg",
+                "label": 86,
+                "classname": "stegosaurus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/stop_sign/image_0057.jpg",
+                "label": 87,
+                "classname": "stop_sign"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/stop_sign/image_0028.jpg",
+                "label": 87,
+                "classname": "stop_sign"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/stop_sign/image_0059.jpg",
+                "label": 87,
+                "classname": "stop_sign"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/stop_sign/image_0008.jpg",
+                "label": 87,
+                "classname": "stop_sign"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/strawberry/image_0009.jpg",
+                "label": 88,
+                "classname": "strawberry"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/strawberry/image_0030.jpg",
+                "label": 88,
+                "classname": "strawberry"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/strawberry/image_0031.jpg",
+                "label": 88,
+                "classname": "strawberry"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/strawberry/image_0025.jpg",
+                "label": 88,
+                "classname": "strawberry"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/sunflower/image_0018.jpg",
+                "label": 89,
+                "classname": "sunflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/sunflower/image_0011.jpg",
+                "label": 89,
+                "classname": "sunflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/sunflower/image_0029.jpg",
+                "label": 89,
+                "classname": "sunflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/sunflower/image_0076.jpg",
+                "label": 89,
+                "classname": "sunflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/tick/image_0045.jpg",
+                "label": 90,
+                "classname": "tick"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/tick/image_0042.jpg",
+                "label": 90,
+                "classname": "tick"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/tick/image_0025.jpg",
+                "label": 90,
+                "classname": "tick"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/tick/image_0020.jpg",
+                "label": 90,
+                "classname": "tick"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/trilobite/image_0023.jpg",
+                "label": 91,
+                "classname": "trilobite"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/trilobite/image_0056.jpg",
+                "label": 91,
+                "classname": "trilobite"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/trilobite/image_0048.jpg",
+                "label": 91,
+                "classname": "trilobite"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/trilobite/image_0077.jpg",
+                "label": 91,
+                "classname": "trilobite"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/umbrella/image_0009.jpg",
+                "label": 92,
+                "classname": "umbrella"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/umbrella/image_0016.jpg",
+                "label": 92,
+                "classname": "umbrella"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/umbrella/image_0042.jpg",
+                "label": 92,
+                "classname": "umbrella"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/umbrella/image_0034.jpg",
+                "label": 92,
+                "classname": "umbrella"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/watch/image_0065.jpg",
+                "label": 93,
+                "classname": "watch"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/watch/image_0044.jpg",
+                "label": 93,
+                "classname": "watch"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/watch/image_0035.jpg",
+                "label": 93,
+                "classname": "watch"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/watch/image_0129.jpg",
+                "label": 93,
+                "classname": "watch"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/water_lilly/image_0028.jpg",
+                "label": 94,
+                "classname": "water_lilly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/water_lilly/image_0030.jpg",
+                "label": 94,
+                "classname": "water_lilly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/water_lilly/image_0013.jpg",
+                "label": 94,
+                "classname": "water_lilly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/water_lilly/image_0021.jpg",
+                "label": 94,
+                "classname": "water_lilly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/wheelchair/image_0006.jpg",
+                "label": 95,
+                "classname": "wheelchair"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/wheelchair/image_0019.jpg",
+                "label": 95,
+                "classname": "wheelchair"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/wheelchair/image_0026.jpg",
+                "label": 95,
+                "classname": "wheelchair"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/wheelchair/image_0054.jpg",
+                "label": 95,
+                "classname": "wheelchair"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/wild_cat/image_0015.jpg",
+                "label": 96,
+                "classname": "wild_cat"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/wild_cat/image_0005.jpg",
+                "label": 96,
+                "classname": "wild_cat"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/wild_cat/image_0032.jpg",
+                "label": 96,
+                "classname": "wild_cat"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/wild_cat/image_0031.jpg",
+                "label": 96,
+                "classname": "wild_cat"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/windsor_chair/image_0019.jpg",
+                "label": 97,
+                "classname": "windsor_chair"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/windsor_chair/image_0032.jpg",
+                "label": 97,
+                "classname": "windsor_chair"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/windsor_chair/image_0028.jpg",
+                "label": 97,
+                "classname": "windsor_chair"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/windsor_chair/image_0051.jpg",
+                "label": 97,
+                "classname": "windsor_chair"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/wrench/image_0021.jpg",
+                "label": 98,
+                "classname": "wrench"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/wrench/image_0013.jpg",
+                "label": 98,
+                "classname": "wrench"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/wrench/image_0022.jpg",
+                "label": 98,
+                "classname": "wrench"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/wrench/image_0019.jpg",
+                "label": 98,
+                "classname": "wrench"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/yin_yang/image_0060.jpg",
+                "label": 99,
+                "classname": "yin_yang"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/yin_yang/image_0025.jpg",
+                "label": 99,
+                "classname": "yin_yang"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/yin_yang/image_0056.jpg",
+                "label": 99,
+                "classname": "yin_yang"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/yin_yang/image_0026.jpg",
+                "label": 99,
+                "classname": "yin_yang"
+            }
+        ],
+        "indices": [
+            217,
+            14,
+            23,
+            21,
+            264,
+            239,
+            312,
+            303,
+            475,
+            446,
+            628,
+            426,
+            736,
+            718,
+            735,
+            738,
+            826,
+            965,
+            1071,
+            946,
+            1161,
+            1156,
+            1162,
+            1159,
+            1182,
+            1174,
+            1167,
+            1166,
+            1198,
+            1201,
+            1197,
+            1199,
+            1224,
+            1227,
+            1216,
+            1228,
+            1243,
+            1245,
+            1238,
+            1248,
+            1266,
+            1263,
+            1269,
+            1274,
+            1323,
+            1300,
+            1334,
+            1330,
+            1388,
+            1374,
+            1389,
+            1364,
+            1408,
+            1401,
+            1404,
+            1395,
+            1437,
+            1441,
+            1453,
+            1445,
+            1469,
+            1485,
+            1471,
+            1486,
+            1516,
+            1511,
+            1521,
+            1514,
+            1539,
+            1536,
+            1543,
+            1542,
+            1593,
+            1576,
+            1578,
+            1589,
+            1616,
+            1619,
+            1631,
+            1614,
+            1661,
+            1662,
+            1652,
+            1641,
+            1687,
+            1692,
+            1678,
+            1672,
+            1713,
+            1745,
+            1739,
+            1747,
+            1764,
+            1765,
+            1768,
+            1767,
+            1798,
+            1791,
+            1785,
+            1803,
+            1838,
+            1829,
+            1810,
+            1827,
+            1842,
+            1854,
+            1848,
+            1845,
+            1895,
+            1897,
+            1878,
+            1885,
+            1920,
+            1909,
+            1923,
+            1905,
+            1952,
+            1944,
+            1932,
+            1955,
+            1973,
+            1971,
+            1969,
+            1959,
+            2003,
+            2012,
+            2014,
+            1991,
+            2019,
+            2039,
+            2027,
+            2031,
+            2049,
+            2053,
+            2055,
+            2052,
+            2083,
+            2084,
+            2105,
+            2098,
+            2128,
+            2130,
+            2131,
+            2120,
+            2164,
+            2170,
+            2153,
+            2177,
+            2193,
+            2187,
+            2180,
+            2178,
+            2232,
+            2249,
+            2250,
+            2217,
+            2270,
+            2273,
+            2283,
+            2253,
+            2305,
+            2314,
+            2288,
+            2302,
+            2332,
+            2339,
+            2324,
+            2335,
+            2349,
+            2344,
+            2352,
+            2356,
+            2369,
+            2362,
+            2359,
+            2366,
+            2401,
+            2380,
+            2392,
+            2394,
+            2451,
+            2427,
+            2433,
+            2434,
+            2472,
+            2461,
+            2473,
+            2468,
+            2510,
+            2521,
+            2515,
+            2502,
+            2545,
+            2540,
+            2527,
+            2544,
+            2553,
+            2566,
+            2552,
+            2558,
+            2604,
+            2600,
+            2623,
+            2608,
+            2635,
+            2637,
+            2648,
+            2645,
+            2678,
+            2654,
+            2666,
+            2655,
+            2719,
+            2696,
+            2721,
+            2705,
+            2741,
+            2768,
+            2752,
+            2742,
+            2798,
+            2806,
+            2782,
+            2786,
+            2814,
+            2836,
+            2838,
+            2822,
+            2859,
+            2884,
+            2857,
+            2867,
+            2894,
+            2910,
+            2891,
+            2896,
+            2925,
+            2917,
+            2924,
+            2912,
+            2960,
+            2965,
+            2958,
+            2953,
+            2983,
+            2978,
+            2972,
+            2985,
+            3013,
+            3018,
+            2987,
+            3023,
+            3031,
+            3044,
+            3036,
+            3038,
+            3083,
+            3057,
+            3052,
+            3076,
+            3095,
+            3084,
+            3100,
+            3087,
+            3123,
+            3121,
+            3129,
+            3116,
+            3130,
+            3143,
+            3133,
+            3147,
+            3159,
+            3156,
+            3171,
+            3150,
+            3188,
+            3175,
+            3187,
+            3189,
+            3207,
+            3199,
+            3211,
+            3212,
+            3217,
+            3215,
+            3224,
+            3226,
+            3250,
+            3243,
+            3244,
+            3253,
+            3273,
+            3264,
+            3261,
+            3276,
+            3309,
+            3311,
+            3315,
+            3294,
+            3351,
+            3338,
+            3339,
+            3355,
+            3360,
+            3365,
+            3359,
+            3376,
+            3391,
+            3393,
+            3387,
+            3384,
+            3402,
+            3431,
+            3403,
+            3432,
+            3442,
+            3444,
+            3447,
+            3437,
+            3476,
+            3470,
+            3483,
+            3486,
+            3522,
+            3510,
+            3518,
+            3520,
+            3536,
+            3538,
+            3532,
+            3529,
+            3555,
+            3551,
+            3572,
+            3557,
+            3590,
+            3586,
+            3594,
+            3575,
+            3632,
+            3631,
+            3601,
+            3599,
+            3649,
+            3643,
+            3655,
+            3642,
+            3694,
+            3672,
+            3673,
+            3670,
+            3704,
+            3709,
+            3712,
+            3703,
+            3739,
+            3746,
+            3729,
+            3751,
+            3769,
+            3763,
+            3764,
+            3777,
+            3811,
+            3790,
+            3805,
+            3817,
+            3842,
+            3859,
+            3843,
+            3837,
+            3979,
+            3885,
+            3924,
+            3955,
+            3992,
+            3997,
+            3996,
+            4001,
+            4027,
+            4021,
+            4026,
+            4007,
+            4047,
+            4049,
+            4044,
+            4033,
+            4075,
+            4069,
+            4062,
+            4073,
+            4083,
+            4090,
+            4094,
+            4079,
+            4113,
+            4106,
+            4110,
+            4120
+        ]
+    },
+    "val": {
+        "data": [
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/Faces/image_0360.jpg",
+                "label": 0,
+                "classname": "face"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/Faces/image_0295.jpg",
+                "label": 0,
+                "classname": "face"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/Faces/image_0071.jpg",
+                "label": 0,
+                "classname": "face"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/Faces/image_0215.jpg",
+                "label": 0,
+                "classname": "face"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/Leopards/image_0024.jpg",
+                "label": 1,
+                "classname": "leopard"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/Leopards/image_0188.jpg",
+                "label": 1,
+                "classname": "leopard"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/Leopards/image_0046.jpg",
+                "label": 1,
+                "classname": "leopard"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/Leopards/image_0128.jpg",
+                "label": 1,
+                "classname": "leopard"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/Motorbikes/image_0349.jpg",
+                "label": 2,
+                "classname": "motorbike"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/Motorbikes/image_0417.jpg",
+                "label": 2,
+                "classname": "motorbike"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/Motorbikes/image_0675.jpg",
+                "label": 2,
+                "classname": "motorbike"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/Motorbikes/image_0235.jpg",
+                "label": 2,
+                "classname": "motorbike"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/accordion/image_0007.jpg",
+                "label": 3,
+                "classname": "accordion"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/accordion/image_0014.jpg",
+                "label": 3,
+                "classname": "accordion"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/accordion/image_0034.jpg",
+                "label": 3,
+                "classname": "accordion"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/accordion/image_0048.jpg",
+                "label": 3,
+                "classname": "accordion"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/airplanes/image_0382.jpg",
+                "label": 4,
+                "classname": "airplane"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/airplanes/image_0697.jpg",
+                "label": 4,
+                "classname": "airplane"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/airplanes/image_0164.jpg",
+                "label": 4,
+                "classname": "airplane"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/airplanes/image_0215.jpg",
+                "label": 4,
+                "classname": "airplane"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/anchor/image_0023.jpg",
+                "label": 5,
+                "classname": "anchor"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/anchor/image_0002.jpg",
+                "label": 5,
+                "classname": "anchor"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/anchor/image_0031.jpg",
+                "label": 5,
+                "classname": "anchor"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/anchor/image_0038.jpg",
+                "label": 5,
+                "classname": "anchor"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ant/image_0036.jpg",
+                "label": 6,
+                "classname": "ant"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ant/image_0040.jpg",
+                "label": 6,
+                "classname": "ant"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ant/image_0018.jpg",
+                "label": 6,
+                "classname": "ant"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ant/image_0023.jpg",
+                "label": 6,
+                "classname": "ant"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/barrel/image_0002.jpg",
+                "label": 7,
+                "classname": "barrel"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/barrel/image_0007.jpg",
+                "label": 7,
+                "classname": "barrel"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/barrel/image_0032.jpg",
+                "label": 7,
+                "classname": "barrel"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/barrel/image_0041.jpg",
+                "label": 7,
+                "classname": "barrel"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/bass/image_0022.jpg",
+                "label": 8,
+                "classname": "bass"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/bass/image_0049.jpg",
+                "label": 8,
+                "classname": "bass"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/bass/image_0033.jpg",
+                "label": 8,
+                "classname": "bass"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/bass/image_0052.jpg",
+                "label": 8,
+                "classname": "bass"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/beaver/image_0003.jpg",
+                "label": 9,
+                "classname": "beaver"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/beaver/image_0037.jpg",
+                "label": 9,
+                "classname": "beaver"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/beaver/image_0013.jpg",
+                "label": 9,
+                "classname": "beaver"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/beaver/image_0035.jpg",
+                "label": 9,
+                "classname": "beaver"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/binocular/image_0014.jpg",
+                "label": 10,
+                "classname": "binocular"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/binocular/image_0029.jpg",
+                "label": 10,
+                "classname": "binocular"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/binocular/image_0016.jpg",
+                "label": 10,
+                "classname": "binocular"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/binocular/image_0017.jpg",
+                "label": 10,
+                "classname": "binocular"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/bonsai/image_0069.jpg",
+                "label": 11,
+                "classname": "bonsai"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/bonsai/image_0085.jpg",
+                "label": 11,
+                "classname": "bonsai"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/bonsai/image_0108.jpg",
+                "label": 11,
+                "classname": "bonsai"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/bonsai/image_0001.jpg",
+                "label": 11,
+                "classname": "bonsai"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/brain/image_0032.jpg",
+                "label": 12,
+                "classname": "brain"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/brain/image_0048.jpg",
+                "label": 12,
+                "classname": "brain"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/brain/image_0086.jpg",
+                "label": 12,
+                "classname": "brain"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/brain/image_0088.jpg",
+                "label": 12,
+                "classname": "brain"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/brontosaurus/image_0039.jpg",
+                "label": 13,
+                "classname": "brontosaurus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/brontosaurus/image_0023.jpg",
+                "label": 13,
+                "classname": "brontosaurus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/brontosaurus/image_0040.jpg",
+                "label": 13,
+                "classname": "brontosaurus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/brontosaurus/image_0017.jpg",
+                "label": 13,
+                "classname": "brontosaurus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/buddha/image_0062.jpg",
+                "label": 14,
+                "classname": "buddha"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/buddha/image_0036.jpg",
+                "label": 14,
+                "classname": "buddha"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/buddha/image_0004.jpg",
+                "label": 14,
+                "classname": "buddha"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/buddha/image_0044.jpg",
+                "label": 14,
+                "classname": "buddha"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/butterfly/image_0042.jpg",
+                "label": 15,
+                "classname": "butterfly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/butterfly/image_0046.jpg",
+                "label": 15,
+                "classname": "butterfly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/butterfly/image_0017.jpg",
+                "label": 15,
+                "classname": "butterfly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/butterfly/image_0018.jpg",
+                "label": 15,
+                "classname": "butterfly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/camera/image_0046.jpg",
+                "label": 16,
+                "classname": "camera"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/camera/image_0002.jpg",
+                "label": 16,
+                "classname": "camera"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/camera/image_0047.jpg",
+                "label": 16,
+                "classname": "camera"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/camera/image_0030.jpg",
+                "label": 16,
+                "classname": "camera"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cannon/image_0004.jpg",
+                "label": 17,
+                "classname": "cannon"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cannon/image_0022.jpg",
+                "label": 17,
+                "classname": "cannon"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cannon/image_0025.jpg",
+                "label": 17,
+                "classname": "cannon"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cannon/image_0005.jpg",
+                "label": 17,
+                "classname": "cannon"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/car_side/image_0113.jpg",
+                "label": 18,
+                "classname": "car_side"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/car_side/image_0088.jpg",
+                "label": 18,
+                "classname": "car_side"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/car_side/image_0024.jpg",
+                "label": 18,
+                "classname": "car_side"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/car_side/image_0009.jpg",
+                "label": 18,
+                "classname": "car_side"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ceiling_fan/image_0045.jpg",
+                "label": 19,
+                "classname": "ceiling_fan"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ceiling_fan/image_0009.jpg",
+                "label": 19,
+                "classname": "ceiling_fan"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ceiling_fan/image_0023.jpg",
+                "label": 19,
+                "classname": "ceiling_fan"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ceiling_fan/image_0002.jpg",
+                "label": 19,
+                "classname": "ceiling_fan"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cellphone/image_0047.jpg",
+                "label": 20,
+                "classname": "cellphone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cellphone/image_0007.jpg",
+                "label": 20,
+                "classname": "cellphone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cellphone/image_0053.jpg",
+                "label": 20,
+                "classname": "cellphone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cellphone/image_0042.jpg",
+                "label": 20,
+                "classname": "cellphone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/chair/image_0029.jpg",
+                "label": 21,
+                "classname": "chair"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/chair/image_0015.jpg",
+                "label": 21,
+                "classname": "chair"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/chair/image_0028.jpg",
+                "label": 21,
+                "classname": "chair"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/chair/image_0022.jpg",
+                "label": 21,
+                "classname": "chair"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/chandelier/image_0058.jpg",
+                "label": 22,
+                "classname": "chandelier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/chandelier/image_0055.jpg",
+                "label": 22,
+                "classname": "chandelier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/chandelier/image_0067.jpg",
+                "label": 22,
+                "classname": "chandelier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/chandelier/image_0051.jpg",
+                "label": 22,
+                "classname": "chandelier"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cougar_body/image_0013.jpg",
+                "label": 23,
+                "classname": "cougar_body"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cougar_body/image_0003.jpg",
+                "label": 23,
+                "classname": "cougar_body"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cougar_body/image_0002.jpg",
+                "label": 23,
+                "classname": "cougar_body"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cougar_body/image_0026.jpg",
+                "label": 23,
+                "classname": "cougar_body"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cougar_face/image_0022.jpg",
+                "label": 24,
+                "classname": "cougar_face"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cougar_face/image_0069.jpg",
+                "label": 24,
+                "classname": "cougar_face"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cougar_face/image_0025.jpg",
+                "label": 24,
+                "classname": "cougar_face"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cougar_face/image_0007.jpg",
+                "label": 24,
+                "classname": "cougar_face"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/crab/image_0054.jpg",
+                "label": 25,
+                "classname": "crab"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/crab/image_0021.jpg",
+                "label": 25,
+                "classname": "crab"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/crab/image_0006.jpg",
+                "label": 25,
+                "classname": "crab"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/crab/image_0024.jpg",
+                "label": 25,
+                "classname": "crab"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/crayfish/image_0010.jpg",
+                "label": 26,
+                "classname": "crayfish"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/crayfish/image_0013.jpg",
+                "label": 26,
+                "classname": "crayfish"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/crayfish/image_0057.jpg",
+                "label": 26,
+                "classname": "crayfish"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/crayfish/image_0026.jpg",
+                "label": 26,
+                "classname": "crayfish"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/crocodile/image_0010.jpg",
+                "label": 27,
+                "classname": "crocodile"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/crocodile/image_0049.jpg",
+                "label": 27,
+                "classname": "crocodile"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/crocodile/image_0045.jpg",
+                "label": 27,
+                "classname": "crocodile"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/crocodile/image_0032.jpg",
+                "label": 27,
+                "classname": "crocodile"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/crocodile_head/image_0012.jpg",
+                "label": 28,
+                "classname": "crocodile_head"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/crocodile_head/image_0005.jpg",
+                "label": 28,
+                "classname": "crocodile_head"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/crocodile_head/image_0004.jpg",
+                "label": 28,
+                "classname": "crocodile_head"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/crocodile_head/image_0046.jpg",
+                "label": 28,
+                "classname": "crocodile_head"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cup/image_0021.jpg",
+                "label": 29,
+                "classname": "cup"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cup/image_0056.jpg",
+                "label": 29,
+                "classname": "cup"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cup/image_0020.jpg",
+                "label": 29,
+                "classname": "cup"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/cup/image_0013.jpg",
+                "label": 29,
+                "classname": "cup"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/dalmatian/image_0055.jpg",
+                "label": 30,
+                "classname": "dalmatian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/dalmatian/image_0015.jpg",
+                "label": 30,
+                "classname": "dalmatian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/dalmatian/image_0024.jpg",
+                "label": 30,
+                "classname": "dalmatian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/dalmatian/image_0058.jpg",
+                "label": 30,
+                "classname": "dalmatian"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/dollar_bill/image_0021.jpg",
+                "label": 31,
+                "classname": "dollar_bill"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/dollar_bill/image_0020.jpg",
+                "label": 31,
+                "classname": "dollar_bill"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/dollar_bill/image_0024.jpg",
+                "label": 31,
+                "classname": "dollar_bill"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/dollar_bill/image_0050.jpg",
+                "label": 31,
+                "classname": "dollar_bill"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/dolphin/image_0056.jpg",
+                "label": 32,
+                "classname": "dolphin"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/dolphin/image_0048.jpg",
+                "label": 32,
+                "classname": "dolphin"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/dolphin/image_0001.jpg",
+                "label": 32,
+                "classname": "dolphin"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/dolphin/image_0028.jpg",
+                "label": 32,
+                "classname": "dolphin"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/dragonfly/image_0054.jpg",
+                "label": 33,
+                "classname": "dragonfly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/dragonfly/image_0002.jpg",
+                "label": 33,
+                "classname": "dragonfly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/dragonfly/image_0005.jpg",
+                "label": 33,
+                "classname": "dragonfly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/dragonfly/image_0008.jpg",
+                "label": 33,
+                "classname": "dragonfly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/electric_guitar/image_0069.jpg",
+                "label": 34,
+                "classname": "electric_guitar"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/electric_guitar/image_0028.jpg",
+                "label": 34,
+                "classname": "electric_guitar"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/electric_guitar/image_0027.jpg",
+                "label": 34,
+                "classname": "electric_guitar"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/electric_guitar/image_0071.jpg",
+                "label": 34,
+                "classname": "electric_guitar"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/elephant/image_0045.jpg",
+                "label": 35,
+                "classname": "elephant"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/elephant/image_0022.jpg",
+                "label": 35,
+                "classname": "elephant"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/elephant/image_0050.jpg",
+                "label": 35,
+                "classname": "elephant"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/elephant/image_0005.jpg",
+                "label": 35,
+                "classname": "elephant"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/emu/image_0009.jpg",
+                "label": 36,
+                "classname": "emu"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/emu/image_0027.jpg",
+                "label": 36,
+                "classname": "emu"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/emu/image_0023.jpg",
+                "label": 36,
+                "classname": "emu"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/emu/image_0041.jpg",
+                "label": 36,
+                "classname": "emu"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/euphonium/image_0020.jpg",
+                "label": 37,
+                "classname": "euphonium"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/euphonium/image_0060.jpg",
+                "label": 37,
+                "classname": "euphonium"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/euphonium/image_0035.jpg",
+                "label": 37,
+                "classname": "euphonium"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/euphonium/image_0002.jpg",
+                "label": 37,
+                "classname": "euphonium"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ewer/image_0003.jpg",
+                "label": 38,
+                "classname": "ewer"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ewer/image_0067.jpg",
+                "label": 38,
+                "classname": "ewer"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ewer/image_0049.jpg",
+                "label": 38,
+                "classname": "ewer"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ewer/image_0032.jpg",
+                "label": 38,
+                "classname": "ewer"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ferry/image_0040.jpg",
+                "label": 39,
+                "classname": "ferry"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ferry/image_0004.jpg",
+                "label": 39,
+                "classname": "ferry"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ferry/image_0010.jpg",
+                "label": 39,
+                "classname": "ferry"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ferry/image_0061.jpg",
+                "label": 39,
+                "classname": "ferry"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/flamingo/image_0052.jpg",
+                "label": 40,
+                "classname": "flamingo"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/flamingo/image_0056.jpg",
+                "label": 40,
+                "classname": "flamingo"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/flamingo/image_0021.jpg",
+                "label": 40,
+                "classname": "flamingo"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/flamingo/image_0007.jpg",
+                "label": 40,
+                "classname": "flamingo"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/flamingo_head/image_0017.jpg",
+                "label": 41,
+                "classname": "flamingo_head"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/flamingo_head/image_0035.jpg",
+                "label": 41,
+                "classname": "flamingo_head"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/flamingo_head/image_0006.jpg",
+                "label": 41,
+                "classname": "flamingo_head"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/flamingo_head/image_0031.jpg",
+                "label": 41,
+                "classname": "flamingo_head"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/garfield/image_0008.jpg",
+                "label": 42,
+                "classname": "garfield"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/garfield/image_0010.jpg",
+                "label": 42,
+                "classname": "garfield"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/garfield/image_0031.jpg",
+                "label": 42,
+                "classname": "garfield"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/garfield/image_0025.jpg",
+                "label": 42,
+                "classname": "garfield"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/gerenuk/image_0024.jpg",
+                "label": 43,
+                "classname": "gerenuk"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/gerenuk/image_0002.jpg",
+                "label": 43,
+                "classname": "gerenuk"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/gerenuk/image_0021.jpg",
+                "label": 43,
+                "classname": "gerenuk"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/gerenuk/image_0009.jpg",
+                "label": 43,
+                "classname": "gerenuk"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/gramophone/image_0031.jpg",
+                "label": 44,
+                "classname": "gramophone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/gramophone/image_0041.jpg",
+                "label": 44,
+                "classname": "gramophone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/gramophone/image_0038.jpg",
+                "label": 44,
+                "classname": "gramophone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/gramophone/image_0023.jpg",
+                "label": 44,
+                "classname": "gramophone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/grand_piano/image_0046.jpg",
+                "label": 45,
+                "classname": "grand_piano"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/grand_piano/image_0073.jpg",
+                "label": 45,
+                "classname": "grand_piano"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/grand_piano/image_0034.jpg",
+                "label": 45,
+                "classname": "grand_piano"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/grand_piano/image_0021.jpg",
+                "label": 45,
+                "classname": "grand_piano"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/hawksbill/image_0068.jpg",
+                "label": 46,
+                "classname": "hawksbill"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/hawksbill/image_0009.jpg",
+                "label": 46,
+                "classname": "hawksbill"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/hawksbill/image_0098.jpg",
+                "label": 46,
+                "classname": "hawksbill"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/hawksbill/image_0083.jpg",
+                "label": 46,
+                "classname": "hawksbill"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/headphone/image_0025.jpg",
+                "label": 47,
+                "classname": "headphone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/headphone/image_0008.jpg",
+                "label": 47,
+                "classname": "headphone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/headphone/image_0021.jpg",
+                "label": 47,
+                "classname": "headphone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/headphone/image_0022.jpg",
+                "label": 47,
+                "classname": "headphone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/hedgehog/image_0013.jpg",
+                "label": 48,
+                "classname": "hedgehog"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/hedgehog/image_0036.jpg",
+                "label": 48,
+                "classname": "hedgehog"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/hedgehog/image_0026.jpg",
+                "label": 48,
+                "classname": "hedgehog"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/hedgehog/image_0008.jpg",
+                "label": 48,
+                "classname": "hedgehog"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/helicopter/image_0041.jpg",
+                "label": 49,
+                "classname": "helicopter"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/helicopter/image_0088.jpg",
+                "label": 49,
+                "classname": "helicopter"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/helicopter/image_0086.jpg",
+                "label": 49,
+                "classname": "helicopter"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/helicopter/image_0014.jpg",
+                "label": 49,
+                "classname": "helicopter"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ibis/image_0027.jpg",
+                "label": 50,
+                "classname": "ibis"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ibis/image_0012.jpg",
+                "label": 50,
+                "classname": "ibis"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ibis/image_0021.jpg",
+                "label": 50,
+                "classname": "ibis"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ibis/image_0071.jpg",
+                "label": 50,
+                "classname": "ibis"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/inline_skate/image_0028.jpg",
+                "label": 51,
+                "classname": "inline_skate"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/inline_skate/image_0023.jpg",
+                "label": 51,
+                "classname": "inline_skate"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/inline_skate/image_0010.jpg",
+                "label": 51,
+                "classname": "inline_skate"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/inline_skate/image_0015.jpg",
+                "label": 51,
+                "classname": "inline_skate"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/joshua_tree/image_0028.jpg",
+                "label": 52,
+                "classname": "joshua_tree"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/joshua_tree/image_0037.jpg",
+                "label": 52,
+                "classname": "joshua_tree"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/joshua_tree/image_0017.jpg",
+                "label": 52,
+                "classname": "joshua_tree"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/joshua_tree/image_0012.jpg",
+                "label": 52,
+                "classname": "joshua_tree"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/kangaroo/image_0033.jpg",
+                "label": 53,
+                "classname": "kangaroo"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/kangaroo/image_0004.jpg",
+                "label": 53,
+                "classname": "kangaroo"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/kangaroo/image_0016.jpg",
+                "label": 53,
+                "classname": "kangaroo"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/kangaroo/image_0050.jpg",
+                "label": 53,
+                "classname": "kangaroo"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ketch/image_0056.jpg",
+                "label": 54,
+                "classname": "ketch"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ketch/image_0024.jpg",
+                "label": 54,
+                "classname": "ketch"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ketch/image_0088.jpg",
+                "label": 54,
+                "classname": "ketch"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/ketch/image_0038.jpg",
+                "label": 54,
+                "classname": "ketch"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/lamp/image_0026.jpg",
+                "label": 55,
+                "classname": "lamp"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/lamp/image_0044.jpg",
+                "label": 55,
+                "classname": "lamp"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/lamp/image_0031.jpg",
+                "label": 55,
+                "classname": "lamp"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/lamp/image_0007.jpg",
+                "label": 55,
+                "classname": "lamp"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/laptop/image_0018.jpg",
+                "label": 56,
+                "classname": "laptop"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/laptop/image_0058.jpg",
+                "label": 56,
+                "classname": "laptop"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/laptop/image_0059.jpg",
+                "label": 56,
+                "classname": "laptop"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/laptop/image_0009.jpg",
+                "label": 56,
+                "classname": "laptop"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/llama/image_0046.jpg",
+                "label": 57,
+                "classname": "llama"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/llama/image_0073.jpg",
+                "label": 57,
+                "classname": "llama"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/llama/image_0002.jpg",
+                "label": 57,
+                "classname": "llama"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/llama/image_0048.jpg",
+                "label": 57,
+                "classname": "llama"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/lobster/image_0023.jpg",
+                "label": 58,
+                "classname": "lobster"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/lobster/image_0021.jpg",
+                "label": 58,
+                "classname": "lobster"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/lobster/image_0004.jpg",
+                "label": 58,
+                "classname": "lobster"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/lobster/image_0014.jpg",
+                "label": 58,
+                "classname": "lobster"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/lotus/image_0061.jpg",
+                "label": 59,
+                "classname": "lotus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/lotus/image_0037.jpg",
+                "label": 59,
+                "classname": "lotus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/lotus/image_0002.jpg",
+                "label": 59,
+                "classname": "lotus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/lotus/image_0034.jpg",
+                "label": 59,
+                "classname": "lotus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/mandolin/image_0043.jpg",
+                "label": 60,
+                "classname": "mandolin"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/mandolin/image_0011.jpg",
+                "label": 60,
+                "classname": "mandolin"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/mandolin/image_0027.jpg",
+                "label": 60,
+                "classname": "mandolin"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/mandolin/image_0039.jpg",
+                "label": 60,
+                "classname": "mandolin"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/mayfly/image_0024.jpg",
+                "label": 61,
+                "classname": "mayfly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/mayfly/image_0012.jpg",
+                "label": 61,
+                "classname": "mayfly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/mayfly/image_0003.jpg",
+                "label": 61,
+                "classname": "mayfly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/mayfly/image_0038.jpg",
+                "label": 61,
+                "classname": "mayfly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/menorah/image_0039.jpg",
+                "label": 62,
+                "classname": "menorah"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/menorah/image_0041.jpg",
+                "label": 62,
+                "classname": "menorah"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/menorah/image_0068.jpg",
+                "label": 62,
+                "classname": "menorah"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/menorah/image_0083.jpg",
+                "label": 62,
+                "classname": "menorah"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/metronome/image_0022.jpg",
+                "label": 63,
+                "classname": "metronome"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/metronome/image_0002.jpg",
+                "label": 63,
+                "classname": "metronome"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/metronome/image_0023.jpg",
+                "label": 63,
+                "classname": "metronome"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/metronome/image_0005.jpg",
+                "label": 63,
+                "classname": "metronome"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/minaret/image_0015.jpg",
+                "label": 64,
+                "classname": "minaret"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/minaret/image_0044.jpg",
+                "label": 64,
+                "classname": "minaret"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/minaret/image_0067.jpg",
+                "label": 64,
+                "classname": "minaret"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/minaret/image_0037.jpg",
+                "label": 64,
+                "classname": "minaret"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/nautilus/image_0036.jpg",
+                "label": 65,
+                "classname": "nautilus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/nautilus/image_0034.jpg",
+                "label": 65,
+                "classname": "nautilus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/nautilus/image_0048.jpg",
+                "label": 65,
+                "classname": "nautilus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/nautilus/image_0004.jpg",
+                "label": 65,
+                "classname": "nautilus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/octopus/image_0035.jpg",
+                "label": 66,
+                "classname": "octopus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/octopus/image_0012.jpg",
+                "label": 66,
+                "classname": "octopus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/octopus/image_0023.jpg",
+                "label": 66,
+                "classname": "octopus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/octopus/image_0015.jpg",
+                "label": 66,
+                "classname": "octopus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/okapi/image_0039.jpg",
+                "label": 67,
+                "classname": "okapi"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/okapi/image_0012.jpg",
+                "label": 67,
+                "classname": "okapi"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/okapi/image_0005.jpg",
+                "label": 67,
+                "classname": "okapi"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/okapi/image_0016.jpg",
+                "label": 67,
+                "classname": "okapi"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/pagoda/image_0031.jpg",
+                "label": 68,
+                "classname": "pagoda"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/pagoda/image_0037.jpg",
+                "label": 68,
+                "classname": "pagoda"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/pagoda/image_0017.jpg",
+                "label": 68,
+                "classname": "pagoda"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/pagoda/image_0026.jpg",
+                "label": 68,
+                "classname": "pagoda"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/panda/image_0021.jpg",
+                "label": 69,
+                "classname": "panda"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/panda/image_0005.jpg",
+                "label": 69,
+                "classname": "panda"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/panda/image_0017.jpg",
+                "label": 69,
+                "classname": "panda"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/panda/image_0025.jpg",
+                "label": 69,
+                "classname": "panda"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/pigeon/image_0028.jpg",
+                "label": 70,
+                "classname": "pigeon"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/pigeon/image_0038.jpg",
+                "label": 70,
+                "classname": "pigeon"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/pigeon/image_0032.jpg",
+                "label": 70,
+                "classname": "pigeon"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/pigeon/image_0027.jpg",
+                "label": 70,
+                "classname": "pigeon"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/pizza/image_0030.jpg",
+                "label": 71,
+                "classname": "pizza"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/pizza/image_0035.jpg",
+                "label": 71,
+                "classname": "pizza"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/pizza/image_0010.jpg",
+                "label": 71,
+                "classname": "pizza"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/pizza/image_0015.jpg",
+                "label": 71,
+                "classname": "pizza"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/platypus/image_0021.jpg",
+                "label": 72,
+                "classname": "platypus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/platypus/image_0022.jpg",
+                "label": 72,
+                "classname": "platypus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/platypus/image_0005.jpg",
+                "label": 72,
+                "classname": "platypus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/platypus/image_0030.jpg",
+                "label": 72,
+                "classname": "platypus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/pyramid/image_0007.jpg",
+                "label": 73,
+                "classname": "pyramid"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/pyramid/image_0050.jpg",
+                "label": 73,
+                "classname": "pyramid"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/pyramid/image_0025.jpg",
+                "label": 73,
+                "classname": "pyramid"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/pyramid/image_0010.jpg",
+                "label": 73,
+                "classname": "pyramid"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/revolver/image_0011.jpg",
+                "label": 74,
+                "classname": "revolver"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/revolver/image_0079.jpg",
+                "label": 74,
+                "classname": "revolver"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/revolver/image_0027.jpg",
+                "label": 74,
+                "classname": "revolver"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/revolver/image_0059.jpg",
+                "label": 74,
+                "classname": "revolver"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/rhino/image_0022.jpg",
+                "label": 75,
+                "classname": "rhino"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/rhino/image_0019.jpg",
+                "label": 75,
+                "classname": "rhino"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/rhino/image_0039.jpg",
+                "label": 75,
+                "classname": "rhino"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/rhino/image_0038.jpg",
+                "label": 75,
+                "classname": "rhino"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/rooster/image_0021.jpg",
+                "label": 76,
+                "classname": "rooster"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/rooster/image_0034.jpg",
+                "label": 76,
+                "classname": "rooster"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/rooster/image_0040.jpg",
+                "label": 76,
+                "classname": "rooster"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/rooster/image_0014.jpg",
+                "label": 76,
+                "classname": "rooster"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/saxophone/image_0004.jpg",
+                "label": 77,
+                "classname": "saxophone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/saxophone/image_0036.jpg",
+                "label": 77,
+                "classname": "saxophone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/saxophone/image_0011.jpg",
+                "label": 77,
+                "classname": "saxophone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/saxophone/image_0020.jpg",
+                "label": 77,
+                "classname": "saxophone"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/schooner/image_0017.jpg",
+                "label": 78,
+                "classname": "schooner"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/schooner/image_0012.jpg",
+                "label": 78,
+                "classname": "schooner"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/schooner/image_0023.jpg",
+                "label": 78,
+                "classname": "schooner"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/schooner/image_0060.jpg",
+                "label": 78,
+                "classname": "schooner"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/scissors/image_0034.jpg",
+                "label": 79,
+                "classname": "scissors"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/scissors/image_0010.jpg",
+                "label": 79,
+                "classname": "scissors"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/scissors/image_0032.jpg",
+                "label": 79,
+                "classname": "scissors"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/scissors/image_0006.jpg",
+                "label": 79,
+                "classname": "scissors"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/scorpion/image_0035.jpg",
+                "label": 80,
+                "classname": "scorpion"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/scorpion/image_0066.jpg",
+                "label": 80,
+                "classname": "scorpion"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/scorpion/image_0041.jpg",
+                "label": 80,
+                "classname": "scorpion"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/scorpion/image_0037.jpg",
+                "label": 80,
+                "classname": "scorpion"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/sea_horse/image_0029.jpg",
+                "label": 81,
+                "classname": "sea_horse"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/sea_horse/image_0030.jpg",
+                "label": 81,
+                "classname": "sea_horse"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/sea_horse/image_0023.jpg",
+                "label": 81,
+                "classname": "sea_horse"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/sea_horse/image_0010.jpg",
+                "label": 81,
+                "classname": "sea_horse"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/snoopy/image_0028.jpg",
+                "label": 82,
+                "classname": "snoopy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/snoopy/image_0013.jpg",
+                "label": 82,
+                "classname": "snoopy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/snoopy/image_0027.jpg",
+                "label": 82,
+                "classname": "snoopy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/snoopy/image_0015.jpg",
+                "label": 82,
+                "classname": "snoopy"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/soccer_ball/image_0053.jpg",
+                "label": 83,
+                "classname": "soccer_ball"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/soccer_ball/image_0057.jpg",
+                "label": 83,
+                "classname": "soccer_ball"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/soccer_ball/image_0060.jpg",
+                "label": 83,
+                "classname": "soccer_ball"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/soccer_ball/image_0038.jpg",
+                "label": 83,
+                "classname": "soccer_ball"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/stapler/image_0004.jpg",
+                "label": 84,
+                "classname": "stapler"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/stapler/image_0028.jpg",
+                "label": 84,
+                "classname": "stapler"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/stapler/image_0033.jpg",
+                "label": 84,
+                "classname": "stapler"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/stapler/image_0043.jpg",
+                "label": 84,
+                "classname": "stapler"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/starfish/image_0059.jpg",
+                "label": 85,
+                "classname": "starfish"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/starfish/image_0022.jpg",
+                "label": 85,
+                "classname": "starfish"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/starfish/image_0010.jpg",
+                "label": 85,
+                "classname": "starfish"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/starfish/image_0005.jpg",
+                "label": 85,
+                "classname": "starfish"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/stegosaurus/image_0045.jpg",
+                "label": 86,
+                "classname": "stegosaurus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/stegosaurus/image_0028.jpg",
+                "label": 86,
+                "classname": "stegosaurus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/stegosaurus/image_0020.jpg",
+                "label": 86,
+                "classname": "stegosaurus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/stegosaurus/image_0027.jpg",
+                "label": 86,
+                "classname": "stegosaurus"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/stop_sign/image_0055.jpg",
+                "label": 87,
+                "classname": "stop_sign"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/stop_sign/image_0062.jpg",
+                "label": 87,
+                "classname": "stop_sign"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/stop_sign/image_0011.jpg",
+                "label": 87,
+                "classname": "stop_sign"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/stop_sign/image_0036.jpg",
+                "label": 87,
+                "classname": "stop_sign"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/strawberry/image_0014.jpg",
+                "label": 88,
+                "classname": "strawberry"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/strawberry/image_0022.jpg",
+                "label": 88,
+                "classname": "strawberry"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/strawberry/image_0028.jpg",
+                "label": 88,
+                "classname": "strawberry"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/strawberry/image_0023.jpg",
+                "label": 88,
+                "classname": "strawberry"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/sunflower/image_0078.jpg",
+                "label": 89,
+                "classname": "sunflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/sunflower/image_0053.jpg",
+                "label": 89,
+                "classname": "sunflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/sunflower/image_0017.jpg",
+                "label": 89,
+                "classname": "sunflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/sunflower/image_0073.jpg",
+                "label": 89,
+                "classname": "sunflower"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/tick/image_0019.jpg",
+                "label": 90,
+                "classname": "tick"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/tick/image_0048.jpg",
+                "label": 90,
+                "classname": "tick"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/tick/image_0001.jpg",
+                "label": 90,
+                "classname": "tick"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/tick/image_0003.jpg",
+                "label": 90,
+                "classname": "tick"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/trilobite/image_0062.jpg",
+                "label": 91,
+                "classname": "trilobite"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/trilobite/image_0079.jpg",
+                "label": 91,
+                "classname": "trilobite"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/trilobite/image_0047.jpg",
+                "label": 91,
+                "classname": "trilobite"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/trilobite/image_0013.jpg",
+                "label": 91,
+                "classname": "trilobite"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/umbrella/image_0074.jpg",
+                "label": 92,
+                "classname": "umbrella"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/umbrella/image_0049.jpg",
+                "label": 92,
+                "classname": "umbrella"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/umbrella/image_0033.jpg",
+                "label": 92,
+                "classname": "umbrella"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/umbrella/image_0057.jpg",
+                "label": 92,
+                "classname": "umbrella"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/watch/image_0132.jpg",
+                "label": 93,
+                "classname": "watch"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/watch/image_0156.jpg",
+                "label": 93,
+                "classname": "watch"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/watch/image_0098.jpg",
+                "label": 93,
+                "classname": "watch"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/watch/image_0067.jpg",
+                "label": 93,
+                "classname": "watch"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/water_lilly/image_0001.jpg",
+                "label": 94,
+                "classname": "water_lilly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/water_lilly/image_0012.jpg",
+                "label": 94,
+                "classname": "water_lilly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/water_lilly/image_0014.jpg",
+                "label": 94,
+                "classname": "water_lilly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/water_lilly/image_0025.jpg",
+                "label": 94,
+                "classname": "water_lilly"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/wheelchair/image_0008.jpg",
+                "label": 95,
+                "classname": "wheelchair"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/wheelchair/image_0037.jpg",
+                "label": 95,
+                "classname": "wheelchair"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/wheelchair/image_0001.jpg",
+                "label": 95,
+                "classname": "wheelchair"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/wheelchair/image_0024.jpg",
+                "label": 95,
+                "classname": "wheelchair"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/wild_cat/image_0027.jpg",
+                "label": 96,
+                "classname": "wild_cat"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/wild_cat/image_0030.jpg",
+                "label": 96,
+                "classname": "wild_cat"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/wild_cat/image_0029.jpg",
+                "label": 96,
+                "classname": "wild_cat"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/wild_cat/image_0023.jpg",
+                "label": 96,
+                "classname": "wild_cat"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/windsor_chair/image_0049.jpg",
+                "label": 97,
+                "classname": "windsor_chair"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/windsor_chair/image_0001.jpg",
+                "label": 97,
+                "classname": "windsor_chair"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/windsor_chair/image_0007.jpg",
+                "label": 97,
+                "classname": "windsor_chair"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/windsor_chair/image_0033.jpg",
+                "label": 97,
+                "classname": "windsor_chair"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/wrench/image_0031.jpg",
+                "label": 98,
+                "classname": "wrench"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/wrench/image_0014.jpg",
+                "label": 98,
+                "classname": "wrench"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/wrench/image_0017.jpg",
+                "label": 98,
+                "classname": "wrench"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/wrench/image_0006.jpg",
+                "label": 98,
+                "classname": "wrench"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/yin_yang/image_0029.jpg",
+                "label": 99,
+                "classname": "yin_yang"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/yin_yang/image_0057.jpg",
+                "label": 99,
+                "classname": "yin_yang"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/yin_yang/image_0054.jpg",
+                "label": 99,
+                "classname": "yin_yang"
+            },
+            {
+                "impath": "/data3/zhiqiul/vl_finetuning/data/caltech-101/101_ObjectCategories/yin_yang/image_0035.jpg",
+                "label": 99,
+                "classname": "yin_yang"
+            }
+        ],
+        "indices": [
+            52,
+            82,
+            60,
+            46,
+            122,
+            108,
+            92,
+            101,
+            263,
+            286,
+            175,
+            230,
+            297,
+            293,
+            287,
+            292,
+            416,
+            432,
+            417,
+            343,
+            459,
+            458,
+            461,
+            465,
+            472,
+            467,
+            466,
+            469,
+            482,
+            477,
+            476,
+            479,
+            492,
+            493,
+            486,
+            490,
+            496,
+            494,
+            498,
+            499,
+            506,
+            509,
+            505,
+            504,
+            524,
+            532,
+            516,
+            534,
+            538,
+            547,
+            536,
+            551,
+            564,
+            557,
+            562,
+            560,
+            580,
+            575,
+            572,
+            569,
+            598,
+            596,
+            582,
+            583,
+            609,
+            605,
+            602,
+            606,
+            616,
+            614,
+            615,
+            618,
+            642,
+            623,
+            620,
+            624,
+            651,
+            650,
+            647,
+            649,
+            657,
+            655,
+            653,
+            664,
+            673,
+            672,
+            665,
+            670,
+            678,
+            694,
+            689,
+            691,
+            701,
+            702,
+            706,
+            703,
+            709,
+            714,
+            718,
+            715,
+            732,
+            725,
+            722,
+            734,
+            749,
+            741,
+            740,
+            748,
+            754,
+            756,
+            751,
+            759,
+            763,
+            766,
+            762,
+            768,
+            778,
+            771,
+            774,
+            770,
+            784,
+            788,
+            789,
+            793,
+            802,
+            798,
+            794,
+            801,
+            805,
+            814,
+            810,
+            809,
+            820,
+            822,
+            829,
+            818,
+            836,
+            838,
+            845,
+            833,
+            853,
+            858,
+            850,
+            857,
+            861,
+            866,
+            862,
+            863,
+            875,
+            872,
+            871,
+            873,
+            898,
+            889,
+            895,
+            893,
+            905,
+            902,
+            912,
+            911,
+            925,
+            915,
+            916,
+            917,
+            934,
+            932,
+            929,
+            931,
+            937,
+            941,
+            939,
+            940,
+            947,
+            945,
+            944,
+            942,
+            954,
+            953,
+            955,
+            952,
+            964,
+            967,
+            970,
+            973,
+            994,
+            981,
+            984,
+            989,
+            1005,
+            1000,
+            999,
+            1004,
+            1012,
+            1009,
+            1017,
+            1008,
+            1031,
+            1018,
+            1028,
+            1021,
+            1048,
+            1044,
+            1040,
+            1043,
+            1057,
+            1053,
+            1054,
+            1056,
+            1061,
+            1065,
+            1059,
+            1060,
+            1077,
+            1081,
+            1075,
+            1073,
+            1101,
+            1099,
+            1096,
+            1090,
+            1116,
+            1114,
+            1121,
+            1120,
+            1124,
+            1128,
+            1137,
+            1133,
+            1140,
+            1152,
+            1141,
+            1153,
+            1156,
+            1158,
+            1161,
+            1157,
+            1165,
+            1168,
+            1171,
+            1172,
+            1177,
+            1181,
+            1183,
+            1182,
+            1191,
+            1186,
+            1185,
+            1188,
+            1208,
+            1209,
+            1202,
+            1206,
+            1212,
+            1214,
+            1210,
+            1215,
+            1224,
+            1230,
+            1226,
+            1223,
+            1237,
+            1238,
+            1233,
+            1241,
+            1245,
+            1246,
+            1248,
+            1242,
+            1250,
+            1252,
+            1253,
+            1256,
+            1258,
+            1259,
+            1257,
+            1260,
+            1270,
+            1269,
+            1271,
+            1266,
+            1278,
+            1275,
+            1279,
+            1276,
+            1286,
+            1285,
+            1283,
+            1292,
+            1297,
+            1299,
+            1294,
+            1296,
+            1311,
+            1308,
+            1301,
+            1310,
+            1319,
+            1313,
+            1327,
+            1314,
+            1336,
+            1328,
+            1330,
+            1339,
+            1348,
+            1340,
+            1349,
+            1341,
+            1350,
+            1356,
+            1354,
+            1352,
+            1368,
+            1366,
+            1361,
+            1360,
+            1376,
+            1374,
+            1371,
+            1372,
+            1382,
+            1386,
+            1380,
+            1394,
+            1399,
+            1396,
+            1406,
+            1402,
+            1409,
+            1411,
+            1410,
+            1408,
+            1422,
+            1415,
+            1416,
+            1417,
+            1429,
+            1433,
+            1428,
+            1435,
+            1446,
+            1449,
+            1438,
+            1442,
+            1455,
+            1459,
+            1458,
+            1457,
+            1477,
+            1466,
+            1473,
+            1476,
+            1481,
+            1480,
+            1483,
+            1484,
+            1493,
+            1492,
+            1491,
+            1496,
+            1504,
+            1510,
+            1503,
+            1502,
+            1518,
+            1528,
+            1515,
+            1527,
+            1538,
+            1529,
+            1539,
+            1531,
+            1584,
+            1545,
+            1591,
+            1560,
+            1597,
+            1598,
+            1595,
+            1592,
+            1610,
+            1602,
+            1601,
+            1604,
+            1611,
+            1616,
+            1612,
+            1617,
+            1620,
+            1626,
+            1628,
+            1619,
+            1636,
+            1634,
+            1631,
+            1630,
+            1639,
+            1642,
+            1641,
+            1645
+        ]
+    }
+}
