@@ -25,7 +25,7 @@ class ImageNet(Benchmark):
     split_google_url = "https://drive.google.com/file/d/1SvPIN6iV6NP2Oulj19a869rBXrB5SNFo/view"
 
     def __init__(self, data_dir):
-        root = os.path.abspath(os.path.expanduser(data_dir))
+        root = data_dir
         self.dataset_dir = os.path.join(root, self.dataset_name)
         self.image_dir = os.path.join(self.dataset_dir, "images")
         self.split_path = os.path.join(self.dataset_dir, "split_ImageNet.json")

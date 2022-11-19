@@ -102,10 +102,6 @@ def get_testset(args, transform):
     if args.dataset in dataset_classes:
         benchmark = dataset_classes[args.dataset](args.data_dir)
         return TestDatasetWrapper(benchmark.test, transform)
-    elif args.dataset == 'food101_test':
-        return torchvision.datasets.Food101(root='/data3/zhiqiul/datasets', split='test', transform=transform, download=True)
-    elif args.dataset == 'dtd_test':
-        return torchvision.datasets.DTD(root='/data3/zhiqiul/datasets', split='test', transform=transform, download=True)
     else:
         raise NotImplementedError()
 

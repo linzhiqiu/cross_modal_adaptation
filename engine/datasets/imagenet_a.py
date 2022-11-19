@@ -16,7 +16,7 @@ class ImageNetA(Benchmark):
     dataset_name = "imagenet-adversarial"
 
     def __init__(self, data_dir):
-        root = os.path.abspath(os.path.expanduser(data_dir))
+        root = data_dir
         self.dataset_dir = os.path.join(root, self.dataset_name)
         self.original_imagenet_dir = os.path.join(root, "imagenet")
         original_text_file = os.path.join(self.original_imagenet_dir, "classnames.txt")

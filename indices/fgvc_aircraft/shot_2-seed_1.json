@@ -2,1002 +2,1002 @@
     "train": {
         "data": [
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0817494.jpg",
+                "impath": "./data/fgvc_aircraft/images/0817494.jpg",
                 "label": 0,
                 "classname": "707-320"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0450014.jpg",
+                "impath": "./data/fgvc_aircraft/images/0450014.jpg",
                 "label": 0,
                 "classname": "707-320"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0632010.jpg",
+                "impath": "./data/fgvc_aircraft/images/0632010.jpg",
                 "label": 1,
                 "classname": "727-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0980196.jpg",
+                "impath": "./data/fgvc_aircraft/images/0980196.jpg",
                 "label": 1,
                 "classname": "727-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0610653.jpg",
+                "impath": "./data/fgvc_aircraft/images/0610653.jpg",
                 "label": 2,
                 "classname": "737-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1296896.jpg",
+                "impath": "./data/fgvc_aircraft/images/1296896.jpg",
                 "label": 2,
                 "classname": "737-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1560581.jpg",
+                "impath": "./data/fgvc_aircraft/images/1560581.jpg",
                 "label": 3,
                 "classname": "737-300"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0097577.jpg",
+                "impath": "./data/fgvc_aircraft/images/0097577.jpg",
                 "label": 3,
                 "classname": "737-300"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2031382.jpg",
+                "impath": "./data/fgvc_aircraft/images/2031382.jpg",
                 "label": 4,
                 "classname": "737-400"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1846193.jpg",
+                "impath": "./data/fgvc_aircraft/images/1846193.jpg",
                 "label": 4,
                 "classname": "737-400"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0143341.jpg",
+                "impath": "./data/fgvc_aircraft/images/0143341.jpg",
                 "label": 5,
                 "classname": "737-500"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1264479.jpg",
+                "impath": "./data/fgvc_aircraft/images/1264479.jpg",
                 "label": 5,
                 "classname": "737-500"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0905907.jpg",
+                "impath": "./data/fgvc_aircraft/images/0905907.jpg",
                 "label": 6,
                 "classname": "737-600"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0442918.jpg",
+                "impath": "./data/fgvc_aircraft/images/0442918.jpg",
                 "label": 6,
                 "classname": "737-600"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1060500.jpg",
+                "impath": "./data/fgvc_aircraft/images/1060500.jpg",
                 "label": 7,
                 "classname": "737-700"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1244288.jpg",
+                "impath": "./data/fgvc_aircraft/images/1244288.jpg",
                 "label": 7,
                 "classname": "737-700"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1385341.jpg",
+                "impath": "./data/fgvc_aircraft/images/1385341.jpg",
                 "label": 8,
                 "classname": "737-800"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1390305.jpg",
+                "impath": "./data/fgvc_aircraft/images/1390305.jpg",
                 "label": 8,
                 "classname": "737-800"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0292868.jpg",
+                "impath": "./data/fgvc_aircraft/images/0292868.jpg",
                 "label": 9,
                 "classname": "737-900"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1774010.jpg",
+                "impath": "./data/fgvc_aircraft/images/1774010.jpg",
                 "label": 9,
                 "classname": "737-900"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1008872.jpg",
+                "impath": "./data/fgvc_aircraft/images/1008872.jpg",
                 "label": 10,
                 "classname": "747-100"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0804670.jpg",
+                "impath": "./data/fgvc_aircraft/images/0804670.jpg",
                 "label": 10,
                 "classname": "747-100"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0487356.jpg",
+                "impath": "./data/fgvc_aircraft/images/0487356.jpg",
                 "label": 11,
                 "classname": "747-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0885966.jpg",
+                "impath": "./data/fgvc_aircraft/images/0885966.jpg",
                 "label": 11,
                 "classname": "747-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0859029.jpg",
+                "impath": "./data/fgvc_aircraft/images/0859029.jpg",
                 "label": 12,
                 "classname": "747-300"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1099216.jpg",
+                "impath": "./data/fgvc_aircraft/images/1099216.jpg",
                 "label": 12,
                 "classname": "747-300"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1018463.jpg",
+                "impath": "./data/fgvc_aircraft/images/1018463.jpg",
                 "label": 13,
                 "classname": "747-400"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1309306.jpg",
+                "impath": "./data/fgvc_aircraft/images/1309306.jpg",
                 "label": 13,
                 "classname": "747-400"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0458643.jpg",
+                "impath": "./data/fgvc_aircraft/images/0458643.jpg",
                 "label": 14,
                 "classname": "757-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2170854.jpg",
+                "impath": "./data/fgvc_aircraft/images/2170854.jpg",
                 "label": 14,
                 "classname": "757-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0469140.jpg",
+                "impath": "./data/fgvc_aircraft/images/0469140.jpg",
                 "label": 15,
                 "classname": "757-300"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1810927.jpg",
+                "impath": "./data/fgvc_aircraft/images/1810927.jpg",
                 "label": 15,
                 "classname": "757-300"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1390310.jpg",
+                "impath": "./data/fgvc_aircraft/images/1390310.jpg",
                 "label": 16,
                 "classname": "767-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0117996.jpg",
+                "impath": "./data/fgvc_aircraft/images/0117996.jpg",
                 "label": 16,
                 "classname": "767-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0362089.jpg",
+                "impath": "./data/fgvc_aircraft/images/0362089.jpg",
                 "label": 17,
                 "classname": "767-300"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0704276.jpg",
+                "impath": "./data/fgvc_aircraft/images/0704276.jpg",
                 "label": 17,
                 "classname": "767-300"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1582400.jpg",
+                "impath": "./data/fgvc_aircraft/images/1582400.jpg",
                 "label": 18,
                 "classname": "767-400"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1810723.jpg",
+                "impath": "./data/fgvc_aircraft/images/1810723.jpg",
                 "label": 18,
                 "classname": "767-400"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0732201.jpg",
+                "impath": "./data/fgvc_aircraft/images/0732201.jpg",
                 "label": 19,
                 "classname": "777-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0658068.jpg",
+                "impath": "./data/fgvc_aircraft/images/0658068.jpg",
                 "label": 19,
                 "classname": "777-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2130084.jpg",
+                "impath": "./data/fgvc_aircraft/images/2130084.jpg",
                 "label": 20,
                 "classname": "777-300"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2104765.jpg",
+                "impath": "./data/fgvc_aircraft/images/2104765.jpg",
                 "label": 20,
                 "classname": "777-300"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0523221.jpg",
+                "impath": "./data/fgvc_aircraft/images/0523221.jpg",
                 "label": 21,
                 "classname": "A300B4"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0185316.jpg",
+                "impath": "./data/fgvc_aircraft/images/0185316.jpg",
                 "label": 21,
                 "classname": "A300B4"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0396589.jpg",
+                "impath": "./data/fgvc_aircraft/images/0396589.jpg",
                 "label": 22,
                 "classname": "A310"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0094394.jpg",
+                "impath": "./data/fgvc_aircraft/images/0094394.jpg",
                 "label": 22,
                 "classname": "A310"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1355236.jpg",
+                "impath": "./data/fgvc_aircraft/images/1355236.jpg",
                 "label": 23,
                 "classname": "A318"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1296212.jpg",
+                "impath": "./data/fgvc_aircraft/images/1296212.jpg",
                 "label": 23,
                 "classname": "A318"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1541378.jpg",
+                "impath": "./data/fgvc_aircraft/images/1541378.jpg",
                 "label": 24,
                 "classname": "A319"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0522853.jpg",
+                "impath": "./data/fgvc_aircraft/images/0522853.jpg",
                 "label": 24,
                 "classname": "A319"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2236969.jpg",
+                "impath": "./data/fgvc_aircraft/images/2236969.jpg",
                 "label": 25,
                 "classname": "A320"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1221957.jpg",
+                "impath": "./data/fgvc_aircraft/images/1221957.jpg",
                 "label": 25,
                 "classname": "A320"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0523001.jpg",
+                "impath": "./data/fgvc_aircraft/images/0523001.jpg",
                 "label": 26,
                 "classname": "A321"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2168926.jpg",
+                "impath": "./data/fgvc_aircraft/images/2168926.jpg",
                 "label": 26,
                 "classname": "A321"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2258288.jpg",
+                "impath": "./data/fgvc_aircraft/images/2258288.jpg",
                 "label": 27,
                 "classname": "A330-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0257026.jpg",
+                "impath": "./data/fgvc_aircraft/images/0257026.jpg",
                 "label": 27,
                 "classname": "A330-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1936773.jpg",
+                "impath": "./data/fgvc_aircraft/images/1936773.jpg",
                 "label": 28,
                 "classname": "A330-300"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2171767.jpg",
+                "impath": "./data/fgvc_aircraft/images/2171767.jpg",
                 "label": 28,
                 "classname": "A330-300"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0062258.jpg",
+                "impath": "./data/fgvc_aircraft/images/0062258.jpg",
                 "label": 29,
                 "classname": "A340-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0077196.jpg",
+                "impath": "./data/fgvc_aircraft/images/0077196.jpg",
                 "label": 29,
                 "classname": "A340-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1469661.jpg",
+                "impath": "./data/fgvc_aircraft/images/1469661.jpg",
                 "label": 30,
                 "classname": "A340-300"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1922848.jpg",
+                "impath": "./data/fgvc_aircraft/images/1922848.jpg",
                 "label": 30,
                 "classname": "A340-300"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0819084.jpg",
+                "impath": "./data/fgvc_aircraft/images/0819084.jpg",
                 "label": 31,
                 "classname": "A340-500"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1701067.jpg",
+                "impath": "./data/fgvc_aircraft/images/1701067.jpg",
                 "label": 31,
                 "classname": "A340-500"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1823702.jpg",
+                "impath": "./data/fgvc_aircraft/images/1823702.jpg",
                 "label": 32,
                 "classname": "A340-600"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2260088.jpg",
+                "impath": "./data/fgvc_aircraft/images/2260088.jpg",
                 "label": 32,
                 "classname": "A340-600"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1531175.jpg",
+                "impath": "./data/fgvc_aircraft/images/1531175.jpg",
                 "label": 33,
                 "classname": "A380"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1932603.jpg",
+                "impath": "./data/fgvc_aircraft/images/1932603.jpg",
                 "label": 33,
                 "classname": "A380"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0167073.jpg",
+                "impath": "./data/fgvc_aircraft/images/0167073.jpg",
                 "label": 34,
                 "classname": "ATR-42"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2243949.jpg",
+                "impath": "./data/fgvc_aircraft/images/2243949.jpg",
                 "label": 34,
                 "classname": "ATR-42"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1539422.jpg",
+                "impath": "./data/fgvc_aircraft/images/1539422.jpg",
                 "label": 35,
                 "classname": "ATR-72"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1223346.jpg",
+                "impath": "./data/fgvc_aircraft/images/1223346.jpg",
                 "label": 35,
                 "classname": "ATR-72"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1052986.jpg",
+                "impath": "./data/fgvc_aircraft/images/1052986.jpg",
                 "label": 36,
                 "classname": "An-12"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2259875.jpg",
+                "impath": "./data/fgvc_aircraft/images/2259875.jpg",
                 "label": 36,
                 "classname": "An-12"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1133135.jpg",
+                "impath": "./data/fgvc_aircraft/images/1133135.jpg",
                 "label": 37,
                 "classname": "BAE 146-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1159626.jpg",
+                "impath": "./data/fgvc_aircraft/images/1159626.jpg",
                 "label": 37,
                 "classname": "BAE 146-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1313666.jpg",
+                "impath": "./data/fgvc_aircraft/images/1313666.jpg",
                 "label": 38,
                 "classname": "BAE 146-300"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0918736.jpg",
+                "impath": "./data/fgvc_aircraft/images/0918736.jpg",
                 "label": 38,
                 "classname": "BAE 146-300"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1899145.jpg",
+                "impath": "./data/fgvc_aircraft/images/1899145.jpg",
                 "label": 39,
                 "classname": "BAE-125"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2128060.jpg",
+                "impath": "./data/fgvc_aircraft/images/2128060.jpg",
                 "label": 39,
                 "classname": "BAE-125"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1094916.jpg",
+                "impath": "./data/fgvc_aircraft/images/1094916.jpg",
                 "label": 40,
                 "classname": "Beechcraft 1900"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1484700.jpg",
+                "impath": "./data/fgvc_aircraft/images/1484700.jpg",
                 "label": 40,
                 "classname": "Beechcraft 1900"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0875560.jpg",
+                "impath": "./data/fgvc_aircraft/images/0875560.jpg",
                 "label": 41,
                 "classname": "Boeing 717"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2017851.jpg",
+                "impath": "./data/fgvc_aircraft/images/2017851.jpg",
                 "label": 41,
                 "classname": "Boeing 717"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0962825.jpg",
+                "impath": "./data/fgvc_aircraft/images/0962825.jpg",
                 "label": 42,
                 "classname": "C-130"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0977928.jpg",
+                "impath": "./data/fgvc_aircraft/images/0977928.jpg",
                 "label": 42,
                 "classname": "C-130"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1619369.jpg",
+                "impath": "./data/fgvc_aircraft/images/1619369.jpg",
                 "label": 43,
                 "classname": "C-47"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1535841.jpg",
+                "impath": "./data/fgvc_aircraft/images/1535841.jpg",
                 "label": 43,
                 "classname": "C-47"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0870126.jpg",
+                "impath": "./data/fgvc_aircraft/images/0870126.jpg",
                 "label": 44,
                 "classname": "CRJ-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0235626.jpg",
+                "impath": "./data/fgvc_aircraft/images/0235626.jpg",
                 "label": 44,
                 "classname": "CRJ-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2070772.jpg",
+                "impath": "./data/fgvc_aircraft/images/2070772.jpg",
                 "label": 45,
                 "classname": "CRJ-700"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2024691.jpg",
+                "impath": "./data/fgvc_aircraft/images/2024691.jpg",
                 "label": 45,
                 "classname": "CRJ-700"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1554751.jpg",
+                "impath": "./data/fgvc_aircraft/images/1554751.jpg",
                 "label": 46,
                 "classname": "CRJ-900"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1929102.jpg",
+                "impath": "./data/fgvc_aircraft/images/1929102.jpg",
                 "label": 46,
                 "classname": "CRJ-900"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1709268.jpg",
+                "impath": "./data/fgvc_aircraft/images/1709268.jpg",
                 "label": 47,
                 "classname": "Cessna 172"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1726480.jpg",
+                "impath": "./data/fgvc_aircraft/images/1726480.jpg",
                 "label": 47,
                 "classname": "Cessna 172"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1911423.jpg",
+                "impath": "./data/fgvc_aircraft/images/1911423.jpg",
                 "label": 48,
                 "classname": "Cessna 208"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0816285.jpg",
+                "impath": "./data/fgvc_aircraft/images/0816285.jpg",
                 "label": 48,
                 "classname": "Cessna 208"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1066523.jpg",
+                "impath": "./data/fgvc_aircraft/images/1066523.jpg",
                 "label": 49,
                 "classname": "Cessna 525"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2066265.jpg",
+                "impath": "./data/fgvc_aircraft/images/2066265.jpg",
                 "label": 49,
                 "classname": "Cessna 525"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1084078.jpg",
+                "impath": "./data/fgvc_aircraft/images/1084078.jpg",
                 "label": 50,
                 "classname": "Cessna 560"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0526028.jpg",
+                "impath": "./data/fgvc_aircraft/images/0526028.jpg",
                 "label": 50,
                 "classname": "Cessna 560"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1053532.jpg",
+                "impath": "./data/fgvc_aircraft/images/1053532.jpg",
                 "label": 51,
                 "classname": "Challenger 600"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2091949.jpg",
+                "impath": "./data/fgvc_aircraft/images/2091949.jpg",
                 "label": 51,
                 "classname": "Challenger 600"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0720225.jpg",
+                "impath": "./data/fgvc_aircraft/images/0720225.jpg",
                 "label": 52,
                 "classname": "DC-10"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0523171.jpg",
+                "impath": "./data/fgvc_aircraft/images/0523171.jpg",
                 "label": 52,
                 "classname": "DC-10"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1569049.jpg",
+                "impath": "./data/fgvc_aircraft/images/1569049.jpg",
                 "label": 53,
                 "classname": "DC-3"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2178266.jpg",
+                "impath": "./data/fgvc_aircraft/images/2178266.jpg",
                 "label": 53,
                 "classname": "DC-3"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0554933.jpg",
+                "impath": "./data/fgvc_aircraft/images/0554933.jpg",
                 "label": 54,
                 "classname": "DC-6"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0564624.jpg",
+                "impath": "./data/fgvc_aircraft/images/0564624.jpg",
                 "label": 54,
                 "classname": "DC-6"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0547507.jpg",
+                "impath": "./data/fgvc_aircraft/images/0547507.jpg",
                 "label": 55,
                 "classname": "DC-8"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0782914.jpg",
+                "impath": "./data/fgvc_aircraft/images/0782914.jpg",
                 "label": 55,
                 "classname": "DC-8"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0449728.jpg",
+                "impath": "./data/fgvc_aircraft/images/0449728.jpg",
                 "label": 56,
                 "classname": "DC-9-30"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0065221.jpg",
+                "impath": "./data/fgvc_aircraft/images/0065221.jpg",
                 "label": 56,
                 "classname": "DC-9-30"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1001821.jpg",
+                "impath": "./data/fgvc_aircraft/images/1001821.jpg",
                 "label": 57,
                 "classname": "DH-82"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0984284.jpg",
+                "impath": "./data/fgvc_aircraft/images/0984284.jpg",
                 "label": 57,
                 "classname": "DH-82"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0653292.jpg",
+                "impath": "./data/fgvc_aircraft/images/0653292.jpg",
                 "label": 58,
                 "classname": "DHC-1"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1397217.jpg",
+                "impath": "./data/fgvc_aircraft/images/1397217.jpg",
                 "label": 58,
                 "classname": "DHC-1"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0734769.jpg",
+                "impath": "./data/fgvc_aircraft/images/0734769.jpg",
                 "label": 59,
                 "classname": "DHC-6"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1158572.jpg",
+                "impath": "./data/fgvc_aircraft/images/1158572.jpg",
                 "label": 59,
                 "classname": "DHC-6"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0114402.jpg",
+                "impath": "./data/fgvc_aircraft/images/0114402.jpg",
                 "label": 60,
                 "classname": "DHC-8-100"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1149052.jpg",
+                "impath": "./data/fgvc_aircraft/images/1149052.jpg",
                 "label": 60,
                 "classname": "DHC-8-100"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0062697.jpg",
+                "impath": "./data/fgvc_aircraft/images/0062697.jpg",
                 "label": 61,
                 "classname": "DHC-8-300"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1736150.jpg",
+                "impath": "./data/fgvc_aircraft/images/1736150.jpg",
                 "label": 61,
                 "classname": "DHC-8-300"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1837336.jpg",
+                "impath": "./data/fgvc_aircraft/images/1837336.jpg",
                 "label": 62,
                 "classname": "DR-400"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1606079.jpg",
+                "impath": "./data/fgvc_aircraft/images/1606079.jpg",
                 "label": 62,
                 "classname": "DR-400"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1693197.jpg",
+                "impath": "./data/fgvc_aircraft/images/1693197.jpg",
                 "label": 63,
                 "classname": "Dornier 328"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1810960.jpg",
+                "impath": "./data/fgvc_aircraft/images/1810960.jpg",
                 "label": 63,
                 "classname": "Dornier 328"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2111639.jpg",
+                "impath": "./data/fgvc_aircraft/images/2111639.jpg",
                 "label": 64,
                 "classname": "E-170"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1260870.jpg",
+                "impath": "./data/fgvc_aircraft/images/1260870.jpg",
                 "label": 64,
                 "classname": "E-170"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1334213.jpg",
+                "impath": "./data/fgvc_aircraft/images/1334213.jpg",
                 "label": 65,
                 "classname": "E-190"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2013250.jpg",
+                "impath": "./data/fgvc_aircraft/images/2013250.jpg",
                 "label": 65,
                 "classname": "E-190"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2239066.jpg",
+                "impath": "./data/fgvc_aircraft/images/2239066.jpg",
                 "label": 66,
                 "classname": "E-195"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1619847.jpg",
+                "impath": "./data/fgvc_aircraft/images/1619847.jpg",
                 "label": 66,
                 "classname": "E-195"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0979652.jpg",
+                "impath": "./data/fgvc_aircraft/images/0979652.jpg",
                 "label": 67,
                 "classname": "EMB-120"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1757785.jpg",
+                "impath": "./data/fgvc_aircraft/images/1757785.jpg",
                 "label": 67,
                 "classname": "EMB-120"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2153514.jpg",
+                "impath": "./data/fgvc_aircraft/images/2153514.jpg",
                 "label": 68,
                 "classname": "ERJ 135"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1429072.jpg",
+                "impath": "./data/fgvc_aircraft/images/1429072.jpg",
                 "label": 68,
                 "classname": "ERJ 135"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1341834.jpg",
+                "impath": "./data/fgvc_aircraft/images/1341834.jpg",
                 "label": 69,
                 "classname": "ERJ 145"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2173590.jpg",
+                "impath": "./data/fgvc_aircraft/images/2173590.jpg",
                 "label": 69,
                 "classname": "ERJ 145"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1714826.jpg",
+                "impath": "./data/fgvc_aircraft/images/1714826.jpg",
                 "label": 70,
                 "classname": "Embraer Legacy 600"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2020515.jpg",
+                "impath": "./data/fgvc_aircraft/images/2020515.jpg",
                 "label": 70,
                 "classname": "Embraer Legacy 600"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1946038.jpg",
+                "impath": "./data/fgvc_aircraft/images/1946038.jpg",
                 "label": 71,
                 "classname": "Eurofighter Typhoon"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1443070.jpg",
+                "impath": "./data/fgvc_aircraft/images/1443070.jpg",
                 "label": 71,
                 "classname": "Eurofighter Typhoon"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1307230.jpg",
+                "impath": "./data/fgvc_aircraft/images/1307230.jpg",
                 "label": 72,
                 "classname": "F-16A/B"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2114079.jpg",
+                "impath": "./data/fgvc_aircraft/images/2114079.jpg",
                 "label": 72,
                 "classname": "F-16A/B"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1725766.jpg",
+                "impath": "./data/fgvc_aircraft/images/1725766.jpg",
                 "label": 73,
                 "classname": "F/A-18"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1596392.jpg",
+                "impath": "./data/fgvc_aircraft/images/1596392.jpg",
                 "label": 73,
                 "classname": "F/A-18"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1311585.jpg",
+                "impath": "./data/fgvc_aircraft/images/1311585.jpg",
                 "label": 74,
                 "classname": "Falcon 2000"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1198138.jpg",
+                "impath": "./data/fgvc_aircraft/images/1198138.jpg",
                 "label": 74,
                 "classname": "Falcon 2000"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1031647.jpg",
+                "impath": "./data/fgvc_aircraft/images/1031647.jpg",
                 "label": 75,
                 "classname": "Falcon 900"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0299620.jpg",
+                "impath": "./data/fgvc_aircraft/images/0299620.jpg",
                 "label": 75,
                 "classname": "Falcon 900"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0890795.jpg",
+                "impath": "./data/fgvc_aircraft/images/0890795.jpg",
                 "label": 76,
                 "classname": "Fokker 100"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1012153.jpg",
+                "impath": "./data/fgvc_aircraft/images/1012153.jpg",
                 "label": 76,
                 "classname": "Fokker 100"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1519453.jpg",
+                "impath": "./data/fgvc_aircraft/images/1519453.jpg",
                 "label": 77,
                 "classname": "Fokker 50"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0927837.jpg",
+                "impath": "./data/fgvc_aircraft/images/0927837.jpg",
                 "label": 77,
                 "classname": "Fokker 50"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0467450.jpg",
+                "impath": "./data/fgvc_aircraft/images/0467450.jpg",
                 "label": 78,
                 "classname": "Fokker 70"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0525838.jpg",
+                "impath": "./data/fgvc_aircraft/images/0525838.jpg",
                 "label": 78,
                 "classname": "Fokker 70"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1527708.jpg",
+                "impath": "./data/fgvc_aircraft/images/1527708.jpg",
                 "label": 79,
                 "classname": "Global Express"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2127999.jpg",
+                "impath": "./data/fgvc_aircraft/images/2127999.jpg",
                 "label": 79,
                 "classname": "Global Express"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0497639.jpg",
+                "impath": "./data/fgvc_aircraft/images/0497639.jpg",
                 "label": 80,
                 "classname": "Gulfstream IV"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2136369.jpg",
+                "impath": "./data/fgvc_aircraft/images/2136369.jpg",
                 "label": 80,
                 "classname": "Gulfstream IV"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1715316.jpg",
+                "impath": "./data/fgvc_aircraft/images/1715316.jpg",
                 "label": 81,
                 "classname": "Gulfstream V"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0555526.jpg",
+                "impath": "./data/fgvc_aircraft/images/0555526.jpg",
                 "label": 81,
                 "classname": "Gulfstream V"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1452537.jpg",
+                "impath": "./data/fgvc_aircraft/images/1452537.jpg",
                 "label": 82,
                 "classname": "Hawk T1"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0961972.jpg",
+                "impath": "./data/fgvc_aircraft/images/0961972.jpg",
                 "label": 82,
                 "classname": "Hawk T1"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0895159.jpg",
+                "impath": "./data/fgvc_aircraft/images/0895159.jpg",
                 "label": 83,
                 "classname": "Il-76"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0811679.jpg",
+                "impath": "./data/fgvc_aircraft/images/0811679.jpg",
                 "label": 83,
                 "classname": "Il-76"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0923717.jpg",
+                "impath": "./data/fgvc_aircraft/images/0923717.jpg",
                 "label": 84,
                 "classname": "L-1011"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1277604.jpg",
+                "impath": "./data/fgvc_aircraft/images/1277604.jpg",
                 "label": 84,
                 "classname": "L-1011"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0980556.jpg",
+                "impath": "./data/fgvc_aircraft/images/0980556.jpg",
                 "label": 85,
                 "classname": "MD-11"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1429708.jpg",
+                "impath": "./data/fgvc_aircraft/images/1429708.jpg",
                 "label": 85,
                 "classname": "MD-11"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0704265.jpg",
+                "impath": "./data/fgvc_aircraft/images/0704265.jpg",
                 "label": 86,
                 "classname": "MD-80"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1036880.jpg",
+                "impath": "./data/fgvc_aircraft/images/1036880.jpg",
                 "label": 86,
                 "classname": "MD-80"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0109457.jpg",
+                "impath": "./data/fgvc_aircraft/images/0109457.jpg",
                 "label": 87,
                 "classname": "MD-87"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0127034.jpg",
+                "impath": "./data/fgvc_aircraft/images/0127034.jpg",
                 "label": 87,
                 "classname": "MD-87"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0062708.jpg",
+                "impath": "./data/fgvc_aircraft/images/0062708.jpg",
                 "label": 88,
                 "classname": "MD-90"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1388982.jpg",
+                "impath": "./data/fgvc_aircraft/images/1388982.jpg",
                 "label": 88,
                 "classname": "MD-90"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0874832.jpg",
+                "impath": "./data/fgvc_aircraft/images/0874832.jpg",
                 "label": 89,
                 "classname": "Metroliner"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0447760.jpg",
+                "impath": "./data/fgvc_aircraft/images/0447760.jpg",
                 "label": 89,
                 "classname": "Metroliner"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1376665.jpg",
+                "impath": "./data/fgvc_aircraft/images/1376665.jpg",
                 "label": 90,
                 "classname": "Model B200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1088416.jpg",
+                "impath": "./data/fgvc_aircraft/images/1088416.jpg",
                 "label": 90,
                 "classname": "Model B200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2210244.jpg",
+                "impath": "./data/fgvc_aircraft/images/2210244.jpg",
                 "label": 91,
                 "classname": "PA-28"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0791201.jpg",
+                "impath": "./data/fgvc_aircraft/images/0791201.jpg",
                 "label": 91,
                 "classname": "PA-28"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1770844.jpg",
+                "impath": "./data/fgvc_aircraft/images/1770844.jpg",
                 "label": 92,
                 "classname": "SR-20"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2160776.jpg",
+                "impath": "./data/fgvc_aircraft/images/2160776.jpg",
                 "label": 92,
                 "classname": "SR-20"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1314986.jpg",
+                "impath": "./data/fgvc_aircraft/images/1314986.jpg",
                 "label": 93,
                 "classname": "Saab 2000"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1014304.jpg",
+                "impath": "./data/fgvc_aircraft/images/1014304.jpg",
                 "label": 93,
                 "classname": "Saab 2000"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1444742.jpg",
+                "impath": "./data/fgvc_aircraft/images/1444742.jpg",
                 "label": 94,
                 "classname": "Saab 340"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1668966.jpg",
+                "impath": "./data/fgvc_aircraft/images/1668966.jpg",
                 "label": 94,
                 "classname": "Saab 340"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1729159.jpg",
+                "impath": "./data/fgvc_aircraft/images/1729159.jpg",
                 "label": 95,
                 "classname": "Spitfire"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0876577.jpg",
+                "impath": "./data/fgvc_aircraft/images/0876577.jpg",
                 "label": 95,
                 "classname": "Spitfire"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1085189.jpg",
+                "impath": "./data/fgvc_aircraft/images/1085189.jpg",
                 "label": 96,
                 "classname": "Tornado"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1607467.jpg",
+                "impath": "./data/fgvc_aircraft/images/1607467.jpg",
                 "label": 96,
                 "classname": "Tornado"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0618972.jpg",
+                "impath": "./data/fgvc_aircraft/images/0618972.jpg",
                 "label": 97,
                 "classname": "Tu-134"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0523057.jpg",
+                "impath": "./data/fgvc_aircraft/images/0523057.jpg",
                 "label": 97,
                 "classname": "Tu-134"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0989278.jpg",
+                "impath": "./data/fgvc_aircraft/images/0989278.jpg",
                 "label": 98,
                 "classname": "Tu-154"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0894311.jpg",
+                "impath": "./data/fgvc_aircraft/images/0894311.jpg",
                 "label": 98,
                 "classname": "Tu-154"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0730106.jpg",
+                "impath": "./data/fgvc_aircraft/images/0730106.jpg",
                 "label": 99,
                 "classname": "Yak-42"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0944239.jpg",
+                "impath": "./data/fgvc_aircraft/images/0944239.jpg",
                 "label": 99,
                 "classname": "Yak-42"
             }
@@ -1208,1002 +1208,1002 @@
     "val": {
         "data": [
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0760910.jpg",
+                "impath": "./data/fgvc_aircraft/images/0760910.jpg",
                 "label": 0,
                 "classname": "707-320"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0923884.jpg",
+                "impath": "./data/fgvc_aircraft/images/0923884.jpg",
                 "label": 0,
                 "classname": "707-320"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0699599.jpg",
+                "impath": "./data/fgvc_aircraft/images/0699599.jpg",
                 "label": 1,
                 "classname": "727-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1446378.jpg",
+                "impath": "./data/fgvc_aircraft/images/1446378.jpg",
                 "label": 1,
                 "classname": "727-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1869877.jpg",
+                "impath": "./data/fgvc_aircraft/images/1869877.jpg",
                 "label": 2,
                 "classname": "737-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0548186.jpg",
+                "impath": "./data/fgvc_aircraft/images/0548186.jpg",
                 "label": 2,
                 "classname": "737-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0062667.jpg",
+                "impath": "./data/fgvc_aircraft/images/0062667.jpg",
                 "label": 3,
                 "classname": "737-300"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2127975.jpg",
+                "impath": "./data/fgvc_aircraft/images/2127975.jpg",
                 "label": 3,
                 "classname": "737-300"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0337370.jpg",
+                "impath": "./data/fgvc_aircraft/images/0337370.jpg",
                 "label": 4,
                 "classname": "737-400"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0768400.jpg",
+                "impath": "./data/fgvc_aircraft/images/0768400.jpg",
                 "label": 4,
                 "classname": "737-400"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1313891.jpg",
+                "impath": "./data/fgvc_aircraft/images/1313891.jpg",
                 "label": 5,
                 "classname": "737-500"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0434358.jpg",
+                "impath": "./data/fgvc_aircraft/images/0434358.jpg",
                 "label": 5,
                 "classname": "737-500"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0800938.jpg",
+                "impath": "./data/fgvc_aircraft/images/0800938.jpg",
                 "label": 6,
                 "classname": "737-600"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1304869.jpg",
+                "impath": "./data/fgvc_aircraft/images/1304869.jpg",
                 "label": 6,
                 "classname": "737-600"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1358662.jpg",
+                "impath": "./data/fgvc_aircraft/images/1358662.jpg",
                 "label": 7,
                 "classname": "737-700"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0288164.jpg",
+                "impath": "./data/fgvc_aircraft/images/0288164.jpg",
                 "label": 7,
                 "classname": "737-700"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1285916.jpg",
+                "impath": "./data/fgvc_aircraft/images/1285916.jpg",
                 "label": 8,
                 "classname": "737-800"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1573352.jpg",
+                "impath": "./data/fgvc_aircraft/images/1573352.jpg",
                 "label": 8,
                 "classname": "737-800"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0192179.jpg",
+                "impath": "./data/fgvc_aircraft/images/0192179.jpg",
                 "label": 9,
                 "classname": "737-900"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1429709.jpg",
+                "impath": "./data/fgvc_aircraft/images/1429709.jpg",
                 "label": 9,
                 "classname": "737-900"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1281454.jpg",
+                "impath": "./data/fgvc_aircraft/images/1281454.jpg",
                 "label": 10,
                 "classname": "747-100"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1014103.jpg",
+                "impath": "./data/fgvc_aircraft/images/1014103.jpg",
                 "label": 10,
                 "classname": "747-100"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1254468.jpg",
+                "impath": "./data/fgvc_aircraft/images/1254468.jpg",
                 "label": 11,
                 "classname": "747-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0454783.jpg",
+                "impath": "./data/fgvc_aircraft/images/0454783.jpg",
                 "label": 11,
                 "classname": "747-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1623631.jpg",
+                "impath": "./data/fgvc_aircraft/images/1623631.jpg",
                 "label": 12,
                 "classname": "747-300"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0981462.jpg",
+                "impath": "./data/fgvc_aircraft/images/0981462.jpg",
                 "label": 12,
                 "classname": "747-300"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1200712.jpg",
+                "impath": "./data/fgvc_aircraft/images/1200712.jpg",
                 "label": 13,
                 "classname": "747-400"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0888512.jpg",
+                "impath": "./data/fgvc_aircraft/images/0888512.jpg",
                 "label": 13,
                 "classname": "747-400"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1389246.jpg",
+                "impath": "./data/fgvc_aircraft/images/1389246.jpg",
                 "label": 14,
                 "classname": "757-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1026363.jpg",
+                "impath": "./data/fgvc_aircraft/images/1026363.jpg",
                 "label": 14,
                 "classname": "757-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0658111.jpg",
+                "impath": "./data/fgvc_aircraft/images/0658111.jpg",
                 "label": 15,
                 "classname": "757-300"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0985968.jpg",
+                "impath": "./data/fgvc_aircraft/images/0985968.jpg",
                 "label": 15,
                 "classname": "757-300"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1291080.jpg",
+                "impath": "./data/fgvc_aircraft/images/1291080.jpg",
                 "label": 16,
                 "classname": "767-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1313048.jpg",
+                "impath": "./data/fgvc_aircraft/images/1313048.jpg",
                 "label": 16,
                 "classname": "767-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0523028.jpg",
+                "impath": "./data/fgvc_aircraft/images/0523028.jpg",
                 "label": 17,
                 "classname": "767-300"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1479241.jpg",
+                "impath": "./data/fgvc_aircraft/images/1479241.jpg",
                 "label": 17,
                 "classname": "767-300"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1097302.jpg",
+                "impath": "./data/fgvc_aircraft/images/1097302.jpg",
                 "label": 18,
                 "classname": "767-400"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1134122.jpg",
+                "impath": "./data/fgvc_aircraft/images/1134122.jpg",
                 "label": 18,
                 "classname": "767-400"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1014374.jpg",
+                "impath": "./data/fgvc_aircraft/images/1014374.jpg",
                 "label": 19,
                 "classname": "777-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1563456.jpg",
+                "impath": "./data/fgvc_aircraft/images/1563456.jpg",
                 "label": 19,
                 "classname": "777-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1555557.jpg",
+                "impath": "./data/fgvc_aircraft/images/1555557.jpg",
                 "label": 20,
                 "classname": "777-300"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2239816.jpg",
+                "impath": "./data/fgvc_aircraft/images/2239816.jpg",
                 "label": 20,
                 "classname": "777-300"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0857110.jpg",
+                "impath": "./data/fgvc_aircraft/images/0857110.jpg",
                 "label": 21,
                 "classname": "A300B4"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0683606.jpg",
+                "impath": "./data/fgvc_aircraft/images/0683606.jpg",
                 "label": 21,
                 "classname": "A300B4"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1918574.jpg",
+                "impath": "./data/fgvc_aircraft/images/1918574.jpg",
                 "label": 22,
                 "classname": "A310"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0995429.jpg",
+                "impath": "./data/fgvc_aircraft/images/0995429.jpg",
                 "label": 22,
                 "classname": "A310"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0905532.jpg",
+                "impath": "./data/fgvc_aircraft/images/0905532.jpg",
                 "label": 23,
                 "classname": "A318"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0381607.jpg",
+                "impath": "./data/fgvc_aircraft/images/0381607.jpg",
                 "label": 23,
                 "classname": "A318"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0988091.jpg",
+                "impath": "./data/fgvc_aircraft/images/0988091.jpg",
                 "label": 24,
                 "classname": "A319"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1545141.jpg",
+                "impath": "./data/fgvc_aircraft/images/1545141.jpg",
                 "label": 24,
                 "classname": "A319"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1603592.jpg",
+                "impath": "./data/fgvc_aircraft/images/1603592.jpg",
                 "label": 25,
                 "classname": "A320"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0582370.jpg",
+                "impath": "./data/fgvc_aircraft/images/0582370.jpg",
                 "label": 25,
                 "classname": "A320"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1598389.jpg",
+                "impath": "./data/fgvc_aircraft/images/1598389.jpg",
                 "label": 26,
                 "classname": "A321"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1188170.jpg",
+                "impath": "./data/fgvc_aircraft/images/1188170.jpg",
                 "label": 26,
                 "classname": "A321"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1806596.jpg",
+                "impath": "./data/fgvc_aircraft/images/1806596.jpg",
                 "label": 27,
                 "classname": "A330-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0846826.jpg",
+                "impath": "./data/fgvc_aircraft/images/0846826.jpg",
                 "label": 27,
                 "classname": "A330-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1091802.jpg",
+                "impath": "./data/fgvc_aircraft/images/1091802.jpg",
                 "label": 28,
                 "classname": "A330-300"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1182369.jpg",
+                "impath": "./data/fgvc_aircraft/images/1182369.jpg",
                 "label": 28,
                 "classname": "A330-300"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0487386.jpg",
+                "impath": "./data/fgvc_aircraft/images/0487386.jpg",
                 "label": 29,
                 "classname": "A340-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0298309.jpg",
+                "impath": "./data/fgvc_aircraft/images/0298309.jpg",
                 "label": 29,
                 "classname": "A340-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2239298.jpg",
+                "impath": "./data/fgvc_aircraft/images/2239298.jpg",
                 "label": 30,
                 "classname": "A340-300"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1303941.jpg",
+                "impath": "./data/fgvc_aircraft/images/1303941.jpg",
                 "label": 30,
                 "classname": "A340-300"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2243783.jpg",
+                "impath": "./data/fgvc_aircraft/images/2243783.jpg",
                 "label": 31,
                 "classname": "A340-500"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0986170.jpg",
+                "impath": "./data/fgvc_aircraft/images/0986170.jpg",
                 "label": 31,
                 "classname": "A340-500"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1790504.jpg",
+                "impath": "./data/fgvc_aircraft/images/1790504.jpg",
                 "label": 32,
                 "classname": "A340-600"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1461266.jpg",
+                "impath": "./data/fgvc_aircraft/images/1461266.jpg",
                 "label": 32,
                 "classname": "A340-600"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1567291.jpg",
+                "impath": "./data/fgvc_aircraft/images/1567291.jpg",
                 "label": 33,
                 "classname": "A380"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2045349.jpg",
+                "impath": "./data/fgvc_aircraft/images/2045349.jpg",
                 "label": 33,
                 "classname": "A380"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0454534.jpg",
+                "impath": "./data/fgvc_aircraft/images/0454534.jpg",
                 "label": 34,
                 "classname": "ATR-42"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1116281.jpg",
+                "impath": "./data/fgvc_aircraft/images/1116281.jpg",
                 "label": 34,
                 "classname": "ATR-42"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1469673.jpg",
+                "impath": "./data/fgvc_aircraft/images/1469673.jpg",
                 "label": 35,
                 "classname": "ATR-72"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0114435.jpg",
+                "impath": "./data/fgvc_aircraft/images/0114435.jpg",
                 "label": 35,
                 "classname": "ATR-72"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1198418.jpg",
+                "impath": "./data/fgvc_aircraft/images/1198418.jpg",
                 "label": 36,
                 "classname": "An-12"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0842400.jpg",
+                "impath": "./data/fgvc_aircraft/images/0842400.jpg",
                 "label": 36,
                 "classname": "An-12"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2162994.jpg",
+                "impath": "./data/fgvc_aircraft/images/2162994.jpg",
                 "label": 37,
                 "classname": "BAE 146-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1301856.jpg",
+                "impath": "./data/fgvc_aircraft/images/1301856.jpg",
                 "label": 37,
                 "classname": "BAE 146-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1385122.jpg",
+                "impath": "./data/fgvc_aircraft/images/1385122.jpg",
                 "label": 38,
                 "classname": "BAE 146-300"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1386611.jpg",
+                "impath": "./data/fgvc_aircraft/images/1386611.jpg",
                 "label": 38,
                 "classname": "BAE 146-300"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1699480.jpg",
+                "impath": "./data/fgvc_aircraft/images/1699480.jpg",
                 "label": 39,
                 "classname": "BAE-125"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1795167.jpg",
+                "impath": "./data/fgvc_aircraft/images/1795167.jpg",
                 "label": 39,
                 "classname": "BAE-125"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0574352.jpg",
+                "impath": "./data/fgvc_aircraft/images/0574352.jpg",
                 "label": 40,
                 "classname": "Beechcraft 1900"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0186424.jpg",
+                "impath": "./data/fgvc_aircraft/images/0186424.jpg",
                 "label": 40,
                 "classname": "Beechcraft 1900"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1801653.jpg",
+                "impath": "./data/fgvc_aircraft/images/1801653.jpg",
                 "label": 41,
                 "classname": "Boeing 717"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0917347.jpg",
+                "impath": "./data/fgvc_aircraft/images/0917347.jpg",
                 "label": 41,
                 "classname": "Boeing 717"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0891418.jpg",
+                "impath": "./data/fgvc_aircraft/images/0891418.jpg",
                 "label": 42,
                 "classname": "C-130"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1753610.jpg",
+                "impath": "./data/fgvc_aircraft/images/1753610.jpg",
                 "label": 42,
                 "classname": "C-130"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1149062.jpg",
+                "impath": "./data/fgvc_aircraft/images/1149062.jpg",
                 "label": 43,
                 "classname": "C-47"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1002385.jpg",
+                "impath": "./data/fgvc_aircraft/images/1002385.jpg",
                 "label": 43,
                 "classname": "C-47"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1763290.jpg",
+                "impath": "./data/fgvc_aircraft/images/1763290.jpg",
                 "label": 44,
                 "classname": "CRJ-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1015040.jpg",
+                "impath": "./data/fgvc_aircraft/images/1015040.jpg",
                 "label": 44,
                 "classname": "CRJ-200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0388910.jpg",
+                "impath": "./data/fgvc_aircraft/images/0388910.jpg",
                 "label": 45,
                 "classname": "CRJ-700"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0941235.jpg",
+                "impath": "./data/fgvc_aircraft/images/0941235.jpg",
                 "label": 45,
                 "classname": "CRJ-700"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0356226.jpg",
+                "impath": "./data/fgvc_aircraft/images/0356226.jpg",
                 "label": 46,
                 "classname": "CRJ-900"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1906657.jpg",
+                "impath": "./data/fgvc_aircraft/images/1906657.jpg",
                 "label": 46,
                 "classname": "CRJ-900"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2009841.jpg",
+                "impath": "./data/fgvc_aircraft/images/2009841.jpg",
                 "label": 47,
                 "classname": "Cessna 172"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1507992.jpg",
+                "impath": "./data/fgvc_aircraft/images/1507992.jpg",
                 "label": 47,
                 "classname": "Cessna 172"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1968337.jpg",
+                "impath": "./data/fgvc_aircraft/images/1968337.jpg",
                 "label": 48,
                 "classname": "Cessna 208"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1155836.jpg",
+                "impath": "./data/fgvc_aircraft/images/1155836.jpg",
                 "label": 48,
                 "classname": "Cessna 208"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2030169.jpg",
+                "impath": "./data/fgvc_aircraft/images/2030169.jpg",
                 "label": 49,
                 "classname": "Cessna 525"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1964097.jpg",
+                "impath": "./data/fgvc_aircraft/images/1964097.jpg",
                 "label": 49,
                 "classname": "Cessna 525"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1551667.jpg",
+                "impath": "./data/fgvc_aircraft/images/1551667.jpg",
                 "label": 50,
                 "classname": "Cessna 560"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0890450.jpg",
+                "impath": "./data/fgvc_aircraft/images/0890450.jpg",
                 "label": 50,
                 "classname": "Cessna 560"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1958057.jpg",
+                "impath": "./data/fgvc_aircraft/images/1958057.jpg",
                 "label": 51,
                 "classname": "Challenger 600"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2106189.jpg",
+                "impath": "./data/fgvc_aircraft/images/2106189.jpg",
                 "label": 51,
                 "classname": "Challenger 600"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1389040.jpg",
+                "impath": "./data/fgvc_aircraft/images/1389040.jpg",
                 "label": 52,
                 "classname": "DC-10"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0136479.jpg",
+                "impath": "./data/fgvc_aircraft/images/0136479.jpg",
                 "label": 52,
                 "classname": "DC-10"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0709875.jpg",
+                "impath": "./data/fgvc_aircraft/images/0709875.jpg",
                 "label": 53,
                 "classname": "DC-3"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0730799.jpg",
+                "impath": "./data/fgvc_aircraft/images/0730799.jpg",
                 "label": 53,
                 "classname": "DC-3"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0545060.jpg",
+                "impath": "./data/fgvc_aircraft/images/0545060.jpg",
                 "label": 54,
                 "classname": "DC-6"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1739564.jpg",
+                "impath": "./data/fgvc_aircraft/images/1739564.jpg",
                 "label": 54,
                 "classname": "DC-6"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0699595.jpg",
+                "impath": "./data/fgvc_aircraft/images/0699595.jpg",
                 "label": 55,
                 "classname": "DC-8"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0921023.jpg",
+                "impath": "./data/fgvc_aircraft/images/0921023.jpg",
                 "label": 55,
                 "classname": "DC-8"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0901496.jpg",
+                "impath": "./data/fgvc_aircraft/images/0901496.jpg",
                 "label": 56,
                 "classname": "DC-9-30"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1376992.jpg",
+                "impath": "./data/fgvc_aircraft/images/1376992.jpg",
                 "label": 56,
                 "classname": "DC-9-30"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1376572.jpg",
+                "impath": "./data/fgvc_aircraft/images/1376572.jpg",
                 "label": 57,
                 "classname": "DH-82"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0985372.jpg",
+                "impath": "./data/fgvc_aircraft/images/0985372.jpg",
                 "label": 57,
                 "classname": "DH-82"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2089174.jpg",
+                "impath": "./data/fgvc_aircraft/images/2089174.jpg",
                 "label": 58,
                 "classname": "DHC-1"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1347949.jpg",
+                "impath": "./data/fgvc_aircraft/images/1347949.jpg",
                 "label": 58,
                 "classname": "DHC-1"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0454829.jpg",
+                "impath": "./data/fgvc_aircraft/images/0454829.jpg",
                 "label": 59,
                 "classname": "DHC-6"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1053484.jpg",
+                "impath": "./data/fgvc_aircraft/images/1053484.jpg",
                 "label": 59,
                 "classname": "DHC-6"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1054811.jpg",
+                "impath": "./data/fgvc_aircraft/images/1054811.jpg",
                 "label": 60,
                 "classname": "DHC-8-100"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1366851.jpg",
+                "impath": "./data/fgvc_aircraft/images/1366851.jpg",
                 "label": 60,
                 "classname": "DHC-8-100"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0177656.jpg",
+                "impath": "./data/fgvc_aircraft/images/0177656.jpg",
                 "label": 61,
                 "classname": "DHC-8-300"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0595602.jpg",
+                "impath": "./data/fgvc_aircraft/images/0595602.jpg",
                 "label": 61,
                 "classname": "DHC-8-300"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1246392.jpg",
+                "impath": "./data/fgvc_aircraft/images/1246392.jpg",
                 "label": 62,
                 "classname": "DR-400"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1709293.jpg",
+                "impath": "./data/fgvc_aircraft/images/1709293.jpg",
                 "label": 62,
                 "classname": "DR-400"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2164961.jpg",
+                "impath": "./data/fgvc_aircraft/images/2164961.jpg",
                 "label": 63,
                 "classname": "Dornier 328"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2069688.jpg",
+                "impath": "./data/fgvc_aircraft/images/2069688.jpg",
                 "label": 63,
                 "classname": "Dornier 328"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1059170.jpg",
+                "impath": "./data/fgvc_aircraft/images/1059170.jpg",
                 "label": 64,
                 "classname": "E-170"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1643027.jpg",
+                "impath": "./data/fgvc_aircraft/images/1643027.jpg",
                 "label": 64,
                 "classname": "E-170"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1637429.jpg",
+                "impath": "./data/fgvc_aircraft/images/1637429.jpg",
                 "label": 65,
                 "classname": "E-190"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1351207.jpg",
+                "impath": "./data/fgvc_aircraft/images/1351207.jpg",
                 "label": 65,
                 "classname": "E-190"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2099326.jpg",
+                "impath": "./data/fgvc_aircraft/images/2099326.jpg",
                 "label": 66,
                 "classname": "E-195"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2022236.jpg",
+                "impath": "./data/fgvc_aircraft/images/2022236.jpg",
                 "label": 66,
                 "classname": "E-195"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0398754.jpg",
+                "impath": "./data/fgvc_aircraft/images/0398754.jpg",
                 "label": 67,
                 "classname": "EMB-120"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1414838.jpg",
+                "impath": "./data/fgvc_aircraft/images/1414838.jpg",
                 "label": 67,
                 "classname": "EMB-120"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2200431.jpg",
+                "impath": "./data/fgvc_aircraft/images/2200431.jpg",
                 "label": 68,
                 "classname": "ERJ 135"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1596583.jpg",
+                "impath": "./data/fgvc_aircraft/images/1596583.jpg",
                 "label": 68,
                 "classname": "ERJ 135"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1844051.jpg",
+                "impath": "./data/fgvc_aircraft/images/1844051.jpg",
                 "label": 69,
                 "classname": "ERJ 145"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0174943.jpg",
+                "impath": "./data/fgvc_aircraft/images/0174943.jpg",
                 "label": 69,
                 "classname": "ERJ 145"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2054234.jpg",
+                "impath": "./data/fgvc_aircraft/images/2054234.jpg",
                 "label": 70,
                 "classname": "Embraer Legacy 600"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1647134.jpg",
+                "impath": "./data/fgvc_aircraft/images/1647134.jpg",
                 "label": 70,
                 "classname": "Embraer Legacy 600"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1364710.jpg",
+                "impath": "./data/fgvc_aircraft/images/1364710.jpg",
                 "label": 71,
                 "classname": "Eurofighter Typhoon"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1748479.jpg",
+                "impath": "./data/fgvc_aircraft/images/1748479.jpg",
                 "label": 71,
                 "classname": "Eurofighter Typhoon"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0896699.jpg",
+                "impath": "./data/fgvc_aircraft/images/0896699.jpg",
                 "label": 72,
                 "classname": "F-16A/B"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1289663.jpg",
+                "impath": "./data/fgvc_aircraft/images/1289663.jpg",
                 "label": 72,
                 "classname": "F-16A/B"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1807897.jpg",
+                "impath": "./data/fgvc_aircraft/images/1807897.jpg",
                 "label": 73,
                 "classname": "F/A-18"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1795164.jpg",
+                "impath": "./data/fgvc_aircraft/images/1795164.jpg",
                 "label": 73,
                 "classname": "F/A-18"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2266334.jpg",
+                "impath": "./data/fgvc_aircraft/images/2266334.jpg",
                 "label": 74,
                 "classname": "Falcon 2000"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1046884.jpg",
+                "impath": "./data/fgvc_aircraft/images/1046884.jpg",
                 "label": 74,
                 "classname": "Falcon 2000"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0601504.jpg",
+                "impath": "./data/fgvc_aircraft/images/0601504.jpg",
                 "label": 75,
                 "classname": "Falcon 900"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1630527.jpg",
+                "impath": "./data/fgvc_aircraft/images/1630527.jpg",
                 "label": 75,
                 "classname": "Falcon 900"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2213538.jpg",
+                "impath": "./data/fgvc_aircraft/images/2213538.jpg",
                 "label": 76,
                 "classname": "Fokker 100"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0786971.jpg",
+                "impath": "./data/fgvc_aircraft/images/0786971.jpg",
                 "label": 76,
                 "classname": "Fokker 100"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0233763.jpg",
+                "impath": "./data/fgvc_aircraft/images/0233763.jpg",
                 "label": 77,
                 "classname": "Fokker 50"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0694467.jpg",
+                "impath": "./data/fgvc_aircraft/images/0694467.jpg",
                 "label": 77,
                 "classname": "Fokker 50"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1725773.jpg",
+                "impath": "./data/fgvc_aircraft/images/1725773.jpg",
                 "label": 78,
                 "classname": "Fokker 70"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1966168.jpg",
+                "impath": "./data/fgvc_aircraft/images/1966168.jpg",
                 "label": 78,
                 "classname": "Fokker 70"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0922757.jpg",
+                "impath": "./data/fgvc_aircraft/images/0922757.jpg",
                 "label": 79,
                 "classname": "Global Express"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1895036.jpg",
+                "impath": "./data/fgvc_aircraft/images/1895036.jpg",
                 "label": 79,
                 "classname": "Global Express"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2236389.jpg",
+                "impath": "./data/fgvc_aircraft/images/2236389.jpg",
                 "label": 80,
                 "classname": "Gulfstream IV"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1162893.jpg",
+                "impath": "./data/fgvc_aircraft/images/1162893.jpg",
                 "label": 80,
                 "classname": "Gulfstream IV"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0472671.jpg",
+                "impath": "./data/fgvc_aircraft/images/0472671.jpg",
                 "label": 81,
                 "classname": "Gulfstream V"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1655614.jpg",
+                "impath": "./data/fgvc_aircraft/images/1655614.jpg",
                 "label": 81,
                 "classname": "Gulfstream V"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1554878.jpg",
+                "impath": "./data/fgvc_aircraft/images/1554878.jpg",
                 "label": 82,
                 "classname": "Hawk T1"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1506678.jpg",
+                "impath": "./data/fgvc_aircraft/images/1506678.jpg",
                 "label": 82,
                 "classname": "Hawk T1"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0195017.jpg",
+                "impath": "./data/fgvc_aircraft/images/0195017.jpg",
                 "label": 83,
                 "classname": "Il-76"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0740912.jpg",
+                "impath": "./data/fgvc_aircraft/images/0740912.jpg",
                 "label": 83,
                 "classname": "Il-76"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0467404.jpg",
+                "impath": "./data/fgvc_aircraft/images/0467404.jpg",
                 "label": 84,
                 "classname": "L-1011"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0984875.jpg",
+                "impath": "./data/fgvc_aircraft/images/0984875.jpg",
                 "label": 84,
                 "classname": "L-1011"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0574286.jpg",
+                "impath": "./data/fgvc_aircraft/images/0574286.jpg",
                 "label": 85,
                 "classname": "MD-11"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0061399.jpg",
+                "impath": "./data/fgvc_aircraft/images/0061399.jpg",
                 "label": 85,
                 "classname": "MD-11"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1782678.jpg",
+                "impath": "./data/fgvc_aircraft/images/1782678.jpg",
                 "label": 86,
                 "classname": "MD-80"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0091323.jpg",
+                "impath": "./data/fgvc_aircraft/images/0091323.jpg",
                 "label": 86,
                 "classname": "MD-80"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1950537.jpg",
+                "impath": "./data/fgvc_aircraft/images/1950537.jpg",
                 "label": 87,
                 "classname": "MD-87"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0421146.jpg",
+                "impath": "./data/fgvc_aircraft/images/0421146.jpg",
                 "label": 87,
                 "classname": "MD-87"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1203083.jpg",
+                "impath": "./data/fgvc_aircraft/images/1203083.jpg",
                 "label": 88,
                 "classname": "MD-90"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0796380.jpg",
+                "impath": "./data/fgvc_aircraft/images/0796380.jpg",
                 "label": 88,
                 "classname": "MD-90"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0640701.jpg",
+                "impath": "./data/fgvc_aircraft/images/0640701.jpg",
                 "label": 89,
                 "classname": "Metroliner"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0836251.jpg",
+                "impath": "./data/fgvc_aircraft/images/0836251.jpg",
                 "label": 89,
                 "classname": "Metroliner"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2130587.jpg",
+                "impath": "./data/fgvc_aircraft/images/2130587.jpg",
                 "label": 90,
                 "classname": "Model B200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1660307.jpg",
+                "impath": "./data/fgvc_aircraft/images/1660307.jpg",
                 "label": 90,
                 "classname": "Model B200"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1977631.jpg",
+                "impath": "./data/fgvc_aircraft/images/1977631.jpg",
                 "label": 91,
                 "classname": "PA-28"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1161284.jpg",
+                "impath": "./data/fgvc_aircraft/images/1161284.jpg",
                 "label": 91,
                 "classname": "PA-28"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1909087.jpg",
+                "impath": "./data/fgvc_aircraft/images/1909087.jpg",
                 "label": 92,
                 "classname": "SR-20"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/2074712.jpg",
+                "impath": "./data/fgvc_aircraft/images/2074712.jpg",
                 "label": 92,
                 "classname": "SR-20"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0752972.jpg",
+                "impath": "./data/fgvc_aircraft/images/0752972.jpg",
                 "label": 93,
                 "classname": "Saab 2000"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1736230.jpg",
+                "impath": "./data/fgvc_aircraft/images/1736230.jpg",
                 "label": 93,
                 "classname": "Saab 2000"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0167061.jpg",
+                "impath": "./data/fgvc_aircraft/images/0167061.jpg",
                 "label": 94,
                 "classname": "Saab 340"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1256726.jpg",
+                "impath": "./data/fgvc_aircraft/images/1256726.jpg",
                 "label": 94,
                 "classname": "Saab 340"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0761093.jpg",
+                "impath": "./data/fgvc_aircraft/images/0761093.jpg",
                 "label": 95,
                 "classname": "Spitfire"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1468752.jpg",
+                "impath": "./data/fgvc_aircraft/images/1468752.jpg",
                 "label": 95,
                 "classname": "Spitfire"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1360525.jpg",
+                "impath": "./data/fgvc_aircraft/images/1360525.jpg",
                 "label": 96,
                 "classname": "Tornado"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1372373.jpg",
+                "impath": "./data/fgvc_aircraft/images/1372373.jpg",
                 "label": 96,
                 "classname": "Tornado"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1700374.jpg",
+                "impath": "./data/fgvc_aircraft/images/1700374.jpg",
                 "label": 97,
                 "classname": "Tu-134"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0127652.jpg",
+                "impath": "./data/fgvc_aircraft/images/0127652.jpg",
                 "label": 97,
                 "classname": "Tu-134"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0737317.jpg",
+                "impath": "./data/fgvc_aircraft/images/0737317.jpg",
                 "label": 98,
                 "classname": "Tu-154"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0578315.jpg",
+                "impath": "./data/fgvc_aircraft/images/0578315.jpg",
                 "label": 98,
                 "classname": "Tu-154"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/1826635.jpg",
+                "impath": "./data/fgvc_aircraft/images/1826635.jpg",
                 "label": 99,
                 "classname": "Yak-42"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/fgvc_aircraft/images/0765754.jpg",
+                "impath": "./data/fgvc_aircraft/images/0765754.jpg",
                 "label": 99,
                 "classname": "Yak-42"
             }

@@ -2,507 +2,507 @@
     "train": {
         "data": [
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Apply_Eye_Makeup/v_ApplyEyeMakeup_g14_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Apply_Eye_Makeup/v_ApplyEyeMakeup_g14_c04.jpg",
                 "label": 0,
                 "classname": "Apply_Eye_Makeup"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Apply_Lipstick/v_ApplyLipstick_g24_c05.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Apply_Lipstick/v_ApplyLipstick_g24_c05.jpg",
                 "label": 1,
                 "classname": "Apply_Lipstick"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Archery/v_Archery_g09_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Archery/v_Archery_g09_c04.jpg",
                 "label": 2,
                 "classname": "Archery"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Baby_Crawling/v_BabyCrawling_g15_c06.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Baby_Crawling/v_BabyCrawling_g15_c06.jpg",
                 "label": 3,
                 "classname": "Baby_Crawling"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Balance_Beam/v_BalanceBeam_g21_c05.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Balance_Beam/v_BalanceBeam_g21_c05.jpg",
                 "label": 4,
                 "classname": "Balance_Beam"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Band_Marching/v_BandMarching_g16_c07.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Band_Marching/v_BandMarching_g16_c07.jpg",
                 "label": 5,
                 "classname": "Band_Marching"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Baseball_Pitch/v_BaseballPitch_g10_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Baseball_Pitch/v_BaseballPitch_g10_c03.jpg",
                 "label": 6,
                 "classname": "Baseball_Pitch"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Basketball/v_Basketball_g08_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Basketball/v_Basketball_g08_c03.jpg",
                 "label": 7,
                 "classname": "Basketball"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Basketball_Dunk/v_BasketballDunk_g20_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Basketball_Dunk/v_BasketballDunk_g20_c04.jpg",
                 "label": 8,
                 "classname": "Basketball_Dunk"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Bench_Press/v_BenchPress_g15_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Bench_Press/v_BenchPress_g15_c04.jpg",
                 "label": 9,
                 "classname": "Bench_Press"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Biking/v_Biking_g24_c07.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Biking/v_Biking_g24_c07.jpg",
                 "label": 10,
                 "classname": "Biking"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Billiards/v_Billiards_g17_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Billiards/v_Billiards_g17_c02.jpg",
                 "label": 11,
                 "classname": "Billiards"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Blow_Dry_Hair/v_BlowDryHair_g20_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Blow_Dry_Hair/v_BlowDryHair_g20_c03.jpg",
                 "label": 12,
                 "classname": "Blow_Dry_Hair"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Blowing_Candles/v_BlowingCandles_g14_c01.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Blowing_Candles/v_BlowingCandles_g14_c01.jpg",
                 "label": 13,
                 "classname": "Blowing_Candles"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Body_Weight_Squats/v_BodyWeightSquats_g14_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Body_Weight_Squats/v_BodyWeightSquats_g14_c02.jpg",
                 "label": 14,
                 "classname": "Body_Weight_Squats"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Bowling/v_Bowling_g19_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Bowling/v_Bowling_g19_c03.jpg",
                 "label": 15,
                 "classname": "Bowling"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Boxing_Punching_Bag/v_BoxingPunchingBag_g11_c05.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Boxing_Punching_Bag/v_BoxingPunchingBag_g11_c05.jpg",
                 "label": 16,
                 "classname": "Boxing_Punching_Bag"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Boxing_Speed_Bag/v_BoxingSpeedBag_g13_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Boxing_Speed_Bag/v_BoxingSpeedBag_g13_c02.jpg",
                 "label": 17,
                 "classname": "Boxing_Speed_Bag"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Breast_Stroke/v_BreastStroke_g14_c01.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Breast_Stroke/v_BreastStroke_g14_c01.jpg",
                 "label": 18,
                 "classname": "Breast_Stroke"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Brushing_Teeth/v_BrushingTeeth_g12_c06.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Brushing_Teeth/v_BrushingTeeth_g12_c06.jpg",
                 "label": 19,
                 "classname": "Brushing_Teeth"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Clean_And_Jerk/v_CleanAndJerk_g19_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Clean_And_Jerk/v_CleanAndJerk_g19_c03.jpg",
                 "label": 20,
                 "classname": "Clean_And_Jerk"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Cliff_Diving/v_CliffDiving_g21_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Cliff_Diving/v_CliffDiving_g21_c02.jpg",
                 "label": 21,
                 "classname": "Cliff_Diving"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Cricket_Bowling/v_CricketBowling_g09_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Cricket_Bowling/v_CricketBowling_g09_c03.jpg",
                 "label": 22,
                 "classname": "Cricket_Bowling"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Cricket_Shot/v_CricketShot_g09_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Cricket_Shot/v_CricketShot_g09_c03.jpg",
                 "label": 23,
                 "classname": "Cricket_Shot"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Cutting_In_Kitchen/v_CuttingInKitchen_g08_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Cutting_In_Kitchen/v_CuttingInKitchen_g08_c03.jpg",
                 "label": 24,
                 "classname": "Cutting_In_Kitchen"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Diving/v_Diving_g24_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Diving/v_Diving_g24_c02.jpg",
                 "label": 25,
                 "classname": "Diving"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Drumming/v_Drumming_g22_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Drumming/v_Drumming_g22_c04.jpg",
                 "label": 26,
                 "classname": "Drumming"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Fencing/v_Fencing_g11_c05.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Fencing/v_Fencing_g11_c05.jpg",
                 "label": 27,
                 "classname": "Fencing"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Field_Hockey_Penalty/v_FieldHockeyPenalty_g11_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Field_Hockey_Penalty/v_FieldHockeyPenalty_g11_c04.jpg",
                 "label": 28,
                 "classname": "Field_Hockey_Penalty"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Floor_Gymnastics/v_FloorGymnastics_g16_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Floor_Gymnastics/v_FloorGymnastics_g16_c02.jpg",
                 "label": 29,
                 "classname": "Floor_Gymnastics"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Frisbee_Catch/v_FrisbeeCatch_g17_c05.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Frisbee_Catch/v_FrisbeeCatch_g17_c05.jpg",
                 "label": 30,
                 "classname": "Frisbee_Catch"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Front_Crawl/v_FrontCrawl_g24_c05.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Front_Crawl/v_FrontCrawl_g24_c05.jpg",
                 "label": 31,
                 "classname": "Front_Crawl"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Golf_Swing/v_GolfSwing_g16_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Golf_Swing/v_GolfSwing_g16_c04.jpg",
                 "label": 32,
                 "classname": "Golf_Swing"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Haircut/v_Haircut_g25_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Haircut/v_Haircut_g25_c04.jpg",
                 "label": 33,
                 "classname": "Haircut"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Hammering/v_Hammering_g20_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Hammering/v_Hammering_g20_c03.jpg",
                 "label": 34,
                 "classname": "Hammering"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Hammer_Throw/v_HammerThrow_g08_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Hammer_Throw/v_HammerThrow_g08_c02.jpg",
                 "label": 35,
                 "classname": "Hammer_Throw"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Handstand_Pushups/v_HandStandPushups_g19_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Handstand_Pushups/v_HandStandPushups_g19_c03.jpg",
                 "label": 36,
                 "classname": "Handstand_Pushups"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Handstand_Walking/v_HandstandWalking_g24_c06.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Handstand_Walking/v_HandstandWalking_g24_c06.jpg",
                 "label": 37,
                 "classname": "Handstand_Walking"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Head_Massage/v_HeadMassage_g21_c01.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Head_Massage/v_HeadMassage_g21_c01.jpg",
                 "label": 38,
                 "classname": "Head_Massage"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/High_Jump/v_HighJump_g16_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/High_Jump/v_HighJump_g16_c02.jpg",
                 "label": 39,
                 "classname": "High_Jump"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Horse_Race/v_HorseRace_g15_c01.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Horse_Race/v_HorseRace_g15_c01.jpg",
                 "label": 40,
                 "classname": "Horse_Race"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Horse_Riding/v_HorseRiding_g25_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Horse_Riding/v_HorseRiding_g25_c04.jpg",
                 "label": 41,
                 "classname": "Horse_Riding"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Hula_Hoop/v_HulaHoop_g21_c01.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Hula_Hoop/v_HulaHoop_g21_c01.jpg",
                 "label": 42,
                 "classname": "Hula_Hoop"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Ice_Dancing/v_IceDancing_g15_c01.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Ice_Dancing/v_IceDancing_g15_c01.jpg",
                 "label": 43,
                 "classname": "Ice_Dancing"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Javelin_Throw/v_JavelinThrow_g08_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Javelin_Throw/v_JavelinThrow_g08_c04.jpg",
                 "label": 44,
                 "classname": "Javelin_Throw"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Juggling_Balls/v_JugglingBalls_g14_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Juggling_Balls/v_JugglingBalls_g14_c02.jpg",
                 "label": 45,
                 "classname": "Juggling_Balls"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Jumping_Jack/v_JumpingJack_g25_c06.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Jumping_Jack/v_JumpingJack_g25_c06.jpg",
                 "label": 46,
                 "classname": "Jumping_Jack"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Jump_Rope/v_JumpRope_g19_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Jump_Rope/v_JumpRope_g19_c04.jpg",
                 "label": 47,
                 "classname": "Jump_Rope"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Kayaking/v_Kayaking_g08_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Kayaking/v_Kayaking_g08_c02.jpg",
                 "label": 48,
                 "classname": "Kayaking"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Knitting/v_Knitting_g21_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Knitting/v_Knitting_g21_c03.jpg",
                 "label": 49,
                 "classname": "Knitting"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Long_Jump/v_LongJump_g24_c01.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Long_Jump/v_LongJump_g24_c01.jpg",
                 "label": 50,
                 "classname": "Long_Jump"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Lunges/v_Lunges_g14_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Lunges/v_Lunges_g14_c04.jpg",
                 "label": 51,
                 "classname": "Lunges"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Military_Parade/v_MilitaryParade_g08_c05.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Military_Parade/v_MilitaryParade_g08_c05.jpg",
                 "label": 52,
                 "classname": "Military_Parade"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Mixing/v_Mixing_g22_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Mixing/v_Mixing_g22_c03.jpg",
                 "label": 53,
                 "classname": "Mixing"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Mopping_Floor/v_MoppingFloor_g25_c01.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Mopping_Floor/v_MoppingFloor_g25_c01.jpg",
                 "label": 54,
                 "classname": "Mopping_Floor"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Nunchucks/v_Nunchucks_g14_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Nunchucks/v_Nunchucks_g14_c04.jpg",
                 "label": 55,
                 "classname": "Nunchucks"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Parallel_Bars/v_ParallelBars_g13_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Parallel_Bars/v_ParallelBars_g13_c03.jpg",
                 "label": 56,
                 "classname": "Parallel_Bars"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Pizza_Tossing/v_PizzaTossing_g14_c01.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Pizza_Tossing/v_PizzaTossing_g14_c01.jpg",
                 "label": 57,
                 "classname": "Pizza_Tossing"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Playing_Cello/v_PlayingCello_g08_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Playing_Cello/v_PlayingCello_g08_c02.jpg",
                 "label": 58,
                 "classname": "Playing_Cello"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Playing_Daf/v_PlayingDaf_g10_c07.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Playing_Daf/v_PlayingDaf_g10_c07.jpg",
                 "label": 59,
                 "classname": "Playing_Daf"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Playing_Dhol/v_PlayingDhol_g22_c07.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Playing_Dhol/v_PlayingDhol_g22_c07.jpg",
                 "label": 60,
                 "classname": "Playing_Dhol"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Playing_Flute/v_PlayingFlute_g09_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Playing_Flute/v_PlayingFlute_g09_c02.jpg",
                 "label": 61,
                 "classname": "Playing_Flute"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Playing_Guitar/v_PlayingGuitar_g19_c07.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Playing_Guitar/v_PlayingGuitar_g19_c07.jpg",
                 "label": 62,
                 "classname": "Playing_Guitar"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Playing_Piano/v_PlayingPiano_g20_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Playing_Piano/v_PlayingPiano_g20_c03.jpg",
                 "label": 63,
                 "classname": "Playing_Piano"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Playing_Sitar/v_PlayingSitar_g25_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Playing_Sitar/v_PlayingSitar_g25_c04.jpg",
                 "label": 64,
                 "classname": "Playing_Sitar"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Playing_Tabla/v_PlayingTabla_g08_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Playing_Tabla/v_PlayingTabla_g08_c02.jpg",
                 "label": 65,
                 "classname": "Playing_Tabla"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Playing_Violin/v_PlayingViolin_g25_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Playing_Violin/v_PlayingViolin_g25_c04.jpg",
                 "label": 66,
                 "classname": "Playing_Violin"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Pole_Vault/v_PoleVault_g15_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Pole_Vault/v_PoleVault_g15_c02.jpg",
                 "label": 67,
                 "classname": "Pole_Vault"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Pommel_Horse/v_PommelHorse_g22_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Pommel_Horse/v_PommelHorse_g22_c02.jpg",
                 "label": 68,
                 "classname": "Pommel_Horse"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Pull_Ups/v_PullUps_g21_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Pull_Ups/v_PullUps_g21_c04.jpg",
                 "label": 69,
                 "classname": "Pull_Ups"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Punch/v_Punch_g12_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Punch/v_Punch_g12_c03.jpg",
                 "label": 70,
                 "classname": "Punch"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Push_Ups/v_PushUps_g17_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Push_Ups/v_PushUps_g17_c04.jpg",
                 "label": 71,
                 "classname": "Push_Ups"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Rafting/v_Rafting_g08_c06.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Rafting/v_Rafting_g08_c06.jpg",
                 "label": 72,
                 "classname": "Rafting"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Rock_Climbing_Indoor/v_RockClimbingIndoor_g13_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Rock_Climbing_Indoor/v_RockClimbingIndoor_g13_c03.jpg",
                 "label": 73,
                 "classname": "Rock_Climbing_Indoor"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Rope_Climbing/v_RopeClimbing_g22_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Rope_Climbing/v_RopeClimbing_g22_c04.jpg",
                 "label": 74,
                 "classname": "Rope_Climbing"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Rowing/v_Rowing_g10_c07.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Rowing/v_Rowing_g10_c07.jpg",
                 "label": 75,
                 "classname": "Rowing"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Salsa_Spin/v_SalsaSpin_g09_c06.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Salsa_Spin/v_SalsaSpin_g09_c06.jpg",
                 "label": 76,
                 "classname": "Salsa_Spin"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Shaving_Beard/v_ShavingBeard_g16_c06.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Shaving_Beard/v_ShavingBeard_g16_c06.jpg",
                 "label": 77,
                 "classname": "Shaving_Beard"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Shotput/v_Shotput_g13_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Shotput/v_Shotput_g13_c03.jpg",
                 "label": 78,
                 "classname": "Shotput"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Skate_Boarding/v_SkateBoarding_g16_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Skate_Boarding/v_SkateBoarding_g16_c03.jpg",
                 "label": 79,
                 "classname": "Skate_Boarding"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Skiing/v_Skiing_g11_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Skiing/v_Skiing_g11_c02.jpg",
                 "label": 80,
                 "classname": "Skiing"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Skijet/v_Skijet_g19_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Skijet/v_Skijet_g19_c04.jpg",
                 "label": 81,
                 "classname": "Skijet"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Sky_Diving/v_SkyDiving_g17_c05.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Sky_Diving/v_SkyDiving_g17_c05.jpg",
                 "label": 82,
                 "classname": "Sky_Diving"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Soccer_Juggling/v_SoccerJuggling_g18_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Soccer_Juggling/v_SoccerJuggling_g18_c03.jpg",
                 "label": 83,
                 "classname": "Soccer_Juggling"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Soccer_Penalty/v_SoccerPenalty_g13_c05.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Soccer_Penalty/v_SoccerPenalty_g13_c05.jpg",
                 "label": 84,
                 "classname": "Soccer_Penalty"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Still_Rings/v_StillRings_g12_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Still_Rings/v_StillRings_g12_c03.jpg",
                 "label": 85,
                 "classname": "Still_Rings"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Sumo_Wrestling/v_SumoWrestling_g18_c07.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Sumo_Wrestling/v_SumoWrestling_g18_c07.jpg",
                 "label": 86,
                 "classname": "Sumo_Wrestling"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Surfing/v_Surfing_g17_c01.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Surfing/v_Surfing_g17_c01.jpg",
                 "label": 87,
                 "classname": "Surfing"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Swing/v_Swing_g16_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Swing/v_Swing_g16_c03.jpg",
                 "label": 88,
                 "classname": "Swing"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Table_Tennis_Shot/v_TableTennisShot_g14_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Table_Tennis_Shot/v_TableTennisShot_g14_c04.jpg",
                 "label": 89,
                 "classname": "Table_Tennis_Shot"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Tai_Chi/v_TaiChi_g22_c01.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Tai_Chi/v_TaiChi_g22_c01.jpg",
                 "label": 90,
                 "classname": "Tai_Chi"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Tennis_Swing/v_TennisSwing_g13_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Tennis_Swing/v_TennisSwing_g13_c03.jpg",
                 "label": 91,
                 "classname": "Tennis_Swing"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Throw_Discus/v_ThrowDiscus_g10_c05.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Throw_Discus/v_ThrowDiscus_g10_c05.jpg",
                 "label": 92,
                 "classname": "Throw_Discus"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Trampoline_Jumping/v_TrampolineJumping_g17_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Trampoline_Jumping/v_TrampolineJumping_g17_c04.jpg",
                 "label": 93,
                 "classname": "Trampoline_Jumping"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Typing/v_Typing_g17_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Typing/v_Typing_g17_c03.jpg",
                 "label": 94,
                 "classname": "Typing"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Uneven_Bars/v_UnevenBars_g16_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Uneven_Bars/v_UnevenBars_g16_c02.jpg",
                 "label": 95,
                 "classname": "Uneven_Bars"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Volleyball_Spiking/v_VolleyballSpiking_g19_c01.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Volleyball_Spiking/v_VolleyballSpiking_g19_c01.jpg",
                 "label": 96,
                 "classname": "Volleyball_Spiking"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Walking_With_Dog/v_WalkingWithDog_g11_c05.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Walking_With_Dog/v_WalkingWithDog_g11_c05.jpg",
                 "label": 97,
                 "classname": "Walking_With_Dog"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Wall_Pushups/v_WallPushups_g21_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Wall_Pushups/v_WallPushups_g21_c02.jpg",
                 "label": 98,
                 "classname": "Wall_Pushups"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Writing_On_Board/v_WritingOnBoard_g22_c06.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Writing_On_Board/v_WritingOnBoard_g22_c06.jpg",
                 "label": 99,
                 "classname": "Writing_On_Board"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Yo_Yo/v_YoYo_g25_c01.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Yo_Yo/v_YoYo_g25_c01.jpg",
                 "label": 100,
                 "classname": "Yo_Yo"
             }
@@ -614,507 +614,507 @@
     "val": {
         "data": [
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Apply_Eye_Makeup/v_ApplyEyeMakeup_g09_c05.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Apply_Eye_Makeup/v_ApplyEyeMakeup_g09_c05.jpg",
                 "label": 0,
                 "classname": "Apply_Eye_Makeup"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Apply_Lipstick/v_ApplyLipstick_g24_c01.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Apply_Lipstick/v_ApplyLipstick_g24_c01.jpg",
                 "label": 1,
                 "classname": "Apply_Lipstick"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Archery/v_Archery_g11_c07.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Archery/v_Archery_g11_c07.jpg",
                 "label": 2,
                 "classname": "Archery"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Baby_Crawling/v_BabyCrawling_g09_c01.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Baby_Crawling/v_BabyCrawling_g09_c01.jpg",
                 "label": 3,
                 "classname": "Baby_Crawling"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Balance_Beam/v_BalanceBeam_g15_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Balance_Beam/v_BalanceBeam_g15_c02.jpg",
                 "label": 4,
                 "classname": "Balance_Beam"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Band_Marching/v_BandMarching_g13_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Band_Marching/v_BandMarching_g13_c04.jpg",
                 "label": 5,
                 "classname": "Band_Marching"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Baseball_Pitch/v_BaseballPitch_g15_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Baseball_Pitch/v_BaseballPitch_g15_c02.jpg",
                 "label": 6,
                 "classname": "Baseball_Pitch"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Basketball/v_Basketball_g11_c01.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Basketball/v_Basketball_g11_c01.jpg",
                 "label": 7,
                 "classname": "Basketball"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Basketball_Dunk/v_BasketballDunk_g23_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Basketball_Dunk/v_BasketballDunk_g23_c04.jpg",
                 "label": 8,
                 "classname": "Basketball_Dunk"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Bench_Press/v_BenchPress_g24_c01.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Bench_Press/v_BenchPress_g24_c01.jpg",
                 "label": 9,
                 "classname": "Bench_Press"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Biking/v_Biking_g13_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Biking/v_Biking_g13_c03.jpg",
                 "label": 10,
                 "classname": "Biking"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Billiards/v_Billiards_g25_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Billiards/v_Billiards_g25_c03.jpg",
                 "label": 11,
                 "classname": "Billiards"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Blow_Dry_Hair/v_BlowDryHair_g10_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Blow_Dry_Hair/v_BlowDryHair_g10_c02.jpg",
                 "label": 12,
                 "classname": "Blow_Dry_Hair"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Blowing_Candles/v_BlowingCandles_g09_c01.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Blowing_Candles/v_BlowingCandles_g09_c01.jpg",
                 "label": 13,
                 "classname": "Blowing_Candles"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Body_Weight_Squats/v_BodyWeightSquats_g10_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Body_Weight_Squats/v_BodyWeightSquats_g10_c03.jpg",
                 "label": 14,
                 "classname": "Body_Weight_Squats"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Bowling/v_Bowling_g19_c07.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Bowling/v_Bowling_g19_c07.jpg",
                 "label": 15,
                 "classname": "Bowling"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Boxing_Punching_Bag/v_BoxingPunchingBag_g11_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Boxing_Punching_Bag/v_BoxingPunchingBag_g11_c04.jpg",
                 "label": 16,
                 "classname": "Boxing_Punching_Bag"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Boxing_Speed_Bag/v_BoxingSpeedBag_g23_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Boxing_Speed_Bag/v_BoxingSpeedBag_g23_c02.jpg",
                 "label": 17,
                 "classname": "Boxing_Speed_Bag"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Breast_Stroke/v_BreastStroke_g14_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Breast_Stroke/v_BreastStroke_g14_c04.jpg",
                 "label": 18,
                 "classname": "Breast_Stroke"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Brushing_Teeth/v_BrushingTeeth_g16_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Brushing_Teeth/v_BrushingTeeth_g16_c02.jpg",
                 "label": 19,
                 "classname": "Brushing_Teeth"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Clean_And_Jerk/v_CleanAndJerk_g16_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Clean_And_Jerk/v_CleanAndJerk_g16_c03.jpg",
                 "label": 20,
                 "classname": "Clean_And_Jerk"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Cliff_Diving/v_CliffDiving_g23_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Cliff_Diving/v_CliffDiving_g23_c04.jpg",
                 "label": 21,
                 "classname": "Cliff_Diving"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Cricket_Bowling/v_CricketBowling_g14_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Cricket_Bowling/v_CricketBowling_g14_c02.jpg",
                 "label": 22,
                 "classname": "Cricket_Bowling"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Cricket_Shot/v_CricketShot_g11_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Cricket_Shot/v_CricketShot_g11_c04.jpg",
                 "label": 23,
                 "classname": "Cricket_Shot"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Cutting_In_Kitchen/v_CuttingInKitchen_g10_c05.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Cutting_In_Kitchen/v_CuttingInKitchen_g10_c05.jpg",
                 "label": 24,
                 "classname": "Cutting_In_Kitchen"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Diving/v_Diving_g21_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Diving/v_Diving_g21_c03.jpg",
                 "label": 25,
                 "classname": "Diving"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Drumming/v_Drumming_g13_c05.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Drumming/v_Drumming_g13_c05.jpg",
                 "label": 26,
                 "classname": "Drumming"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Fencing/v_Fencing_g24_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Fencing/v_Fencing_g24_c03.jpg",
                 "label": 27,
                 "classname": "Fencing"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Field_Hockey_Penalty/v_FieldHockeyPenalty_g24_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Field_Hockey_Penalty/v_FieldHockeyPenalty_g24_c04.jpg",
                 "label": 28,
                 "classname": "Field_Hockey_Penalty"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Floor_Gymnastics/v_FloorGymnastics_g11_c01.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Floor_Gymnastics/v_FloorGymnastics_g11_c01.jpg",
                 "label": 29,
                 "classname": "Floor_Gymnastics"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Frisbee_Catch/v_FrisbeeCatch_g10_c01.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Frisbee_Catch/v_FrisbeeCatch_g10_c01.jpg",
                 "label": 30,
                 "classname": "Frisbee_Catch"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Front_Crawl/v_FrontCrawl_g13_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Front_Crawl/v_FrontCrawl_g13_c03.jpg",
                 "label": 31,
                 "classname": "Front_Crawl"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Golf_Swing/v_GolfSwing_g17_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Golf_Swing/v_GolfSwing_g17_c02.jpg",
                 "label": 32,
                 "classname": "Golf_Swing"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Haircut/v_Haircut_g17_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Haircut/v_Haircut_g17_c03.jpg",
                 "label": 33,
                 "classname": "Haircut"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Hammering/v_Hammering_g08_c01.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Hammering/v_Hammering_g08_c01.jpg",
                 "label": 34,
                 "classname": "Hammering"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Hammer_Throw/v_HammerThrow_g09_c01.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Hammer_Throw/v_HammerThrow_g09_c01.jpg",
                 "label": 35,
                 "classname": "Hammer_Throw"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Handstand_Pushups/v_HandStandPushups_g12_c01.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Handstand_Pushups/v_HandStandPushups_g12_c01.jpg",
                 "label": 36,
                 "classname": "Handstand_Pushups"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Handstand_Walking/v_HandstandWalking_g16_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Handstand_Walking/v_HandstandWalking_g16_c02.jpg",
                 "label": 37,
                 "classname": "Handstand_Walking"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Head_Massage/v_HeadMassage_g16_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Head_Massage/v_HeadMassage_g16_c04.jpg",
                 "label": 38,
                 "classname": "Head_Massage"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/High_Jump/v_HighJump_g17_c01.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/High_Jump/v_HighJump_g17_c01.jpg",
                 "label": 39,
                 "classname": "High_Jump"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Horse_Race/v_HorseRace_g22_c01.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Horse_Race/v_HorseRace_g22_c01.jpg",
                 "label": 40,
                 "classname": "Horse_Race"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Horse_Riding/v_HorseRiding_g24_c06.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Horse_Riding/v_HorseRiding_g24_c06.jpg",
                 "label": 41,
                 "classname": "Horse_Riding"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Hula_Hoop/v_HulaHoop_g09_c06.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Hula_Hoop/v_HulaHoop_g09_c06.jpg",
                 "label": 42,
                 "classname": "Hula_Hoop"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Ice_Dancing/v_IceDancing_g09_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Ice_Dancing/v_IceDancing_g09_c03.jpg",
                 "label": 43,
                 "classname": "Ice_Dancing"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Javelin_Throw/v_JavelinThrow_g11_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Javelin_Throw/v_JavelinThrow_g11_c02.jpg",
                 "label": 44,
                 "classname": "Javelin_Throw"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Juggling_Balls/v_JugglingBalls_g21_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Juggling_Balls/v_JugglingBalls_g21_c02.jpg",
                 "label": 45,
                 "classname": "Juggling_Balls"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Jumping_Jack/v_JumpingJack_g08_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Jumping_Jack/v_JumpingJack_g08_c02.jpg",
                 "label": 46,
                 "classname": "Jumping_Jack"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Jump_Rope/v_JumpRope_g18_c07.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Jump_Rope/v_JumpRope_g18_c07.jpg",
                 "label": 47,
                 "classname": "Jump_Rope"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Kayaking/v_Kayaking_g12_c01.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Kayaking/v_Kayaking_g12_c01.jpg",
                 "label": 48,
                 "classname": "Kayaking"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Knitting/v_Knitting_g15_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Knitting/v_Knitting_g15_c02.jpg",
                 "label": 49,
                 "classname": "Knitting"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Long_Jump/v_LongJump_g11_c01.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Long_Jump/v_LongJump_g11_c01.jpg",
                 "label": 50,
                 "classname": "Long_Jump"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Lunges/v_Lunges_g21_c01.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Lunges/v_Lunges_g21_c01.jpg",
                 "label": 51,
                 "classname": "Lunges"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Military_Parade/v_MilitaryParade_g12_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Military_Parade/v_MilitaryParade_g12_c04.jpg",
                 "label": 52,
                 "classname": "Military_Parade"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Mixing/v_Mixing_g10_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Mixing/v_Mixing_g10_c04.jpg",
                 "label": 53,
                 "classname": "Mixing"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Mopping_Floor/v_MoppingFloor_g18_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Mopping_Floor/v_MoppingFloor_g18_c03.jpg",
                 "label": 54,
                 "classname": "Mopping_Floor"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Nunchucks/v_Nunchucks_g25_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Nunchucks/v_Nunchucks_g25_c03.jpg",
                 "label": 55,
                 "classname": "Nunchucks"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Parallel_Bars/v_ParallelBars_g12_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Parallel_Bars/v_ParallelBars_g12_c04.jpg",
                 "label": 56,
                 "classname": "Parallel_Bars"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Pizza_Tossing/v_PizzaTossing_g16_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Pizza_Tossing/v_PizzaTossing_g16_c03.jpg",
                 "label": 57,
                 "classname": "Pizza_Tossing"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Playing_Cello/v_PlayingCello_g15_c06.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Playing_Cello/v_PlayingCello_g15_c06.jpg",
                 "label": 58,
                 "classname": "Playing_Cello"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Playing_Daf/v_PlayingDaf_g08_c05.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Playing_Daf/v_PlayingDaf_g08_c05.jpg",
                 "label": 59,
                 "classname": "Playing_Daf"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Playing_Dhol/v_PlayingDhol_g18_c05.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Playing_Dhol/v_PlayingDhol_g18_c05.jpg",
                 "label": 60,
                 "classname": "Playing_Dhol"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Playing_Flute/v_PlayingFlute_g25_c07.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Playing_Flute/v_PlayingFlute_g25_c07.jpg",
                 "label": 61,
                 "classname": "Playing_Flute"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Playing_Guitar/v_PlayingGuitar_g08_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Playing_Guitar/v_PlayingGuitar_g08_c02.jpg",
                 "label": 62,
                 "classname": "Playing_Guitar"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Playing_Piano/v_PlayingPiano_g19_c01.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Playing_Piano/v_PlayingPiano_g19_c01.jpg",
                 "label": 63,
                 "classname": "Playing_Piano"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Playing_Sitar/v_PlayingSitar_g25_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Playing_Sitar/v_PlayingSitar_g25_c02.jpg",
                 "label": 64,
                 "classname": "Playing_Sitar"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Playing_Tabla/v_PlayingTabla_g10_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Playing_Tabla/v_PlayingTabla_g10_c04.jpg",
                 "label": 65,
                 "classname": "Playing_Tabla"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Playing_Violin/v_PlayingViolin_g18_c01.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Playing_Violin/v_PlayingViolin_g18_c01.jpg",
                 "label": 66,
                 "classname": "Playing_Violin"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Pole_Vault/v_PoleVault_g21_c06.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Pole_Vault/v_PoleVault_g21_c06.jpg",
                 "label": 67,
                 "classname": "Pole_Vault"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Pommel_Horse/v_PommelHorse_g18_c01.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Pommel_Horse/v_PommelHorse_g18_c01.jpg",
                 "label": 68,
                 "classname": "Pommel_Horse"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Pull_Ups/v_PullUps_g12_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Pull_Ups/v_PullUps_g12_c03.jpg",
                 "label": 69,
                 "classname": "Pull_Ups"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Punch/v_Punch_g23_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Punch/v_Punch_g23_c02.jpg",
                 "label": 70,
                 "classname": "Punch"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Push_Ups/v_PushUps_g15_c01.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Push_Ups/v_PushUps_g15_c01.jpg",
                 "label": 71,
                 "classname": "Push_Ups"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Rafting/v_Rafting_g18_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Rafting/v_Rafting_g18_c03.jpg",
                 "label": 72,
                 "classname": "Rafting"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Rock_Climbing_Indoor/v_RockClimbingIndoor_g08_c01.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Rock_Climbing_Indoor/v_RockClimbingIndoor_g08_c01.jpg",
                 "label": 73,
                 "classname": "Rock_Climbing_Indoor"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Rope_Climbing/v_RopeClimbing_g25_c01.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Rope_Climbing/v_RopeClimbing_g25_c01.jpg",
                 "label": 74,
                 "classname": "Rope_Climbing"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Rowing/v_Rowing_g15_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Rowing/v_Rowing_g15_c03.jpg",
                 "label": 75,
                 "classname": "Rowing"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Salsa_Spin/v_SalsaSpin_g09_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Salsa_Spin/v_SalsaSpin_g09_c02.jpg",
                 "label": 76,
                 "classname": "Salsa_Spin"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Shaving_Beard/v_ShavingBeard_g15_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Shaving_Beard/v_ShavingBeard_g15_c04.jpg",
                 "label": 77,
                 "classname": "Shaving_Beard"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Shotput/v_Shotput_g23_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Shotput/v_Shotput_g23_c04.jpg",
                 "label": 78,
                 "classname": "Shotput"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Skate_Boarding/v_SkateBoarding_g08_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Skate_Boarding/v_SkateBoarding_g08_c02.jpg",
                 "label": 79,
                 "classname": "Skate_Boarding"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Skiing/v_Skiing_g15_c01.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Skiing/v_Skiing_g15_c01.jpg",
                 "label": 80,
                 "classname": "Skiing"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Skijet/v_Skijet_g11_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Skijet/v_Skijet_g11_c03.jpg",
                 "label": 81,
                 "classname": "Skijet"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Sky_Diving/v_SkyDiving_g22_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Sky_Diving/v_SkyDiving_g22_c04.jpg",
                 "label": 82,
                 "classname": "Sky_Diving"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Soccer_Juggling/v_SoccerJuggling_g22_c07.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Soccer_Juggling/v_SoccerJuggling_g22_c07.jpg",
                 "label": 83,
                 "classname": "Soccer_Juggling"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Soccer_Penalty/v_SoccerPenalty_g16_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Soccer_Penalty/v_SoccerPenalty_g16_c04.jpg",
                 "label": 84,
                 "classname": "Soccer_Penalty"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Still_Rings/v_StillRings_g21_c05.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Still_Rings/v_StillRings_g21_c05.jpg",
                 "label": 85,
                 "classname": "Still_Rings"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Sumo_Wrestling/v_SumoWrestling_g20_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Sumo_Wrestling/v_SumoWrestling_g20_c04.jpg",
                 "label": 86,
                 "classname": "Sumo_Wrestling"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Surfing/v_Surfing_g08_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Surfing/v_Surfing_g08_c03.jpg",
                 "label": 87,
                 "classname": "Surfing"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Swing/v_Swing_g10_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Swing/v_Swing_g10_c02.jpg",
                 "label": 88,
                 "classname": "Swing"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Table_Tennis_Shot/v_TableTennisShot_g23_c06.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Table_Tennis_Shot/v_TableTennisShot_g23_c06.jpg",
                 "label": 89,
                 "classname": "Table_Tennis_Shot"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Tai_Chi/v_TaiChi_g21_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Tai_Chi/v_TaiChi_g21_c02.jpg",
                 "label": 90,
                 "classname": "Tai_Chi"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Tennis_Swing/v_TennisSwing_g16_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Tennis_Swing/v_TennisSwing_g16_c03.jpg",
                 "label": 91,
                 "classname": "Tennis_Swing"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Throw_Discus/v_ThrowDiscus_g13_c01.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Throw_Discus/v_ThrowDiscus_g13_c01.jpg",
                 "label": 92,
                 "classname": "Throw_Discus"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Trampoline_Jumping/v_TrampolineJumping_g11_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Trampoline_Jumping/v_TrampolineJumping_g11_c02.jpg",
                 "label": 93,
                 "classname": "Trampoline_Jumping"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Typing/v_Typing_g22_c03.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Typing/v_Typing_g22_c03.jpg",
                 "label": 94,
                 "classname": "Typing"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Uneven_Bars/v_UnevenBars_g25_c01.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Uneven_Bars/v_UnevenBars_g25_c01.jpg",
                 "label": 95,
                 "classname": "Uneven_Bars"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Volleyball_Spiking/v_VolleyballSpiking_g21_c04.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Volleyball_Spiking/v_VolleyballSpiking_g21_c04.jpg",
                 "label": 96,
                 "classname": "Volleyball_Spiking"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Walking_With_Dog/v_WalkingWithDog_g16_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Walking_With_Dog/v_WalkingWithDog_g16_c02.jpg",
                 "label": 97,
                 "classname": "Walking_With_Dog"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Wall_Pushups/v_WallPushups_g22_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Wall_Pushups/v_WallPushups_g22_c02.jpg",
                 "label": 98,
                 "classname": "Wall_Pushups"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Writing_On_Board/v_WritingOnBoard_g16_c02.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Writing_On_Board/v_WritingOnBoard_g16_c02.jpg",
                 "label": 99,
                 "classname": "Writing_On_Board"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/ucf101/UCF-101-midframes/Yo_Yo/v_YoYo_g24_c01.jpg",
+                "impath": "./data/ucf101/UCF-101-midframes/Yo_Yo/v_YoYo_g24_c01.jpg",
                 "label": 100,
                 "classname": "Yo_Yo"
             }

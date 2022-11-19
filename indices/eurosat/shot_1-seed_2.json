@@ -2,52 +2,52 @@
     "train": {
         "data": [
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/AnnualCrop/AnnualCrop_1566.jpg",
+                "impath": "./data/eurosat/2750/AnnualCrop/AnnualCrop_1566.jpg",
                 "label": 0,
                 "classname": "Annual Crop Land"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Forest/Forest_519.jpg",
+                "impath": "./data/eurosat/2750/Forest/Forest_519.jpg",
                 "label": 1,
                 "classname": "Forest"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/HerbaceousVegetation/HerbaceousVegetation_2739.jpg",
+                "impath": "./data/eurosat/2750/HerbaceousVegetation/HerbaceousVegetation_2739.jpg",
                 "label": 2,
                 "classname": "Herbaceous Vegetation Land"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Highway/Highway_114.jpg",
+                "impath": "./data/eurosat/2750/Highway/Highway_114.jpg",
                 "label": 3,
                 "classname": "Highway or Road"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Industrial/Industrial_1086.jpg",
+                "impath": "./data/eurosat/2750/Industrial/Industrial_1086.jpg",
                 "label": 4,
                 "classname": "Industrial Buildings"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Pasture/Pasture_559.jpg",
+                "impath": "./data/eurosat/2750/Pasture/Pasture_559.jpg",
                 "label": 5,
                 "classname": "Pasture Land"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/PermanentCrop/PermanentCrop_2000.jpg",
+                "impath": "./data/eurosat/2750/PermanentCrop/PermanentCrop_2000.jpg",
                 "label": 6,
                 "classname": "Permanent Crop Land"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Residential/Residential_2913.jpg",
+                "impath": "./data/eurosat/2750/Residential/Residential_2913.jpg",
                 "label": 7,
                 "classname": "Residential Buildings"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/River/River_1622.jpg",
+                "impath": "./data/eurosat/2750/River/River_1622.jpg",
                 "label": 8,
                 "classname": "River"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/SeaLake/SeaLake_2953.jpg",
+                "impath": "./data/eurosat/2750/SeaLake/SeaLake_2953.jpg",
                 "label": 9,
                 "classname": "Sea or Lake"
             }
@@ -68,52 +68,52 @@
     "val": {
         "data": [
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/AnnualCrop/AnnualCrop_714.jpg",
+                "impath": "./data/eurosat/2750/AnnualCrop/AnnualCrop_714.jpg",
                 "label": 0,
                 "classname": "Annual Crop Land"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Forest/Forest_2576.jpg",
+                "impath": "./data/eurosat/2750/Forest/Forest_2576.jpg",
                 "label": 1,
                 "classname": "Forest"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/HerbaceousVegetation/HerbaceousVegetation_994.jpg",
+                "impath": "./data/eurosat/2750/HerbaceousVegetation/HerbaceousVegetation_994.jpg",
                 "label": 2,
                 "classname": "Herbaceous Vegetation Land"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Highway/Highway_330.jpg",
+                "impath": "./data/eurosat/2750/Highway/Highway_330.jpg",
                 "label": 3,
                 "classname": "Highway or Road"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Industrial/Industrial_1318.jpg",
+                "impath": "./data/eurosat/2750/Industrial/Industrial_1318.jpg",
                 "label": 4,
                 "classname": "Industrial Buildings"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Pasture/Pasture_291.jpg",
+                "impath": "./data/eurosat/2750/Pasture/Pasture_291.jpg",
                 "label": 5,
                 "classname": "Pasture Land"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/PermanentCrop/PermanentCrop_736.jpg",
+                "impath": "./data/eurosat/2750/PermanentCrop/PermanentCrop_736.jpg",
                 "label": 6,
                 "classname": "Permanent Crop Land"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/Residential/Residential_998.jpg",
+                "impath": "./data/eurosat/2750/Residential/Residential_998.jpg",
                 "label": 7,
                 "classname": "Residential Buildings"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/River/River_1938.jpg",
+                "impath": "./data/eurosat/2750/River/River_1938.jpg",
                 "label": 8,
                 "classname": "River"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/eurosat/2750/SeaLake/SeaLake_1343.jpg",
+                "impath": "./data/eurosat/2750/SeaLake/SeaLake_1343.jpg",
                 "label": 9,
                 "classname": "Sea or Lake"
             }

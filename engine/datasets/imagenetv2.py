@@ -14,7 +14,7 @@ class ImageNetV2(Benchmark):
     dataset_name = "imagenetv2"
 
     def __init__(self, data_dir):
-        root = os.path.abspath(os.path.expanduser(data_dir))
+        root = data_dir
         self.dataset_dir = os.path.join(root, self.dataset_name)
         image_dir = "imagenetv2-matched-frequency-format-val"
         self.image_dir = os.path.join(self.dataset_dir, image_dir)

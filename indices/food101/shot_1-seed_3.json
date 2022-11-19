@@ -2,507 +2,507 @@
     "train": {
         "data": [
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/apple_pie/2840005.jpg",
+                "impath": "./data/food-101/images/apple_pie/2840005.jpg",
                 "label": 0,
                 "classname": "apple_pie"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/baby_back_ribs/1862790.jpg",
+                "impath": "./data/food-101/images/baby_back_ribs/1862790.jpg",
                 "label": 1,
                 "classname": "baby_back_ribs"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/baklava/2420092.jpg",
+                "impath": "./data/food-101/images/baklava/2420092.jpg",
                 "label": 2,
                 "classname": "baklava"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/beef_carpaccio/1076582.jpg",
+                "impath": "./data/food-101/images/beef_carpaccio/1076582.jpg",
                 "label": 3,
                 "classname": "beef_carpaccio"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/beef_tartare/2523569.jpg",
+                "impath": "./data/food-101/images/beef_tartare/2523569.jpg",
                 "label": 4,
                 "classname": "beef_tartare"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/beet_salad/394248.jpg",
+                "impath": "./data/food-101/images/beet_salad/394248.jpg",
                 "label": 5,
                 "classname": "beet_salad"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/beignets/976341.jpg",
+                "impath": "./data/food-101/images/beignets/976341.jpg",
                 "label": 6,
                 "classname": "beignets"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/bibimbap/2239575.jpg",
+                "impath": "./data/food-101/images/bibimbap/2239575.jpg",
                 "label": 7,
                 "classname": "bibimbap"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/bread_pudding/3801938.jpg",
+                "impath": "./data/food-101/images/bread_pudding/3801938.jpg",
                 "label": 8,
                 "classname": "bread_pudding"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/breakfast_burrito/2257546.jpg",
+                "impath": "./data/food-101/images/breakfast_burrito/2257546.jpg",
                 "label": 9,
                 "classname": "breakfast_burrito"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/bruschetta/304999.jpg",
+                "impath": "./data/food-101/images/bruschetta/304999.jpg",
                 "label": 10,
                 "classname": "bruschetta"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/caesar_salad/1168972.jpg",
+                "impath": "./data/food-101/images/caesar_salad/1168972.jpg",
                 "label": 11,
                 "classname": "caesar_salad"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/cannoli/2825251.jpg",
+                "impath": "./data/food-101/images/cannoli/2825251.jpg",
                 "label": 12,
                 "classname": "cannoli"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/caprese_salad/781477.jpg",
+                "impath": "./data/food-101/images/caprese_salad/781477.jpg",
                 "label": 13,
                 "classname": "caprese_salad"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/carrot_cake/2215346.jpg",
+                "impath": "./data/food-101/images/carrot_cake/2215346.jpg",
                 "label": 14,
                 "classname": "carrot_cake"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/ceviche/281427.jpg",
+                "impath": "./data/food-101/images/ceviche/281427.jpg",
                 "label": 15,
                 "classname": "ceviche"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/cheese_plate/71004.jpg",
+                "impath": "./data/food-101/images/cheese_plate/71004.jpg",
                 "label": 16,
                 "classname": "cheese_plate"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/cheesecake/3097796.jpg",
+                "impath": "./data/food-101/images/cheesecake/3097796.jpg",
                 "label": 17,
                 "classname": "cheesecake"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/chicken_curry/3904395.jpg",
+                "impath": "./data/food-101/images/chicken_curry/3904395.jpg",
                 "label": 18,
                 "classname": "chicken_curry"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/chicken_quesadilla/2062566.jpg",
+                "impath": "./data/food-101/images/chicken_quesadilla/2062566.jpg",
                 "label": 19,
                 "classname": "chicken_quesadilla"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/chicken_wings/910496.jpg",
+                "impath": "./data/food-101/images/chicken_wings/910496.jpg",
                 "label": 20,
                 "classname": "chicken_wings"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/chocolate_cake/2673849.jpg",
+                "impath": "./data/food-101/images/chocolate_cake/2673849.jpg",
                 "label": 21,
                 "classname": "chocolate_cake"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/chocolate_mousse/522623.jpg",
+                "impath": "./data/food-101/images/chocolate_mousse/522623.jpg",
                 "label": 22,
                 "classname": "chocolate_mousse"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/churros/599957.jpg",
+                "impath": "./data/food-101/images/churros/599957.jpg",
                 "label": 23,
                 "classname": "churros"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/clam_chowder/3099676.jpg",
+                "impath": "./data/food-101/images/clam_chowder/3099676.jpg",
                 "label": 24,
                 "classname": "clam_chowder"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/club_sandwich/3112950.jpg",
+                "impath": "./data/food-101/images/club_sandwich/3112950.jpg",
                 "label": 25,
                 "classname": "club_sandwich"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/crab_cakes/3856810.jpg",
+                "impath": "./data/food-101/images/crab_cakes/3856810.jpg",
                 "label": 26,
                 "classname": "crab_cakes"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/creme_brulee/3053363.jpg",
+                "impath": "./data/food-101/images/creme_brulee/3053363.jpg",
                 "label": 27,
                 "classname": "creme_brulee"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/croque_madame/914187.jpg",
+                "impath": "./data/food-101/images/croque_madame/914187.jpg",
                 "label": 28,
                 "classname": "croque_madame"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/cup_cakes/1650275.jpg",
+                "impath": "./data/food-101/images/cup_cakes/1650275.jpg",
                 "label": 29,
                 "classname": "cup_cakes"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/deviled_eggs/2710351.jpg",
+                "impath": "./data/food-101/images/deviled_eggs/2710351.jpg",
                 "label": 30,
                 "classname": "deviled_eggs"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/donuts/133819.jpg",
+                "impath": "./data/food-101/images/donuts/133819.jpg",
                 "label": 31,
                 "classname": "donuts"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/dumplings/3357023.jpg",
+                "impath": "./data/food-101/images/dumplings/3357023.jpg",
                 "label": 32,
                 "classname": "dumplings"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/edamame/3851519.jpg",
+                "impath": "./data/food-101/images/edamame/3851519.jpg",
                 "label": 33,
                 "classname": "edamame"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/eggs_benedict/358022.jpg",
+                "impath": "./data/food-101/images/eggs_benedict/358022.jpg",
                 "label": 34,
                 "classname": "eggs_benedict"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/escargots/2274918.jpg",
+                "impath": "./data/food-101/images/escargots/2274918.jpg",
                 "label": 35,
                 "classname": "escargots"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/falafel/1987564.jpg",
+                "impath": "./data/food-101/images/falafel/1987564.jpg",
                 "label": 36,
                 "classname": "falafel"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/filet_mignon/2674428.jpg",
+                "impath": "./data/food-101/images/filet_mignon/2674428.jpg",
                 "label": 37,
                 "classname": "filet_mignon"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/fish_and_chips/1521651.jpg",
+                "impath": "./data/food-101/images/fish_and_chips/1521651.jpg",
                 "label": 38,
                 "classname": "fish_and_chips"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/foie_gras/3678406.jpg",
+                "impath": "./data/food-101/images/foie_gras/3678406.jpg",
                 "label": 39,
                 "classname": "foie_gras"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/french_fries/575528.jpg",
+                "impath": "./data/food-101/images/french_fries/575528.jpg",
                 "label": 40,
                 "classname": "french_fries"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/french_onion_soup/470179.jpg",
+                "impath": "./data/food-101/images/french_onion_soup/470179.jpg",
                 "label": 41,
                 "classname": "french_onion_soup"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/french_toast/658274.jpg",
+                "impath": "./data/food-101/images/french_toast/658274.jpg",
                 "label": 42,
                 "classname": "french_toast"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/fried_calamari/802500.jpg",
+                "impath": "./data/food-101/images/fried_calamari/802500.jpg",
                 "label": 43,
                 "classname": "fried_calamari"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/fried_rice/1252555.jpg",
+                "impath": "./data/food-101/images/fried_rice/1252555.jpg",
                 "label": 44,
                 "classname": "fried_rice"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/frozen_yogurt/3173900.jpg",
+                "impath": "./data/food-101/images/frozen_yogurt/3173900.jpg",
                 "label": 45,
                 "classname": "frozen_yogurt"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/garlic_bread/511677.jpg",
+                "impath": "./data/food-101/images/garlic_bread/511677.jpg",
                 "label": 46,
                 "classname": "garlic_bread"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/gnocchi/1167132.jpg",
+                "impath": "./data/food-101/images/gnocchi/1167132.jpg",
                 "label": 47,
                 "classname": "gnocchi"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/greek_salad/3637633.jpg",
+                "impath": "./data/food-101/images/greek_salad/3637633.jpg",
                 "label": 48,
                 "classname": "greek_salad"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/grilled_cheese_sandwich/322198.jpg",
+                "impath": "./data/food-101/images/grilled_cheese_sandwich/322198.jpg",
                 "label": 49,
                 "classname": "grilled_cheese_sandwich"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/grilled_salmon/750250.jpg",
+                "impath": "./data/food-101/images/grilled_salmon/750250.jpg",
                 "label": 50,
                 "classname": "grilled_salmon"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/guacamole/1795450.jpg",
+                "impath": "./data/food-101/images/guacamole/1795450.jpg",
                 "label": 51,
                 "classname": "guacamole"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/gyoza/3888637.jpg",
+                "impath": "./data/food-101/images/gyoza/3888637.jpg",
                 "label": 52,
                 "classname": "gyoza"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/hamburger/417861.jpg",
+                "impath": "./data/food-101/images/hamburger/417861.jpg",
                 "label": 53,
                 "classname": "hamburger"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/hot_and_sour_soup/2922277.jpg",
+                "impath": "./data/food-101/images/hot_and_sour_soup/2922277.jpg",
                 "label": 54,
                 "classname": "hot_and_sour_soup"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/hot_dog/1344958.jpg",
+                "impath": "./data/food-101/images/hot_dog/1344958.jpg",
                 "label": 55,
                 "classname": "hot_dog"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/huevos_rancheros/68158.jpg",
+                "impath": "./data/food-101/images/huevos_rancheros/68158.jpg",
                 "label": 56,
                 "classname": "huevos_rancheros"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/hummus/168481.jpg",
+                "impath": "./data/food-101/images/hummus/168481.jpg",
                 "label": 57,
                 "classname": "hummus"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/ice_cream/3621671.jpg",
+                "impath": "./data/food-101/images/ice_cream/3621671.jpg",
                 "label": 58,
                 "classname": "ice_cream"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/lasagna/3493077.jpg",
+                "impath": "./data/food-101/images/lasagna/3493077.jpg",
                 "label": 59,
                 "classname": "lasagna"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/lobster_bisque/3018054.jpg",
+                "impath": "./data/food-101/images/lobster_bisque/3018054.jpg",
                 "label": 60,
                 "classname": "lobster_bisque"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/lobster_roll_sandwich/1002698.jpg",
+                "impath": "./data/food-101/images/lobster_roll_sandwich/1002698.jpg",
                 "label": 61,
                 "classname": "lobster_roll_sandwich"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/macaroni_and_cheese/316699.jpg",
+                "impath": "./data/food-101/images/macaroni_and_cheese/316699.jpg",
                 "label": 62,
                 "classname": "macaroni_and_cheese"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/macarons/1504240.jpg",
+                "impath": "./data/food-101/images/macarons/1504240.jpg",
                 "label": 63,
                 "classname": "macarons"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/miso_soup/1575822.jpg",
+                "impath": "./data/food-101/images/miso_soup/1575822.jpg",
                 "label": 64,
                 "classname": "miso_soup"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/mussels/1659287.jpg",
+                "impath": "./data/food-101/images/mussels/1659287.jpg",
                 "label": 65,
                 "classname": "mussels"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/nachos/711850.jpg",
+                "impath": "./data/food-101/images/nachos/711850.jpg",
                 "label": 66,
                 "classname": "nachos"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/omelette/3001775.jpg",
+                "impath": "./data/food-101/images/omelette/3001775.jpg",
                 "label": 67,
                 "classname": "omelette"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/onion_rings/242917.jpg",
+                "impath": "./data/food-101/images/onion_rings/242917.jpg",
                 "label": 68,
                 "classname": "onion_rings"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/oysters/2733423.jpg",
+                "impath": "./data/food-101/images/oysters/2733423.jpg",
                 "label": 69,
                 "classname": "oysters"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/pad_thai/2470880.jpg",
+                "impath": "./data/food-101/images/pad_thai/2470880.jpg",
                 "label": 70,
                 "classname": "pad_thai"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/paella/1678667.jpg",
+                "impath": "./data/food-101/images/paella/1678667.jpg",
                 "label": 71,
                 "classname": "paella"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/pancakes/688083.jpg",
+                "impath": "./data/food-101/images/pancakes/688083.jpg",
                 "label": 72,
                 "classname": "pancakes"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/panna_cotta/844737.jpg",
+                "impath": "./data/food-101/images/panna_cotta/844737.jpg",
                 "label": 73,
                 "classname": "panna_cotta"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/peking_duck/3634142.jpg",
+                "impath": "./data/food-101/images/peking_duck/3634142.jpg",
                 "label": 74,
                 "classname": "peking_duck"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/pho/1529866.jpg",
+                "impath": "./data/food-101/images/pho/1529866.jpg",
                 "label": 75,
                 "classname": "pho"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/pizza/61656.jpg",
+                "impath": "./data/food-101/images/pizza/61656.jpg",
                 "label": 76,
                 "classname": "pizza"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/pork_chop/2099156.jpg",
+                "impath": "./data/food-101/images/pork_chop/2099156.jpg",
                 "label": 77,
                 "classname": "pork_chop"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/poutine/3089969.jpg",
+                "impath": "./data/food-101/images/poutine/3089969.jpg",
                 "label": 78,
                 "classname": "poutine"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/prime_rib/468133.jpg",
+                "impath": "./data/food-101/images/prime_rib/468133.jpg",
                 "label": 79,
                 "classname": "prime_rib"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/pulled_pork_sandwich/843414.jpg",
+                "impath": "./data/food-101/images/pulled_pork_sandwich/843414.jpg",
                 "label": 80,
                 "classname": "pulled_pork_sandwich"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/ramen/9029.jpg",
+                "impath": "./data/food-101/images/ramen/9029.jpg",
                 "label": 81,
                 "classname": "ramen"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/ravioli/3622510.jpg",
+                "impath": "./data/food-101/images/ravioli/3622510.jpg",
                 "label": 82,
                 "classname": "ravioli"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/red_velvet_cake/1327157.jpg",
+                "impath": "./data/food-101/images/red_velvet_cake/1327157.jpg",
                 "label": 83,
                 "classname": "red_velvet_cake"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/risotto/2746521.jpg",
+                "impath": "./data/food-101/images/risotto/2746521.jpg",
                 "label": 84,
                 "classname": "risotto"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/samosa/1377344.jpg",
+                "impath": "./data/food-101/images/samosa/1377344.jpg",
                 "label": 85,
                 "classname": "samosa"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/sashimi/1096707.jpg",
+                "impath": "./data/food-101/images/sashimi/1096707.jpg",
                 "label": 86,
                 "classname": "sashimi"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/scallops/1252372.jpg",
+                "impath": "./data/food-101/images/scallops/1252372.jpg",
                 "label": 87,
                 "classname": "scallops"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/seaweed_salad/3185347.jpg",
+                "impath": "./data/food-101/images/seaweed_salad/3185347.jpg",
                 "label": 88,
                 "classname": "seaweed_salad"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/shrimp_and_grits/3197234.jpg",
+                "impath": "./data/food-101/images/shrimp_and_grits/3197234.jpg",
                 "label": 89,
                 "classname": "shrimp_and_grits"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/spaghetti_bolognese/42694.jpg",
+                "impath": "./data/food-101/images/spaghetti_bolognese/42694.jpg",
                 "label": 90,
                 "classname": "spaghetti_bolognese"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/spaghetti_carbonara/916055.jpg",
+                "impath": "./data/food-101/images/spaghetti_carbonara/916055.jpg",
                 "label": 91,
                 "classname": "spaghetti_carbonara"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/spring_rolls/1005480.jpg",
+                "impath": "./data/food-101/images/spring_rolls/1005480.jpg",
                 "label": 92,
                 "classname": "spring_rolls"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/steak/961341.jpg",
+                "impath": "./data/food-101/images/steak/961341.jpg",
                 "label": 93,
                 "classname": "steak"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/strawberry_shortcake/3234968.jpg",
+                "impath": "./data/food-101/images/strawberry_shortcake/3234968.jpg",
                 "label": 94,
                 "classname": "strawberry_shortcake"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/sushi/1143615.jpg",
+                "impath": "./data/food-101/images/sushi/1143615.jpg",
                 "label": 95,
                 "classname": "sushi"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/tacos/1458312.jpg",
+                "impath": "./data/food-101/images/tacos/1458312.jpg",
                 "label": 96,
                 "classname": "tacos"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/takoyaki/3408429.jpg",
+                "impath": "./data/food-101/images/takoyaki/3408429.jpg",
                 "label": 97,
                 "classname": "takoyaki"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/tiramisu/551213.jpg",
+                "impath": "./data/food-101/images/tiramisu/551213.jpg",
                 "label": 98,
                 "classname": "tiramisu"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/tuna_tartare/1596058.jpg",
+                "impath": "./data/food-101/images/tuna_tartare/1596058.jpg",
                 "label": 99,
                 "classname": "tuna_tartare"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/waffles/3402251.jpg",
+                "impath": "./data/food-101/images/waffles/3402251.jpg",
                 "label": 100,
                 "classname": "waffles"
             }
@@ -614,507 +614,507 @@
     "val": {
         "data": [
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/apple_pie/2369640.jpg",
+                "impath": "./data/food-101/images/apple_pie/2369640.jpg",
                 "label": 0,
                 "classname": "apple_pie"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/baby_back_ribs/245574.jpg",
+                "impath": "./data/food-101/images/baby_back_ribs/245574.jpg",
                 "label": 1,
                 "classname": "baby_back_ribs"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/baklava/1118803.jpg",
+                "impath": "./data/food-101/images/baklava/1118803.jpg",
                 "label": 2,
                 "classname": "baklava"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/beef_carpaccio/3532933.jpg",
+                "impath": "./data/food-101/images/beef_carpaccio/3532933.jpg",
                 "label": 3,
                 "classname": "beef_carpaccio"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/beef_tartare/1563476.jpg",
+                "impath": "./data/food-101/images/beef_tartare/1563476.jpg",
                 "label": 4,
                 "classname": "beef_tartare"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/beet_salad/3249364.jpg",
+                "impath": "./data/food-101/images/beet_salad/3249364.jpg",
                 "label": 5,
                 "classname": "beet_salad"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/beignets/276066.jpg",
+                "impath": "./data/food-101/images/beignets/276066.jpg",
                 "label": 6,
                 "classname": "beignets"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/bibimbap/2760814.jpg",
+                "impath": "./data/food-101/images/bibimbap/2760814.jpg",
                 "label": 7,
                 "classname": "bibimbap"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/bread_pudding/389931.jpg",
+                "impath": "./data/food-101/images/bread_pudding/389931.jpg",
                 "label": 8,
                 "classname": "bread_pudding"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/breakfast_burrito/1472660.jpg",
+                "impath": "./data/food-101/images/breakfast_burrito/1472660.jpg",
                 "label": 9,
                 "classname": "breakfast_burrito"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/bruschetta/2450629.jpg",
+                "impath": "./data/food-101/images/bruschetta/2450629.jpg",
                 "label": 10,
                 "classname": "bruschetta"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/caesar_salad/151313.jpg",
+                "impath": "./data/food-101/images/caesar_salad/151313.jpg",
                 "label": 11,
                 "classname": "caesar_salad"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/cannoli/2147509.jpg",
+                "impath": "./data/food-101/images/cannoli/2147509.jpg",
                 "label": 12,
                 "classname": "cannoli"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/caprese_salad/2086221.jpg",
+                "impath": "./data/food-101/images/caprese_salad/2086221.jpg",
                 "label": 13,
                 "classname": "caprese_salad"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/carrot_cake/2752659.jpg",
+                "impath": "./data/food-101/images/carrot_cake/2752659.jpg",
                 "label": 14,
                 "classname": "carrot_cake"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/ceviche/2591769.jpg",
+                "impath": "./data/food-101/images/ceviche/2591769.jpg",
                 "label": 15,
                 "classname": "ceviche"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/cheese_plate/703191.jpg",
+                "impath": "./data/food-101/images/cheese_plate/703191.jpg",
                 "label": 16,
                 "classname": "cheese_plate"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/cheesecake/522074.jpg",
+                "impath": "./data/food-101/images/cheesecake/522074.jpg",
                 "label": 17,
                 "classname": "cheesecake"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/chicken_curry/677868.jpg",
+                "impath": "./data/food-101/images/chicken_curry/677868.jpg",
                 "label": 18,
                 "classname": "chicken_curry"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/chicken_quesadilla/3221100.jpg",
+                "impath": "./data/food-101/images/chicken_quesadilla/3221100.jpg",
                 "label": 19,
                 "classname": "chicken_quesadilla"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/chicken_wings/811798.jpg",
+                "impath": "./data/food-101/images/chicken_wings/811798.jpg",
                 "label": 20,
                 "classname": "chicken_wings"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/chocolate_cake/1593270.jpg",
+                "impath": "./data/food-101/images/chocolate_cake/1593270.jpg",
                 "label": 21,
                 "classname": "chocolate_cake"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/chocolate_mousse/2048018.jpg",
+                "impath": "./data/food-101/images/chocolate_mousse/2048018.jpg",
                 "label": 22,
                 "classname": "chocolate_mousse"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/churros/1560770.jpg",
+                "impath": "./data/food-101/images/churros/1560770.jpg",
                 "label": 23,
                 "classname": "churros"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/clam_chowder/2775458.jpg",
+                "impath": "./data/food-101/images/clam_chowder/2775458.jpg",
                 "label": 24,
                 "classname": "clam_chowder"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/club_sandwich/3224134.jpg",
+                "impath": "./data/food-101/images/club_sandwich/3224134.jpg",
                 "label": 25,
                 "classname": "club_sandwich"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/crab_cakes/480691.jpg",
+                "impath": "./data/food-101/images/crab_cakes/480691.jpg",
                 "label": 26,
                 "classname": "crab_cakes"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/creme_brulee/1754695.jpg",
+                "impath": "./data/food-101/images/creme_brulee/1754695.jpg",
                 "label": 27,
                 "classname": "creme_brulee"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/croque_madame/2571901.jpg",
+                "impath": "./data/food-101/images/croque_madame/2571901.jpg",
                 "label": 28,
                 "classname": "croque_madame"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/cup_cakes/778852.jpg",
+                "impath": "./data/food-101/images/cup_cakes/778852.jpg",
                 "label": 29,
                 "classname": "cup_cakes"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/deviled_eggs/3402802.jpg",
+                "impath": "./data/food-101/images/deviled_eggs/3402802.jpg",
                 "label": 30,
                 "classname": "deviled_eggs"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/donuts/2036733.jpg",
+                "impath": "./data/food-101/images/donuts/2036733.jpg",
                 "label": 31,
                 "classname": "donuts"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/dumplings/995611.jpg",
+                "impath": "./data/food-101/images/dumplings/995611.jpg",
                 "label": 32,
                 "classname": "dumplings"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/edamame/3181559.jpg",
+                "impath": "./data/food-101/images/edamame/3181559.jpg",
                 "label": 33,
                 "classname": "edamame"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/eggs_benedict/3646268.jpg",
+                "impath": "./data/food-101/images/eggs_benedict/3646268.jpg",
                 "label": 34,
                 "classname": "eggs_benedict"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/escargots/2548060.jpg",
+                "impath": "./data/food-101/images/escargots/2548060.jpg",
                 "label": 35,
                 "classname": "escargots"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/falafel/3512542.jpg",
+                "impath": "./data/food-101/images/falafel/3512542.jpg",
                 "label": 36,
                 "classname": "falafel"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/filet_mignon/3551844.jpg",
+                "impath": "./data/food-101/images/filet_mignon/3551844.jpg",
                 "label": 37,
                 "classname": "filet_mignon"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/fish_and_chips/1609984.jpg",
+                "impath": "./data/food-101/images/fish_and_chips/1609984.jpg",
                 "label": 38,
                 "classname": "fish_and_chips"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/foie_gras/790777.jpg",
+                "impath": "./data/food-101/images/foie_gras/790777.jpg",
                 "label": 39,
                 "classname": "foie_gras"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/french_fries/3784230.jpg",
+                "impath": "./data/food-101/images/french_fries/3784230.jpg",
                 "label": 40,
                 "classname": "french_fries"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/french_onion_soup/1629326.jpg",
+                "impath": "./data/food-101/images/french_onion_soup/1629326.jpg",
                 "label": 41,
                 "classname": "french_onion_soup"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/french_toast/975281.jpg",
+                "impath": "./data/food-101/images/french_toast/975281.jpg",
                 "label": 42,
                 "classname": "french_toast"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/fried_calamari/3056594.jpg",
+                "impath": "./data/food-101/images/fried_calamari/3056594.jpg",
                 "label": 43,
                 "classname": "fried_calamari"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/fried_rice/3387843.jpg",
+                "impath": "./data/food-101/images/fried_rice/3387843.jpg",
                 "label": 44,
                 "classname": "fried_rice"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/frozen_yogurt/643368.jpg",
+                "impath": "./data/food-101/images/frozen_yogurt/643368.jpg",
                 "label": 45,
                 "classname": "frozen_yogurt"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/garlic_bread/630107.jpg",
+                "impath": "./data/food-101/images/garlic_bread/630107.jpg",
                 "label": 46,
                 "classname": "garlic_bread"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/gnocchi/3357146.jpg",
+                "impath": "./data/food-101/images/gnocchi/3357146.jpg",
                 "label": 47,
                 "classname": "gnocchi"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/greek_salad/3029549.jpg",
+                "impath": "./data/food-101/images/greek_salad/3029549.jpg",
                 "label": 48,
                 "classname": "greek_salad"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/grilled_cheese_sandwich/1374980.jpg",
+                "impath": "./data/food-101/images/grilled_cheese_sandwich/1374980.jpg",
                 "label": 49,
                 "classname": "grilled_cheese_sandwich"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/grilled_salmon/3398259.jpg",
+                "impath": "./data/food-101/images/grilled_salmon/3398259.jpg",
                 "label": 50,
                 "classname": "grilled_salmon"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/guacamole/715426.jpg",
+                "impath": "./data/food-101/images/guacamole/715426.jpg",
                 "label": 51,
                 "classname": "guacamole"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/gyoza/1176310.jpg",
+                "impath": "./data/food-101/images/gyoza/1176310.jpg",
                 "label": 52,
                 "classname": "gyoza"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/hamburger/3030255.jpg",
+                "impath": "./data/food-101/images/hamburger/3030255.jpg",
                 "label": 53,
                 "classname": "hamburger"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/hot_and_sour_soup/3150829.jpg",
+                "impath": "./data/food-101/images/hot_and_sour_soup/3150829.jpg",
                 "label": 54,
                 "classname": "hot_and_sour_soup"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/hot_dog/950413.jpg",
+                "impath": "./data/food-101/images/hot_dog/950413.jpg",
                 "label": 55,
                 "classname": "hot_dog"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/huevos_rancheros/2652102.jpg",
+                "impath": "./data/food-101/images/huevos_rancheros/2652102.jpg",
                 "label": 56,
                 "classname": "huevos_rancheros"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/hummus/1621333.jpg",
+                "impath": "./data/food-101/images/hummus/1621333.jpg",
                 "label": 57,
                 "classname": "hummus"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/ice_cream/3432964.jpg",
+                "impath": "./data/food-101/images/ice_cream/3432964.jpg",
                 "label": 58,
                 "classname": "ice_cream"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/lasagna/2399534.jpg",
+                "impath": "./data/food-101/images/lasagna/2399534.jpg",
                 "label": 59,
                 "classname": "lasagna"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/lobster_bisque/2885422.jpg",
+                "impath": "./data/food-101/images/lobster_bisque/2885422.jpg",
                 "label": 60,
                 "classname": "lobster_bisque"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/lobster_roll_sandwich/1989665.jpg",
+                "impath": "./data/food-101/images/lobster_roll_sandwich/1989665.jpg",
                 "label": 61,
                 "classname": "lobster_roll_sandwich"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/macaroni_and_cheese/1464484.jpg",
+                "impath": "./data/food-101/images/macaroni_and_cheese/1464484.jpg",
                 "label": 62,
                 "classname": "macaroni_and_cheese"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/macarons/3754064.jpg",
+                "impath": "./data/food-101/images/macarons/3754064.jpg",
                 "label": 63,
                 "classname": "macarons"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/miso_soup/2601260.jpg",
+                "impath": "./data/food-101/images/miso_soup/2601260.jpg",
                 "label": 64,
                 "classname": "miso_soup"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/mussels/3057373.jpg",
+                "impath": "./data/food-101/images/mussels/3057373.jpg",
                 "label": 65,
                 "classname": "mussels"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/nachos/2956524.jpg",
+                "impath": "./data/food-101/images/nachos/2956524.jpg",
                 "label": 66,
                 "classname": "nachos"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/omelette/353353.jpg",
+                "impath": "./data/food-101/images/omelette/353353.jpg",
                 "label": 67,
                 "classname": "omelette"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/onion_rings/83998.jpg",
+                "impath": "./data/food-101/images/onion_rings/83998.jpg",
                 "label": 68,
                 "classname": "onion_rings"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/oysters/3595974.jpg",
+                "impath": "./data/food-101/images/oysters/3595974.jpg",
                 "label": 69,
                 "classname": "oysters"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/pad_thai/3270350.jpg",
+                "impath": "./data/food-101/images/pad_thai/3270350.jpg",
                 "label": 70,
                 "classname": "pad_thai"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/paella/1801205.jpg",
+                "impath": "./data/food-101/images/paella/1801205.jpg",
                 "label": 71,
                 "classname": "paella"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/pancakes/695345.jpg",
+                "impath": "./data/food-101/images/pancakes/695345.jpg",
                 "label": 72,
                 "classname": "pancakes"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/panna_cotta/2553757.jpg",
+                "impath": "./data/food-101/images/panna_cotta/2553757.jpg",
                 "label": 73,
                 "classname": "panna_cotta"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/peking_duck/3374064.jpg",
+                "impath": "./data/food-101/images/peking_duck/3374064.jpg",
                 "label": 74,
                 "classname": "peking_duck"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/pho/3815050.jpg",
+                "impath": "./data/food-101/images/pho/3815050.jpg",
                 "label": 75,
                 "classname": "pho"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/pizza/2428085.jpg",
+                "impath": "./data/food-101/images/pizza/2428085.jpg",
                 "label": 76,
                 "classname": "pizza"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/pork_chop/757352.jpg",
+                "impath": "./data/food-101/images/pork_chop/757352.jpg",
                 "label": 77,
                 "classname": "pork_chop"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/poutine/2354170.jpg",
+                "impath": "./data/food-101/images/poutine/2354170.jpg",
                 "label": 78,
                 "classname": "poutine"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/prime_rib/1176403.jpg",
+                "impath": "./data/food-101/images/prime_rib/1176403.jpg",
                 "label": 79,
                 "classname": "prime_rib"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/pulled_pork_sandwich/1809305.jpg",
+                "impath": "./data/food-101/images/pulled_pork_sandwich/1809305.jpg",
                 "label": 80,
                 "classname": "pulled_pork_sandwich"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/ramen/1867434.jpg",
+                "impath": "./data/food-101/images/ramen/1867434.jpg",
                 "label": 81,
                 "classname": "ramen"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/ravioli/250936.jpg",
+                "impath": "./data/food-101/images/ravioli/250936.jpg",
                 "label": 82,
                 "classname": "ravioli"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/red_velvet_cake/3209535.jpg",
+                "impath": "./data/food-101/images/red_velvet_cake/3209535.jpg",
                 "label": 83,
                 "classname": "red_velvet_cake"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/risotto/3473031.jpg",
+                "impath": "./data/food-101/images/risotto/3473031.jpg",
                 "label": 84,
                 "classname": "risotto"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/samosa/499678.jpg",
+                "impath": "./data/food-101/images/samosa/499678.jpg",
                 "label": 85,
                 "classname": "samosa"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/sashimi/171560.jpg",
+                "impath": "./data/food-101/images/sashimi/171560.jpg",
                 "label": 86,
                 "classname": "sashimi"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/scallops/2579864.jpg",
+                "impath": "./data/food-101/images/scallops/2579864.jpg",
                 "label": 87,
                 "classname": "scallops"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/seaweed_salad/2944779.jpg",
+                "impath": "./data/food-101/images/seaweed_salad/2944779.jpg",
                 "label": 88,
                 "classname": "seaweed_salad"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/shrimp_and_grits/1506632.jpg",
+                "impath": "./data/food-101/images/shrimp_and_grits/1506632.jpg",
                 "label": 89,
                 "classname": "shrimp_and_grits"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/spaghetti_bolognese/2227020.jpg",
+                "impath": "./data/food-101/images/spaghetti_bolognese/2227020.jpg",
                 "label": 90,
                 "classname": "spaghetti_bolognese"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/spaghetti_carbonara/2147608.jpg",
+                "impath": "./data/food-101/images/spaghetti_carbonara/2147608.jpg",
                 "label": 91,
                 "classname": "spaghetti_carbonara"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/spring_rolls/2750015.jpg",
+                "impath": "./data/food-101/images/spring_rolls/2750015.jpg",
                 "label": 92,
                 "classname": "spring_rolls"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/steak/183995.jpg",
+                "impath": "./data/food-101/images/steak/183995.jpg",
                 "label": 93,
                 "classname": "steak"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/strawberry_shortcake/1131141.jpg",
+                "impath": "./data/food-101/images/strawberry_shortcake/1131141.jpg",
                 "label": 94,
                 "classname": "strawberry_shortcake"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/sushi/96293.jpg",
+                "impath": "./data/food-101/images/sushi/96293.jpg",
                 "label": 95,
                 "classname": "sushi"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/tacos/2352494.jpg",
+                "impath": "./data/food-101/images/tacos/2352494.jpg",
                 "label": 96,
                 "classname": "tacos"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/takoyaki/1759204.jpg",
+                "impath": "./data/food-101/images/takoyaki/1759204.jpg",
                 "label": 97,
                 "classname": "takoyaki"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/tiramisu/716644.jpg",
+                "impath": "./data/food-101/images/tiramisu/716644.jpg",
                 "label": 98,
                 "classname": "tiramisu"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/tuna_tartare/145813.jpg",
+                "impath": "./data/food-101/images/tuna_tartare/145813.jpg",
                 "label": 99,
                 "classname": "tuna_tartare"
             },
             {
-                "impath": "/data3/zhiqiul/vl_finetuning/data/food-101/images/waffles/2191428.jpg",
+                "impath": "./data/food-101/images/waffles/2191428.jpg",
                 "label": 100,
                 "classname": "waffles"
             }
