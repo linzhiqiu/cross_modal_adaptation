@@ -1,5 +1,8 @@
 # Cross-Modal Adaptation with Multimodal Models
-This repository contains code for TODO. It contains the code for vision-language adaptation and audiovisual learning on ImageNet-ESC benchmark.
+This repository contains code for paper [Multimodality Helps Unimodality:
+Cross-Modal Few-Shot Learning with Multimodal Models](www.google.com). It contains the code for vision-language adaptation on 11 target image classification datasets and experiments on ImageNet-ESC benchmark for audiovisual few-shot learning.
+
+![Motivation Figure](./assets/motivation_github.png)
 
 # Environment Configuration
 We recommend to install the environment through conda and pip. You should make a new environment with python>=3.9, for example:
@@ -21,6 +24,7 @@ Follow [DATASETS.md](DATASETS.md) to install the downstream datasets. We use the
 
 
 # Model Training
+![Method Figure](./assets/methodology.png)
 
 ## Path Configuration
 You should modify the paths to dataset and results at [engine/config/default.py](engine/config/default.py), e.g., you may want to modify the `DATA_DIR` to where you install all the datasets. Default is to save under the current folder.
