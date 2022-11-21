@@ -1,5 +1,4 @@
 import os
-import pdb
 import torch
 import torchvision
 from torchvision.datasets.folder import default_loader
@@ -83,31 +82,17 @@ def get_few_shot_benchmark(data_dir,
     }
 
 
-class TestDatasetWrapper(torch.utils.data.Dataset):
-
-    def __init__(self, data_source, transform):
-        self.data_source = data_source
-        self.transform = transform
-
-    def __len__(self):
-        return len(self.data_source)
-
-    def __getitem__(self, idx):
-        item = self.data_source[idx]
-        img = self.transform(default_loader(item['impath']))
-
-        return img, item['label']
-
-def get_testset(args, transform):
-    if args.dataset in dataset_classes:
-        benchmark = dataset_classes[args.dataset](args.data_dir)
-        return TestDatasetWrapper(benchmark.test, transform)
+def get_testset(dataset, data_dir):
+    if dataset in dataset_classes:
+        benchmark = dataset_classes[dataset](data_dir)
+        return benchmark.test
     else:
         raise NotImplementedError()
 
-def get_label_map(args, dataset_name):
+
+def get_label_map(data_dir, dataset_name):
     if dataset_name in ['imagenet_a', 'imagenet_r']:
-        benchmark = dataset_classes[dataset_name](args.data_dir)
+        benchmark = dataset_classes[dataset_name](data_dir)
         return benchmark.label_map
     else:
         return None

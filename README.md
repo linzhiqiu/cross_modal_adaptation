@@ -1,10 +1,7 @@
-# cross_modal_adaptation
-Cross-modal few-shot adaptation with CLIP
+# Cross-Modal Adaptation with Multimodal Models
+This repository contains code for TODO. It contains the code for vision-language adaptation and audiovisual learning on ImageNet-ESC benchmark.
 
-# Vision-Language Adaptation
-We release code for cross-modal linear probing, adapter, and partial finetuning in this repository.
-
-## Environment Configuration
+# Environment Configuration
 We recommend to install the environment through conda and pip. You should make a new environment with python>=3.9, for example:
 
 ```
@@ -19,14 +16,17 @@ conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 
 Next, run `pip install -r requirements.txt` in this repo to install a few more packages required by [CLIP](https://github.com/openai/CLIP). 
 
-## Dataset Installation
+# Dataset Installation
 Follow [DATASETS.md](DATASETS.md) to install the downstream datasets. We use the [CoOp](https://github.com/KaiyangZhou/CoOp) split of data (including the few-shot splits for seed 1-3, except for ImageNet) to ensure a fair comparison.
 
-## Configuration
-Basic configuration such as path to dataset and experiment can be found at [engine/config/default.py](engine/config/default.py). You may want to modify the `DATA_DIR` to where you install all the datasets.
+
+# Model Training
+
+## Path Configuration
+You should modify the paths to dataset and results at [engine/config/default.py](engine/config/default.py), e.g., you may want to modify the `DATA_DIR` to where you install all the datasets. Default is to save under the current folder.
 
 ## Sample few-shot train/val split
-We already provide few-shot train/val splits for seed (1, 2, 3), and shots (1, 2, 4, 8, 16) in [indices/](indices/), as if they were generated from the original [CoOp codebase](https://github.com/KaiyangZhou/CoOp) (except for ImageNet that we sampled our own split). If you just intend to follow CoOp's protocol, you may directly proceed to next section.
+We already provide few-shot train/val splits for seed (1, 2, 3), and shots (1, 2, 4, 8, 16) in [indices/](indices/), as if they were generated from the original [CoOp codebase](https://github.com/KaiyangZhou/CoOp) (except for ImageNet that we sampled our own split). If you just intend to follow CoOp's protocol, you may proceed to the next step.
 
 If you want to generate more splits with different shots and seeds, please refer to [few_shot_split.py]. For example, to generate a few-shot train/val split for imagenet with seed 6, you may run the below script:
 
@@ -47,14 +47,14 @@ To reproduce the experiments in main paper (with flipped view and hand-crafted t
 bash features.sh
 ```
 
-## Few-Shot Adaptation Training
+## Few-Shot Training
 To perform cross-modal or uni-modal training, please refer to [train.py](train.py). For example, if you want to run cross-modal adaptation for imagenet-16-shot, you can run:
 
 ```
 python train.py --modality cross_modal --classifier_head linear --classifier_init text --logit 4.60517 --hyperparams linear --dataset imagenet --train-shot 16 --seed 1 --clip-encoder RN50 --image-layer-idx 0 --text-augmentation hand_crafted --image-augmentation flip --image-views 1
 ```
 
-To reproduce the numbers in main paper, please run [linear_prob.sh](linear_prob.sh), [partial_finetuning.sh](partial_finetuning.sh), and [adapter.sh](adapter.sh). To speed up the experiments, you can run scripts in parallel if you have multiple GPUs.
+To reproduce the numbers in main paper, please run [linear_prob.sh](linear_prob.sh), [partial_finetuning.sh](partial_finetuning.sh), and [adapter.sh](adapter.sh). To speed up the experiments, you can run scripts in parallel if you have multiple GPUs. To check all the supported argparse arguments, please see this [file](engine/config/__init__.py).
 
 ## Evaluation
 To perform hyperparameter search with few-shot validation set performance, we provide [eval.py](eval.py). For example, to collect results of cross-modal linear probing:
@@ -63,14 +63,35 @@ To perform hyperparameter search with few-shot validation set performance, we pr
 python eval.py --mode linear --modality cross_modal --classifier_init text --clip-encoder RN50 --text-augmentation hand_crafted --image-augmentation flip --image-views 1
 ```
 
-## Average
+## Average over 11 datasets
 To compute average over 11 datasets, for example for the script above, you may run the following script to generate a csv file:
 ```
 python average.py --name all_RN50_linear_hand_crafted_flip_1_cross_modal_text_wiseft_False
 ```
 
+## Test-time robustness to domain shift (ImageNet)
 
-# AudioCLIP feature extraction for ESC-50 dataset
+To reproduce the domain shift experiments in paper please run [domain_shift.py](domain_shift.py). All the argparse arguments follows that of [train.py](train.py):
+
+```
+python domain_shift.py --modality cross_modal --classifier_head linear --classifier_init text --logit 4.60517 --hyperparams linear --dataset imagenet --train-shot 16 --clip-encoder RN50 --image-layer-idx 0 --text-augmentation hand_crafted --image-augmentation none --seed 1
+```
+
+After training, to evaluate for 3 seeds, you can use [eval_domain_shift.py](eval_domain_shift.py):
+
+```
+python eval_domain_shift.py --mode linear --modality cross_modal --classifier_init text --clip-encoder RN50 --text-augmentation hand_crafted --image-augmentation none
+```
+
+You can get Cross-Modal WiSE-FT result via enabling the `wise_ft` flag:
+
+```
+python eval_domain_shift.py --mode linear --modality cross_modal --classifier_init text --clip-encoder RN50 --text-augmentation hand_crafted --image-augmentation none --wise_ft True
+```
+
+
+# ImageNet-ESC Experiments
+## AudioCLIP feature extraction for ESC50
 We follow the instruction offered in official [AudioCLIP codebase](https://github.com/AndreyGuzhov/AudioCLIP) to extract the feature. We notice that the AudioCLIP head does not produce good audio features with `eval()` mode, so we extract the features in `train()` mode with a batch size of 10. The [ESC-50 dataset](https://github.com/karolpiczak/ESC-50) recommended 5-fold cross validation because the audio samples can be correlated within each of the 5 folds, so we follow the practice to offer 5 train/test split of ESC-50. For each split, one fold is used as trainset (400 audio samples per fold), and the rest 4 folds are used for evaluation.
 
 To extract features (assuming you followed the dataset installation instruction) to ESC-50 folder, please run the script below. Before you run this, please modify the `PATH` variable if you install ESC-50 somewhere else.
@@ -80,8 +101,8 @@ cd audioclip/
 python audio_features.py
 ```
 
-# Audio classification with AudioCLIP features
-To reproduce the experiments in paper with 1/2/4 shot classification on both image and audios, please run:
+## Training on ImageNet-ESC
+To reproduce all the experiments in paper with 1/2/4 shot classification on both image and audios, please run:
 ```
 python audio.py
 ```

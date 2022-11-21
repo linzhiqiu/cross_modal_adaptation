@@ -1,4 +1,5 @@
 # How to install datasets
+
 *The dataset download instruction is modified from official [CoOp repository](https://github.com/KaiyangZhou/CoOp/blob/main/DATASETS.md). We also include installation of the audio classification dataset ESC-50 in this tutorial.*
 
 We suggest putting all datasets under the same folder (say `$DATA`) to ease management and following the instructions below to organize datasets to avoid modifying the source code. The file structure looks like
@@ -269,7 +270,7 @@ imagenet-rendition/
 |–– classnames.txt
 ```
 
-### ESC-50 (Dataset for Environmental Sound Classification)
+### ESC-50
 
 - Create a folder named `esc-50/` under `$DATA`.
 - Download the master.zip from <https://github.com/karolpiczak/ESC-50> (or run `wget https://github.com/karoldvl/ESC-50/archive/master.zip`)

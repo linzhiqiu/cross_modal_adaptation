@@ -13,7 +13,7 @@ from engine.model.head import make_classifier_head
 from engine.model.logit import LogitHead
 from engine.optimizer.optim import build_optimizer
 from engine.optimizer.scheduler import build_lr_scheduler
-from features import get_text_features_path, get_image_features_path, get_test_features_path, get_view_name
+from features import get_text_features_path, get_image_features_path, get_test_features_path
 
 RESULT_DIR = "./audio_results/"
 

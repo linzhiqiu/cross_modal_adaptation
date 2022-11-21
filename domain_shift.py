@@ -6,247 +6,71 @@ from torch.utils.data import DataLoader
 
 from engine.config import parser
 
+from engine.transforms.default import build_transform
 from engine.tools.utils import makedirs, set_random_seed
-from engine.datasets.utils import TensorDataset, TextTensorDataset
+from engine import clip
+from engine.datasets.utils import TensorDataset, TextTensorDataset, get_label_map, get_testset
 from engine.model.head import make_classifier_head, get_zero_shot_weights
 from engine.model.logit import LogitHead
 from engine.optimizer.default import HYPER_DICT
 from engine.optimizer.optim import build_optimizer
 from engine.optimizer.scheduler import build_lr_scheduler
+from train import validate, \
+                  get_save_dir, \
+                  get_hyperparams_str, \
+                  get_eval_heads, \
+                  train, \
+                  get_valid_batch_sizes
 from features import get_backbone_name, \
-                     get_few_shot_setup_name, \
-                     get_view_name, \
+                     extract_features, \
+                     get_image_encoder, \
                      get_image_features_path, \
                      get_text_features_path, \
                      get_image_encoder_dir, \
                      get_text_encoder_dir, \
                      get_test_features_path
+            
 
 torch.set_num_threads(4) # To maximize efficiency, please tune the number of threads for your machine
 
 CROSS_MODAL_BATCH_RATIO = 0.5 # Half of the batch is image, the other half is text
 EVAL_FREQ = 100 # Evaluate on val set per 100 iterations (for early stopping)
 
-
-def get_benchmark_name(dataset, train_shot, seed):
-    benchmark_name = "-".join([
-        dataset,
-        get_few_shot_setup_name(train_shot, seed)
-    ])
-    return benchmark_name
+IMAGENET_TESTSETS = ['imagenet_a', 'imagenet_r', 'imagenet_sketch', 'imagenetv2']
 
 
-def get_modality_name(modality,
-                      clip_encoder,
-                      image_augmentation,
-                      text_augmentation,
-                      image_layer_idx,
-                      text_layer_idx,
-                      image_views=1):
-    text_feature_name = f"text_{text_layer_idx}_{text_augmentation}"
-    image_feature_name = f"image_{image_layer_idx}_{get_view_name(image_augmentation, image_views=image_views)}"
-    if modality == "cross_modal":
-        feature_name = f"{text_feature_name}-{image_feature_name}"
-    elif modality == "uni_modal":
-        feature_name = image_feature_name
-    return os.path.join(
-        get_backbone_name(clip_encoder),
-        feature_name
-    )
+def prepare_domain_shift_testset_features(args, TESTSETS=IMAGENET_TESTSETS):
+    ########################################
+    #   Setup Network
+    ########################################
+    clip_model, _ = clip.load(args.clip_encoder, jit=False)
+    clip_model.float()
+    clip_model.eval()
 
-
-def get_architecture_name(classifier_head, classifier_init):
-    return classifier_head + "_" + classifier_init
-
-
-def get_logit_name(logit):
-    name = f"logit_{logit}"
-    return name
-
-
-def get_save_dir(args):
-    save_dir = os.path.join(
-        args.result_dir,
-        get_benchmark_name(
-            args.dataset,
-            args.train_shot,
-            args.seed
-        ),
-        get_modality_name(
-            args.modality,
+    image_encoder = get_image_encoder(clip_model, args)
+    for testset in TESTSETS:
+        # Check if features are saved already
+        test_features_path = get_test_features_path(
+            testset,
+            args.feature_dir,
             args.clip_encoder,
-            args.image_augmentation,
-            args.text_augmentation,
-            args.image_layer_idx,
-            args.text_layer_idx,
-            image_views=args.image_views
-        ),
-        get_architecture_name(
-            args.classifier_head,
-            args.classifier_init
-        ),
-        get_logit_name(
-            args.logit
-        ),
-    )
-    return save_dir
-
-
-def get_hyperparams_str(optim,
-                        lr,
-                        wd,
-                        batch_size,
-                        iters):
-    hyperparams_str = f"optim_{optim}-lr_{lr}-wd_{wd}-bs_{batch_size}-iters_{iters}"
-    return hyperparams_str
-
-
-def get_wiseft(head, zero_shot_weights, wiseft_ratio=0.5):
-    if type(head) == torch.nn.Linear:
-        head.weight.data = (1 - wiseft_ratio) * head.weight.data + wiseft_ratio * torch.nn.functional.normalize(zero_shot_weights, dim=1)
-    elif type(head) == torch.nn.Sequential:
-        assert type(head[-1]) == torch.nn.Linear, f"Invalid head: {head}"
-        head[-1].weight.data = (1 - wiseft_ratio) * head[-1].weight.data + wiseft_ratio * torch.nn.functional.normalize(zero_shot_weights, dim=1)
-    return head
-
-
-def get_eval_heads(head, zero_shot_weights, ratio_list=[0.5], logit=None):
-    logit_head = LogitHead(
-        deepcopy(head),
-        logit_scale=logit,
-    )
-
-    eval_heads = {
-        'head': logit_head.cuda().eval(),
-    }
-    for ratio in ratio_list:
-        wiseft = get_wiseft(deepcopy(head), zero_shot_weights, ratio)
-        wiseft_head = LogitHead(
-            wiseft,
-            logit_scale=logit,
+            args.image_layer_idx
         )
-        eval_heads[f'head_wiseft_{ratio}'] = wiseft_head.cuda().eval()
-    return eval_heads
 
-
-def train(logit_head, image_encoder, text_encoder,
-          image_loader, val_loader, text_loader,
-          optimizer, scheduler, criterion, iters,
-          eval_freq=EVAL_FREQ, device="cuda"):
-    if image_loader is None and text_loader is None:
-        raise ValueError("Both image_loader and text_loader are None")
-    if image_loader is not None:
-        image_loader_iter = iter(image_loader)
-    else:
-        image_loader_iter = None
-    if text_loader is not None:
-        text_loader_iter = iter(text_loader)
-    else:
-        text_loader_iter = None
-
-    result_dict = {
-        "iter": None,
-        "val_acc": None,
-        "image_encoder": None,
-        "text_encoder": None,
-        "logit_head": None,
-    }
-
-    for i in range(iters):
-        logit_head.train()
-        image_encoder.train()
-        text_encoder.train()
-        if image_loader_iter is not None:
-            try:
-                image, image_label = next(image_loader_iter)
-            except StopIteration:
-                image_loader_iter = iter(image_loader)
-                image, image_label = next(image_loader_iter)
-            image = image.to(device)
-            image_label = image_label.to(device)
-            image_feature = image_encoder(image)
+        makedirs(os.path.dirname(test_features_path))
+        if os.path.exists(test_features_path):
+            print(f"Test features already saved at {test_features_path}")
         else:
-            image_feature = None
-        
-        if text_loader_iter is not None:
-            try:
-                text, text_label, eot_indices = next(text_loader_iter)
-            except StopIteration:
-                text_loader_iter = iter(text_loader)
-                text, text_label, eot_indices = next(text_loader_iter)
-            text = text.to(device)
-            text_label = text_label.to(device)
-            eot_indices = eot_indices.to(device)
-            text_feature = text_encoder(text, eot_indices)
-        else:
-            text_feature = None
-        
-        if image_feature is not None and text_feature is not None:
-            feature = torch.cat([image_feature, text_feature], dim=0)
-            label = torch.cat([image_label, text_label], dim=0)
-        elif image_feature is not None:
-            feature = image_feature
-            label = image_label
-        elif text_feature is not None:
-            feature = text_feature
-            label = text_label
-        else:
-            raise ValueError("Both image_feature and text_feature are None")
+            print(f"Saving features to {test_features_path}")
+            test_transform = build_transform('none')
+            benchmark_test = get_testset(testset, args.data_dir)
+            print(f"Extracting features for test split ...")
+            test_features = extract_features(
+                image_encoder, 
+                benchmark_test, test_transform,
+                num_views=1, test_batch_size=args.test_batch_size, num_workers=args.num_workers)
+            torch.save(test_features, test_features_path)
 
-        logit = logit_head(feature)
-        loss = criterion(logit, label)
-        optimizer.zero_grad()
-        loss.backward()
-        optimizer.step()
-        scheduler.step()
-        
-        if i % eval_freq == 0:
-            val_acc = validate(logit_head, image_encoder, val_loader, device=device)
-            if result_dict["val_acc"] is None or val_acc > result_dict["val_acc"]:
-                result_dict["iter"] = i
-                result_dict["val_acc"] = val_acc
-                result_dict["image_encoder"] = deepcopy(image_encoder.state_dict())
-                result_dict["text_encoder"] = deepcopy(text_encoder.state_dict())
-                result_dict["logit_head"] = deepcopy(logit_head.state_dict())
-    
-    val_acc = validate(logit_head, image_encoder, val_loader, device=device)
-    print(f"Best val acc: {result_dict['val_acc']:.4f} at iter {result_dict['iter']}")
-    return result_dict
-            
-
-def validate(logit_head, image_encoder, val_loader, device="cuda"):
-    logit_head.eval()
-    image_encoder.eval()
-    val_acc = 0
-    val_count = 0.
-    for image, image_label in val_loader:
-        image = image.to(device)
-        image_label = image_label.to(device)
-        image_feature = image_encoder(image)
-        logit = logit_head(image_feature)
-        pred = torch.argmax(logit, dim=1)
-        val_acc += torch.sum(pred == image_label).item()
-        val_count += image_label.size(0)
-        image.cpu()
-    val_acc /= val_count
-    return val_acc
-
-def get_valid_batch_sizes(hyperparams, text_dataset, image_train_dataset, batch_ratio=CROSS_MODAL_BATCH_RATIO, modality='cross_modal'):
-    VALID_BATCH_SIZES = []
-    if modality == 'uni_modal':
-        batch_ratio = 0.
-    for batch_size in hyperparams['batch_size']:
-        text_batch_size = int(batch_size * batch_ratio)
-        image_batch_size = batch_size - text_batch_size
-        # check if text batch size is smaller than the size of text dataset
-        if text_batch_size == 0 or text_batch_size < len(text_dataset):
-            # check if image batch size is smaller than the size of image dataset
-            if image_batch_size == 0 or image_batch_size < len(image_train_dataset):
-                VALID_BATCH_SIZES.append(batch_size)
-    if len(VALID_BATCH_SIZES) == 0:
-        raise ValueError("No valid batch size found. You should consider reducing the batch size.")
-    print("Valid batch sizes: {}/{}".format(len(VALID_BATCH_SIZES), len(hyperparams['batch_size'])))
-    return VALID_BATCH_SIZES
 
 def main(args):
     if args.seed >= 0:
@@ -255,6 +79,14 @@ def main(args):
 
     if torch.cuda.is_available():
         torch.backends.cudnn.benchmark = True
+
+    ########################################
+    #   Prepare for domain shift testset features
+    ########################################
+    prepare_domain_shift_testset_features(args)
+
+    ### Before scripts are mostly taken from train.py main() except for 
+    ### evaluating on the domain shifted test set
 
     image_encoder_dir = get_image_encoder_dir(
         args.feature_dir,
@@ -363,10 +195,11 @@ def main(args):
                     checkpoint_dir = os.path.join(save_dir, hyperparams_str)
                     makedirs(checkpoint_dir)
                     test_result_dict = {}
-                    test_result_path = os.path.join(checkpoint_dir, "test_result.pth")
-                    if os.path.exists(test_result_path):
+
+                    domain_shift_result_path = os.path.join(checkpoint_dir, "domain_shift_result.pth")
+                    if os.path.exists(domain_shift_result_path):
                         print(f"Already exists: {hyperparams_str} {cur_count}/{experiment_count}")
-                        test_result_dict = torch.load(test_result_path)
+                        test_result_dict = torch.load(domain_shift_result_path)
                         continue
                     else:
                         print(f"Starting: {hyperparams_str} {cur_count}/{experiment_count}")
@@ -449,6 +282,7 @@ def main(args):
                     test_result_dict['val_acc'] = result_dict['val_acc']
                     test_result_dict['iter'] = result_dict['iter']
                     test_result_dict['test_accs'] = {}
+                    test_result_dict['domain_shift_accs'] = {}
 
                     # Create the logreg model and load the weights
                     head, num_classes, in_features = make_classifier_head(
@@ -492,7 +326,43 @@ def main(args):
                         test_acc = validate(eval_head, image_encoder, test_loader, device="cuda")
                         test_result_dict['test_accs'][eval_type] = test_acc
                         eval_head.cpu()
-                    torch.save(test_result_dict, test_result_path)
+
+                    ### eval for separate testset
+                    for test_dataset_name in IMAGENET_TESTSETS:
+                        test_result_dict['domain_shift_accs'][test_dataset_name] = {}
+                        extra_test_features_path = os.path.join(
+                            args.feature_dir,
+                            'image',
+                            "_".join([get_backbone_name(args.clip_encoder), str(args.image_layer_idx)]),
+                            test_dataset_name,
+                            "test.pth"
+                        )
+                        extra_test_features = torch.load(extra_test_features_path)
+                        extra_test_dataset = TensorDataset(
+                            extra_test_features['features'], extra_test_features['labels'])
+                        label_map = get_label_map(args.data_dir, test_dataset_name)
+                        for eval_type in eval_heads:
+                            eval_head = eval_heads[eval_type]
+                            eval_head.cuda().eval()
+                            test_loader = DataLoader(
+                                extra_test_dataset,
+                                batch_size=args.test_batch_size,
+                                shuffle=False,
+                                num_workers=args.num_workers,
+                                pin_memory=True,
+                            )
+                            if label_map is None:
+                                test_acc = validate(eval_head, image_encoder, test_loader, device="cuda")
+                            else:
+                                # change eval_head to use label_map
+                                assert isinstance(eval_head.head, torch.nn.Linear)
+                                new_head = deepcopy(eval_head)
+                                new_linear_head = torch.nn.Linear(eval_head.head.in_features, len(label_map), bias=False).cuda()
+                                new_linear_head.weight.data = eval_head.head.weight.data[label_map]
+                                new_head.head = new_linear_head
+                                test_acc = validate(new_head, image_encoder, test_loader, device="cuda")
+                            test_result_dict['domain_shift_accs'][test_dataset_name][eval_type] = test_acc
+                    torch.save(test_result_dict, domain_shift_result_path)
                     print(test_result_dict)
                     print(f"Finished testing {hyperparams_str} {cur_count}/{experiment_count}")
 
@@ -546,4 +416,5 @@ if __name__ == "__main__":
     #     help="hyperparams sweep",
     # )
     args = parser.parse_args()
+    assert args.dataset == "imagenet"
     main(args)

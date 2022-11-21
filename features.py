@@ -166,29 +166,7 @@ def extract_features(image_encoder, data_source, transform, num_views=1, test_ba
     return features_dict
 
 
-def main(args):
-    if args.seed >= 0:
-        print("Setting fixed seed: {}".format(args.seed))
-        set_random_seed(args.seed)
-
-    if torch.cuda.is_available():
-        torch.backends.cudnn.benchmark = True
-
-    few_shot_benchmark = get_few_shot_benchmark(
-        args.data_dir,
-        args.indices_dir,
-        args.dataset,
-        args.train_shot,
-        args.seed
-    )
-
-    ########################################
-    #   Setup Network
-    ########################################
-    clip_model, _ = clip.load(args.clip_encoder, jit=False)
-    clip_model.float()
-    clip_model.eval()
-
+def prepare_text_features(clip_model, args, lab2cname):
     text_encoder_dir = get_text_encoder_dir(
         args.feature_dir,
         args.clip_encoder,
@@ -231,10 +209,11 @@ def main(args):
         }
         print(f"Extracting features for texts ...")
         text_features = extract_text_features(
-            args.dataset, args.text_augmentation, text_encoder, few_shot_benchmark['lab2cname'])
+            args.dataset, args.text_augmentation, text_encoder, lab2cname)
         torch.save(text_features, text_features_path)
 
 
+def get_image_encoder(clip_model, args):
     image_encoder_dir = get_image_encoder_dir(
         args.feature_dir,
         args.clip_encoder,
@@ -254,7 +233,11 @@ def main(args):
             clip_model
         )
         torch.save(image_encoder, image_encoder_path)
+    return image_encoder
 
+
+def prepare_few_shot_image_features(clip_model, args, benchmark_train, benchmark_val):
+    image_encoder = get_image_encoder(clip_model, args)
     # Check if (image) features are saved already
     image_features_path = get_image_features_path(
         args.dataset,
@@ -287,16 +270,19 @@ def main(args):
             num_views = args.image_views
         assert num_views > 0, "Number of views must be greater than 0"
         image_features['train'] = extract_features(
-            image_encoder, few_shot_benchmark['train'], 
+            image_encoder, benchmark_train, 
             train_transform, num_views=num_views, test_batch_size=args.test_batch_size, num_workers=args.num_workers)
         
         print(f"Extracting features for val split ...")
         image_features['val'] = extract_features(
-            image_encoder, few_shot_benchmark['val'],
+            image_encoder, benchmark_val,
             test_transform, num_views=1, test_batch_size=args.test_batch_size, num_workers=args.num_workers)
     
         torch.save(image_features, image_features_path)
 
+
+def prepare_test_image_features(clip_model, args, benchmark_test):
+    image_encoder = get_image_encoder(clip_model, args)
     # Check if features are saved already
     test_features_path = get_test_features_path(
         args.dataset,
@@ -314,9 +300,46 @@ def main(args):
         print(f"Extracting features for test split ...")
         test_features = extract_features(
             image_encoder, 
-            few_shot_benchmark['test'], test_transform,
+            benchmark_test, test_transform,
             num_views=1, test_batch_size=args.test_batch_size, num_workers=args.num_workers)
         torch.save(test_features, test_features_path)
+
+
+def main(args):
+    if args.seed >= 0:
+        print("Setting fixed seed: {}".format(args.seed))
+        set_random_seed(args.seed)
+
+    if torch.cuda.is_available():
+        torch.backends.cudnn.benchmark = True
+
+    ########################################
+    #   Train/Val/Test Split
+    ########################################
+    few_shot_benchmark = get_few_shot_benchmark(
+        args.data_dir,
+        args.indices_dir,
+        args.dataset,
+        args.train_shot,
+        args.seed
+    )
+
+    ########################################
+    #   Setup Network
+    ########################################
+    clip_model, _ = clip.load(args.clip_encoder, jit=False)
+    clip_model.float()
+    clip_model.eval()
+
+
+    ########################################
+    #   Feature Extraction
+    ########################################
+    prepare_text_features(clip_model, args, few_shot_benchmark['lab2cname'])
+
+    prepare_few_shot_image_features(clip_model, args, few_shot_benchmark['train'], few_shot_benchmark['val'])
+
+    prepare_test_image_features(clip_model, args, few_shot_benchmark['test'])
 
 
 if __name__ == "__main__":
