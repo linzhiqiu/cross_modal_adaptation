@@ -75,7 +75,7 @@ python average.py --name all_RN50_linear_hand_crafted_flip_1_cross_modal_text_wi
 
 ## Test-time robustness to domain shift (ImageNet)
 
-To reproduce the domain shift experiments in paper please run [domain_shift.py](domain_shift.py). All the argparse arguments follows that of [train.py](train.py):
+To reproduce the domain shift experiments in paper please run [domain_shift.py](domain_shift.py). All the argparse arguments follow that of [train.py](train.py):
 
 ```
 python domain_shift.py --modality cross_modal --classifier_head linear --classifier_init text --logit 4.60517 --hyperparams linear --dataset imagenet --train-shot 16 --clip-encoder RN50 --image-layer-idx 0 --text-augmentation hand_crafted --image-augmentation none --seed 1
@@ -108,7 +108,7 @@ python audio_features.py
 ## Training on ImageNet-ESC
 To reproduce all the experiments in paper with 1/2/4 shot classification on both image and audios, please run:
 ```
-python audio.py
+python imagenet_esc.py
 ```
 
 
