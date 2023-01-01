@@ -34,8 +34,8 @@ HYPER_DICT = {
     },
     'audio': {
         'optim': "adamw",
-        'lr': [0.0001, 0.00001, 0.000001, 0.0000001],
-        'weight_decay': [0.0, 0.001, 0.00001],
+        'lr': [0.1, 0.01, 0.001, 0.0001],
+        'weight_decay': [0.0, 0.01, 0.0001],
         'lr_scheduler': "cosine",
         'batch_size': [8],
         'max_iter': [12800],

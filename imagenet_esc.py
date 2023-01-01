@@ -15,7 +15,7 @@ from engine.optimizer.optim import build_optimizer
 from engine.optimizer.scheduler import build_lr_scheduler
 from features import get_text_features_path, get_image_features_path, get_test_features_path
 
-RESULT_DIR = "./audio_results/"
+RESULT_DIR = "./imagenet_esc_results/"
 
 ESC_DIR = f"{default.DATA_DIR}/esc-50/"
 
@@ -25,9 +25,6 @@ SPLITS = [0, 1, 2, 3, 4] # for both image and audio; make sure imagenet has seed
 
 TASKS = ['image', 'audio'] # classification task to perform
 
-ZERO_SHOT_CLASSIFIER = ['audio', 'image', 'text'] # Will evaluate their zero-shot performance on the test set
-
-
 clip_encoder = "RN50" # AudioCLIP uses a frozen RN50 model
 image_layer_idx = 0
 text_layer_idx = 0
@@ -36,7 +33,7 @@ image_augmentation = "none"
 classifier_head = "linear"
 logit = 4.60517
 hyperparams_audio = "audio"
-result_dir = RESULT_DIR
+result_dir = os.path.join(RESULT_DIR, hyperparams_audio)
 makedirs(result_dir)
 
 CLASS_MAP = {
@@ -203,7 +200,7 @@ def evaluate(clip_encoder, classifier_head, logit, zero_shot_dataset, test_datas
     head, _, _ = make_classifier_head(
         classifier_head,
         clip_encoder,
-        "text", # meaning zero-shot initialization here
+        "zeroshot", # meaning zero-shot initialization here
         zero_shot_dataset
     )
     eval_head = LogitHead(
@@ -308,7 +305,7 @@ def main():
 
     for dataset in CLASS_MAP:
         print(f"Dataset: {dataset}")
-        result_dict_path = os.path.join(result_dir, f"{dataset}_result.pt")
+        result_dict_path = os.path.join(result_dir, f"{dataset}_result_all.pt")
         
         if os.path.exists(result_dict_path):
             continue
@@ -317,8 +314,9 @@ def main():
                 task: {
                     'zero_shot': {},
                     'linear_prob': {},
-                    'allmodal_linear_prob': {},
-                    'audiovisual_linear_prob': {},
+                    'audiovisual_linear_prob': {}, # task modality + audio or image
+                    'plustext_linear_prob': {}, # task modality + text
+                    'allmodal_linear_prob': {}, # all three modality
                 }
                 for task in TASKS
             }
@@ -477,7 +475,7 @@ def main():
                             (other_features['features'], text_features['features']), dim=0)
                         all_features['labels'] = torch.cat(
                             (other_features['labels'], text_features['labels']), dim=0)
-                            
+                        
                         other_dataset = TensorDataset(
                             other_features['features'], other_features['labels']
                         )
@@ -518,28 +516,28 @@ def main():
                                         print(f"[{cur_count}/{experiment_count}]: {hyperparams_str}. Running")
 
                                         train_mode_dict = {
-                                            'linear_prob': ('linear', 0., 0.),
-                                            'audiovisual_linear_prob': ('linear_zeroshot', 0.5, 0.),
-                                            'allmodal_linear_prob': ('linear_zeroshot', 0., 0.5),
+                                            'linear_prob': ('none', 0., 0., 0.),
+                                            'audiovisual_linear_prob': ('zeroshot', 0.5, 0., 0.),
+                                            'plustext_linear_prob': ('zeroshot', 0., 0., 0.5),
+                                            'allmodal_linear_prob': ('zeroshot', 0., 0.5, 0.),
                                         }
                                         for train_mode in train_mode_dict.keys():
-                                            head_type, other_batch_ratio, all_batch_ratio = train_mode_dict[train_mode]
+                                            head_type, other_batch_ratio, all_batch_ratio, text_batch_ratio = train_mode_dict[train_mode]
+                                            
                                             if all_batch_ratio > 0:
-                                                # Create linear classifier for all modalities
-                                                head, _, _ = make_classifier_head(
+                                                zeroshot_dataset = all_dataset
+                                            elif text_batch_ratio > 0:
+                                                zeroshot_dataset = text_dataset
+                                            elif other_batch_ratio > 0:
+                                                zeroshot_dataset = other_dataset
+                                            else:
+                                                zeroshot_dataset = other_dataset # won't be used for init because head_type is 'none'
+                                            head, _, _ = make_classifier_head(
                                                                 classifier_head,
                                                                 clip_encoder,
-                                                                "text", # meaning zero-shot initialization here
-                                                                all_dataset
-                                                            )
-                                            else:
-                                                # Create linear classifier for other modalities
-                                                head, _, _ = make_classifier_head(
-                                                                 classifier_head,
-                                                                 clip_encoder,
-                                                                 "text", # meaning zero-shot initialization here
-                                                                 other_dataset
-                                                             )
+                                                                head_type,
+                                                                zeroshot_dataset
+                                                         )
                                             logit_head = LogitHead(
                                                 head,
                                                 logit_scale=logit,
@@ -559,12 +557,22 @@ def main():
                                                 warmup_lr=hyperparams['warmup_min_lr']
                                             )
                                             criterion = torch.nn.CrossEntropyLoss()
-                                            all_batch_ratio = int(batch_size * all_batch_ratio)
+                                            all_batch_size = int(batch_size * all_batch_ratio)
                                             other_batch_size = int(batch_size * other_batch_ratio)
-                                            train_batch_size = batch_size - other_batch_size
+                                            text_batch_size = int(batch_size * text_batch_ratio)
 
                                             if all_batch_ratio > 0:
                                                 assert other_batch_ratio == 0
+                                                assert text_batch_ratio == 0
+                                                train_batch_size = batch_size - all_batch_size
+                                            elif text_batch_ratio > 0:
+                                                assert other_batch_ratio == 0
+                                                assert all_batch_ratio == 0
+                                                train_batch_size = batch_size - text_batch_size
+                                            else:
+                                                assert text_batch_ratio == 0
+                                                assert all_batch_ratio == 0
+                                                train_batch_size = batch_size - other_batch_size
 
                                             other_loader = None
                                             if other_batch_ratio > 0:
@@ -579,7 +587,16 @@ def main():
                                             elif all_batch_ratio > 0:
                                                 other_loader = DataLoader(
                                                     all_dataset,
-                                                    batch_size=all_batch_ratio,
+                                                    batch_size=all_batch_size,
+                                                    shuffle=True,
+                                                    num_workers=0,
+                                                    pin_memory=True,
+                                                    drop_last=True,
+                                                )
+                                            elif text_batch_ratio > 0:
+                                                other_loader = DataLoader(
+                                                    text_dataset,
+                                                    batch_size=text_batch_size,
                                                     shuffle=True,
                                                     num_workers=0,
                                                     pin_memory=True,
@@ -652,6 +669,7 @@ def main():
 
     METHODS = ['linear_prob',
                'audiovisual_linear_prob',
+               'plustext_linear_prob',
                'allmodal_linear_prob',
                'zero_shot_text',
                'zero_shot_image',
@@ -660,7 +678,7 @@ def main():
     # Take average
     for dataset in CLASS_MAP:
         print(f"Dataset: {dataset}")
-        result_dict_path = os.path.join(result_dir, f"{dataset}_result.pt")
+        result_dict_path = os.path.join(result_dir, f"{dataset}_result_all.pt")
 
         assert os.path.exists(result_dict_path), f"Result dict not found: {result_dict_path}"
         result_dict = torch.load(result_dict_path)
@@ -687,6 +705,7 @@ def main():
                 linear_probs = []
                 audiovisual_linear_probs = []
                 allmodal_linear_probs = []
+                plustext_linear_probs = []
                 win = 0
                 for split_index in SPLITS:
                     zero_shot_text = result_dict[task]['zero_shot'][split_index]['text']
@@ -699,11 +718,14 @@ def main():
                         linear_probs.append(linear_prob)
                         audiovisual_linear_prob = result_dict[task]['audiovisual_linear_prob'][split_index][shot_num][seed_idx]['best']['test_acc']
                         audiovisual_linear_probs.append(audiovisual_linear_prob)
+                        plustext_linear_prob = result_dict[task]['plustext_linear_prob'][split_index][shot_num][seed_idx]['best']['test_acc']
+                        plustext_linear_probs.append(plustext_linear_prob)
                         allmodal_linear_prob = result_dict[task]['allmodal_linear_prob'][split_index][shot_num][seed_idx]['best']['test_acc']
                         allmodal_linear_probs.append(allmodal_linear_prob)
                         methods = {
                             'linear_prob': linear_prob,
                             'audiovisual_linear_prob': audiovisual_linear_prob,
+                            'plustext_linear_prob': plustext_linear_prob,
                             'allmodal_linear_prob': allmodal_linear_prob,
                             'zero_shot_text': zero_shot_text,
                             'zero_shot_image': zero_shot_task if task == 'image' else zero_shot_other,
@@ -722,6 +744,7 @@ def main():
                 avg_dict[task][shot_num]['zero_shot_image'] = {'mean': np.mean(zero_shot_images), 'std': np.std(zero_shot_images)}
                 avg_dict[task][shot_num]['zero_shot_audio'] = {'mean': np.mean(zero_shot_audios), 'std': np.std(zero_shot_audios)}
                 avg_dict[task][shot_num]['linear_prob'] = {'mean': np.mean(linear_probs), 'std': np.std(linear_probs)}
+                avg_dict[task][shot_num]['plustext_linear_prob'] = {'mean': np.mean(plustext_linear_probs), 'std': np.std(plustext_linear_probs)}
                 avg_dict[task][shot_num]['audiovisual_linear_prob'] = {'mean': np.mean(audiovisual_linear_probs), 'std': np.std(audiovisual_linear_probs)}
                 avg_dict[task][shot_num]['allmodal_linear_prob'] = {'mean': np.mean(allmodal_linear_probs), 'std': np.std(allmodal_linear_probs)}
 

@@ -405,7 +405,10 @@ def main(args):
                     )
                     criterion = torch.nn.CrossEntropyLoss()
 
-                    text_batch_size = int(batch_size * CROSS_MODAL_BATCH_RATIO)
+                    if args.modality == "cross_modal":
+                        text_batch_size = int(batch_size * CROSS_MODAL_BATCH_RATIO)
+                    elif args.modality == "uni_modal":
+                        text_batch_size = 0
                     image_batch_size = batch_size - text_batch_size
 
                     text_loader = None
@@ -520,8 +523,8 @@ if __name__ == "__main__":
     # parser.add_argument(
     #     "--classifier_init",
     #     type=str,
-    #     default="text",
-    #     choices=["text", # text-based initialization
+    #     default="zeroshot",
+    #     choices=["zeroshot", # zero-shot/one-shot-text-based initialization
     #             "random", # random initialization
     #     ],
     #     help="classifier head initialization",

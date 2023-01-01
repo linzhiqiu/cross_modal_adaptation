@@ -40,21 +40,21 @@ def get_zero_shot_weights(text_dataset, num_classes, in_features):
 def make_classifier_head(classifier_head,
                          clip_encoder,
                          classifier_init,
-                         text_dataset,
+                         zeroshot_dataset,
                          bias=False):
     assert classifier_head in AVAI_HEADS
     if clip_encoder == 'ViT-B/16':
         in_features = 512
     elif clip_encoder == 'RN50':
         in_features = 1024
-    assert text_dataset.input_tensor.shape[1] == in_features
 
-    num_classes = int(text_dataset.label_tensor.max()) + 1
+    num_classes = int(zeroshot_dataset.label_tensor.max()) + 1
 
     linear_head = nn.Linear(in_features, num_classes, bias=bias)
-    if classifier_init == 'text':
+    if classifier_init == 'zeroshot':
+        assert zeroshot_dataset.input_tensor.shape[1] == in_features
         linear_head.weight.data = get_zero_shot_weights(
-            text_dataset, num_classes, in_features)
+            zeroshot_dataset, num_classes, in_features)
     
     if classifier_head == 'linear':
         head = linear_head
