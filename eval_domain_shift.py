@@ -377,8 +377,8 @@ if __name__ == "__main__":
     parser.add_argument(
         "--classifier_init",
         type=str,
-        default="text",
-        choices=["text", # text-based initialization
+        default="zeroshot",
+        choices=["zeroshot", # zero-shot/one-shot-text-based initialization
                 "random", # random initialization
         ],
         help="classifier head initialization",

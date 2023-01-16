@@ -76,15 +76,15 @@ parser.add_argument(
     "--image-layer-idx",
     type=int,
     default=0,
-    choices=[0, 1],
+    choices=[0, 1, -1],
     help="specify how many image encoder layers to finetune. 0 means none. -1 means full finetuning.",
 )
 parser.add_argument(
     "--text-layer-idx",
     type=int,
     default=0,
-    choices=[0],
-    help="specify how many text encoder layers to finetune. Only support 0.",
+    choices=[0, 1, -1],
+    help="specify how many text encoder layers to finetune. 0 means none. -1 means full finetuning.",
 )
 parser.add_argument(
     "--text-augmentation",

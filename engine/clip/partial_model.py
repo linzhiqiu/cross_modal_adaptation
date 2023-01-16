@@ -123,8 +123,8 @@ def get_split_transformer(clip_model, layer_idx=0):
         partial_model = PartialTransformer(dtype, logit_scale, vocab_size)
     else:
         # finetune some layers
-        transformer_encoder = transformer.resblocks[:layer_idx]
-        partial_transformer = transformer.resblocks[layer_idx:]
+        transformer_encoder = transformer.resblocks[:-layer_idx]
+        partial_transformer = transformer.resblocks[-layer_idx:]
         feature_extractor = TransformerEncoder(
             dtype, token_embedding,
             positional_embedding=positional_embedding,
@@ -244,8 +244,8 @@ def get_split_vit(model, layer_idx=0):
         partial_model = PartialViT(mode='partial_model')
     else:
         # finetune some layers
-        transformer_encoder = transformer.resblocks[:layer_idx]
-        partial_transformer = transformer.resblocks[layer_idx:]
+        transformer_encoder = transformer.resblocks[:-layer_idx]
+        partial_transformer = transformer.resblocks[-layer_idx:]
         feature_extractor = PartialViT(conv1=conv1,
                                        class_embedding=class_embedding,
                                        positional_embedding=positional_embedding,

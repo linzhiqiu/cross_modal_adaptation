@@ -36,7 +36,12 @@ torch.set_num_threads(4) # To maximize efficiency, please tune the number of thr
 CROSS_MODAL_BATCH_RATIO = 0.5 # Half of the batch is image, the other half is text
 EVAL_FREQ = 100 # Evaluate on val set per 100 iterations (for early stopping)
 
-IMAGENET_TESTSETS = ['imagenet_a', 'imagenet_r', 'imagenet_sketch', 'imagenetv2']
+IMAGENET_TESTSETS = [
+    'imagenetv2',
+    'imagenet_sketch',
+    'imagenet_a',
+    'imagenet_r',
+]
 
 
 def prepare_domain_shift_testset_features(args, TESTSETS=IMAGENET_TESTSETS):
@@ -390,8 +395,8 @@ if __name__ == "__main__":
     # parser.add_argument(
     #     "--classifier_init",
     #     type=str,
-    #     default="text",
-    #     choices=["text", # text-based initialization
+    #     default="zeroshot",
+    #     choices=["zeroshot", # zero-shot/one-shot-text-based initialization
     #             "random", # random initialization
     #     ],
     #     help="classifier head initialization",

@@ -120,6 +120,7 @@ def get_eval_heads(head, zero_shot_weights, ratio_list=[0.5], logit=None):
         'head': logit_head.cuda().eval(),
     }
     for ratio in ratio_list:
+        # TODO (Warning): This wise-ft does not consider partial finetuning of image encoder
         wiseft = get_wiseft(deepcopy(head), zero_shot_weights, ratio)
         wiseft_head = LogitHead(
             wiseft,
@@ -209,26 +210,31 @@ def train(logit_head, image_encoder, text_encoder,
                 result_dict["text_encoder"] = deepcopy(text_encoder.state_dict())
                 result_dict["logit_head"] = deepcopy(logit_head.state_dict())
     
+    # load best model
+    image_encoder.load_state_dict(result_dict["image_encoder"])
+    text_encoder.load_state_dict(result_dict["text_encoder"])
+    logit_head.load_state_dict(result_dict["logit_head"])
     val_acc = validate(logit_head, image_encoder, val_loader, device=device)
     print(f"Best val acc: {result_dict['val_acc']:.4f} at iter {result_dict['iter']}")
     return result_dict
             
 
 def validate(logit_head, image_encoder, val_loader, device="cuda"):
-    logit_head.eval()
-    image_encoder.eval()
-    val_acc = 0
-    val_count = 0.
-    for image, image_label in val_loader:
-        image = image.to(device)
-        image_label = image_label.to(device)
-        image_feature = image_encoder(image)
-        logit = logit_head(image_feature)
-        pred = torch.argmax(logit, dim=1)
-        val_acc += torch.sum(pred == image_label).item()
-        val_count += image_label.size(0)
-        image.cpu()
-    val_acc /= val_count
+    with torch.no_grad():
+        logit_head.eval()
+        image_encoder.eval()
+        val_acc = 0
+        val_count = 0.
+        for image, image_label in val_loader:
+            image = image.to(device)
+            image_label = image_label.to(device)
+            image_feature = image_encoder(image)
+            logit = logit_head(image_feature)
+            pred = torch.argmax(logit, dim=1)
+            val_acc += torch.sum(pred == image_label).item()
+            val_count += image_label.size(0)
+            image.cpu()
+        val_acc /= val_count
     return val_acc
 
 def get_valid_batch_sizes(hyperparams, text_dataset, image_train_dataset, batch_ratio=CROSS_MODAL_BATCH_RATIO, modality='cross_modal'):
@@ -374,20 +380,21 @@ def main(args):
                     # train logreg
 
                     # Create the logreg model
+                    image_encoder = torch.load(
+                        image_encoder_path).partial_model.train().cuda()
+                    text_encoder = torch.load(
+                        text_encoder_path).partial_model.train().cuda()
                     head, num_classes, in_features = make_classifier_head(
                         args.classifier_head,
                         args.clip_encoder,
                         args.classifier_init,
-                        text_dataset
+                        text_dataset,
+                        text_encoder
                     )
                     logit_head = LogitHead(
                         head,
                         logit_scale=args.logit,
                     ).train().cuda()
-                    image_encoder = torch.load(
-                        image_encoder_path).partial_model.train().cuda()
-                    text_encoder = torch.load(
-                        text_encoder_path).partial_model.train().cuda()
                     # Create the optimizer
                     params_groups = [
                         {'params': logit_head.parameters()},
@@ -459,6 +466,7 @@ def main(args):
                         args.clip_encoder,
                         args.classifier_init,
                         text_dataset,
+                        text_encoder,
                         bias=False
                     )
                     old_logit_head = LogitHead(
@@ -467,7 +475,17 @@ def main(args):
                     )
                     old_logit_head.load_state_dict(result_dict['logit_head'])
 
-                    zero_shot_weights = get_zero_shot_weights(text_dataset, num_classes, in_features)
+                    image_encoder = torch.load(image_encoder_path).partial_model
+                    image_encoder.load_state_dict(result_dict['image_encoder'])
+                    image_encoder = image_encoder.cuda().eval()
+                    text_encoder = torch.load(text_encoder_path).partial_model
+                    text_encoder.load_state_dict(result_dict['text_encoder'])
+                    text_encoder = text_encoder.cuda().eval()
+                    original_text_encoder = torch.load(text_encoder_path).partial_model
+                    original_text_encoder = original_text_encoder.eval()
+
+                    zero_shot_weights = get_zero_shot_weights(text_dataset, num_classes, in_features, deepcopy(original_text_encoder).cuda())
+                    # zero_shot_weights = get_zero_shot_weights(text_dataset, num_classes, in_features)
                     eval_heads = get_eval_heads(
                         deepcopy(old_logit_head.head),
                         zero_shot_weights,
@@ -475,12 +493,6 @@ def main(args):
                         ratio_list=[0.5]
                     )
 
-                    image_encoder = torch.load(image_encoder_path).partial_model
-                    image_encoder.load_state_dict(result_dict['image_encoder'])
-                    image_encoder = image_encoder.cuda().eval()
-                    text_encoder = torch.load(text_encoder_path).partial_model
-                    text_encoder.load_state_dict(result_dict['text_encoder'])
-                    text_encoder = text_encoder.cuda().eval()
 
                     for eval_type in eval_heads:
                         eval_head = eval_heads[eval_type]
