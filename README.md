@@ -17,7 +17,7 @@ Next, you can download pytorch from official site, for example:
 conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 ```
 
-Next, run `pip install -r requirements.txt` in this repo to install a few more packages required by [CLIP](https://github.com/openai/CLIP). 
+Next, run `pip install ftfy regex tqdm` to install a few more packages required by [CLIP](https://github.com/openai/CLIP). 
 
 # Dataset Installation
 Follow [DATASETS.md](DATASETS.md) to install the downstream datasets. We use the [CoOp](https://github.com/KaiyangZhou/CoOp) split of data (including the few-shot splits for seed 1-3, except for ImageNet) to ensure a fair comparison.
