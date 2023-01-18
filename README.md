@@ -112,5 +112,16 @@ python imagenet_esc.py
 ```
 
 
-<!-- ## Citation
-If you use this code in your research, please kindly cite the following papers -->
+## Citation
+If you use this code in your research, please kindly cite the following papers:
+
+```
+@misc{lin2023crossmodal,
+  title={Multimodality Helps Unimodality: Cross-Modal Few-Shot Learning with Multimodal Models},
+  author={Lin, Zhiqiu and Yu, Samuel and Kuang, Zhiyi and Pathak, Deepak and Ramanan, Deva},
+  year={2023},
+  eprint={2301.06267},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV}
+}
+```
