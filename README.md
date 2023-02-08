@@ -1,6 +1,6 @@
 # Cross-Modal Adaptation with Multimodal Models
 This repository contains code for paper [Multimodality Helps Unimodality:
-Cross-Modal Few-Shot Learning with Multimodal Models](https://linzhiqiu.github.io/papers/cross_modal/zhiqiu_cross_modal.pdf). It contains the code for vision-language adaptation on 11 target image classification datasets and experiments on ImageNet-ESC benchmark for audiovisual few-shot learning.
+Cross-Modal Few-Shot Learning with Multimodal Models](https://arxiv.org/abs/2301.06267). It contains the code for vision-language adaptation on 11 target image classification datasets and experiments on ImageNet-ESC benchmark for audiovisual few-shot learning.
 
 ![Motivation Figure](./assets/motivation_github.png)
 
