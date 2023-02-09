@@ -1,6 +1,6 @@
 # Cross-Modal Adaptation with Multimodal Models
 This repository contains code for paper [Multimodality Helps Unimodality:
-Cross-Modal Few-Shot Learning with Multimodal Models](https://linzhiqiu.github.io/papers/cross_modal/zhiqiu_cross_modal.pdf). It contains the code for vision-language adaptation on 11 target image classification datasets and experiments on ImageNet-ESC benchmark for audiovisual few-shot learning.
+Cross-Modal Few-Shot Learning with Multimodal Models](https://arxiv.org/abs/2301.06267). It contains the code for vision-language adaptation on 11 target image classification datasets and experiments on ImageNet-ESC benchmark for audiovisual few-shot learning.
 
 ![Motivation Figure](./assets/motivation_github.png)
 
@@ -17,7 +17,7 @@ Next, you can download pytorch from official site, for example:
 conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 ```
 
-Next, run `pip install ftfy regex tqdm` to install a few more packages required by [CLIP](https://github.com/openai/CLIP). 
+Next, run `pip install -r requirements.txt` in this repo to install a few more packages required by [CLIP](https://github.com/openai/CLIP). 
 
 # Dataset Installation
 Follow [DATASETS.md](DATASETS.md) to install the downstream datasets. We use the [CoOp](https://github.com/KaiyangZhou/CoOp) split of data (including the few-shot splits for seed 1-3, except for ImageNet) to ensure a fair comparison.
@@ -55,7 +55,7 @@ bash features.sh
 To perform cross-modal or uni-modal training, please refer to [train.py](train.py). For example, if you want to run cross-modal adaptation for imagenet-16-shot, you can run:
 
 ```
-python train.py --modality cross_modal --classifier_head linear --classifier_init text --logit 4.60517 --hyperparams linear --dataset imagenet --train-shot 16 --seed 1 --clip-encoder RN50 --image-layer-idx 0 --text-augmentation hand_crafted --image-augmentation flip --image-views 1
+python train.py --modality cross_modal --classifier_head linear --classifier_init zeroshot --logit 4.60517 --hyperparams linear --dataset imagenet --train-shot 16 --seed 1 --clip-encoder RN50 --image-layer-idx 0 --text-augmentation hand_crafted --image-augmentation flip --image-views 1
 ```
 
 To reproduce the numbers in main paper, please run [linear_prob.sh](linear_prob.sh), [partial_finetuning.sh](partial_finetuning.sh), and [adapter.sh](adapter.sh). To speed up the experiments, you can run scripts in parallel if you have multiple GPUs. To check all the supported argparse arguments, please see this [file](engine/config/__init__.py).
@@ -64,7 +64,7 @@ To reproduce the numbers in main paper, please run [linear_prob.sh](linear_prob.
 To perform hyperparameter search with few-shot validation set performance, we provide [eval.py](eval.py). For example, to collect results of cross-modal linear probing:
 
 ```
-python eval.py --mode linear --modality cross_modal --classifier_init text --clip-encoder RN50 --text-augmentation hand_crafted --image-augmentation flip --image-views 1
+python eval.py --mode linear --modality cross_modal --classifier_init zeroshot --clip-encoder RN50 --text-augmentation hand_crafted --image-augmentation flip --image-views 1
 ```
 
 ## Average over 11 datasets
@@ -78,19 +78,19 @@ python average.py --name all_RN50_linear_hand_crafted_flip_1_cross_modal_text_wi
 To reproduce the domain shift experiments in paper please run [domain_shift.py](domain_shift.py). All the argparse arguments follow that of [train.py](train.py):
 
 ```
-python domain_shift.py --modality cross_modal --classifier_head linear --classifier_init text --logit 4.60517 --hyperparams linear --dataset imagenet --train-shot 16 --clip-encoder RN50 --image-layer-idx 0 --text-augmentation hand_crafted --image-augmentation none --seed 1
+python domain_shift.py --modality cross_modal --classifier_head linear --classifier_init zeroshot --logit 4.60517 --hyperparams linear --dataset imagenet --train-shot 16 --clip-encoder RN50 --image-layer-idx 0 --text-augmentation hand_crafted --image-augmentation none --seed 1
 ```
 
 After training, to evaluate for 3 seeds, you can use [eval_domain_shift.py](eval_domain_shift.py):
 
 ```
-python eval_domain_shift.py --mode linear --modality cross_modal --classifier_init text --clip-encoder RN50 --text-augmentation hand_crafted --image-augmentation none
+python eval_domain_shift.py --mode linear --modality cross_modal --classifier_init zeroshot --clip-encoder RN50 --text-augmentation hand_crafted --image-augmentation none
 ```
 
 You can get Cross-Modal WiSE-FT result via enabling the `wise_ft` flag:
 
 ```
-python eval_domain_shift.py --mode linear --modality cross_modal --classifier_init text --clip-encoder RN50 --text-augmentation hand_crafted --image-augmentation none --wise_ft True
+python eval_domain_shift.py --mode linear --modality cross_modal --classifier_init zeroshot --clip-encoder RN50 --text-augmentation hand_crafted --image-augmentation none --wise_ft True
 ```
 
 
