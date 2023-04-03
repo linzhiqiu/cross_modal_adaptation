@@ -1,5 +1,5 @@
 # Cross-Modal Adaptation with Multimodal Models
-This repository contains code for paper [Multimodality Helps Unimodality:
+This repository contains code for CVPR 2023 paper [Multimodality Helps Unimodality:
 Cross-Modal Few-Shot Learning with Multimodal Models](https://arxiv.org/abs/2301.06267). It contains the code for vision-language adaptation on 11 target image classification datasets and experiments on ImageNet-ESC benchmark for audiovisual few-shot learning.
 
 ![Motivation Figure](./assets/motivation_github.png)
@@ -58,7 +58,7 @@ To perform cross-modal or uni-modal training, please refer to [train.py](train.p
 python train.py --modality cross_modal --classifier_head linear --classifier_init zeroshot --logit 4.60517 --hyperparams linear --dataset imagenet --train-shot 16 --seed 1 --clip-encoder RN50 --image-layer-idx 0 --text-augmentation hand_crafted --image-augmentation flip --image-views 1
 ```
 
-To reproduce the numbers in main paper, please run [linear_prob.sh](linear_prob.sh), [partial_finetuning.sh](partial_finetuning.sh), and [adapter.sh](adapter.sh). To speed up the experiments, you can run scripts in parallel if you have multiple GPUs. To check all the supported argparse arguments, please see this [file](engine/config/__init__.py).
+To reproduce the numbers in main paper, please run [linear_probe.sh](linear_probe.sh), [partial_finetuning.sh](partial_finetuning.sh), and [adapter.sh](adapter.sh). To speed up the experiments, you can run scripts in parallel if you have multiple GPUs. To check all the supported argparse arguments, please see this [file](engine/config/__init__.py).
 
 ## Evaluation
 To perform hyperparameter search with few-shot validation set performance, we provide [eval.py](eval.py). For example, to collect results of cross-modal linear probing:

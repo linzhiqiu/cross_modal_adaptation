@@ -214,7 +214,7 @@ ucf101/
 
 - Create a folder named `imagenetv2/` under `$DATA`.
 <!-- - Go to this github repo <https://github.com/modestyachts/ImageNetV2>. -->
-- Download the matched-frequency dataset from <https://s3-us-west-2.amazonaws.com/imagenetv2public/imagenetv2-matched-frequency.tar.gz> and extract it to `$DATA/imagenetv2/`.
+- Download the matched-frequency dataset from <https://huggingface.co/datasets/vaishaal/ImageNetV2/blob/main/imagenetv2-matched-frequency.tar.gz> and extract it to `$DATA/imagenetv2/`.
 - Copy `$DATA/imagenet/classnames.txt` to `$DATA/imagenetv2/`.
 
 The directory structure should look like
