@@ -69,7 +69,7 @@ parser.add_argument(
     "--clip-encoder",
     type=str,
     default="RN50",
-    choices=["ViT-B/16", "ViT-B/32", "RN50", "RN101", "RN50x4", "RN50x16"],
+    choices=["ViT-B/16", "ViT-B/32", "RN50", "RN101"],
     help="specify the clip encoder to use",
 )
 parser.add_argument(
