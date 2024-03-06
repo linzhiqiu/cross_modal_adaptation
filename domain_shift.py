@@ -211,21 +211,22 @@ def main(args):
                     
                     # train logreg
 
-                    # Create the logreg model
+                    image_encoder = torch.load(
+                        image_encoder_path).partial_model.train().cuda()
+                    text_encoder = torch.load(
+                        text_encoder_path).partial_model.train().cuda()
                     head, num_classes, in_features = make_classifier_head(
                         args.classifier_head,
                         args.clip_encoder,
                         args.classifier_init,
-                        text_dataset
+                        text_dataset,
+                        text_encoder
                     )
                     logit_head = LogitHead(
                         head,
                         logit_scale=args.logit,
                     ).train().cuda()
-                    image_encoder = torch.load(
-                        image_encoder_path).partial_model.train().cuda()
-                    text_encoder = torch.load(
-                        text_encoder_path).partial_model.train().cuda()
+
                     # Create the optimizer
                     params_groups = [
                         {'params': logit_head.parameters()},
@@ -295,6 +296,7 @@ def main(args):
                         args.clip_encoder,
                         args.classifier_init,
                         text_dataset,
+                        text_encoder,
                         bias=False
                     )
                     old_logit_head = LogitHead(
