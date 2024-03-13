@@ -5,15 +5,16 @@ from engine.optimizer.default import HYPER_DICT
 from train import get_hyperparams_str
 torch.set_num_threads(4)
 from torch.utils.data import DataLoader
+import torch.nn.functional as F
 import numpy as np
 from engine.tools.utils import makedirs, set_random_seed
 from engine.config import default
 from engine.datasets.utils import TensorDataset
-from engine.model.head import make_classifier_head
+# from engine.model.head import make_classifier_head
 from engine.model.logit import LogitHead
 from engine.optimizer.optim import build_optimizer
 from engine.optimizer.scheduler import build_lr_scheduler
-from features import get_text_features_path, get_image_features_path, get_test_features_path, get_text_encoder_dir
+from features import get_text_features_path, get_image_features_path, get_test_features_path
 
 RESULT_DIR = "./imagenet_esc_results/"
 
@@ -35,15 +36,47 @@ logit = 4.60517
 hyperparams_audio = "audio"
 result_dir = os.path.join(RESULT_DIR, hyperparams_audio)
 
-
-text_encoder_dir = get_text_encoder_dir(
-    "./features",
-    clip_encoder,
-    text_layer_idx
-)
-text_encoder_path = os.path.join(text_encoder_dir, "encoder.pth")
-text_encoder = torch.load(text_encoder_path).partial_model.train().cuda()
 makedirs(result_dir)
+
+
+def get_zero_shot_weights(text_dataset, num_classes, in_features):
+    # Caveat: Only support text_dataset with 1-D text features. 
+    # Need to modify if you want to partial finetuning the text encoder
+    weights = torch.zeros(num_classes, in_features)
+    count = torch.zeros(num_classes)
+    for i in range(len(text_dataset)):
+        label = text_dataset.label_tensor[i]
+        weights[label] += F.normalize(text_dataset.input_tensor[i], dim=0)
+        count[label] += 1
+    weights /= count.unsqueeze(1)
+    # normalize the weights
+    weights.data = F.normalize(weights, dim=1)
+    return weights
+
+def make_classifier_head(classifier_head,
+                         clip_encoder,
+                         classifier_init,
+                         zeroshot_dataset,
+                         bias=False):
+    assert classifier_head in AVAI_HEADS
+    if clip_encoder == 'ViT-B/16':
+        in_features = 512
+    elif clip_encoder == 'RN50':
+        in_features = 1024
+
+    num_classes = int(zeroshot_dataset.label_tensor.max()) + 1
+
+    linear_head = nn.Linear(in_features, num_classes, bias=bias)
+    if classifier_init == 'zeroshot':
+        assert zeroshot_dataset.input_tensor.shape[1] == in_features
+        linear_head.weight.data = get_zero_shot_weights(
+            zeroshot_dataset, num_classes, in_features)
+    
+    if classifier_head == 'linear':
+        head = linear_head
+    else:
+        raise ValueError(f"Invalid head: {classifier_head}")
+    return head, num_classes, in_features
 
 CLASS_MAP = {
     'imagenet_27': {
@@ -204,14 +237,13 @@ def validate(logit_head, val_loader, device="cuda"):
     return val_acc
 
 
-def evaluate(clip_encoder, classifier_head, logit, zero_shot_dataset, test_dataset, text_encoder):
+def evaluate(clip_encoder, classifier_head, logit, zero_shot_dataset, test_dataset):
     # Create the zero-shot model and evaluate test accuracy
     head, _, _ = make_classifier_head(
         classifier_head,
         clip_encoder,
         "zeroshot", # meaning zero-shot initialization here
         zero_shot_dataset,
-        text_encoder
     )
     eval_head = LogitHead(
         head,
@@ -403,7 +435,7 @@ def main():
                 text_dataset = TensorDataset(
                     text_features['features'], text_features['labels']
                 )
-                test_acc = evaluate(clip_encoder, classifier_head, logit, text_dataset, test_dataset, text_encoder)
+                test_acc = evaluate(clip_encoder, classifier_head, logit, text_dataset, test_dataset)
                 result_dict[task]['zero_shot'][split_index]['text'] = test_acc
                 print(f"Zero-shot-text-classifier for {task} classification with template {text_augmentation}: {test_acc} ({dataset}-{split_index})")
                 
@@ -443,7 +475,7 @@ def main():
                     result_dict[task]['zero_shot'][split_index][shot_num] = {}
                     
                     # 2: zero-shot-classifier with {task} modality
-                    test_acc = evaluate(clip_encoder, classifier_head, logit, train_dataset, test_dataset, text_encoder)
+                    test_acc = evaluate(clip_encoder, classifier_head, logit, train_dataset, test_dataset)
                     result_dict[task]['zero_shot'][split_index][shot_num][task] = test_acc
                     print(f"Zero-shot-{task}-classifier for {task} classification: {test_acc} ({dataset}-{split_index})")
 
@@ -494,7 +526,7 @@ def main():
                         )
 
                         # 4: zero-shot-classifier with {other} modality
-                        test_acc = evaluate(clip_encoder, classifier_head, logit, other_dataset, test_dataset, text_encoder)
+                        test_acc = evaluate(clip_encoder, classifier_head, logit, other_dataset, test_dataset)
                         result_dict[task]['zero_shot'][split_index][shot_num][other][seed_idx] = test_acc
                         print(f"Zero-shot-{other}-classifier for {task} classification: {test_acc} ({dataset}-{split_index})")
 
@@ -547,7 +579,6 @@ def main():
                                                                 clip_encoder,
                                                                 head_type,
                                                                 zeroshot_dataset,
-                                                                text_encoder,
                                                          )
                                             logit_head = LogitHead(
                                                 head,
