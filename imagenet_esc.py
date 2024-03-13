@@ -13,7 +13,7 @@ from engine.model.head import make_classifier_head
 from engine.model.logit import LogitHead
 from engine.optimizer.optim import build_optimizer
 from engine.optimizer.scheduler import build_lr_scheduler
-from features import get_text_features_path, get_image_features_path, get_test_features_path
+from features import get_text_features_path, get_image_features_path, get_test_features_path, get_text_encoder_dir
 
 RESULT_DIR = "./imagenet_esc_results/"
 
@@ -34,6 +34,15 @@ classifier_head = "linear"
 logit = 4.60517
 hyperparams_audio = "audio"
 result_dir = os.path.join(RESULT_DIR, hyperparams_audio)
+
+
+text_encoder_dir = get_text_encoder_dir(
+    "./features",
+    clip_encoder,
+    text_layer_idx
+)
+text_encoder_path = os.path.join(text_encoder_dir, "encoder.pth")
+text_encoder = torch.load(text_encoder_path).partial_model.train().cuda()
 makedirs(result_dir)
 
 CLASS_MAP = {
@@ -195,13 +204,14 @@ def validate(logit_head, val_loader, device="cuda"):
     return val_acc
 
 
-def evaluate(clip_encoder, classifier_head, logit, zero_shot_dataset, test_dataset):
+def evaluate(clip_encoder, classifier_head, logit, zero_shot_dataset, test_dataset, text_encoder):
     # Create the zero-shot model and evaluate test accuracy
     head, _, _ = make_classifier_head(
         classifier_head,
         clip_encoder,
         "zeroshot", # meaning zero-shot initialization here
-        zero_shot_dataset
+        zero_shot_dataset,
+        text_encoder
     )
     eval_head = LogitHead(
         head,
@@ -393,7 +403,7 @@ def main():
                 text_dataset = TensorDataset(
                     text_features['features'], text_features['labels']
                 )
-                test_acc = evaluate(clip_encoder, classifier_head, logit, text_dataset, test_dataset)
+                test_acc = evaluate(clip_encoder, classifier_head, logit, text_dataset, test_dataset, text_encoder)
                 result_dict[task]['zero_shot'][split_index]['text'] = test_acc
                 print(f"Zero-shot-text-classifier for {task} classification with template {text_augmentation}: {test_acc} ({dataset}-{split_index})")
                 
@@ -433,7 +443,7 @@ def main():
                     result_dict[task]['zero_shot'][split_index][shot_num] = {}
                     
                     # 2: zero-shot-classifier with {task} modality
-                    test_acc = evaluate(clip_encoder, classifier_head, logit, train_dataset, test_dataset)
+                    test_acc = evaluate(clip_encoder, classifier_head, logit, train_dataset, test_dataset, text_encoder)
                     result_dict[task]['zero_shot'][split_index][shot_num][task] = test_acc
                     print(f"Zero-shot-{task}-classifier for {task} classification: {test_acc} ({dataset}-{split_index})")
 
@@ -484,7 +494,7 @@ def main():
                         )
 
                         # 4: zero-shot-classifier with {other} modality
-                        test_acc = evaluate(clip_encoder, classifier_head, logit, other_dataset, test_dataset)
+                        test_acc = evaluate(clip_encoder, classifier_head, logit, other_dataset, test_dataset, text_encoder)
                         result_dict[task]['zero_shot'][split_index][shot_num][other][seed_idx] = test_acc
                         print(f"Zero-shot-{other}-classifier for {task} classification: {test_acc} ({dataset}-{split_index})")
 
@@ -536,7 +546,8 @@ def main():
                                                                 classifier_head,
                                                                 clip_encoder,
                                                                 head_type,
-                                                                zeroshot_dataset
+                                                                zeroshot_dataset,
+                                                                text_encoder,
                                                          )
                                             logit_head = LogitHead(
                                                 head,
