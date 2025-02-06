@@ -93,7 +93,7 @@ def get_text_features_path(dataset,
 
 
 
-def extract_text_features(dataset, text_augmentation, text_encoder, lab2cname):
+def extract_text_features(dataset, text_augmentation, text_encoder, lab2cname, device="cuda"):
     # Extract text features from CLIP
     features_dict = {
         'features': None,
@@ -107,7 +107,7 @@ def extract_text_features(dataset, text_augmentation, text_encoder, lab2cname):
     with torch.no_grad():
         for label, cname in lab2cname.items():
             str_prompts = [template.format(cname.replace("_", " ")) for template in templates]
-            prompts = torch.cat([clip.tokenize(p) for p in str_prompts]).cuda()
+            prompts = torch.cat([clip.tokenize(p) for p in str_prompts]).to(device=device)
             features, eot_indices = text_encoder.feature_extractor(prompts)
             features = features.cpu()
             eot_indices = eot_indices.cpu()
@@ -125,7 +125,7 @@ def extract_text_features(dataset, text_augmentation, text_encoder, lab2cname):
 
 
 
-def extract_features(image_encoder, data_source, transform, num_views=1, test_batch_size=32, num_workers=4):
+def extract_features(image_encoder, data_source, transform, num_views=1, test_batch_size=32, num_workers=4, device="cuda"):
     features_dict = {
         'features': torch.Tensor(),
         'labels': torch.Tensor(),
@@ -152,7 +152,7 @@ def extract_features(image_encoder, data_source, transform, num_views=1, test_ba
     with torch.no_grad():
         for _ in range(num_views):
             for batch_idx, batch in enumerate(loader):
-                data = batch["img"].cuda()
+                data = batch["img"].to(device=device)
                 feature = image_encoder.feature_extractor(data) # This is not L2 normed
                 feature = feature.cpu()
                 if batch_idx == 0:
@@ -166,7 +166,7 @@ def extract_features(image_encoder, data_source, transform, num_views=1, test_ba
     return features_dict
 
 
-def prepare_text_features(clip_model, args, lab2cname):
+def prepare_text_features(clip_model, args, lab2cname,device="cuda"):
     text_encoder_dir = get_text_encoder_dir(
         args.feature_dir,
         args.clip_encoder,
@@ -185,7 +185,7 @@ def prepare_text_features(clip_model, args, lab2cname):
             clip_model
         )
         torch.save(text_encoder, text_encoder_path)
-
+    text_encoder.to(device=device)
     # Text features extraction
     text_features_path = get_text_features_path(
         args.dataset,
@@ -209,7 +209,7 @@ def prepare_text_features(clip_model, args, lab2cname):
         }
         print(f"Extracting features for texts ...")
         text_features = extract_text_features(
-            args.dataset, args.text_augmentation, text_encoder, lab2cname)
+            args.dataset, args.text_augmentation, text_encoder, lab2cname, device=device)
         torch.save(text_features, text_features_path)
 
 
@@ -236,7 +236,7 @@ def get_image_encoder(clip_model, args):
     return image_encoder
 
 
-def prepare_few_shot_image_features(clip_model, args, benchmark_train, benchmark_val):
+def prepare_few_shot_image_features(clip_model, args, benchmark_train, benchmark_val, device="device"):
     image_encoder = get_image_encoder(clip_model, args)
     # Check if (image) features are saved already
     image_features_path = get_image_features_path(
@@ -271,7 +271,8 @@ def prepare_few_shot_image_features(clip_model, args, benchmark_train, benchmark
         assert num_views > 0, "Number of views must be greater than 0"
         image_features['train'] = extract_features(
             image_encoder, benchmark_train, 
-            train_transform, num_views=num_views, test_batch_size=args.test_batch_size, num_workers=args.num_workers)
+            train_transform, num_views=num_views, test_batch_size=args.test_batch_size, num_workers=args.num_workers,
+            device=device)
         
         print(f"Extracting features for val split ...")
         image_features['val'] = extract_features(
@@ -309,9 +310,19 @@ def main(args):
     if args.seed >= 0:
         print("Setting fixed seed: {}".format(args.seed))
         set_random_seed(args.seed)
-
-    if torch.cuda.is_available():
+    if args.device == "mps" and torch.backends.mps.is_available():
+        print("Using MPS device")
+        device = torch.device("mps")
+        
+    elif args.device == "cuda" and torch.cuda.is_available():
+        print("Using CUDA device")
+        device = torch.device("cuda")
+        # Enable CUDA optimization
         torch.backends.cudnn.benchmark = True
+        
+    else:
+        print("Using CPU device")
+        device = torch.device("cpu")
 
     ########################################
     #   Train/Val/Test Split
@@ -330,14 +341,15 @@ def main(args):
     clip_model, _ = clip.load(args.clip_encoder, jit=False)
     clip_model.float()
     clip_model.eval()
+    clip_model.to(device=device)
 
 
     ########################################
     #   Feature Extraction
     ########################################
-    prepare_text_features(clip_model, args, few_shot_benchmark['lab2cname'])
+    prepare_text_features(clip_model, args, few_shot_benchmark['lab2cname'], device=device)
 
-    prepare_few_shot_image_features(clip_model, args, few_shot_benchmark['train'], few_shot_benchmark['val'])
+    prepare_few_shot_image_features(clip_model, args, few_shot_benchmark['train'], few_shot_benchmark['val'], device=device)
 
     prepare_test_image_features(clip_model, args, few_shot_benchmark['test'])
 

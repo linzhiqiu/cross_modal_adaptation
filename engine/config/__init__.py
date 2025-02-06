@@ -8,6 +8,13 @@ parser = argparse.ArgumentParser()
 # Directory Config (modify if using your own paths)
 ###########################
 parser.add_argument(
+    "--device", 
+    type=str, 
+    choices=["cpu", "cuda", "mps"], 
+    default="mps", 
+    help="Device to use (default: mps)")
+
+parser.add_argument(
     "--data_dir",
     type=str,
     default=default.DATA_DIR,

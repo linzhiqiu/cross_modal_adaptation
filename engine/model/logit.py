@@ -4,13 +4,13 @@ import torch.nn.functional as F
 import numpy as np
 
 class LogitHead(nn.Module):
-    def __init__(self, head, logit_scale=float(np.log(1 / 0.07))):
+    def __init__(self, head, logit_scale=float(np.log(1 / 0.07)), device="cuda"):
         super().__init__()
         self.head = head
         self.logit_scale = logit_scale
         
         # Not learnable for simplicity
-        self.logit_scale = torch.FloatTensor([logit_scale]).cuda()
+        self.logit_scale = torch.FloatTensor([logit_scale]).to(device)
         # Learnable
         # self.logit_scale = torch.nn.Parameter(torch.ones([]) * logit_scale)
 
