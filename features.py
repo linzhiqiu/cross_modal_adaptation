@@ -277,12 +277,13 @@ def prepare_few_shot_image_features(clip_model, args, benchmark_train, benchmark
         print(f"Extracting features for val split ...")
         image_features['val'] = extract_features(
             image_encoder, benchmark_val,
-            test_transform, num_views=1, test_batch_size=args.test_batch_size, num_workers=args.num_workers)
+            test_transform, num_views=1, test_batch_size=args.test_batch_size, num_workers=args.num_workers,
+            device=device)
     
         torch.save(image_features, image_features_path)
 
 
-def prepare_test_image_features(clip_model, args, benchmark_test):
+def prepare_test_image_features(clip_model, args, benchmark_test, device="cuda"):
     image_encoder = get_image_encoder(clip_model, args)
     # Check if features are saved already
     test_features_path = get_test_features_path(
@@ -302,7 +303,7 @@ def prepare_test_image_features(clip_model, args, benchmark_test):
         test_features = extract_features(
             image_encoder, 
             benchmark_test, test_transform,
-            num_views=1, test_batch_size=args.test_batch_size, num_workers=args.num_workers)
+            num_views=1, test_batch_size=args.test_batch_size, num_workers=args.num_workers, device=device)
         torch.save(test_features, test_features_path)
 
 
@@ -351,7 +352,7 @@ def main(args):
 
     prepare_few_shot_image_features(clip_model, args, few_shot_benchmark['train'], few_shot_benchmark['val'], device=device)
 
-    prepare_test_image_features(clip_model, args, few_shot_benchmark['test'])
+    prepare_test_image_features(clip_model, args, few_shot_benchmark['test'], device=device)
 
 
 if __name__ == "__main__":
