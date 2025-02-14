@@ -11,7 +11,7 @@ parser.add_argument(
     "--device", 
     type=str, 
     choices=["cpu", "cuda", "mps"], 
-    default="mps", 
+    default="cuda", 
     help="Device to use (default: mps)")
 
 parser.add_argument(
