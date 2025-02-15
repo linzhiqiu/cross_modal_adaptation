@@ -86,8 +86,8 @@ declare -a HEADS=(
 TOTAL=$(( TOTAL * ${#HEADS[@]} ))
 
 declare -a INITS=(
-    # "random"
-    "zeroshot"
+    "random"
+    # "zeroshot"
 )
 TOTAL=$(( TOTAL * ${#INITS[@]} ))
 
