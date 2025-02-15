@@ -166,7 +166,7 @@ def extract_features(image_encoder, data_source, transform, num_views=1, test_ba
     return features_dict
 
 
-def prepare_text_features(clip_model, args, lab2cname,device="cuda"):
+def prepare_text_features(clip_model, args, lab2cname, device="cuda"):
     text_encoder_dir = get_text_encoder_dir(
         args.feature_dir,
         args.clip_encoder,
