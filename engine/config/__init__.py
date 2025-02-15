@@ -12,7 +12,7 @@ parser.add_argument(
     type=str, 
     choices=["cpu", "cuda", "mps"], 
     default="cuda", 
-    help="Device to use (default: mps)")
+    help="Device to use (default: cuda)")
 
 parser.add_argument(
     "--data_dir",
