@@ -236,7 +236,7 @@ def get_image_encoder(clip_model, args):
     return image_encoder
 
 
-def prepare_few_shot_image_features(clip_model, args, benchmark_train, benchmark_val, device="device"):
+def prepare_few_shot_image_features(clip_model, args, benchmark_train, benchmark_val, device):
     image_encoder = get_image_encoder(clip_model, args)
     # Check if (image) features are saved already
     image_features_path = get_image_features_path(
