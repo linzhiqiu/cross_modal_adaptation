@@ -110,14 +110,15 @@ def get_wiseft(head, zero_shot_weights, wiseft_ratio=0.5):
     return head
 
 
-def get_eval_heads(head, zero_shot_weights, ratio_list=[0.5], logit=None):
+def get_eval_heads(head, zero_shot_weights, ratio_list=[0.5], logit=None, device="cuda"):
     logit_head = LogitHead(
         deepcopy(head),
         logit_scale=logit,
+        device=device,
     )
 
     eval_heads = {
-        'head': logit_head.cuda().eval(),
+        'head': logit_head.to(device).eval(),
     }
     for ratio in ratio_list:
         # TODO (Warning): This wise-ft does not consider partial finetuning of image encoder
@@ -125,8 +126,9 @@ def get_eval_heads(head, zero_shot_weights, ratio_list=[0.5], logit=None):
         wiseft_head = LogitHead(
             wiseft,
             logit_scale=logit,
+            device=device,
         )
-        eval_heads[f'head_wiseft_{ratio}'] = wiseft_head.cuda().eval()
+        eval_heads[f'head_wiseft_{ratio}'] = wiseft_head.to(device).eval()
     return eval_heads
 
 
@@ -259,8 +261,19 @@ def main(args):
         print("Setting fixed seed: {}".format(args.seed))
         set_random_seed(args.seed)
 
-    if torch.cuda.is_available():
+    if args.device == "mps" and torch.backends.mps.is_available():
+        print("Using MPS device")
+        device = torch.device("mps")
+        
+    elif args.device == "cuda" and torch.cuda.is_available():
+        print("Using CUDA device")
+        device = torch.device("cpu")
+        # Enable CUDA optimization
         torch.backends.cudnn.benchmark = True
+        
+    else:
+        print("Using CPU device")
+        device = torch.device("cpu")
 
     image_encoder_dir = get_image_encoder_dir(
         args.feature_dir,
@@ -381,20 +394,23 @@ def main(args):
 
                     # Create the logreg model
                     image_encoder = torch.load(
-                        image_encoder_path).partial_model.train().cuda()
+                        image_encoder_path).partial_model.train().to(device)
                     text_encoder = torch.load(
-                        text_encoder_path).partial_model.train().cuda()
+                        text_encoder_path).partial_model.train().to(device)
                     head, num_classes, in_features = make_classifier_head(
                         args.classifier_head,
                         args.clip_encoder,
                         args.classifier_init,
                         text_dataset,
-                        text_encoder
+                        text_encoder,
+                        device=device,
                     )
                     logit_head = LogitHead(
                         head,
                         logit_scale=args.logit,
-                    ).train().cuda()
+                        device=device
+                    ).train().to(device)
+
                     # Create the optimizer
                     params_groups = [
                         {'params': logit_head.parameters()},
@@ -447,12 +463,11 @@ def main(args):
                         num_workers=args.num_workers,
                         pin_memory=True,
                     )
-
                     result_dict = train(
                         logit_head, image_encoder, text_encoder, 
                         image_loader, val_loader, text_loader, 
                         optimizer, scheduler, criterion, iters,
-                        eval_freq=EVAL_FREQ
+                        eval_freq=EVAL_FREQ, device=device
                     )
                     
                     test_result_dict = {}
@@ -467,36 +482,39 @@ def main(args):
                         args.classifier_init,
                         text_dataset,
                         text_encoder,
-                        bias=False
+                        bias=False,
+                        device=device,
                     )
                     old_logit_head = LogitHead(
                         head,
                         logit_scale=args.logit,
+                        device=device
                     )
                     old_logit_head.load_state_dict(result_dict['logit_head'])
 
                     image_encoder = torch.load(image_encoder_path).partial_model
                     image_encoder.load_state_dict(result_dict['image_encoder'])
-                    image_encoder = image_encoder.cuda().eval()
+                    image_encoder = image_encoder.to(device).eval()
                     text_encoder = torch.load(text_encoder_path).partial_model
                     text_encoder.load_state_dict(result_dict['text_encoder'])
-                    text_encoder = text_encoder.cuda().eval()
+                    text_encoder = text_encoder.to(device).eval()
                     original_text_encoder = torch.load(text_encoder_path).partial_model
                     original_text_encoder = original_text_encoder.eval()
 
-                    zero_shot_weights = get_zero_shot_weights(text_dataset, num_classes, in_features, deepcopy(original_text_encoder).cuda())
+                    zero_shot_weights = get_zero_shot_weights(text_dataset, num_classes, in_features, deepcopy(original_text_encoder).to(device), device=device)
                     # zero_shot_weights = get_zero_shot_weights(text_dataset, num_classes, in_features)
                     eval_heads = get_eval_heads(
                         deepcopy(old_logit_head.head),
                         zero_shot_weights,
                         logit=args.logit,
-                        ratio_list=[0.5]
+                        ratio_list=[0.5],
+                        device=device,
                     )
 
 
                     for eval_type in eval_heads:
                         eval_head = eval_heads[eval_type]
-                        eval_head.cuda().eval()
+                        eval_head.to(device).eval()
                         test_loader = DataLoader(
                             test_dataset,
                             batch_size=args.test_batch_size,
@@ -504,7 +522,7 @@ def main(args):
                             num_workers=args.num_workers,
                             pin_memory=True,
                         )
-                        test_acc = validate(eval_head, image_encoder, test_loader, device="cuda")
+                        test_acc = validate(eval_head, image_encoder, test_loader, device=device)
                         test_result_dict['test_accs'][eval_type] = test_acc
                         eval_head.cpu()
                     torch.save(test_result_dict, test_result_path)

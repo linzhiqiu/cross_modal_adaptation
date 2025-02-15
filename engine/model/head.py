@@ -80,7 +80,8 @@ def make_classifier_head(classifier_head,
                          classifier_init,
                          zeroshot_dataset,
                          text_encoder,
-                         bias=False):
+                         bias=False,
+                         device="cuda"):
     assert classifier_head in AVAI_HEADS
     if clip_encoder == 'ViT-B/16':
         in_features = 512
@@ -93,7 +94,7 @@ def make_classifier_head(classifier_head,
     if classifier_init == 'zeroshot':
         # assert zeroshot_dataset.input_tensor.shape[1] == in_features
         linear_head.weight.data = get_zero_shot_weights(
-            zeroshot_dataset, num_classes, in_features, text_encoder)
+            zeroshot_dataset, num_classes, in_features, text_encoder, device=device)
     
     if classifier_head == 'linear':
         head = linear_head

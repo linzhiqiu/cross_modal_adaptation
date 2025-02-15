@@ -14,6 +14,11 @@ def set_random_seed(seed):
     random.seed(seed)
     np.random.seed(seed)
     torch.manual_seed(seed)
+    try:
+        torch.mps.manual_seed(seed)
+    except AttributeError:
+        # For non-mps devices, handling `AttributeError: module 'torch' has no attribute 'mps'`
+        pass
     torch.cuda.manual_seed_all(seed)
 
 
