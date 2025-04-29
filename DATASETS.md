@@ -91,6 +91,7 @@ oxford_pets/
 - Download the train labels <https://ai.stanford.edu/~jkrause/cars/car_devkit.tgz>.
 - Download the test labels <http://ai.stanford.edu/~jkrause/car196/cars_test_annos_withlabels.mat>.
 - Copy `split_zhou_StanfordCars.json` from [splits/split_zhou_StanfordCars.json](splits/split_zhou_StanfordCars.json) to this folder.
+- If the official sources are invalid, please use this link: https://drive.google.com/file/d/150nwNkg7qXh28yabiqNAOfBMMll7ALlu/view?usp=drive_link
 
 The directory structure should look like
 
